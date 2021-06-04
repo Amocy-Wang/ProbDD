@@ -1,0 +1,3 @@
+[console_scripts]
+picireny = picireny.cli:execute
+

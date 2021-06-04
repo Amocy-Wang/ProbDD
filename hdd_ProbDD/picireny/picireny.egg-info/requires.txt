@@ -1,0 +1,3 @@
+antlerinator==4.9
+picire==19.3
+setuptools

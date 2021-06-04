@@ -1,0 +1,237 @@
+# Copyright (c) 2016-2020 Renata Hodovan, Akos Kiss.
+#
+# Licensed under the BSD 3-Clause License
+# <LICENSE.rst or https://opensource.org/licenses/BSD-3-Clause>.
+# This file may not be copied, modified, or distributed except
+# according to those terms.
+
+import logging
+import random
+import ast
+import collections
+
+from .outcome_cache import OutcomeCache
+
+logger = logging.getLogger(__name__)
+
+
+class AbstractProbDD(object):
+    """
+    Abstract super-class of the parallel and non-parallel DD classes.
+    """
+
+    # Test outcomes.
+    PASS = 'PASS'
+    FAIL = 'FAIL'
+
+    def __init__(self, test, split, cache=None, id_prefix=()):
+        """
+        Initialise an abstract DD class. Not to be called directly, only by
+        super calls in subclass initializers.
+        :param test: A callable tester object.
+        :param split: Splitter method to break a configuration up to n parts.
+        :param cache: Cache object to use.
+        :param id_prefix: Tuple to prepend to config IDs during tests.
+        """
+        self._test = test
+        self._split = split
+        self._cache = cache or OutcomeCache()
+        self._id_prefix = id_prefix
+        self.p = collections.OrderedDict()
+        self.memory = {}
+        self.testHistory = []
+        self.alpha = 0.1
+        self.initialP = 0.1
+        self.threshold = 0.8
+        self.passconfig = []
+
+    def __call__(self, config):
+        """
+        Return a 1-minimal failing subset of the initial configuration.
+        :param config: The initial configuration that will be reduced.
+        :return: 1-minimal failing configuration.
+        """
+        for c in config:
+            self.p[c] = self.initialP
+        # config_id: (run, number of test at the run^th iteration)
+        run = 0
+        test_in_main = 0
+        self.passconfig = config
+        print "probdd_sample process: "
+        print config
+        while not self._test_done():
+            run += 1
+            print "run time: "+str(run)
+            print "prob:"
+            print self.p
+            deleteconfig = self.sample() # select a subsequence for testing
+            config2test = self._minus(self.passconfig,deleteconfig)
+            print "test config: "
+            print config2test
+            config_id = ('r%d' % run, 's%d' % test_in_main)
+            outcome = self._lookup_history(config2test)
+            if outcome is None:
+                outcome = self._test_config(config2test,config_id)
+            test_in_main += 1
+            if outcome == self.FAIL:
+                print "test failed\n"
+                for key in self.p.keys():
+                    if key not in config2test and self.p[key] != 0 and self.p[key] != 1:
+                        delta = (self.computRatio(deleteconfig, self.p) - 1) * self.p[key]
+                        print "prob = " + str(self.p[key]) + ". By theory, increase delta: " + str(delta)
+                        self.p[key] = self.p[key] + delta
+                self.testHistory.append(deleteconfig)
+                if len(deleteconfig) == 1:
+                    print str(deleteconfig[0]) + " must preserve\n"
+                    self.p[deleteconfig[0]] = 1
+            else:
+                print "test passed\n"
+                for key in self.p.keys():
+                    if key not in config2test:
+                        self.p[key] = 0
+                deleteconfig = self._minus(self.passconfig, config2test)
+                self._process(deleteconfig,self.PASS)
+                self.passconfig = config2test
+                
+            self.memory[str(config2test)] = outcome
+        print self.passconfig
+        return self.passconfig
+
+    def computRatio(self, deleteconfig, p):
+        res = 0
+        tmplog = 1
+        for delc in deleteconfig:
+            if p[delc] > 0 and p[delc] < 1:
+                tmplog *= (1 - p[delc])
+        res = 1 / (1 - tmplog)
+        return res
+
+    def _processElementToPreserve(toBePreserve):
+        raise NotImplementedError()
+
+    def _process(self, config, outcome):
+        raise NotImplementedError()
+
+    def f(self,x):
+        return min(x,1)
+
+    def sample(self):
+        config2test = []
+        self.p = collections.OrderedDict(sorted(self.p.items(), key=lambda item:item[1]))
+        k = 0
+        tmp = 1
+        last = 0
+        keylist = self.p.keys()
+        i = 0
+        while i < len(self.p):
+            if self.p[keylist[i]] == 0 :
+                k = k + 1
+                i = i + 1
+                continue
+            if not self.p[keylist[i]] < 1 :
+                break
+            for j in range(k,i):
+                tmp *= (1 - self.p[keylist[i]])
+            tmp *= (i - k + 1)
+            print "prob = " + str(self.p[keylist[i]]) + "; tmp = " + str(tmp) + "; last = " + str(last)
+            if tmp < last:
+                break
+            last = tmp
+            tmp = 1
+            i = i + 1
+        while i > k:
+            i = i - 1
+            config2test.append(keylist[i])
+        print "selected deletion size: " + str(len(config2test))
+        for elm in config2test:
+            print self.p[elm],
+        print "\n"
+        return config2test
+
+    def _test_done(self):
+        tmp = list(set(self.p.values()))
+        alldecided = (tmp == [0,1] or tmp == [0] or tmp == [1])
+        if alldecided:
+            print "Iteration needs to stop because all elements are decided."
+            return True
+        for key in self.p.keys():
+            if self.f(self.p[key])<self.threshold:
+                return False
+        print "Iteration needs to stop because of convergence."
+        return True
+
+    def _lookup_history(self, config):
+        if self.memory.has_key(str(config)):
+            return self.memory[str(config)]
+        return None
+
+    def _lookup_cache(self, config, config_id):
+        """
+        Perform a cache lookup if caching is enabled.
+        :param config: The configuration we are looking for.
+        :param config_id: The ID describing the configuration (only for debug
+            message).
+        :return: None if outcome is not found for config in cache or if caching
+            is disabled, PASS or FAIL otherwise.
+        """
+        cached_result = self._cache.lookup(config)
+        if cached_result is not None:
+            logger.debug('\t[ %s ]: cache = %r', self._pretty_config_id(self._id_prefix + config_id), cached_result)
+
+        return cached_result
+
+    def _test_config(self, config, config_id):
+        """
+        Test a single configuration and save the result in cache.
+        :param config: The current configuration to test.
+        :param config_id: Unique ID that will be used to save tests to easily
+            identifiable directories.
+        :return: PASS or FAIL
+        """
+        config_id = self._id_prefix + config_id
+
+        logger.debug('\t[ %s ]: test...', self._pretty_config_id(config_id))
+        outcome = self._test(config, config_id)
+        logger.debug('\t[ %s ]: test = %r', self._pretty_config_id(config_id), outcome)
+
+        if 'assert' not in config_id:
+            self._cache.add(config, outcome)
+
+        return outcome
+
+    @staticmethod
+    def _pretty_config_id(config_id):
+        """
+        Create beautified identifier for the current task from the argument.
+        The argument is typically a tuple in the form of ('rN', 'DM'), where N
+        is the index of the current iteration, D is direction of reduce (either
+        s(ubset) or c(omplement)), and M is the index of the current test in the
+        iteration. Alternatively, argument can also be in the form of
+        (rN, 'assert') for double checking the input at the start of an
+        iteration.
+        :param config_id: Config ID tuple.
+        :return: Concatenating the arguments with slashes, e.g., "rN / DM".
+        """
+        return ' / '.join(str(i) for i in config_id)
+
+    @staticmethod
+    def _minus(c1, c2):
+        """
+        Return a list of all elements of C1 that are not in C2.
+        """
+        c2 = set(c2)
+        return [c for c in c1 if c not in c2]
+    
+    @staticmethod
+    def _aInb(c1,c2):
+        for i in c1:
+            if i not in c2:
+                return False
+        return True
+
+    @staticmethod
+    def _intersect(c1,c2):
+        for i in c1:
+            if i in c2:
+                return True
+        return False
