@@ -33,10 +33,10 @@ Here is the artifact of the paper **Probabilistic Delta Debugging**, which has b
 | [INSTALL](INSTALL.md)            | installation guidance needed with building from source | 
 
 The artifact has two main purposes, and [this file](STATUS.md) states the badges we are applying for as well as the reasons why we believe that the artifact deserves the badges.
-- The first purpose is to reproduce the main results in our original paper. More details in [Reproducing the main results](#goto1).
-- The second is to provide an implementation of ProbDD that can be used for delta debugging tasks beyond the evaluation dataset. More details in [Being used for delta debugging tasks](#goto2).
+- The first purpose is to reproduce the main results in our original paper. More details in [Reproducing the main results](https://github.com/Amocy-Wang/ProbDD#reproducing-the-main-results).
+- The second is to provide an implementation of ProbDD that can be used for delta debugging tasks beyond the evaluation dataset. More details in [Being used for delta debugging tasks](https://github.com/Amocy-Wang/ProbDD#being-used-for-delta-debugging-tasks).
 
-## <a href="goto1"></a>Reproducing the main results
+## Reproducing the main results
 ---------------------------------------------------
 In this section, we show how to reproduce the main results in our paper step by step, i.e., **preparing**, **running tools**, and **analyzing results**. If you want to rapidly do this, please directly jump to the last part **An example workflow** in this section.
 
@@ -117,7 +117,7 @@ cd /benchmarks/chisel-bench/
 python workflow-generate_ChiselReport.py workflow-chisel_ProbDD.out # The results will be printed onto the screen. If a subject is processed with time out, the value of time field will be empty.
 ```
 
-## <a href="goto2"></a>Being used for delta debugging tasks
+## Being used for delta debugging tasks
 -----------------------------------------------------------
 
 Next, we show that how ProbDD can be used for delta debugging tasks beyond the evaluation dataset. When a set of elements and a test function is provided, it reduces the elements to a smaller set. We also prepare a set of subjects (which are not contained in the evaluation dataset) as examples. 
