@@ -38,7 +38,7 @@ The artifact has two main purposes, and [this file](STATUS.md) states the badges
 
 ## Reproducing the main results
 ---------------------------------------------------
-In this section, we show how to reproduce the main results in our paper step by step, i.e., **preparing**, **running tools**, and **analyzing results**. If you want to rapidly do this, please directly jump to the last part **An example workflow** in this section.
+In this section, we show how to reproduce the main results in our paper step by step, i.e., [preparing](https://github.com/Amocy-Wang/ProbDD/blob/main/README.md#preparing), [running tools](https://github.com/Amocy-Wang/ProbDD/blob/main/README.md#running-tools), and [analyzing results](https://github.com/Amocy-Wang/ProbDD/blob/main/README.md#analyzing-results). If you want to rapidly do this, please directly jump to the last part [An example workflow](https://github.com/Amocy-Wang/ProbDD/blob/main/README.md#an-example-workflow) in this section.
 
 ### Preparing
 There are two ways to run ProbDD and reproduce the results on your machines. 
