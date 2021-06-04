@@ -1,0 +1,8193 @@
+r.sh: line 171: 205485 Segmentation fault      ( timeout -s 9 $TIMEOUTEXE ./t > out2.txt 2>&1 ) &> /dev/null
+Oracle: r.sh
+Input: small.c
+Output Directory: /home/guancheng/projects/boost_deltadebugging/open_src_tools/benchmark/gcc-66186/chisel-out
+Reduce File: small.c
+Iteration 1 (Word: 17019)
+Start global reduction
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[1(0.900000),3(0.900000),4(0.900000),5(0.900000),6(0.900000),7(0.900000),8(0.900000),9(0.900000),10(0.900000),11(0.900000),12(0.900000),13(0.900000),14(0.900000),15(0.900000),16(0.900000),17(0.900000),18(0.900000),19(0.900000),21(0.900000),22(0.900000),23(0.900000),24(0.900000),26(0.900000),27(0.900000),29(0.900000),30(0.900000),31(0.900000),32(0.900000),33(0.900000),34(0.900000),36(0.900000),37(0.900000),38(0.900000),39(0.900000),40(0.900000),41(0.900000),42(0.900000),44(0.900000),46(0.900000),47(0.900000),48(0.900000),49(0.900000),50(0.900000),51(0.900000),52(0.900000),53(0.900000),54(0.900000),55(0.900000),56(0.900000),57(0.900000),58(0.900000),59(0.900000),60(0.900000),61(0.900000),62(0.900000),63(0.900000),64(0.900000),65(0.900000),66(0.900000),67(0.900000),68(0.900000),69(0.900000),70(0.900000),72(0.900000),73(0.900000),74(0.900000),75(0.900000),76(0.900000),77(0.900000),78(0.900000),79(0.900000),80(0.900000),81(0.900000),82(0.900000),83(0.900000),84(0.900000),85(0.900000),86(0.900000),87(0.900000),89(0.900000),90(0.900000),91(0.900000),92(0.900000),94(0.900000),95(0.900000),96(0.900000),97(0.900000),98(0.900000),99(0.900000),100(0.900000),101(0.900000),103(0.900000),104(0.900000),105(0.900000),106(0.900000),108(0.900000),109(0.900000),110(0.900000),111(0.900000),112(0.900000),113(0.900000),114(0.900000),115(0.900000),116(0.900000),117(0.900000),118(0.900000),119(0.900000),120(0.900000),121(0.900000),122(0.900000),123(0.900000),124(0.900000),125(0.900000),126(0.900000),127(0.900000),128(0.900000),129(0.900000),130(0.900000),131(0.900000),132(0.900000),133(0.900000),134(0.900000),135(0.900000),136(0.900000),137(0.900000),138(0.900000),139(0.900000),140(0.900000),141(0.900000),142(0.900000),]
+success=0,p=0.367879,alpha=0.968208,s=30.951744,DeclsSize=143
+pick a program:[0(1.068208),1(1.068208),2(1.068208),3(0.968208),4(0.968208),5(0.968208),6(0.968208),7(0.968208),8(0.968208),9(0.968208),10(0.968208),11(0.968208),12(0.968208),13(0.968208),14(0.968208),15(0.968208),16(0.968208),18(0.968208),19(0.968208),20(1.068208),21(0.968208),22(0.968208),23(0.968208),24(0.968208),25(1.068208),26(0.968208),27(0.968208),28(1.068208),29(0.968208),30(0.968208),31(0.968208),32(0.968208),33(0.968208),34(0.968208),35(1.068208),36(0.968208),37(0.968208),38(0.968208),40(0.968208),41(0.968208),42(0.968208),43(1.068208),44(0.968208),45(1.068208),46(0.968208),47(0.968208),48(0.968208),49(0.968208),50(0.968208),51(0.968208),52(0.968208),53(0.968208),54(0.968208),56(0.968208),57(0.968208),58(0.968208),59(0.968208),60(0.968208),61(0.968208),62(0.968208),63(0.968208),64(0.968208),65(0.968208),66(0.968208),67(0.968208),68(0.968208),69(0.968208),70(0.968208),71(1.068208),72(0.968208),73(0.968208),74(0.968208),75(0.968208),76(0.968208),77(0.968208),78(0.968208),79(0.968208),80(0.968208),81(0.968208),82(0.968208),83(0.968208),84(0.968208),85(0.968208),86(0.968208),87(0.968208),88(1.068208),89(0.968208),90(0.968208),91(0.968208),92(0.968208),93(1.068208),94(0.968208),96(0.968208),97(0.968208),98(0.968208),99(0.968208),101(0.968208),102(1.068208),103(0.968208),104(0.968208),105(0.968208),106(0.968208),107(1.068208),108(0.968208),109(0.968208),110(0.968208),111(0.968208),112(0.968208),113(0.968208),114(0.968208),115(0.968208),116(0.968208),117(0.968208),118(0.968208),119(0.968208),120(0.968208),121(0.968208),122(0.968208),123(1.068208),124(1.068208),125(1.068208),126(1.068208),127(1.068208),128(1.068208),129(1.068208),130(1.068208),131(1.068208),132(1.068208),133(0.968208),134(0.968208),135(0.968208),136(0.968208),137(0.968208),138(0.968208),139(0.968208),140(0.968208),141(0.968208),142(0.968208),]
+success=0,p=0.183940,alpha=0.978967,s=47.042297,DeclsSize=143
+pick a program:[0(0.978967),1(0.978967),2(0.978967),3(0.978967),4(0.978967),5(0.978967),6(0.978967),7(0.978967),8(0.978967),9(0.978967),10(0.978967),11(0.978967),12(0.978967),13(0.978967),14(0.978967),15(0.978967),16(0.978967),17(1.078967),18(0.978967),19(0.978967),20(0.978967),21(0.978967),22(0.978967),23(0.978967),24(0.978967),25(0.978967),26(0.978967),27(0.978967),28(0.978967),29(0.978967),30(0.978967),31(0.978967),32(0.978967),33(0.978967),34(0.978967),35(0.978967),36(0.978967),37(0.978967),38(0.978967),39(1.078967),40(0.978967),41(0.978967),42(0.978967),43(0.978967),44(0.978967),46(0.978967),47(0.978967),48(0.978967),49(0.978967),50(0.978967),51(0.978967),52(0.978967),53(0.978967),54(0.978967),55(1.078967),56(0.978967),57(0.978967),58(0.978967),59(0.978967),60(0.978967),61(0.978967),62(0.978967),64(0.978967),65(0.978967),66(0.978967),67(0.978967),68(0.978967),69(0.978967),70(0.978967),71(0.978967),72(0.978967),73(0.978967),74(0.978967),75(0.978967),76(0.978967),77(0.978967),78(0.978967),79(0.978967),80(0.978967),81(0.978967),83(0.978967),84(0.978967),85(0.978967),86(0.978967),87(0.978967),88(0.978967),89(0.978967),90(0.978967),91(0.978967),92(0.978967),93(0.978967),94(0.978967),95(1.078967),96(0.978967),98(0.978967),99(0.978967),100(1.078967),101(0.978967),102(0.978967),103(0.978967),104(0.978967),105(0.978967),106(0.978967),107(0.978967),108(0.978967),109(0.978967),110(0.978967),111(0.978967),112(0.978967),113(0.978967),114(0.978967),115(0.978967),116(0.978967),117(0.978967),118(0.978967),119(0.978967),120(0.978967),121(0.978967),122(0.978967),123(0.978967),124(0.978967),125(0.978967),126(0.978967),127(0.978967),128(0.978967),129(0.978967),130(0.978967),131(0.978967),132(0.978967),133(0.978967),134(0.978967),135(0.978967),136(0.978967),137(0.978967),138(0.978967),139(0.978967),140(0.978967),141(0.978967),142(0.978967),]
+success=0,p=0.100000,alpha=0.989305,s=92.999786,DeclsSize=143
+pick a program:[0(0.989305),1(0.989305),2(0.989305),3(0.989305),4(0.989305),5(0.989305),6(0.989305),7(0.989305),8(0.989305),9(0.989305),10(0.989305),11(0.989305),12(0.989305),13(0.989305),14(0.989305),15(0.989305),16(0.989305),17(0.989305),18(0.989305),19(0.989305),20(0.989305),21(0.989305),22(0.989305),23(0.989305),24(0.989305),25(0.989305),26(0.989305),27(0.989305),28(0.989305),29(0.989305),30(0.989305),31(0.989305),32(0.989305),33(0.989305),34(0.989305),35(0.989305),36(0.989305),37(0.989305),38(0.989305),39(0.989305),40(0.989305),41(0.989305),42(0.989305),43(0.989305),44(0.989305),45(1.089305),46(0.989305),47(0.989305),49(0.989305),50(0.989305),51(0.989305),52(0.989305),53(0.989305),54(0.989305),55(0.989305),56(0.989305),57(0.989305),58(0.989305),59(0.989305),60(0.989305),61(0.989305),62(0.989305),63(1.089305),64(0.989305),65(0.989305),66(0.989305),67(0.989305),68(0.989305),69(0.989305),70(0.989305),71(0.989305),72(0.989305),73(0.989305),74(0.989305),75(0.989305),76(0.989305),77(0.989305),78(0.989305),79(0.989305),80(0.989305),81(0.989305),82(1.089305),83(0.989305),84(0.989305),85(0.989305),86(0.989305),87(0.989305),88(0.989305),89(0.989305),90(0.989305),91(0.989305),92(0.989305),93(0.989305),94(0.989305),95(0.989305),96(0.989305),97(1.089305),98(0.989305),99(0.989305),100(0.989305),101(0.989305),102(0.989305),103(0.989305),104(0.989305),105(0.989305),106(0.989305),107(0.989305),108(0.989305),109(0.989305),110(0.989305),111(0.989305),112(0.989305),114(0.989305),115(0.989305),116(0.989305),117(0.989305),118(0.989305),119(0.989305),120(0.989305),121(0.989305),122(0.989305),123(0.989305),124(0.989305),125(0.989305),126(0.989305),127(0.989305),128(0.989305),129(0.989305),130(0.989305),131(0.989305),132(0.989305),133(0.989305),134(0.989305),135(0.989305),136(0.989305),137(0.989305),138(0.989305),139(0.989305),140(0.989305),141(0.989305),142(0.989305),]
+success=0,p=0.100000,alpha=0.994576,s=183.855042,DeclsSize=143
+Start local reduction
+Reduce main at small.c
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.900000),1(0.900000),2(0.900000),4(0.900000),5(0.900000),6(0.900000),7(0.900000),8(0.900000),9(0.900000),10(0.900000),11(0.900000),12(0.900000),13(0.900000),14(0.900000),16(0.900000),17(0.900000),18(0.900000),19(0.900000),20(0.900000),21(0.900000),22(0.900000),23(0.900000),24(0.900000),25(0.900000),26(0.900000),27(0.900000),28(0.900000),]
+
+
+current test times:1
+
+success=0,p=0.367879,alpha=0.919735,s=11.951748,DeclsSize=29
+pick a program:[0(0.919735),1(0.919735),2(0.919735),3(1.019735),4(0.919735),5(0.919735),7(0.919735),8(0.919735),9(0.919735),10(0.919735),11(0.919735),12(0.919735),13(0.919735),14(0.919735),15(1.019735),16(0.919735),17(0.919735),18(0.919735),19(0.919735),20(0.919735),21(0.919735),22(0.919735),23(0.919735),24(0.919735),25(0.919735),26(0.919735),27(0.919735),28(0.919735),]
+
+
+current test times:2
+
+success=0,p=0.183940,alpha=0.946437,s=18.164993,DeclsSize=29
+pick a program:[0(0.946437),1(0.946437),2(0.946437),3(0.946437),4(0.946437),5(0.946437),6(1.046437),7(0.946437),8(0.946437),9(0.946437),11(0.946437),12(0.946437),13(0.946437),14(0.946437),15(0.946437),16(0.946437),17(0.946437),18(0.946437),19(0.946437),20(0.946437),21(0.946437),22(0.946437),23(0.946437),24(0.946437),25(0.946437),27(0.946437),28(0.946437),]
+
+
+current test times:3
+
+success=0,p=0.100000,alpha=0.972538,s=35.911087,DeclsSize=29
+
+
+current test times:4
+
+
+
+current test times:5
+
+
+
+current test times:6
+
+
+
+current test times:7
+
+
+
+current test times:8
+
+
+
+current test times:9
+
+
+
+current test times:10
+
+
+
+current test times:11
+
+
+
+current test times:12
+
+
+
+current test times:13
+
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.472367),1(0.472367),]
+
+
+current test times:14
+
+success=0,p=0.367879,alpha=0.472367,s=1.333333,DeclsSize=2
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.472367),1(0.472367),]
+
+
+current test times:15
+
+success=0,p=0.367879,alpha=0.472367,s=1.333333,DeclsSize=2
+
+
+current test times:16
+
+
+
+current test times:17
+
+
+
+current test times:18
+
+
+
+current test times:19
+
+
+
+current test times:20
+
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[]
+
+
+current test times:21
+
+success=0,p=0.367879,alpha=0.472367,s=1.333333,DeclsSize=2
+
+
+current test times:22
+
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[]
+
+
+current test times:23
+
+success=0,p=0.367879,alpha=0.472367,s=1.333333,DeclsSize=2
+
+
+current test times:24
+
+
+
+current test times:25
+
+
+
+current test times:26
+
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.472367),]
+
+
+current test times:27
+
+success=0,p=0.367879,alpha=0.472367,s=1.333333,DeclsSize=2
+
+
+current test times:28
+
+Reduce func_97 at small.c
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[]
+success=0,p=0.367879,alpha=0.606531,s=2.000000,DeclsSize=3
+
+
+current test times:29
+
+
+
+current test times:30
+
+
+
+current test times:31
+
+
+
+current test times:32
+
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.472367),1(0.472367),]
+
+
+current test times:33
+
+success=0,p=0.367879,alpha=0.472367,s=1.333333,DeclsSize=2
+
+
+current test times:34
+
+
+
+current test times:35
+
+
+
+current test times:36
+
+
+
+current test times:37
+
+
+
+current test times:38
+
+
+
+current test times:39
+
+Reduce func_89 at small.c
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.606531),1(0.606531),2(0.606531),]
+
+
+current test times:40
+
+success=0,p=0.367879,alpha=0.606531,s=2.000000,DeclsSize=3
+
+
+current test times:41
+
+
+
+current test times:42
+
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.472367),]
+
+
+current test times:43
+
+success=0,p=0.367879,alpha=0.472367,s=1.333333,DeclsSize=2
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.472367),1(0.472367),]
+
+
+current test times:44
+
+success=0,p=0.367879,alpha=0.472367,s=1.333333,DeclsSize=2
+
+
+current test times:45
+
+
+
+current test times:46
+
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[1(0.472367),]
+
+
+current test times:47
+
+success=0,p=0.367879,alpha=0.472367,s=1.333333,DeclsSize=2
+
+
+current test times:48
+
+
+
+current test times:49
+
+
+
+current test times:50
+
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.606531),1(0.606531),]
+
+
+current test times:51
+
+success=0,p=0.367879,alpha=0.606531,s=2.000000,DeclsSize=3
+
+
+current test times:52
+
+
+
+current test times:53
+
+
+
+current test times:54
+
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[1(0.687289),3(0.687289),]
+
+
+current test times:55
+
+success=0,p=0.367879,alpha=0.687289,s=2.666667,DeclsSize=4
+pick a program:[0(0.787289),1(0.687289),2(0.787289),3(0.687289),]
+
+
+current test times:56
+
+success=0,p=0.183940,alpha=0.781349,s=4.052961,DeclsSize=4
+
+
+current test times:57
+
+
+
+current test times:58
+
+
+
+current test times:59
+
+
+
+current test times:60
+
+
+
+current test times:61
+
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[2(0.606531),]
+
+
+current test times:62
+
+success=0,p=0.367879,alpha=0.606531,s=2.000000,DeclsSize=3
+Reduce func_81 at small.c
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.740818),1(0.740818),2(0.740818),3(0.740818),4(0.740818),]
+
+
+current test times:63
+
+success=0,p=0.367879,alpha=0.740818,s=3.333334,DeclsSize=5
+pick a program:[0(0.740818),1(0.740818),2(0.740818),3(0.740818),4(0.740818),]
+success=0,p=0.183940,alpha=0.820873,s=5.066202,DeclsSize=5
+
+
+current test times:64
+
+
+
+current test times:65
+
+
+
+current test times:66
+
+
+
+current test times:67
+
+
+
+current test times:68
+
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.606531),1(0.606531),2(0.606531),]
+
+
+current test times:69
+
+success=0,p=0.367879,alpha=0.606531,s=2.000000,DeclsSize=3
+
+
+current test times:70
+
+
+
+current test times:71
+
+
+
+current test times:72
+
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[1(0.472367),]
+
+
+current test times:73
+
+success=0,p=0.367879,alpha=0.472367,s=1.333333,DeclsSize=2
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[1(0.687289),3(0.687289),]
+
+
+current test times:74
+
+success=0,p=0.367879,alpha=0.687289,s=2.666667,DeclsSize=4
+pick a program:[0(0.787289),1(0.687289),2(0.787289),3(0.687289),]
+
+
+current test times:75
+
+success=0,p=0.183940,alpha=0.781349,s=4.052961,DeclsSize=4
+
+
+current test times:76
+
+
+
+current test times:77
+
+
+
+current test times:78
+
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.687289),1(0.687289),2(0.687289),3(0.687289),]
+
+
+current test times:79
+
+success=0,p=0.367879,alpha=0.687289,s=2.666667,DeclsSize=4
+pick a program:[0(0.687289),1(0.687289),2(0.687289),]
+
+
+current test times:80
+
+success=0,p=0.183940,alpha=0.781349,s=4.052961,DeclsSize=4
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.687289),1(0.687289),2(0.687289),3(0.687289),]
+
+
+current test times:81
+
+success=0,p=0.367879,alpha=0.687289,s=2.666667,DeclsSize=4
+pick a program:[0(0.687289),1(0.687289),2(0.687289),3(0.687289),]
+success=0,p=0.183940,alpha=0.781349,s=4.052961,DeclsSize=4
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.606531),2(0.606531),]
+
+
+current test times:82
+
+success=0,p=0.367879,alpha=0.606531,s=2.000000,DeclsSize=3
+
+
+current test times:83
+
+
+
+current test times:84
+
+
+
+current test times:85
+
+
+
+current test times:86
+
+
+
+current test times:87
+
+
+
+current test times:88
+
+
+
+current test times:89
+
+
+
+current test times:90
+
+
+
+current test times:91
+
+
+
+current test times:92
+
+
+
+current test times:93
+
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.606531),1(0.606531),2(0.606531),]
+
+
+current test times:94
+
+success=0,p=0.367879,alpha=0.606531,s=2.000000,DeclsSize=3
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.687289),1(0.687289),2(0.687289),3(0.687289),]
+
+
+current test times:95
+
+success=0,p=0.367879,alpha=0.687289,s=2.666667,DeclsSize=4
+pick a program:[0(0.687289),1(0.687289),2(0.687289),3(0.687289),]
+success=0,p=0.183940,alpha=0.781349,s=4.052961,DeclsSize=4
+
+
+current test times:96
+
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[2(0.687289),3(0.687289),]
+
+
+current test times:97
+
+success=0,p=0.367879,alpha=0.687289,s=2.666667,DeclsSize=4
+pick a program:[0(0.787289),1(0.787289),2(0.687289),]
+
+
+current test times:98
+
+success=0,p=0.183940,alpha=0.781349,s=4.052961,DeclsSize=4
+
+
+current test times:99
+
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.740818),1(0.740818),2(0.740818),3(0.740818),]
+
+
+current test times:100
+
+success=0,p=0.367879,alpha=0.740818,s=3.333334,DeclsSize=5
+pick a program:[0(0.740818),1(0.740818),2(0.740818),4(0.840818),]
+
+
+current test times:101
+
+success=0,p=0.183940,alpha=0.820873,s=5.066202,DeclsSize=5
+
+
+current test times:102
+
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.687289),1(0.687289),3(0.687289),]
+
+
+current test times:103
+
+success=0,p=0.367879,alpha=0.687289,s=2.666667,DeclsSize=4
+pick a program:[0(0.687289),1(0.687289),3(0.687289),]
+success=0,p=0.183940,alpha=0.781349,s=4.052961,DeclsSize=4
+
+
+current test times:104
+
+
+
+current test times:105
+
+
+
+current test times:106
+
+
+
+current test times:107
+
+
+
+current test times:108
+
+
+
+current test times:109
+
+
+
+current test times:110
+
+
+
+current test times:111
+
+
+
+current test times:112
+
+
+
+current test times:113
+
+
+
+current test times:114
+
+
+
+current test times:115
+
+
+
+current test times:116
+
+
+
+current test times:117
+
+
+
+current test times:118
+
+
+
+current test times:119
+
+
+
+current test times:120
+
+
+
+current test times:121
+
+
+
+current test times:122
+
+
+
+current test times:123
+
+
+
+current test times:124
+
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.606531),1(0.606531),2(0.606531),]
+
+
+current test times:125
+
+success=0,p=0.367879,alpha=0.606531,s=2.000000,DeclsSize=3
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.472367),]
+
+
+current test times:126
+
+success=0,p=0.367879,alpha=0.472367,s=1.333333,DeclsSize=2
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[1(0.472367),]
+
+
+current test times:127
+
+success=0,p=0.367879,alpha=0.472367,s=1.333333,DeclsSize=2
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.687289),3(0.687289),]
+
+
+current test times:128
+
+success=0,p=0.367879,alpha=0.687289,s=2.666667,DeclsSize=4
+pick a program:[1(0.787289),2(0.787289),3(0.687289),]
+
+
+current test times:129
+
+success=0,p=0.183940,alpha=0.781349,s=4.052961,DeclsSize=4
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.740818),1(0.740818),2(0.740818),3(0.740818),4(0.740818),]
+
+
+current test times:130
+
+success=0,p=0.367879,alpha=0.740818,s=3.333334,DeclsSize=5
+pick a program:[0(0.740818),1(0.740818),3(0.740818),4(0.740818),]
+
+
+current test times:131
+
+success=0,p=0.183940,alpha=0.820873,s=5.066202,DeclsSize=5
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[2(0.687289),3(0.687289),]
+
+
+current test times:132
+
+success=0,p=0.367879,alpha=0.687289,s=2.666667,DeclsSize=4
+pick a program:[0(0.787289),1(0.787289),2(0.687289),]
+
+
+current test times:133
+
+success=0,p=0.183940,alpha=0.781349,s=4.052961,DeclsSize=4
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.472367),1(0.472367),]
+
+
+current test times:134
+
+success=0,p=0.367879,alpha=0.472367,s=1.333333,DeclsSize=2
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.606531),1(0.606531),]
+
+
+current test times:135
+
+success=0,p=0.367879,alpha=0.606531,s=2.000000,DeclsSize=3
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.687289),]
+
+
+current test times:136
+
+success=0,p=0.367879,alpha=0.687289,s=2.666667,DeclsSize=4
+pick a program:[0(0.687289),1(0.787289),2(0.787289),3(0.787289),]
+
+
+current test times:137
+
+success=0,p=0.183940,alpha=0.781349,s=4.052961,DeclsSize=4
+
+
+current test times:138
+
+
+
+current test times:139
+
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.606531),2(0.606531),]
+
+
+current test times:140
+
+success=0,p=0.367879,alpha=0.606531,s=2.000000,DeclsSize=3
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[1(0.606531),2(0.606531),]
+
+
+current test times:141
+
+success=0,p=0.367879,alpha=0.606531,s=2.000000,DeclsSize=3
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.687289),2(0.687289),3(0.687289),]
+
+
+current test times:142
+
+success=0,p=0.367879,alpha=0.687289,s=2.666667,DeclsSize=4
+pick a program:[1(0.787289),]
+
+
+current test times:143
+
+success=0,p=0.183940,alpha=0.781349,s=4.052961,DeclsSize=4
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[1(0.472367),]
+
+
+current test times:144
+
+success=0,p=0.367879,alpha=0.472367,s=1.333333,DeclsSize=2
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.606531),2(0.606531),]
+
+
+current test times:145
+
+success=0,p=0.367879,alpha=0.606531,s=2.000000,DeclsSize=3
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[3(0.687289),]
+
+
+current test times:146
+
+success=0,p=0.367879,alpha=0.687289,s=2.666667,DeclsSize=4
+pick a program:[0(0.787289),1(0.787289),2(0.787289),]
+
+
+current test times:147
+
+success=0,p=0.183940,alpha=0.781349,s=4.052961,DeclsSize=4
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.687289),]
+
+
+current test times:148
+
+success=0,p=0.367879,alpha=0.687289,s=2.666667,DeclsSize=4
+pick a program:[0(0.687289),2(0.787289),3(0.787289),]
+
+
+current test times:149
+
+success=0,p=0.183940,alpha=0.781349,s=4.052961,DeclsSize=4
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.606531),1(0.606531),2(0.606531),]
+
+
+current test times:150
+
+success=0,p=0.367879,alpha=0.606531,s=2.000000,DeclsSize=3
+
+
+current test times:151
+
+
+
+current test times:152
+
+
+
+current test times:153
+
+
+
+current test times:154
+
+
+
+current test times:155
+
+
+
+current test times:156
+
+Reduce func_75 at small.c
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[1(0.472367),]
+
+
+current test times:157
+
+success=0,p=0.367879,alpha=0.472367,s=1.333333,DeclsSize=2
+Reduce func_55 at small.c
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.687289),1(0.687289),2(0.687289),3(0.687289),]
+
+
+current test times:158
+
+success=0,p=0.367879,alpha=0.687289,s=2.666667,DeclsSize=4
+pick a program:[1(0.687289),2(0.687289),]
+success=0,p=0.183940,alpha=0.781349,s=4.052961,DeclsSize=4
+
+
+current test times:159
+
+
+
+current test times:160
+
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.687289),1(0.687289),2(0.687289),3(0.687289),]
+
+
+current test times:161
+
+success=0,p=0.367879,alpha=0.687289,s=2.666667,DeclsSize=4
+pick a program:[0(0.687289),1(0.687289),3(0.687289),]
+
+
+current test times:162
+
+success=0,p=0.183940,alpha=0.781349,s=4.052961,DeclsSize=4
+
+
+current test times:163
+
+
+
+current test times:164
+
+
+
+current test times:165
+
+
+
+current test times:166
+
+
+
+current test times:167
+
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[1(0.472367),]
+
+
+current test times:168
+
+success=0,p=0.367879,alpha=0.472367,s=1.333333,DeclsSize=2
+
+
+current test times:169
+
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.687289),2(0.687289),3(0.687289),]
+
+
+current test times:170
+
+success=0,p=0.367879,alpha=0.687289,s=2.666667,DeclsSize=4
+pick a program:[0(0.687289),1(0.787289),2(0.687289),]
+
+
+current test times:171
+
+success=0,p=0.183940,alpha=0.781349,s=4.052961,DeclsSize=4
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[]
+
+
+current test times:172
+
+success=0,p=0.367879,alpha=0.472367,s=1.333333,DeclsSize=2
+
+
+current test times:173
+
+
+
+current test times:174
+
+
+
+current test times:175
+
+
+
+current test times:176
+
+
+
+current test times:177
+
+
+
+current test times:178
+
+
+
+current test times:179
+
+
+
+current test times:180
+
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.778801),1(0.778801),2(0.778801),3(0.778801),4(0.778801),5(0.778801),]
+
+
+current test times:181
+
+success=0,p=0.367879,alpha=0.778801,s=4.000000,DeclsSize=6
+pick a program:[1(0.778801),2(0.778801),5(0.778801),]
+
+
+current test times:182
+
+success=0,p=0.183940,alpha=0.848327,s=6.079442,DeclsSize=6
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.472367),1(0.472367),]
+
+
+current test times:183
+
+success=0,p=0.367879,alpha=0.472367,s=1.333333,DeclsSize=2
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.606531),1(0.606531),]
+
+
+current test times:184
+
+success=0,p=0.367879,alpha=0.606531,s=2.000000,DeclsSize=3
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.606531),1(0.606531),]
+
+
+current test times:185
+
+success=0,p=0.367879,alpha=0.606531,s=2.000000,DeclsSize=3
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[1(0.472367),]
+
+
+current test times:186
+
+success=0,p=0.367879,alpha=0.472367,s=1.333333,DeclsSize=2
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[1(0.778801),2(0.778801),3(0.778801),4(0.778801),5(0.778801),]
+
+
+current test times:187
+
+success=0,p=0.367879,alpha=0.778801,s=4.000000,DeclsSize=6
+pick a program:[0(0.878801),]
+
+
+current test times:188
+
+success=0,p=0.183940,alpha=0.848327,s=6.079442,DeclsSize=6
+
+
+current test times:189
+
+
+
+current test times:190
+
+
+
+current test times:191
+
+
+
+current test times:192
+
+
+
+current test times:193
+
+
+
+current test times:194
+
+
+
+current test times:195
+
+
+
+current test times:196
+
+
+
+current test times:197
+
+
+
+current test times:198
+
+
+
+current test times:199
+
+
+
+current test times:200
+
+
+
+current test times:201
+
+
+
+current test times:202
+
+
+
+current test times:203
+
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.606531),]
+
+
+current test times:204
+
+success=0,p=0.367879,alpha=0.606531,s=2.000000,DeclsSize=3
+
+
+current test times:205
+
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[1(0.687289),]
+
+
+current test times:206
+
+success=0,p=0.367879,alpha=0.687289,s=2.666667,DeclsSize=4
+pick a program:[0(0.787289),1(0.687289),2(0.787289),3(0.787289),]
+
+
+current test times:207
+
+success=0,p=0.183940,alpha=0.781349,s=4.052961,DeclsSize=4
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[1(0.472367),]
+
+
+current test times:208
+
+success=0,p=0.367879,alpha=0.472367,s=1.333333,DeclsSize=2
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[1(0.687289),2(0.687289),3(0.687289),]
+
+
+current test times:209
+
+success=0,p=0.367879,alpha=0.687289,s=2.666667,DeclsSize=4
+pick a program:[0(0.787289),1(0.687289),]
+
+
+current test times:210
+
+success=0,p=0.183940,alpha=0.781349,s=4.052961,DeclsSize=4
+
+
+current test times:211
+
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.606531),1(0.606531),]
+
+
+current test times:212
+
+success=0,p=0.367879,alpha=0.606531,s=2.000000,DeclsSize=3
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.606531),1(0.606531),]
+
+
+current test times:213
+
+success=0,p=0.367879,alpha=0.606531,s=2.000000,DeclsSize=3
+
+
+current test times:214
+
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[]
+
+
+current test times:215
+
+success=0,p=0.367879,alpha=0.472367,s=1.333333,DeclsSize=2
+
+
+current test times:216
+
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.606531),1(0.606531),2(0.606531),]
+
+
+current test times:217
+
+success=0,p=0.367879,alpha=0.606531,s=2.000000,DeclsSize=3
+
+
+current test times:218
+
+
+
+current test times:219
+
+
+
+current test times:220
+
+
+
+current test times:221
+
+
+
+current test times:222
+
+
+
+current test times:223
+
+
+
+current test times:224
+
+
+
+current test times:225
+
+
+
+current test times:226
+
+
+
+current test times:227
+
+
+
+current test times:228
+
+
+
+current test times:229
+
+
+
+current test times:230
+
+
+
+current test times:231
+
+
+
+current test times:232
+
+
+
+current test times:233
+
+
+
+current test times:234
+
+
+
+current test times:235
+
+
+
+current test times:236
+
+
+
+current test times:237
+
+
+
+current test times:238
+
+
+
+current test times:239
+
+
+
+current test times:240
+
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.687289),1(0.687289),2(0.687289),]
+
+
+current test times:241
+
+success=0,p=0.367879,alpha=0.687289,s=2.666667,DeclsSize=4
+pick a program:[0(0.687289),1(0.687289),2(0.687289),3(0.787289),]
+
+
+current test times:242
+
+success=0,p=0.183940,alpha=0.781349,s=4.052961,DeclsSize=4
+
+
+current test times:243
+
+
+
+current test times:244
+
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.606531),1(0.606531),]
+
+
+current test times:245
+
+success=0,p=0.367879,alpha=0.606531,s=2.000000,DeclsSize=3
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.740818),1(0.740818),2(0.740818),3(0.740818),4(0.740818),]
+
+
+current test times:246
+
+success=0,p=0.367879,alpha=0.740818,s=3.333334,DeclsSize=5
+pick a program:[0(0.740818),1(0.740818),2(0.740818),3(0.740818),4(0.740818),]
+success=0,p=0.183940,alpha=0.820873,s=5.066202,DeclsSize=5
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.472367),1(0.472367),]
+
+
+current test times:247
+
+success=0,p=0.367879,alpha=0.472367,s=1.333333,DeclsSize=2
+
+
+current test times:248
+
+
+
+current test times:249
+
+
+
+current test times:250
+
+
+
+current test times:251
+
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[1(0.606531),2(0.606531),]
+
+
+current test times:252
+
+success=0,p=0.367879,alpha=0.606531,s=2.000000,DeclsSize=3
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[1(0.472367),]
+
+
+current test times:253
+
+success=0,p=0.367879,alpha=0.472367,s=1.333333,DeclsSize=2
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[1(0.687289),2(0.687289),3(0.687289),]
+
+
+current test times:254
+
+success=0,p=0.367879,alpha=0.687289,s=2.666667,DeclsSize=4
+pick a program:[0(0.787289),2(0.687289),]
+
+
+current test times:255
+
+success=0,p=0.183940,alpha=0.781349,s=4.052961,DeclsSize=4
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.472367),1(0.472367),]
+
+
+current test times:256
+
+success=0,p=0.367879,alpha=0.472367,s=1.333333,DeclsSize=2
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[1(0.606531),]
+
+
+current test times:257
+
+success=0,p=0.367879,alpha=0.606531,s=2.000000,DeclsSize=3
+
+
+current test times:258
+
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.606531),1(0.606531),2(0.606531),]
+
+
+current test times:259
+
+success=0,p=0.367879,alpha=0.606531,s=2.000000,DeclsSize=3
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[1(0.687289),3(0.687289),]
+
+
+current test times:260
+
+success=0,p=0.367879,alpha=0.687289,s=2.666667,DeclsSize=4
+pick a program:[0(0.787289),1(0.687289),2(0.787289),3(0.687289),]
+
+
+current test times:261
+
+success=0,p=0.183940,alpha=0.781349,s=4.052961,DeclsSize=4
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[]
+
+
+current test times:262
+
+success=0,p=0.367879,alpha=0.472367,s=1.333333,DeclsSize=2
+
+
+current test times:263
+
+
+
+current test times:264
+
+
+
+current test times:265
+
+
+
+current test times:266
+
+
+
+current test times:267
+
+
+
+current test times:268
+
+
+
+current test times:269
+
+
+
+current test times:270
+
+
+
+current test times:271
+
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[1(0.472367),]
+
+
+current test times:272
+
+success=0,p=0.367879,alpha=0.472367,s=1.333333,DeclsSize=2
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[]
+
+
+current test times:273
+
+success=0,p=0.367879,alpha=0.472367,s=1.333333,DeclsSize=2
+
+
+current test times:274
+
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[]
+
+
+current test times:275
+
+success=0,p=0.367879,alpha=0.472367,s=1.333333,DeclsSize=2
+
+
+current test times:276
+
+
+
+current test times:277
+
+
+
+current test times:278
+
+
+
+current test times:279
+
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.472367),1(0.472367),]
+
+
+current test times:280
+
+success=0,p=0.367879,alpha=0.472367,s=1.333333,DeclsSize=2
+
+
+current test times:281
+
+
+
+current test times:282
+
+
+
+current test times:283
+
+
+
+current test times:284
+
+
+
+current test times:285
+
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.472367),1(0.472367),]
+
+
+current test times:286
+
+success=0,p=0.367879,alpha=0.472367,s=1.333333,DeclsSize=2
+
+
+current test times:287
+
+
+
+current test times:288
+
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.687289),1(0.687289),2(0.687289),3(0.687289),]
+
+
+current test times:289
+
+success=0,p=0.367879,alpha=0.687289,s=2.666667,DeclsSize=4
+pick a program:[0(0.687289),1(0.687289),3(0.687289),]
+
+
+current test times:290
+
+success=0,p=0.183940,alpha=0.781349,s=4.052961,DeclsSize=4
+
+
+current test times:291
+
+Reduce func_48 at small.c
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.687289),2(0.687289),]
+success=0,p=0.367879,alpha=0.687289,s=2.666667,DeclsSize=4
+pick a program:[0(0.687289),1(0.787289),3(0.787289),]
+
+
+current test times:292
+
+success=0,p=0.183940,alpha=0.781349,s=4.052961,DeclsSize=4
+
+
+current test times:293
+
+
+
+current test times:294
+
+
+
+current test times:295
+
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.687289),1(0.687289),]
+
+
+current test times:296
+
+success=0,p=0.367879,alpha=0.687289,s=2.666667,DeclsSize=4
+pick a program:[0(0.687289),1(0.687289),2(0.787289),3(0.787289),]
+
+
+current test times:297
+
+success=0,p=0.183940,alpha=0.781349,s=4.052961,DeclsSize=4
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.606531),1(0.606531),2(0.606531),]
+
+
+current test times:298
+
+success=0,p=0.367879,alpha=0.606531,s=2.000000,DeclsSize=3
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.687289),1(0.687289),2(0.687289),3(0.687289),]
+
+
+current test times:299
+
+success=0,p=0.367879,alpha=0.687289,s=2.666667,DeclsSize=4
+pick a program:[1(0.687289),2(0.687289),3(0.687289),]
+
+
+current test times:300
+
+success=0,p=0.183940,alpha=0.781349,s=4.052961,DeclsSize=4
+
+
+current test times:301
+
+
+
+current test times:302
+
+
+
+current test times:303
+
+
+
+current test times:304
+
+
+
+current test times:305
+
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.606531),1(0.606531),2(0.606531),]
+
+
+current test times:306
+
+success=0,p=0.367879,alpha=0.606531,s=2.000000,DeclsSize=3
+
+
+current test times:307
+
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[1(0.606531),2(0.606531),]
+
+
+current test times:308
+
+success=0,p=0.367879,alpha=0.606531,s=2.000000,DeclsSize=3
+
+
+current test times:309
+
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.740818),3(0.740818),4(0.740818),]
+
+
+current test times:310
+
+success=0,p=0.367879,alpha=0.740818,s=3.333334,DeclsSize=5
+pick a program:[0(0.740818),1(0.840818),2(0.840818),3(0.740818),4(0.740818),]
+
+
+current test times:311
+
+success=0,p=0.183940,alpha=0.820873,s=5.066202,DeclsSize=5
+
+
+current test times:312
+
+
+
+current test times:313
+
+
+
+current test times:314
+
+
+
+current test times:315
+
+
+
+current test times:316
+
+
+
+current test times:317
+
+
+
+current test times:318
+
+
+
+current test times:319
+
+
+
+current test times:320
+
+
+
+current test times:321
+
+
+
+current test times:322
+
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[]
+
+
+current test times:323
+
+success=0,p=0.367879,alpha=0.472367,s=1.333333,DeclsSize=2
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[1(0.740818),2(0.740818),3(0.740818),4(0.740818),]
+
+
+current test times:324
+
+success=0,p=0.367879,alpha=0.740818,s=3.333334,DeclsSize=5
+pick a program:[1(0.740818),2(0.740818),]
+
+
+current test times:325
+
+success=0,p=0.183940,alpha=0.820873,s=5.066202,DeclsSize=5
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.606531),2(0.606531),]
+
+
+current test times:326
+
+success=0,p=0.367879,alpha=0.606531,s=2.000000,DeclsSize=3
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.472367),1(0.472367),]
+
+
+current test times:327
+
+success=0,p=0.367879,alpha=0.472367,s=1.333333,DeclsSize=2
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.472367),]
+
+
+current test times:328
+
+success=0,p=0.367879,alpha=0.472367,s=1.333333,DeclsSize=2
+
+
+current test times:329
+
+
+
+current test times:330
+
+
+
+current test times:331
+
+
+
+current test times:332
+
+
+
+current test times:333
+
+
+
+current test times:334
+
+
+
+current test times:335
+
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[]
+
+
+current test times:336
+
+success=0,p=0.367879,alpha=0.472367,s=1.333333,DeclsSize=2
+
+
+current test times:337
+
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.687289),1(0.687289),3(0.687289),]
+
+
+current test times:338
+
+success=0,p=0.367879,alpha=0.687289,s=2.666667,DeclsSize=4
+pick a program:[0(0.687289),1(0.687289),2(0.787289),3(0.687289),]
+
+
+current test times:339
+
+success=0,p=0.183940,alpha=0.781349,s=4.052961,DeclsSize=4
+
+
+current test times:340
+
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.687289),3(0.687289),]
+
+
+current test times:341
+
+success=0,p=0.367879,alpha=0.687289,s=2.666667,DeclsSize=4
+pick a program:[0(0.687289),1(0.787289),2(0.787289),]
+
+
+current test times:342
+
+success=0,p=0.183940,alpha=0.781349,s=4.052961,DeclsSize=4
+
+
+current test times:343
+
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.687289),1(0.687289),2(0.687289),]
+
+
+current test times:344
+
+success=0,p=0.367879,alpha=0.687289,s=2.666667,DeclsSize=4
+pick a program:[1(0.687289),3(0.787289),]
+
+
+current test times:345
+
+success=0,p=0.183940,alpha=0.781349,s=4.052961,DeclsSize=4
+
+
+current test times:346
+
+
+
+current test times:347
+
+
+
+current test times:348
+
+
+
+current test times:349
+
+
+
+current test times:350
+
+
+
+current test times:351
+
+
+
+current test times:352
+
+
+
+current test times:353
+
+
+
+current test times:354
+
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.687289),1(0.687289),2(0.687289),3(0.687289),]
+
+
+current test times:355
+
+success=0,p=0.367879,alpha=0.687289,s=2.666667,DeclsSize=4
+pick a program:[0(0.687289),]
+
+
+current test times:356
+
+success=0,p=0.183940,alpha=0.781349,s=4.052961,DeclsSize=4
+
+
+current test times:357
+
+
+
+current test times:358
+
+
+
+current test times:359
+
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.472367),]
+
+
+current test times:360
+
+success=0,p=0.367879,alpha=0.472367,s=1.333333,DeclsSize=2
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[1(0.472367),]
+
+
+current test times:361
+
+success=0,p=0.367879,alpha=0.472367,s=1.333333,DeclsSize=2
+
+
+current test times:362
+
+
+
+current test times:363
+
+Reduce func_42 at small.c
+
+
+current test times:364
+
+Reduce func_29 at small.c
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[1(0.687289),2(0.687289),]
+success=0,p=0.367879,alpha=0.687289,s=2.666667,DeclsSize=4
+pick a program:[0(0.787289),2(0.687289),3(0.787289),]
+
+
+current test times:365
+
+success=0,p=0.183940,alpha=0.781349,s=4.052961,DeclsSize=4
+
+
+current test times:366
+
+
+
+current test times:367
+
+
+
+current test times:368
+
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.740818),2(0.740818),3(0.740818),]
+
+
+current test times:369
+
+success=0,p=0.367879,alpha=0.740818,s=3.333334,DeclsSize=5
+pick a program:[1(0.840818),2(0.740818),3(0.740818),4(0.840818),]
+
+
+current test times:370
+
+success=0,p=0.183940,alpha=0.820873,s=5.066202,DeclsSize=5
+Reduce func_8 at small.c
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.740818),1(0.740818),2(0.740818),3(0.740818),4(0.740818),]
+
+
+current test times:371
+
+success=0,p=0.367879,alpha=0.740818,s=3.333334,DeclsSize=5
+pick a program:[0(0.740818),2(0.740818),3(0.740818),4(0.740818),]
+
+
+current test times:372
+
+success=0,p=0.183940,alpha=0.820873,s=5.066202,DeclsSize=5
+
+
+current test times:373
+
+
+
+current test times:374
+
+
+
+current test times:375
+
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[1(0.687289),2(0.687289),3(0.687289),]
+
+
+current test times:376
+
+success=0,p=0.367879,alpha=0.687289,s=2.666667,DeclsSize=4
+pick a program:[1(0.687289),3(0.687289),]
+
+
+current test times:377
+
+success=0,p=0.183940,alpha=0.781349,s=4.052961,DeclsSize=4
+
+
+current test times:378
+
+
+
+current test times:379
+
+
+
+current test times:380
+
+
+
+current test times:381
+
+
+
+current test times:382
+
+
+
+current test times:383
+
+
+
+current test times:384
+
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.687289),1(0.687289),2(0.687289),3(0.687289),]
+
+
+current test times:385
+
+success=0,p=0.367879,alpha=0.687289,s=2.666667,DeclsSize=4
+pick a program:[0(0.687289),1(0.687289),2(0.687289),3(0.687289),]
+success=0,p=0.183940,alpha=0.781349,s=4.052961,DeclsSize=4
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[]
+
+
+current test times:386
+
+success=0,p=0.367879,alpha=0.472367,s=1.333333,DeclsSize=2
+
+
+current test times:387
+
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[1(0.472367),]
+
+
+current test times:388
+
+success=0,p=0.367879,alpha=0.472367,s=1.333333,DeclsSize=2
+
+
+current test times:389
+
+
+
+current test times:390
+
+
+
+current test times:391
+
+
+
+current test times:392
+
+
+
+current test times:393
+
+
+
+current test times:394
+
+
+
+current test times:395
+
+
+
+current test times:396
+
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.472367),]
+
+
+current test times:397
+
+success=0,p=0.367879,alpha=0.472367,s=1.333333,DeclsSize=2
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.740818),1(0.740818),2(0.740818),3(0.740818),4(0.740818),]
+
+
+current test times:398
+
+success=0,p=0.367879,alpha=0.740818,s=3.333334,DeclsSize=5
+pick a program:[0(0.740818),1(0.740818),2(0.740818),3(0.740818),4(0.740818),]
+success=0,p=0.183940,alpha=0.820873,s=5.066202,DeclsSize=5
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.472367),]
+
+
+current test times:399
+
+success=0,p=0.367879,alpha=0.472367,s=1.333333,DeclsSize=2
+
+
+current test times:400
+
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[]
+
+
+current test times:401
+
+success=0,p=0.367879,alpha=0.472367,s=1.333333,DeclsSize=2
+
+
+current test times:402
+
+
+
+current test times:403
+
+
+
+current test times:404
+
+
+
+current test times:405
+
+
+
+current test times:406
+
+
+
+current test times:407
+
+
+
+current test times:408
+
+
+
+current test times:409
+
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[1(0.606531),]
+
+
+current test times:410
+
+success=0,p=0.367879,alpha=0.606531,s=2.000000,DeclsSize=3
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.472367),1(0.472367),]
+
+
+current test times:411
+
+success=0,p=0.367879,alpha=0.472367,s=1.333333,DeclsSize=2
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.472367),1(0.472367),]
+
+
+current test times:412
+
+success=0,p=0.367879,alpha=0.472367,s=1.333333,DeclsSize=2
+
+
+current test times:413
+
+
+
+current test times:414
+
+
+
+current test times:415
+
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[1(0.606531),2(0.606531),]
+
+
+current test times:416
+
+success=0,p=0.367879,alpha=0.606531,s=2.000000,DeclsSize=3
+
+
+current test times:417
+
+
+
+current test times:418
+
+Reduce func_1 at small.c
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.740818),1(0.740818),4(0.740818),]
+
+
+current test times:419
+
+success=0,p=0.367879,alpha=0.740818,s=3.333334,DeclsSize=5
+pick a program:[0(0.740818),1(0.740818),2(0.840818),3(0.840818),4(0.740818),]
+
+
+current test times:420
+
+success=0,p=0.183940,alpha=0.820873,s=5.066202,DeclsSize=5
+
+
+current test times:421
+
+
+
+current test times:422
+
+
+
+current test times:423
+
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.472367),]
+
+
+current test times:424
+
+success=0,p=0.367879,alpha=0.472367,s=1.333333,DeclsSize=2
+
+
+current test times:425
+
+Reduce transparent_crc_bytes at small.c
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[1(0.472367),]
+
+
+current test times:426
+
+success=0,p=0.367879,alpha=0.472367,s=1.333333,DeclsSize=2
+
+
+current test times:427
+
+
+
+current test times:428
+
+
+
+current test times:429
+
+
+
+current test times:430
+
+Reduce transparent_crc at small.c
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.472367),1(0.472367),]
+
+
+current test times:431
+
+success=0,p=0.367879,alpha=0.472367,s=1.333333,DeclsSize=2
+
+
+current test times:432
+
+
+
+current test times:433
+
+Reduce crc32_8bytes at small.c
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[1(0.829029),2(0.829029),3(0.829029),4(0.829029),5(0.829029),6(0.829029),7(0.829029),]
+
+
+current test times:434
+
+success=0,p=0.367879,alpha=0.829029,s=5.333334,DeclsSize=8
+pick a program:[0(0.929029),1(0.829029),3(0.829029),4(0.829029),5(0.829029),6(0.829029),7(0.829029),]
+
+
+current test times:435
+
+success=0,p=0.183940,alpha=0.883940,s=8.105924,DeclsSize=8
+Reduce crc32_byte at small.c
+
+
+current test times:436
+
+Reduce crc32_gentab at small.c
+
+
+current test times:437
+
+
+
+current test times:438
+
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.606531),1(0.606531),]
+
+
+current test times:439
+
+success=0,p=0.367879,alpha=0.606531,s=2.000000,DeclsSize=3
+
+
+current test times:440
+
+
+
+current test times:441
+
+
+
+current test times:442
+
+
+
+current test times:443
+
+
+
+current test times:444
+
+
+
+current test times:445
+
+Reduce safe_convert_func_float_to_int32_t at small.c
+
+
+current test times:446
+
+Reduce safe_div_func_double_f_f at small.c
+
+
+current test times:447
+
+Reduce safe_mul_func_double_f_f at small.c
+
+
+current test times:448
+
+Reduce safe_sub_func_double_f_f at small.c
+
+
+current test times:449
+
+Reduce safe_add_func_double_f_f at small.c
+
+
+current test times:450
+
+Reduce safe_div_func_float_f_f at small.c
+
+
+current test times:451
+
+Reduce safe_mul_func_float_f_f at small.c
+
+
+current test times:452
+
+Reduce safe_sub_func_float_f_f at small.c
+
+
+current test times:453
+
+Reduce safe_add_func_float_f_f at small.c
+
+
+current test times:454
+
+Reduce safe_rshift_func_uint64_t_u_u at small.c
+
+
+current test times:455
+
+Reduce safe_rshift_func_uint64_t_u_s at small.c
+
+
+current test times:456
+
+Reduce safe_lshift_func_uint64_t_u_u at small.c
+
+
+current test times:457
+
+Reduce safe_lshift_func_uint64_t_u_s at small.c
+
+
+current test times:458
+
+Reduce safe_div_func_uint64_t_u_u at small.c
+
+
+current test times:459
+
+Reduce safe_mod_func_uint64_t_u_u at small.c
+
+
+current test times:460
+
+Reduce safe_mul_func_uint64_t_u_u at small.c
+
+
+current test times:461
+
+Reduce safe_sub_func_uint64_t_u_u at small.c
+
+
+current test times:462
+
+Reduce safe_add_func_uint64_t_u_u at small.c
+
+
+current test times:463
+
+Reduce safe_unary_minus_func_uint64_t_u at small.c
+
+
+current test times:464
+
+Reduce safe_rshift_func_uint32_t_u_u at small.c
+
+
+current test times:465
+
+Reduce safe_rshift_func_uint32_t_u_s at small.c
+
+
+current test times:466
+
+Reduce safe_lshift_func_uint32_t_u_u at small.c
+
+
+current test times:467
+
+Reduce safe_lshift_func_uint32_t_u_s at small.c
+
+
+current test times:468
+
+Reduce safe_div_func_uint32_t_u_u at small.c
+
+
+current test times:469
+
+Reduce safe_mod_func_uint32_t_u_u at small.c
+
+
+current test times:470
+
+Reduce safe_mul_func_uint32_t_u_u at small.c
+
+
+current test times:471
+
+Reduce safe_sub_func_uint32_t_u_u at small.c
+
+
+current test times:472
+
+Reduce safe_add_func_uint32_t_u_u at small.c
+
+
+current test times:473
+
+Reduce safe_unary_minus_func_uint32_t_u at small.c
+
+
+current test times:474
+
+Reduce safe_rshift_func_uint16_t_u_u at small.c
+
+
+current test times:475
+
+Reduce safe_rshift_func_uint16_t_u_s at small.c
+
+
+current test times:476
+
+Reduce safe_lshift_func_uint16_t_u_u at small.c
+
+
+current test times:477
+
+Reduce safe_lshift_func_uint16_t_u_s at small.c
+
+
+current test times:478
+
+Reduce safe_div_func_uint16_t_u_u at small.c
+
+
+current test times:479
+
+Reduce safe_mod_func_uint16_t_u_u at small.c
+
+
+current test times:480
+
+Reduce safe_mul_func_uint16_t_u_u at small.c
+
+
+current test times:481
+
+Reduce safe_sub_func_uint16_t_u_u at small.c
+
+
+current test times:482
+
+Reduce safe_add_func_uint16_t_u_u at small.c
+
+
+current test times:483
+
+Reduce safe_unary_minus_func_uint16_t_u at small.c
+
+
+current test times:484
+
+Reduce safe_rshift_func_uint8_t_u_u at small.c
+
+
+current test times:485
+
+Reduce safe_rshift_func_uint8_t_u_s at small.c
+
+
+current test times:486
+
+Reduce safe_lshift_func_uint8_t_u_u at small.c
+
+
+current test times:487
+
+Reduce safe_lshift_func_uint8_t_u_s at small.c
+
+
+current test times:488
+
+Reduce safe_div_func_uint8_t_u_u at small.c
+
+
+current test times:489
+
+Reduce safe_mod_func_uint8_t_u_u at small.c
+
+
+current test times:490
+
+Reduce safe_mul_func_uint8_t_u_u at small.c
+
+
+current test times:491
+
+Reduce safe_sub_func_uint8_t_u_u at small.c
+
+
+current test times:492
+
+Reduce safe_add_func_uint8_t_u_u at small.c
+
+
+current test times:493
+
+Reduce safe_unary_minus_func_uint8_t_u at small.c
+
+
+current test times:494
+
+Reduce safe_rshift_func_int64_t_s_u at small.c
+
+
+current test times:495
+
+Reduce safe_rshift_func_int64_t_s_s at small.c
+
+
+current test times:496
+
+Reduce safe_lshift_func_int64_t_s_u at small.c
+
+
+current test times:497
+
+Reduce safe_lshift_func_int64_t_s_s at small.c
+
+
+current test times:498
+
+Reduce safe_div_func_int64_t_s_s at small.c
+
+
+current test times:499
+
+Reduce safe_mod_func_int64_t_s_s at small.c
+
+
+current test times:500
+
+Reduce safe_mul_func_int64_t_s_s at small.c
+
+
+current test times:501
+
+Reduce safe_sub_func_int64_t_s_s at small.c
+
+
+current test times:502
+
+Reduce safe_add_func_int64_t_s_s at small.c
+
+
+current test times:503
+
+Reduce safe_unary_minus_func_int64_t_s at small.c
+
+
+current test times:504
+
+Reduce safe_rshift_func_int32_t_s_u at small.c
+
+
+current test times:505
+
+Reduce safe_rshift_func_int32_t_s_s at small.c
+
+
+current test times:506
+
+Reduce safe_lshift_func_int32_t_s_u at small.c
+
+
+current test times:507
+
+Reduce safe_lshift_func_int32_t_s_s at small.c
+
+
+current test times:508
+
+Reduce safe_div_func_int32_t_s_s at small.c
+
+
+current test times:509
+
+Reduce safe_mod_func_int32_t_s_s at small.c
+
+
+current test times:510
+
+Reduce safe_mul_func_int32_t_s_s at small.c
+
+
+current test times:511
+
+Reduce safe_sub_func_int32_t_s_s at small.c
+
+
+current test times:512
+
+Reduce safe_add_func_int32_t_s_s at small.c
+
+
+current test times:513
+
+Reduce safe_unary_minus_func_int32_t_s at small.c
+
+
+current test times:514
+
+Reduce safe_rshift_func_int16_t_s_u at small.c
+
+
+current test times:515
+
+Reduce safe_rshift_func_int16_t_s_s at small.c
+
+
+current test times:516
+
+Reduce safe_lshift_func_int16_t_s_u at small.c
+
+
+current test times:517
+
+Reduce safe_lshift_func_int16_t_s_s at small.c
+
+
+current test times:518
+
+Reduce safe_div_func_int16_t_s_s at small.c
+
+
+current test times:519
+
+Reduce safe_mod_func_int16_t_s_s at small.c
+
+
+current test times:520
+
+Reduce safe_mul_func_int16_t_s_s at small.c
+
+
+current test times:521
+
+Reduce safe_sub_func_int16_t_s_s at small.c
+
+
+current test times:522
+
+Reduce safe_add_func_int16_t_s_s at small.c
+
+
+current test times:523
+
+Reduce safe_unary_minus_func_int16_t_s at small.c
+
+
+current test times:524
+
+Reduce safe_rshift_func_int8_t_s_u at small.c
+
+
+current test times:525
+
+Reduce safe_rshift_func_int8_t_s_s at small.c
+
+
+current test times:526
+
+Reduce safe_lshift_func_int8_t_s_u at small.c
+
+
+current test times:527
+
+Reduce safe_lshift_func_int8_t_s_s at small.c
+
+
+current test times:528
+
+Reduce safe_div_func_int8_t_s_s at small.c
+
+
+current test times:529
+
+Reduce safe_mod_func_int8_t_s_s at small.c
+
+
+current test times:530
+
+Reduce safe_mul_func_int8_t_s_s at small.c
+
+
+current test times:531
+
+Reduce safe_sub_func_int8_t_s_s at small.c
+
+
+current test times:532
+
+Reduce safe_add_func_int8_t_s_s at small.c
+
+
+current test times:533
+
+Reduce safe_unary_minus_func_int8_t_s at small.c
+
+
+current test times:534
+
+Reduce platform_main_end at small.c
+
+
+current test times:535
+
+Iteration 2 (Word: 16505)
+Start global reduction
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.900000),1(0.900000),2(0.900000),4(0.900000),5(0.900000),6(0.900000),7(0.900000),9(0.900000),10(0.900000),11(0.900000),12(0.900000),13(0.900000),14(0.900000),15(0.900000),16(0.900000),17(0.900000),18(0.900000),19(0.900000),20(0.900000),21(0.900000),22(0.900000),23(0.900000),24(0.900000),25(0.900000),26(0.900000),27(0.900000),28(0.900000),29(0.900000),30(0.900000),31(0.900000),32(0.900000),33(0.900000),34(0.900000),35(0.900000),36(0.900000),37(0.900000),38(0.900000),39(0.900000),40(0.900000),41(0.900000),42(0.900000),43(0.900000),44(0.900000),45(0.900000),46(0.900000),47(0.900000),49(0.900000),51(0.900000),52(0.900000),53(0.900000),54(0.900000),55(0.900000),56(0.900000),57(0.900000),58(0.900000),59(0.900000),60(0.900000),61(0.900000),62(0.900000),63(0.900000),64(0.900000),65(0.900000),66(0.900000),67(0.900000),68(0.900000),69(0.900000),70(0.900000),71(0.900000),72(0.900000),73(0.900000),74(0.900000),75(0.900000),76(0.900000),77(0.900000),78(0.900000),79(0.900000),80(0.900000),81(0.900000),82(0.900000),83(0.900000),84(0.900000),85(0.900000),87(0.900000),88(0.900000),89(0.900000),90(0.900000),91(0.900000),92(0.900000),93(0.900000),94(0.900000),95(0.900000),96(0.900000),97(0.900000),98(0.900000),99(0.900000),100(0.900000),101(0.900000),102(0.900000),103(0.900000),104(0.900000),105(0.900000),106(0.900000),107(0.900000),108(0.900000),109(0.900000),110(0.900000),111(0.900000),112(0.900000),113(0.900000),114(0.900000),115(0.900000),116(0.900000),117(0.900000),118(0.900000),119(0.900000),120(0.900000),121(0.900000),122(0.900000),124(0.900000),125(0.900000),126(0.900000),127(0.900000),128(0.900000),129(0.900000),130(0.900000),132(0.900000),133(0.900000),134(0.900000),135(0.900000),136(0.900000),137(0.900000),138(0.900000),139(0.900000),140(0.900000),141(0.900000),142(0.900000),]
+success=0,p=0.367879,alpha=0.968208,s=30.951744,DeclsSize=143
+pick a program:[0(1.068208),1(1.068208),2(0.968208),3(1.068208),5(0.968208),6(0.968208),7(0.968208),8(1.068208),9(0.968208),11(0.968208),12(0.968208),13(0.968208),14(0.968208),15(0.968208),16(0.968208),17(0.968208),18(0.968208),19(0.968208),20(0.968208),21(0.968208),22(0.968208),23(0.968208),24(0.968208),25(0.968208),26(0.968208),27(0.968208),28(0.968208),29(0.968208),30(0.968208),31(0.968208),32(0.968208),33(0.968208),34(0.968208),35(0.968208),36(0.968208),37(0.968208),38(0.968208),39(0.968208),40(0.968208),41(0.968208),43(0.968208),44(0.968208),45(0.968208),46(0.968208),47(0.968208),48(1.068208),49(0.968208),50(1.068208),51(0.968208),53(0.968208),54(0.968208),55(0.968208),56(0.968208),57(0.968208),58(0.968208),59(0.968208),61(0.968208),62(0.968208),63(0.968208),64(0.968208),65(0.968208),66(0.968208),68(0.968208),69(0.968208),70(0.968208),71(0.968208),72(0.968208),73(0.968208),74(0.968208),75(0.968208),76(0.968208),77(0.968208),78(0.968208),79(0.968208),80(0.968208),81(0.968208),82(0.968208),83(0.968208),84(0.968208),85(0.968208),86(1.068208),87(0.968208),88(0.968208),89(0.968208),90(0.968208),91(0.968208),92(0.968208),93(0.968208),94(0.968208),95(0.968208),96(0.968208),97(0.968208),98(0.968208),99(0.968208),100(0.968208),101(0.968208),102(0.968208),103(0.968208),104(0.968208),105(0.968208),106(0.968208),107(0.968208),108(0.968208),109(0.968208),110(0.968208),111(0.968208),112(0.968208),113(0.968208),114(0.968208),115(0.968208),116(0.968208),117(0.968208),118(0.968208),119(0.968208),120(0.968208),121(0.968208),122(0.968208),123(1.068208),124(1.068208),125(1.068208),126(1.068208),127(1.068208),128(1.068208),129(1.068208),130(1.068208),131(1.068208),132(1.068208),133(0.968208),134(0.968208),135(0.968208),136(0.968208),137(0.968208),138(0.968208),139(0.968208),140(0.968208),141(0.968208),142(0.968208),]
+success=0,p=0.183940,alpha=0.978967,s=47.042297,DeclsSize=143
+pick a program:[0(0.978967),1(0.978967),2(0.978967),3(0.978967),4(1.078967),5(0.978967),6(0.978967),7(0.978967),8(0.978967),9(0.978967),10(1.078967),11(0.978967),12(0.978967),13(0.978967),14(0.978967),15(0.978967),16(0.978967),17(0.978967),18(0.978967),19(0.978967),20(0.978967),21(0.978967),22(0.978967),23(0.978967),24(0.978967),25(0.978967),26(0.978967),27(0.978967),28(0.978967),30(0.978967),31(0.978967),32(0.978967),33(0.978967),34(0.978967),35(0.978967),36(0.978967),37(0.978967),38(0.978967),39(0.978967),40(0.978967),41(0.978967),42(1.078967),43(0.978967),44(0.978967),45(0.978967),46(0.978967),47(0.978967),48(0.978967),49(0.978967),50(0.978967),51(0.978967),52(1.078967),53(0.978967),54(0.978967),55(0.978967),56(0.978967),57(0.978967),58(0.978967),59(0.978967),60(1.078967),61(0.978967),62(0.978967),63(0.978967),64(0.978967),65(0.978967),66(0.978967),67(1.078967),68(0.978967),69(0.978967),70(0.978967),71(0.978967),72(0.978967),73(0.978967),74(0.978967),75(0.978967),76(0.978967),77(0.978967),78(0.978967),79(0.978967),80(0.978967),81(0.978967),82(0.978967),83(0.978967),84(0.978967),85(0.978967),86(0.978967),87(0.978967),88(0.978967),89(0.978967),90(0.978967),91(0.978967),92(0.978967),93(0.978967),94(0.978967),95(0.978967),96(0.978967),97(0.978967),98(0.978967),99(0.978967),100(0.978967),101(0.978967),102(0.978967),103(0.978967),104(0.978967),105(0.978967),106(0.978967),107(0.978967),108(0.978967),109(0.978967),110(0.978967),111(0.978967),112(0.978967),113(0.978967),114(0.978967),115(0.978967),116(0.978967),117(0.978967),118(0.978967),119(0.978967),120(0.978967),121(0.978967),122(0.978967),123(0.978967),124(0.978967),125(0.978967),126(0.978967),127(0.978967),128(0.978967),129(0.978967),131(0.978967),132(0.978967),133(0.978967),134(0.978967),135(0.978967),136(0.978967),137(0.978967),138(0.978967),139(0.978967),140(0.978967),141(0.978967),142(0.978967),]
+success=0,p=0.100000,alpha=0.989305,s=92.999786,DeclsSize=143
+pick a program:[0(1.089305),1(1.089305),2(0.989305),4(0.989305),5(0.989305),6(0.989305),7(0.989305),8(0.989305),9(0.989305),10(0.989305),11(0.989305),12(0.989305),13(0.989305),14(0.989305),15(0.989305),16(0.989305),17(0.989305),18(0.989305),19(0.989305),20(0.989305),21(0.989305),22(0.989305),23(0.989305),25(0.989305),26(0.989305),27(0.989305),28(0.989305),29(1.089305),30(0.989305),31(0.989305),32(0.989305),33(0.989305),34(0.989305),35(0.989305),36(0.989305),37(0.989305),38(0.989305),39(0.989305),40(0.989305),41(0.989305),42(0.989305),43(0.989305),44(0.989305),45(0.989305),46(0.989305),47(0.989305),48(0.989305),49(0.989305),50(0.989305),51(0.989305),52(0.989305),53(0.989305),54(0.989305),55(0.989305),56(0.989305),57(0.989305),58(0.989305),59(0.989305),60(0.989305),61(0.989305),62(0.989305),63(0.989305),64(0.989305),65(0.989305),66(0.989305),67(0.989305),68(0.989305),69(0.989305),70(0.989305),71(0.989305),72(0.989305),73(0.989305),74(0.989305),75(0.989305),76(0.989305),77(0.989305),78(0.989305),79(0.989305),80(0.989305),81(0.989305),82(0.989305),83(0.989305),84(0.989305),85(0.989305),86(0.989305),87(0.989305),88(0.989305),89(0.989305),90(0.989305),91(0.989305),92(0.989305),93(0.989305),94(0.989305),95(0.989305),96(0.989305),97(0.989305),98(0.989305),99(0.989305),100(0.989305),101(0.989305),102(0.989305),103(0.989305),104(0.989305),105(0.989305),106(0.989305),107(0.989305),108(0.989305),109(0.989305),110(0.989305),111(0.989305),112(0.989305),113(0.989305),114(0.989305),115(0.989305),116(0.989305),117(0.989305),118(0.989305),119(0.989305),120(0.989305),121(0.989305),122(0.989305),123(1.089305),124(1.089305),125(1.089305),126(1.089305),127(1.089305),128(1.089305),129(1.089305),130(1.089305),131(1.089305),132(1.089305),133(0.989305),134(0.989305),135(0.989305),136(0.989305),137(0.989305),138(0.989305),139(0.989305),140(0.989305),141(0.989305),142(0.989305),]
+success=0,p=0.100000,alpha=0.994576,s=183.855042,DeclsSize=143
+Start local reduction
+Reduce main at small.c
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.900000),1(0.900000),2(0.900000),3(0.900000),4(0.900000),5(0.900000),6(0.900000),7(0.900000),8(0.900000),9(0.900000),10(0.900000),11(0.900000),14(0.900000),15(0.900000),16(0.900000),17(0.900000),18(0.900000),19(0.900000),20(0.900000),21(0.900000),22(0.900000),23(0.900000),24(0.900000),25(0.900000),28(0.900000),]
+
+
+current test times:536
+
+success=0,p=0.367879,alpha=0.919735,s=11.951748,DeclsSize=29
+pick a program:[0(0.919735),1(0.919735),2(0.919735),3(0.919735),4(0.919735),5(0.919735),6(0.919735),7(0.919735),8(0.919735),9(0.919735),10(0.919735),11(0.919735),12(1.019735),13(1.019735),14(0.919735),15(0.919735),16(0.919735),17(0.919735),18(0.919735),19(0.919735),20(0.919735),23(0.919735),25(0.919735),26(1.019735),27(1.019735),]
+success=0,p=0.183940,alpha=0.946437,s=18.164993,DeclsSize=29
+pick a program:[0(0.946437),1(0.946437),2(0.946437),3(0.946437),4(0.946437),5(0.946437),6(0.946437),7(0.946437),8(0.946437),9(0.946437),10(0.946437),11(0.946437),12(0.946437),14(0.946437),15(0.946437),16(0.946437),17(0.946437),18(0.946437),19(0.946437),20(0.946437),21(1.046437),22(1.046437),23(0.946437),24(1.046437),25(0.946437),26(0.946437),27(0.946437),28(1.046437),]
+
+
+current test times:537
+
+success=0,p=0.100000,alpha=0.972538,s=35.911087,DeclsSize=29
+
+
+current test times:538
+
+
+
+current test times:539
+
+
+
+current test times:540
+
+
+
+current test times:541
+
+
+
+current test times:542
+
+
+
+current test times:543
+
+
+
+current test times:544
+
+
+
+current test times:545
+
+
+
+current test times:546
+
+
+
+current test times:547
+
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[1(0.472367),]
+
+
+current test times:548
+
+success=0,p=0.367879,alpha=0.472367,s=1.333333,DeclsSize=2
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.472367),]
+
+
+current test times:549
+
+success=0,p=0.367879,alpha=0.472367,s=1.333333,DeclsSize=2
+
+
+current test times:550
+
+
+
+current test times:551
+
+
+
+current test times:552
+
+
+
+current test times:553
+
+
+
+current test times:554
+
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[]
+
+
+current test times:555
+
+success=0,p=0.367879,alpha=0.472367,s=1.333333,DeclsSize=2
+
+
+current test times:556
+
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.472367),1(0.472367),]
+
+
+current test times:557
+
+success=0,p=0.367879,alpha=0.472367,s=1.333333,DeclsSize=2
+
+
+current test times:558
+
+
+
+current test times:559
+
+
+
+current test times:560
+
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[]
+
+
+current test times:561
+
+success=0,p=0.367879,alpha=0.472367,s=1.333333,DeclsSize=2
+
+
+current test times:562
+
+Reduce func_97 at small.c
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.606531),1(0.606531),2(0.606531),]
+
+
+current test times:563
+
+success=0,p=0.367879,alpha=0.606531,s=2.000000,DeclsSize=3
+
+
+current test times:564
+
+
+
+current test times:565
+
+
+
+current test times:566
+
+
+
+current test times:567
+
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.472367),1(0.472367),]
+
+
+current test times:568
+
+success=0,p=0.367879,alpha=0.472367,s=1.333333,DeclsSize=2
+
+
+current test times:569
+
+
+
+current test times:570
+
+
+
+current test times:571
+
+
+
+current test times:572
+
+
+
+current test times:573
+
+
+
+current test times:574
+
+Reduce func_89 at small.c
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.606531),]
+
+
+current test times:575
+
+success=0,p=0.367879,alpha=0.606531,s=2.000000,DeclsSize=3
+
+
+current test times:576
+
+
+
+current test times:577
+
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.472367),1(0.472367),]
+
+
+current test times:578
+
+success=0,p=0.367879,alpha=0.472367,s=1.333333,DeclsSize=2
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[]
+
+
+current test times:579
+
+success=0,p=0.367879,alpha=0.472367,s=1.333333,DeclsSize=2
+
+
+current test times:580
+
+
+
+current test times:581
+
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.472367),]
+
+
+current test times:582
+
+success=0,p=0.367879,alpha=0.472367,s=1.333333,DeclsSize=2
+
+
+current test times:583
+
+
+
+current test times:584
+
+
+
+current test times:585
+
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.606531),1(0.606531),]
+
+
+current test times:586
+
+success=0,p=0.367879,alpha=0.606531,s=2.000000,DeclsSize=3
+
+
+current test times:587
+
+
+
+current test times:588
+
+
+
+current test times:589
+
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.687289),1(0.687289),2(0.687289),]
+
+
+current test times:590
+
+success=0,p=0.367879,alpha=0.687289,s=2.666667,DeclsSize=4
+pick a program:[0(0.687289),3(0.787289),]
+
+
+current test times:591
+
+success=0,p=0.183940,alpha=0.781349,s=4.052961,DeclsSize=4
+
+
+current test times:592
+
+
+
+current test times:593
+
+
+
+current test times:594
+
+
+
+current test times:595
+
+
+
+current test times:596
+
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[]
+
+
+current test times:597
+
+success=0,p=0.367879,alpha=0.606531,s=2.000000,DeclsSize=3
+Reduce func_81 at small.c
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.740818),2(0.740818),3(0.740818),4(0.740818),]
+
+
+current test times:598
+
+success=0,p=0.367879,alpha=0.740818,s=3.333334,DeclsSize=5
+pick a program:[0(0.740818),1(0.840818),2(0.740818),3(0.740818),]
+
+
+current test times:599
+
+success=0,p=0.183940,alpha=0.820873,s=5.066202,DeclsSize=5
+
+
+current test times:600
+
+
+
+current test times:601
+
+
+
+current test times:602
+
+
+
+current test times:603
+
+
+
+current test times:604
+
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[1(0.606531),]
+
+
+current test times:605
+
+success=0,p=0.367879,alpha=0.606531,s=2.000000,DeclsSize=3
+
+
+current test times:606
+
+
+
+current test times:607
+
+
+
+current test times:608
+
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[1(0.472367),]
+
+
+current test times:609
+
+success=0,p=0.367879,alpha=0.472367,s=1.333333,DeclsSize=2
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.687289),1(0.687289),2(0.687289),]
+
+
+current test times:610
+
+success=0,p=0.367879,alpha=0.687289,s=2.666667,DeclsSize=4
+pick a program:[1(0.687289),2(0.687289),3(0.787289),]
+
+
+current test times:611
+
+success=0,p=0.183940,alpha=0.781349,s=4.052961,DeclsSize=4
+
+
+current test times:612
+
+
+
+current test times:613
+
+
+
+current test times:614
+
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[1(0.687289),2(0.687289),]
+
+
+current test times:615
+
+success=0,p=0.367879,alpha=0.687289,s=2.666667,DeclsSize=4
+pick a program:[0(0.787289),]
+
+
+current test times:616
+
+success=0,p=0.183940,alpha=0.781349,s=4.052961,DeclsSize=4
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.687289),2(0.687289),]
+
+
+current test times:617
+
+success=0,p=0.367879,alpha=0.687289,s=2.666667,DeclsSize=4
+pick a program:[0(0.687289),1(0.787289),2(0.687289),]
+
+
+current test times:618
+
+success=0,p=0.183940,alpha=0.781349,s=4.052961,DeclsSize=4
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[1(0.606531),2(0.606531),]
+
+
+current test times:619
+
+success=0,p=0.367879,alpha=0.606531,s=2.000000,DeclsSize=3
+
+
+current test times:620
+
+
+
+current test times:621
+
+
+
+current test times:622
+
+
+
+current test times:623
+
+
+
+current test times:624
+
+
+
+current test times:625
+
+
+
+current test times:626
+
+
+
+current test times:627
+
+
+
+current test times:628
+
+
+
+current test times:629
+
+
+
+current test times:630
+
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.606531),1(0.606531),2(0.606531),]
+
+
+current test times:631
+
+success=0,p=0.367879,alpha=0.606531,s=2.000000,DeclsSize=3
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.687289),1(0.687289),3(0.687289),]
+
+
+current test times:632
+
+success=0,p=0.367879,alpha=0.687289,s=2.666667,DeclsSize=4
+pick a program:[0(0.687289),1(0.687289),2(0.787289),]
+
+
+current test times:633
+
+success=0,p=0.183940,alpha=0.781349,s=4.052961,DeclsSize=4
+
+
+current test times:634
+
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[1(0.687289),2(0.687289),]
+
+
+current test times:635
+
+success=0,p=0.367879,alpha=0.687289,s=2.666667,DeclsSize=4
+pick a program:[0(0.787289),2(0.687289),3(0.787289),]
+
+
+current test times:636
+
+success=0,p=0.183940,alpha=0.781349,s=4.052961,DeclsSize=4
+
+
+current test times:637
+
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.740818),2(0.740818),3(0.740818),4(0.740818),]
+
+
+current test times:638
+
+success=0,p=0.367879,alpha=0.740818,s=3.333334,DeclsSize=5
+pick a program:[0(0.740818),1(0.840818),2(0.740818),3(0.740818),]
+
+
+current test times:639
+
+success=0,p=0.183940,alpha=0.820873,s=5.066202,DeclsSize=5
+
+
+current test times:640
+
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.687289),1(0.687289),3(0.687289),]
+
+
+current test times:641
+
+success=0,p=0.367879,alpha=0.687289,s=2.666667,DeclsSize=4
+pick a program:[0(0.687289),1(0.687289),2(0.787289),3(0.687289),]
+
+
+current test times:642
+
+success=0,p=0.183940,alpha=0.781349,s=4.052961,DeclsSize=4
+
+
+current test times:643
+
+
+
+current test times:644
+
+
+
+current test times:645
+
+
+
+current test times:646
+
+
+
+current test times:647
+
+
+
+current test times:648
+
+
+
+current test times:649
+
+
+
+current test times:650
+
+
+
+current test times:651
+
+
+
+current test times:652
+
+
+
+current test times:653
+
+
+
+current test times:654
+
+
+
+current test times:655
+
+
+
+current test times:656
+
+
+
+current test times:657
+
+
+
+current test times:658
+
+
+
+current test times:659
+
+
+
+current test times:660
+
+
+
+current test times:661
+
+
+
+current test times:662
+
+
+
+current test times:663
+
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[1(0.606531),2(0.606531),]
+
+
+current test times:664
+
+success=0,p=0.367879,alpha=0.606531,s=2.000000,DeclsSize=3
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.472367),]
+
+
+current test times:665
+
+success=0,p=0.367879,alpha=0.472367,s=1.333333,DeclsSize=2
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[1(0.472367),]
+
+
+current test times:666
+
+success=0,p=0.367879,alpha=0.472367,s=1.333333,DeclsSize=2
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.687289),1(0.687289),2(0.687289),3(0.687289),]
+
+
+current test times:667
+
+success=0,p=0.367879,alpha=0.687289,s=2.666667,DeclsSize=4
+pick a program:[0(0.687289),1(0.687289),3(0.687289),]
+
+
+current test times:668
+
+success=0,p=0.183940,alpha=0.781349,s=4.052961,DeclsSize=4
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[1(0.740818),2(0.740818),]
+
+
+current test times:669
+
+success=0,p=0.367879,alpha=0.740818,s=3.333334,DeclsSize=5
+pick a program:[0(0.840818),1(0.740818),3(0.840818),4(0.840818),]
+
+
+current test times:670
+
+success=0,p=0.183940,alpha=0.820873,s=5.066202,DeclsSize=5
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.687289),2(0.687289),3(0.687289),]
+
+
+current test times:671
+
+success=0,p=0.367879,alpha=0.687289,s=2.666667,DeclsSize=4
+pick a program:[0(0.687289),2(0.687289),3(0.687289),]
+success=0,p=0.183940,alpha=0.781349,s=4.052961,DeclsSize=4
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[]
+
+
+current test times:672
+
+success=0,p=0.367879,alpha=0.472367,s=1.333333,DeclsSize=2
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[]
+
+
+current test times:673
+
+success=0,p=0.367879,alpha=0.606531,s=2.000000,DeclsSize=3
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.687289),2(0.687289),3(0.687289),]
+
+
+current test times:674
+
+success=0,p=0.367879,alpha=0.687289,s=2.666667,DeclsSize=4
+pick a program:[1(0.787289),2(0.687289),3(0.687289),]
+
+
+current test times:675
+
+success=0,p=0.183940,alpha=0.781349,s=4.052961,DeclsSize=4
+
+
+current test times:676
+
+
+
+current test times:677
+
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.606531),1(0.606531),2(0.606531),]
+
+
+current test times:678
+
+success=0,p=0.367879,alpha=0.606531,s=2.000000,DeclsSize=3
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[1(0.606531),2(0.606531),]
+
+
+current test times:679
+
+success=0,p=0.367879,alpha=0.606531,s=2.000000,DeclsSize=3
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.687289),1(0.687289),2(0.687289),3(0.687289),]
+
+
+current test times:680
+
+success=0,p=0.367879,alpha=0.687289,s=2.666667,DeclsSize=4
+pick a program:[3(0.687289),]
+
+
+current test times:681
+
+success=0,p=0.183940,alpha=0.781349,s=4.052961,DeclsSize=4
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.472367),1(0.472367),]
+
+
+current test times:682
+
+success=0,p=0.367879,alpha=0.472367,s=1.333333,DeclsSize=2
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.606531),1(0.606531),2(0.606531),]
+
+
+current test times:683
+
+success=0,p=0.367879,alpha=0.606531,s=2.000000,DeclsSize=3
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[1(0.687289),2(0.687289),3(0.687289),]
+
+
+current test times:684
+
+success=0,p=0.367879,alpha=0.687289,s=2.666667,DeclsSize=4
+pick a program:[0(0.787289),1(0.687289),]
+
+
+current test times:685
+
+success=0,p=0.183940,alpha=0.781349,s=4.052961,DeclsSize=4
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.687289),1(0.687289),3(0.687289),]
+
+
+current test times:686
+
+success=0,p=0.367879,alpha=0.687289,s=2.666667,DeclsSize=4
+pick a program:[0(0.687289),1(0.687289),2(0.787289),3(0.687289),]
+
+
+current test times:687
+
+success=0,p=0.183940,alpha=0.781349,s=4.052961,DeclsSize=4
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.606531),]
+
+
+current test times:688
+
+success=0,p=0.367879,alpha=0.606531,s=2.000000,DeclsSize=3
+
+
+current test times:689
+
+
+
+current test times:690
+
+
+
+current test times:691
+
+
+
+current test times:692
+
+
+
+current test times:693
+
+
+
+current test times:694
+
+Reduce func_75 at small.c
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[1(0.472367),]
+
+
+current test times:695
+
+success=0,p=0.367879,alpha=0.472367,s=1.333333,DeclsSize=2
+Reduce func_55 at small.c
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.687289),1(0.687289),3(0.687289),]
+
+
+current test times:696
+
+success=0,p=0.367879,alpha=0.687289,s=2.666667,DeclsSize=4
+pick a program:[1(0.687289),3(0.687289),]
+
+
+current test times:697
+
+success=0,p=0.183940,alpha=0.781349,s=4.052961,DeclsSize=4
+
+
+current test times:698
+
+
+
+current test times:699
+
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.687289),1(0.687289),2(0.687289),3(0.687289),]
+
+
+current test times:700
+
+success=0,p=0.367879,alpha=0.687289,s=2.666667,DeclsSize=4
+pick a program:[1(0.687289),3(0.687289),]
+
+
+current test times:701
+
+success=0,p=0.183940,alpha=0.781349,s=4.052961,DeclsSize=4
+
+
+current test times:702
+
+
+
+current test times:703
+
+
+
+current test times:704
+
+
+
+current test times:705
+
+
+
+current test times:706
+
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[1(0.472367),]
+
+
+current test times:707
+
+success=0,p=0.367879,alpha=0.472367,s=1.333333,DeclsSize=2
+
+
+current test times:708
+
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.687289),3(0.687289),]
+
+
+current test times:709
+
+success=0,p=0.367879,alpha=0.687289,s=2.666667,DeclsSize=4
+pick a program:[0(0.687289),1(0.787289),2(0.787289),]
+
+
+current test times:710
+
+success=0,p=0.183940,alpha=0.781349,s=4.052961,DeclsSize=4
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.472367),]
+
+
+current test times:711
+
+success=0,p=0.367879,alpha=0.472367,s=1.333333,DeclsSize=2
+
+
+current test times:712
+
+
+
+current test times:713
+
+
+
+current test times:714
+
+
+
+current test times:715
+
+
+
+current test times:716
+
+
+
+current test times:717
+
+
+
+current test times:718
+
+
+
+current test times:719
+
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.778801),2(0.778801),3(0.778801),4(0.778801),5(0.778801),]
+
+
+current test times:720
+
+success=0,p=0.367879,alpha=0.778801,s=4.000000,DeclsSize=6
+pick a program:[0(0.778801),1(0.878801),2(0.778801),3(0.778801),4(0.778801),5(0.778801),]
+
+
+current test times:721
+
+success=0,p=0.183940,alpha=0.848327,s=6.079442,DeclsSize=6
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.472367),]
+
+
+current test times:722
+
+success=0,p=0.367879,alpha=0.472367,s=1.333333,DeclsSize=2
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.606531),2(0.606531),]
+
+
+current test times:723
+
+success=0,p=0.367879,alpha=0.606531,s=2.000000,DeclsSize=3
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[2(0.606531),]
+
+
+current test times:724
+
+success=0,p=0.367879,alpha=0.606531,s=2.000000,DeclsSize=3
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[]
+
+
+current test times:725
+
+success=0,p=0.367879,alpha=0.472367,s=1.333333,DeclsSize=2
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.778801),1(0.778801),2(0.778801),3(0.778801),4(0.778801),5(0.778801),]
+
+
+current test times:726
+
+success=0,p=0.367879,alpha=0.778801,s=4.000000,DeclsSize=6
+pick a program:[2(0.778801),3(0.778801),4(0.778801),5(0.778801),]
+
+
+current test times:727
+
+success=0,p=0.183940,alpha=0.848327,s=6.079442,DeclsSize=6
+
+
+current test times:728
+
+
+
+current test times:729
+
+
+
+current test times:730
+
+
+
+current test times:731
+
+
+
+current test times:732
+
+
+
+current test times:733
+
+
+
+current test times:734
+
+
+
+current test times:735
+
+
+
+current test times:736
+
+
+
+current test times:737
+
+
+
+current test times:738
+
+
+
+current test times:739
+
+
+
+current test times:740
+
+
+
+current test times:741
+
+
+
+current test times:742
+
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.606531),1(0.606531),]
+
+
+current test times:743
+
+success=0,p=0.367879,alpha=0.606531,s=2.000000,DeclsSize=3
+
+
+current test times:744
+
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.687289),1(0.687289),2(0.687289),3(0.687289),]
+
+
+current test times:745
+
+success=0,p=0.367879,alpha=0.687289,s=2.666667,DeclsSize=4
+pick a program:[0(0.687289),1(0.687289),2(0.687289),3(0.687289),]
+success=0,p=0.183940,alpha=0.781349,s=4.052961,DeclsSize=4
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[]
+
+
+current test times:746
+
+success=0,p=0.367879,alpha=0.472367,s=1.333333,DeclsSize=2
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[1(0.687289),2(0.687289),3(0.687289),]
+
+
+current test times:747
+
+success=0,p=0.367879,alpha=0.687289,s=2.666667,DeclsSize=4
+pick a program:[0(0.787289),1(0.687289),2(0.687289),]
+
+
+current test times:748
+
+success=0,p=0.183940,alpha=0.781349,s=4.052961,DeclsSize=4
+
+
+current test times:749
+
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.606531),2(0.606531),]
+
+
+current test times:750
+
+success=0,p=0.367879,alpha=0.606531,s=2.000000,DeclsSize=3
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[1(0.606531),]
+
+
+current test times:751
+
+success=0,p=0.367879,alpha=0.606531,s=2.000000,DeclsSize=3
+
+
+current test times:752
+
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[1(0.472367),]
+
+
+current test times:753
+
+success=0,p=0.367879,alpha=0.472367,s=1.333333,DeclsSize=2
+
+
+current test times:754
+
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.606531),1(0.606531),2(0.606531),]
+
+
+current test times:755
+
+success=0,p=0.367879,alpha=0.606531,s=2.000000,DeclsSize=3
+
+
+current test times:756
+
+
+
+current test times:757
+
+
+
+current test times:758
+
+
+
+current test times:759
+
+
+
+current test times:760
+
+
+
+current test times:761
+
+
+
+current test times:762
+
+
+
+current test times:763
+
+
+
+current test times:764
+
+
+
+current test times:765
+
+
+
+current test times:766
+
+
+
+current test times:767
+
+
+
+current test times:768
+
+
+
+current test times:769
+
+
+
+current test times:770
+
+
+
+current test times:771
+
+
+
+current test times:772
+
+
+
+current test times:773
+
+
+
+current test times:774
+
+
+
+current test times:775
+
+
+
+current test times:776
+
+
+
+current test times:777
+
+
+
+current test times:778
+
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.687289),1(0.687289),2(0.687289),]
+
+
+current test times:779
+
+success=0,p=0.367879,alpha=0.687289,s=2.666667,DeclsSize=4
+pick a program:[0(0.687289),3(0.787289),]
+
+
+current test times:780
+
+success=0,p=0.183940,alpha=0.781349,s=4.052961,DeclsSize=4
+
+
+current test times:781
+
+
+
+current test times:782
+
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.606531),1(0.606531),]
+
+
+current test times:783
+
+success=0,p=0.367879,alpha=0.606531,s=2.000000,DeclsSize=3
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.740818),2(0.740818),3(0.740818),4(0.740818),]
+
+
+current test times:784
+
+success=0,p=0.367879,alpha=0.740818,s=3.333334,DeclsSize=5
+pick a program:[0(0.740818),2(0.740818),3(0.740818),4(0.740818),]
+success=0,p=0.183940,alpha=0.820873,s=5.066202,DeclsSize=5
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.472367),1(0.472367),]
+
+
+current test times:785
+
+success=0,p=0.367879,alpha=0.472367,s=1.333333,DeclsSize=2
+
+
+current test times:786
+
+
+
+current test times:787
+
+
+
+current test times:788
+
+
+
+current test times:789
+
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.606531),1(0.606531),]
+
+
+current test times:790
+
+success=0,p=0.367879,alpha=0.606531,s=2.000000,DeclsSize=3
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.472367),]
+
+
+current test times:791
+
+success=0,p=0.367879,alpha=0.472367,s=1.333333,DeclsSize=2
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.687289),3(0.687289),]
+
+
+current test times:792
+
+success=0,p=0.367879,alpha=0.687289,s=2.666667,DeclsSize=4
+pick a program:[0(0.687289),1(0.787289),3(0.687289),]
+
+
+current test times:793
+
+success=0,p=0.183940,alpha=0.781349,s=4.052961,DeclsSize=4
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.472367),1(0.472367),]
+
+
+current test times:794
+
+success=0,p=0.367879,alpha=0.472367,s=1.333333,DeclsSize=2
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.606531),2(0.606531),]
+
+
+current test times:795
+
+success=0,p=0.367879,alpha=0.606531,s=2.000000,DeclsSize=3
+
+
+current test times:796
+
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.606531),1(0.606531),]
+
+
+current test times:797
+
+success=0,p=0.367879,alpha=0.606531,s=2.000000,DeclsSize=3
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[1(0.687289),]
+
+
+current test times:798
+
+success=0,p=0.367879,alpha=0.687289,s=2.666667,DeclsSize=4
+pick a program:[3(0.787289),]
+
+
+current test times:799
+
+success=0,p=0.183940,alpha=0.781349,s=4.052961,DeclsSize=4
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[1(0.472367),]
+
+
+current test times:800
+
+success=0,p=0.367879,alpha=0.472367,s=1.333333,DeclsSize=2
+
+
+current test times:801
+
+
+
+current test times:802
+
+
+
+current test times:803
+
+
+
+current test times:804
+
+
+
+current test times:805
+
+
+
+current test times:806
+
+
+
+current test times:807
+
+
+
+current test times:808
+
+
+
+current test times:809
+
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[]
+
+
+current test times:810
+
+success=0,p=0.367879,alpha=0.472367,s=1.333333,DeclsSize=2
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[1(0.472367),]
+
+
+current test times:811
+
+success=0,p=0.367879,alpha=0.472367,s=1.333333,DeclsSize=2
+
+
+current test times:812
+
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[1(0.472367),]
+
+
+current test times:813
+
+success=0,p=0.367879,alpha=0.472367,s=1.333333,DeclsSize=2
+
+
+current test times:814
+
+
+
+current test times:815
+
+
+
+current test times:816
+
+
+
+current test times:817
+
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.472367),1(0.472367),]
+
+
+current test times:818
+
+success=0,p=0.367879,alpha=0.472367,s=1.333333,DeclsSize=2
+
+
+current test times:819
+
+
+
+current test times:820
+
+
+
+current test times:821
+
+
+
+current test times:822
+
+
+
+current test times:823
+
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[1(0.472367),]
+
+
+current test times:824
+
+success=0,p=0.367879,alpha=0.472367,s=1.333333,DeclsSize=2
+
+
+current test times:825
+
+
+
+current test times:826
+
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.687289),1(0.687289),]
+
+
+current test times:827
+
+success=0,p=0.367879,alpha=0.687289,s=2.666667,DeclsSize=4
+pick a program:[0(0.687289),2(0.787289),3(0.787289),]
+
+
+current test times:828
+
+success=0,p=0.183940,alpha=0.781349,s=4.052961,DeclsSize=4
+
+
+current test times:829
+
+Reduce func_48 at small.c
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.687289),1(0.687289),2(0.687289),3(0.687289),]
+
+
+current test times:830
+
+success=0,p=0.367879,alpha=0.687289,s=2.666667,DeclsSize=4
+pick a program:[0(0.687289),1(0.687289),2(0.687289),3(0.687289),]
+success=0,p=0.183940,alpha=0.781349,s=4.052961,DeclsSize=4
+
+
+current test times:831
+
+
+
+current test times:832
+
+
+
+current test times:833
+
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.687289),1(0.687289),2(0.687289),3(0.687289),]
+
+
+current test times:834
+
+success=0,p=0.367879,alpha=0.687289,s=2.666667,DeclsSize=4
+pick a program:[1(0.687289),]
+
+
+current test times:835
+
+success=0,p=0.183940,alpha=0.781349,s=4.052961,DeclsSize=4
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[2(0.606531),]
+
+
+current test times:836
+
+success=0,p=0.367879,alpha=0.606531,s=2.000000,DeclsSize=3
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.687289),2(0.687289),3(0.687289),]
+
+
+current test times:837
+
+success=0,p=0.367879,alpha=0.687289,s=2.666667,DeclsSize=4
+pick a program:[0(0.687289),2(0.687289),]
+
+
+current test times:838
+
+success=0,p=0.183940,alpha=0.781349,s=4.052961,DeclsSize=4
+
+
+current test times:839
+
+
+
+current test times:840
+
+
+
+current test times:841
+
+
+
+current test times:842
+
+
+
+current test times:843
+
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.606531),2(0.606531),]
+
+
+current test times:844
+
+success=0,p=0.367879,alpha=0.606531,s=2.000000,DeclsSize=3
+
+
+current test times:845
+
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.606531),1(0.606531),2(0.606531),]
+
+
+current test times:846
+
+success=0,p=0.367879,alpha=0.606531,s=2.000000,DeclsSize=3
+
+
+current test times:847
+
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.740818),2(0.740818),3(0.740818),]
+
+
+current test times:848
+
+success=0,p=0.367879,alpha=0.740818,s=3.333334,DeclsSize=5
+pick a program:[0(0.740818),2(0.740818),3(0.740818),4(0.840818),]
+
+
+current test times:849
+
+success=0,p=0.183940,alpha=0.820873,s=5.066202,DeclsSize=5
+
+
+current test times:850
+
+
+
+current test times:851
+
+
+
+current test times:852
+
+
+
+current test times:853
+
+
+
+current test times:854
+
+
+
+current test times:855
+
+
+
+current test times:856
+
+
+
+current test times:857
+
+
+
+current test times:858
+
+
+
+current test times:859
+
+
+
+current test times:860
+
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[]
+
+
+current test times:861
+
+success=0,p=0.367879,alpha=0.472367,s=1.333333,DeclsSize=2
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.740818),1(0.740818),2(0.740818),3(0.740818),]
+
+
+current test times:862
+
+success=0,p=0.367879,alpha=0.740818,s=3.333334,DeclsSize=5
+pick a program:[0(0.740818),1(0.740818),2(0.740818),3(0.740818),]
+success=0,p=0.183940,alpha=0.820873,s=5.066202,DeclsSize=5
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.606531),1(0.606531),]
+
+
+current test times:863
+
+success=0,p=0.367879,alpha=0.606531,s=2.000000,DeclsSize=3
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.472367),]
+
+
+current test times:864
+
+success=0,p=0.367879,alpha=0.472367,s=1.333333,DeclsSize=2
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.472367),1(0.472367),]
+
+
+current test times:865
+
+success=0,p=0.367879,alpha=0.472367,s=1.333333,DeclsSize=2
+
+
+current test times:866
+
+
+
+current test times:867
+
+
+
+current test times:868
+
+
+
+current test times:869
+
+
+
+current test times:870
+
+
+
+current test times:871
+
+
+
+current test times:872
+
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.472367),1(0.472367),]
+
+
+current test times:873
+
+success=0,p=0.367879,alpha=0.472367,s=1.333333,DeclsSize=2
+
+
+current test times:874
+
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[1(0.687289),2(0.687289),3(0.687289),]
+
+
+current test times:875
+
+success=0,p=0.367879,alpha=0.687289,s=2.666667,DeclsSize=4
+pick a program:[0(0.787289),2(0.687289),]
+
+
+current test times:876
+
+success=0,p=0.183940,alpha=0.781349,s=4.052961,DeclsSize=4
+
+
+current test times:877
+
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[1(0.687289),2(0.687289),]
+
+
+current test times:878
+
+success=0,p=0.367879,alpha=0.687289,s=2.666667,DeclsSize=4
+pick a program:[0(0.787289),1(0.687289),2(0.687289),3(0.787289),]
+
+
+current test times:879
+
+success=0,p=0.183940,alpha=0.781349,s=4.052961,DeclsSize=4
+
+
+current test times:880
+
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.687289),]
+
+
+current test times:881
+
+success=0,p=0.367879,alpha=0.687289,s=2.666667,DeclsSize=4
+pick a program:[2(0.787289),3(0.787289),]
+
+
+current test times:882
+
+success=0,p=0.183940,alpha=0.781349,s=4.052961,DeclsSize=4
+
+
+current test times:883
+
+
+
+current test times:884
+
+
+
+current test times:885
+
+
+
+current test times:886
+
+
+
+current test times:887
+
+
+
+current test times:888
+
+
+
+current test times:889
+
+
+
+current test times:890
+
+
+
+current test times:891
+
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.687289),3(0.687289),]
+
+
+current test times:892
+
+success=0,p=0.367879,alpha=0.687289,s=2.666667,DeclsSize=4
+pick a program:[0(0.687289),1(0.787289),3(0.687289),]
+
+
+current test times:893
+
+success=0,p=0.183940,alpha=0.781349,s=4.052961,DeclsSize=4
+
+
+current test times:894
+
+
+
+current test times:895
+
+
+
+current test times:896
+
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[1(0.472367),]
+
+
+current test times:897
+
+success=0,p=0.367879,alpha=0.472367,s=1.333333,DeclsSize=2
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[]
+
+
+current test times:898
+
+success=0,p=0.367879,alpha=0.472367,s=1.333333,DeclsSize=2
+
+
+current test times:899
+
+
+
+current test times:900
+
+Reduce func_42 at small.c
+
+
+current test times:901
+
+Reduce func_29 at small.c
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.687289),1(0.687289),2(0.687289),3(0.687289),]
+
+
+current test times:902
+
+success=0,p=0.367879,alpha=0.687289,s=2.666667,DeclsSize=4
+pick a program:[0(0.687289),3(0.687289),]
+
+
+current test times:903
+
+success=0,p=0.183940,alpha=0.781349,s=4.052961,DeclsSize=4
+
+
+current test times:904
+
+
+
+current test times:905
+
+
+
+current test times:906
+
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.740818),1(0.740818),2(0.740818),3(0.740818),4(0.740818),]
+
+
+current test times:907
+
+success=0,p=0.367879,alpha=0.740818,s=3.333334,DeclsSize=5
+pick a program:[0(0.740818),1(0.740818),2(0.740818),4(0.740818),]
+
+
+current test times:908
+
+success=0,p=0.183940,alpha=0.820873,s=5.066202,DeclsSize=5
+Reduce func_8 at small.c
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.740818),1(0.740818),2(0.740818),4(0.740818),]
+
+
+current test times:909
+
+success=0,p=0.367879,alpha=0.740818,s=3.333334,DeclsSize=5
+pick a program:[0(0.740818),2(0.740818),3(0.840818),]
+success=0,p=0.183940,alpha=0.820873,s=5.066202,DeclsSize=5
+
+
+current test times:910
+
+
+
+current test times:911
+
+
+
+current test times:912
+
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[1(0.687289),2(0.687289),3(0.687289),]
+
+
+current test times:913
+
+success=0,p=0.367879,alpha=0.687289,s=2.666667,DeclsSize=4
+pick a program:[0(0.787289),1(0.687289),]
+
+
+current test times:914
+
+success=0,p=0.183940,alpha=0.781349,s=4.052961,DeclsSize=4
+
+
+current test times:915
+
+
+
+current test times:916
+
+
+
+current test times:917
+
+
+
+current test times:918
+
+
+
+current test times:919
+
+
+
+current test times:920
+
+
+
+current test times:921
+
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.687289),]
+
+
+current test times:922
+
+success=0,p=0.367879,alpha=0.687289,s=2.666667,DeclsSize=4
+pick a program:[1(0.787289),3(0.787289),]
+
+
+current test times:923
+
+success=0,p=0.183940,alpha=0.781349,s=4.052961,DeclsSize=4
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[]
+
+
+current test times:924
+
+success=0,p=0.367879,alpha=0.472367,s=1.333333,DeclsSize=2
+
+
+current test times:925
+
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.472367),]
+
+
+current test times:926
+
+success=0,p=0.367879,alpha=0.472367,s=1.333333,DeclsSize=2
+
+
+current test times:927
+
+
+
+current test times:928
+
+
+
+current test times:929
+
+
+
+current test times:930
+
+
+
+current test times:931
+
+
+
+current test times:932
+
+
+
+current test times:933
+
+
+
+current test times:934
+
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.472367),]
+
+
+current test times:935
+
+success=0,p=0.367879,alpha=0.472367,s=1.333333,DeclsSize=2
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[1(0.740818),2(0.740818),3(0.740818),4(0.740818),]
+
+
+current test times:936
+
+success=0,p=0.367879,alpha=0.740818,s=3.333334,DeclsSize=5
+pick a program:[0(0.840818),2(0.740818),3(0.740818),4(0.740818),]
+
+
+current test times:937
+
+success=0,p=0.183940,alpha=0.820873,s=5.066202,DeclsSize=5
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.472367),1(0.472367),]
+
+
+current test times:938
+
+success=0,p=0.367879,alpha=0.472367,s=1.333333,DeclsSize=2
+
+
+current test times:939
+
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.472367),1(0.472367),]
+
+
+current test times:940
+
+success=0,p=0.367879,alpha=0.472367,s=1.333333,DeclsSize=2
+
+
+current test times:941
+
+
+
+current test times:942
+
+
+
+current test times:943
+
+
+
+current test times:944
+
+
+
+current test times:945
+
+
+
+current test times:946
+
+
+
+current test times:947
+
+
+
+current test times:948
+
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[2(0.606531),]
+
+
+current test times:949
+
+success=0,p=0.367879,alpha=0.606531,s=2.000000,DeclsSize=3
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.472367),]
+
+
+current test times:950
+
+success=0,p=0.367879,alpha=0.472367,s=1.333333,DeclsSize=2
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[]
+
+
+current test times:951
+
+success=0,p=0.367879,alpha=0.472367,s=1.333333,DeclsSize=2
+
+
+current test times:952
+
+
+
+current test times:953
+
+
+
+current test times:954
+
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.606531),1(0.606531),]
+
+
+current test times:955
+
+success=0,p=0.367879,alpha=0.606531,s=2.000000,DeclsSize=3
+
+
+current test times:956
+
+
+
+current test times:957
+
+Reduce func_1 at small.c
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.740818),1(0.740818),2(0.740818),3(0.740818),4(0.740818),]
+
+
+current test times:958
+
+success=0,p=0.367879,alpha=0.740818,s=3.333334,DeclsSize=5
+pick a program:[0(0.740818),1(0.740818),2(0.740818),3(0.740818),]
+
+
+current test times:959
+
+success=0,p=0.183940,alpha=0.820873,s=5.066202,DeclsSize=5
+
+
+current test times:960
+
+
+
+current test times:961
+
+
+
+current test times:962
+
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.472367),1(0.472367),]
+
+
+current test times:963
+
+success=0,p=0.367879,alpha=0.472367,s=1.333333,DeclsSize=2
+
+
+current test times:964
+
+Reduce transparent_crc_bytes at small.c
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.472367),1(0.472367),]
+
+
+current test times:965
+
+success=0,p=0.367879,alpha=0.472367,s=1.333333,DeclsSize=2
+
+
+current test times:966
+
+
+
+current test times:967
+
+
+
+current test times:968
+
+
+
+current test times:969
+
+Reduce transparent_crc at small.c
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.472367),1(0.472367),]
+
+
+current test times:970
+
+success=0,p=0.367879,alpha=0.472367,s=1.333333,DeclsSize=2
+
+
+current test times:971
+
+
+
+current test times:972
+
+Reduce crc32_8bytes at small.c
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[1(0.829029),2(0.829029),3(0.829029),4(0.829029),5(0.829029),6(0.829029),7(0.829029),]
+
+
+current test times:973
+
+success=0,p=0.367879,alpha=0.829029,s=5.333334,DeclsSize=8
+pick a program:[0(0.929029),3(0.829029),4(0.829029),5(0.829029),6(0.829029),7(0.829029),]
+
+
+current test times:974
+
+success=0,p=0.183940,alpha=0.883940,s=8.105924,DeclsSize=8
+Reduce crc32_byte at small.c
+
+
+current test times:975
+
+Reduce crc32_gentab at small.c
+
+
+current test times:976
+
+
+
+current test times:977
+
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[1(0.606531),2(0.606531),]
+
+
+current test times:978
+
+success=0,p=0.367879,alpha=0.606531,s=2.000000,DeclsSize=3
+
+
+current test times:979
+
+
+
+current test times:980
+
+
+
+current test times:981
+
+
+
+current test times:982
+
+
+
+current test times:983
+
+
+
+current test times:984
+
+Reduce safe_convert_func_float_to_int32_t at small.c
+
+
+current test times:985
+
+Reduce safe_div_func_double_f_f at small.c
+
+
+current test times:986
+
+Reduce safe_mul_func_double_f_f at small.c
+
+
+current test times:987
+
+Reduce safe_sub_func_double_f_f at small.c
+
+
+current test times:988
+
+Reduce safe_add_func_double_f_f at small.c
+
+
+current test times:989
+
+Reduce safe_div_func_float_f_f at small.c
+
+
+current test times:990
+
+Reduce safe_mul_func_float_f_f at small.c
+
+
+current test times:991
+
+Reduce safe_sub_func_float_f_f at small.c
+
+
+current test times:992
+
+Reduce safe_add_func_float_f_f at small.c
+
+
+current test times:993
+
+Reduce safe_rshift_func_uint64_t_u_u at small.c
+
+
+current test times:994
+
+Reduce safe_rshift_func_uint64_t_u_s at small.c
+
+
+current test times:995
+
+Reduce safe_lshift_func_uint64_t_u_u at small.c
+
+
+current test times:996
+
+Reduce safe_lshift_func_uint64_t_u_s at small.c
+
+
+current test times:997
+
+Reduce safe_div_func_uint64_t_u_u at small.c
+
+
+current test times:998
+
+Reduce safe_mod_func_uint64_t_u_u at small.c
+
+
+current test times:999
+
+Reduce safe_mul_func_uint64_t_u_u at small.c
+
+
+current test times:1000
+
+Reduce safe_sub_func_uint64_t_u_u at small.c
+
+
+current test times:1001
+
+Reduce safe_add_func_uint64_t_u_u at small.c
+
+
+current test times:1002
+
+Reduce safe_unary_minus_func_uint64_t_u at small.c
+
+
+current test times:1003
+
+Reduce safe_rshift_func_uint32_t_u_u at small.c
+
+
+current test times:1004
+
+Reduce safe_rshift_func_uint32_t_u_s at small.c
+
+
+current test times:1005
+
+Reduce safe_lshift_func_uint32_t_u_u at small.c
+
+
+current test times:1006
+
+Reduce safe_lshift_func_uint32_t_u_s at small.c
+
+
+current test times:1007
+
+Reduce safe_div_func_uint32_t_u_u at small.c
+
+
+current test times:1008
+
+Reduce safe_mod_func_uint32_t_u_u at small.c
+
+
+current test times:1009
+
+Reduce safe_mul_func_uint32_t_u_u at small.c
+
+
+current test times:1010
+
+Reduce safe_sub_func_uint32_t_u_u at small.c
+
+
+current test times:1011
+
+Reduce safe_add_func_uint32_t_u_u at small.c
+
+
+current test times:1012
+
+Reduce safe_unary_minus_func_uint32_t_u at small.c
+
+
+current test times:1013
+
+Reduce safe_rshift_func_uint16_t_u_u at small.c
+
+
+current test times:1014
+
+Reduce safe_rshift_func_uint16_t_u_s at small.c
+
+
+current test times:1015
+
+Reduce safe_lshift_func_uint16_t_u_u at small.c
+
+
+current test times:1016
+
+Reduce safe_lshift_func_uint16_t_u_s at small.c
+
+
+current test times:1017
+
+Reduce safe_div_func_uint16_t_u_u at small.c
+
+
+current test times:1018
+
+Reduce safe_mod_func_uint16_t_u_u at small.c
+
+
+current test times:1019
+
+Reduce safe_mul_func_uint16_t_u_u at small.c
+
+
+current test times:1020
+
+Reduce safe_sub_func_uint16_t_u_u at small.c
+
+
+current test times:1021
+
+Reduce safe_add_func_uint16_t_u_u at small.c
+
+
+current test times:1022
+
+Reduce safe_unary_minus_func_uint16_t_u at small.c
+
+
+current test times:1023
+
+Reduce safe_rshift_func_uint8_t_u_u at small.c
+
+
+current test times:1024
+
+Reduce safe_rshift_func_uint8_t_u_s at small.c
+
+
+current test times:1025
+
+Reduce safe_lshift_func_uint8_t_u_u at small.c
+
+
+current test times:1026
+
+Reduce safe_lshift_func_uint8_t_u_s at small.c
+
+
+current test times:1027
+
+Reduce safe_div_func_uint8_t_u_u at small.c
+
+
+current test times:1028
+
+Reduce safe_mod_func_uint8_t_u_u at small.c
+
+
+current test times:1029
+
+Reduce safe_mul_func_uint8_t_u_u at small.c
+
+
+current test times:1030
+
+Reduce safe_sub_func_uint8_t_u_u at small.c
+
+
+current test times:1031
+
+Reduce safe_add_func_uint8_t_u_u at small.c
+
+
+current test times:1032
+
+Reduce safe_unary_minus_func_uint8_t_u at small.c
+
+
+current test times:1033
+
+Reduce safe_rshift_func_int64_t_s_u at small.c
+
+
+current test times:1034
+
+Reduce safe_rshift_func_int64_t_s_s at small.c
+
+
+current test times:1035
+
+Reduce safe_lshift_func_int64_t_s_u at small.c
+
+
+current test times:1036
+
+Reduce safe_lshift_func_int64_t_s_s at small.c
+
+
+current test times:1037
+
+Reduce safe_div_func_int64_t_s_s at small.c
+
+
+current test times:1038
+
+Reduce safe_mod_func_int64_t_s_s at small.c
+
+
+current test times:1039
+
+Reduce safe_mul_func_int64_t_s_s at small.c
+
+
+current test times:1040
+
+Reduce safe_sub_func_int64_t_s_s at small.c
+
+
+current test times:1041
+
+Reduce safe_add_func_int64_t_s_s at small.c
+
+
+current test times:1042
+
+Reduce safe_unary_minus_func_int64_t_s at small.c
+
+
+current test times:1043
+
+Reduce safe_rshift_func_int32_t_s_u at small.c
+
+
+current test times:1044
+
+Reduce safe_rshift_func_int32_t_s_s at small.c
+
+
+current test times:1045
+
+Reduce safe_lshift_func_int32_t_s_u at small.c
+
+
+current test times:1046
+
+Reduce safe_lshift_func_int32_t_s_s at small.c
+
+
+current test times:1047
+
+Reduce safe_div_func_int32_t_s_s at small.c
+
+
+current test times:1048
+
+Reduce safe_mod_func_int32_t_s_s at small.c
+
+
+current test times:1049
+
+Reduce safe_mul_func_int32_t_s_s at small.c
+
+
+current test times:1050
+
+Reduce safe_sub_func_int32_t_s_s at small.c
+
+
+current test times:1051
+
+Reduce safe_add_func_int32_t_s_s at small.c
+
+
+current test times:1052
+
+Reduce safe_unary_minus_func_int32_t_s at small.c
+
+
+current test times:1053
+
+Reduce safe_rshift_func_int16_t_s_u at small.c
+
+
+current test times:1054
+
+Reduce safe_rshift_func_int16_t_s_s at small.c
+
+
+current test times:1055
+
+Reduce safe_lshift_func_int16_t_s_u at small.c
+
+
+current test times:1056
+
+Reduce safe_lshift_func_int16_t_s_s at small.c
+
+
+current test times:1057
+
+Reduce safe_div_func_int16_t_s_s at small.c
+
+
+current test times:1058
+
+Reduce safe_mod_func_int16_t_s_s at small.c
+
+
+current test times:1059
+
+Reduce safe_mul_func_int16_t_s_s at small.c
+
+
+current test times:1060
+
+Reduce safe_sub_func_int16_t_s_s at small.c
+
+
+current test times:1061
+
+Reduce safe_add_func_int16_t_s_s at small.c
+
+
+current test times:1062
+
+Reduce safe_unary_minus_func_int16_t_s at small.c
+
+
+current test times:1063
+
+Reduce safe_rshift_func_int8_t_s_u at small.c
+
+
+current test times:1064
+
+Reduce safe_rshift_func_int8_t_s_s at small.c
+
+
+current test times:1065
+
+Reduce safe_lshift_func_int8_t_s_u at small.c
+
+
+current test times:1066
+
+Reduce safe_lshift_func_int8_t_s_s at small.c
+
+
+current test times:1067
+
+Reduce safe_div_func_int8_t_s_s at small.c
+
+
+current test times:1068
+
+Reduce safe_mod_func_int8_t_s_s at small.c
+
+
+current test times:1069
+
+Reduce safe_mul_func_int8_t_s_s at small.c
+
+
+current test times:1070
+
+Reduce safe_sub_func_int8_t_s_s at small.c
+
+
+current test times:1071
+
+Reduce safe_add_func_int8_t_s_s at small.c
+
+
+current test times:1072
+
+Reduce safe_unary_minus_func_int8_t_s at small.c
+
+
+current test times:1073
+
+Reduce platform_main_end at small.c
+
+
+current test times:1074
+
+Reduce File: small.c
+Iteration 1 (Word: 16505)
+Start global reduction
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.900000),1(0.900000),2(0.900000),3(0.900000),4(0.900000),5(0.900000),6(0.900000),8(0.900000),9(0.900000),10(0.900000),11(0.900000),13(0.900000),14(0.900000),16(0.900000),17(0.900000),18(0.900000),19(0.900000),20(0.900000),21(0.900000),23(0.900000),24(0.900000),25(0.900000),26(0.900000),27(0.900000),28(0.900000),29(0.900000),31(0.900000),32(0.900000),33(0.900000),34(0.900000),37(0.900000),38(0.900000),39(0.900000),40(0.900000),41(0.900000),42(0.900000),43(0.900000),44(0.900000),45(0.900000),46(0.900000),47(0.900000),48(0.900000),49(0.900000),51(0.900000),54(0.900000),55(0.900000),56(0.900000),57(0.900000),58(0.900000),59(0.900000),61(0.900000),62(0.900000),63(0.900000),65(0.900000),67(0.900000),68(0.900000),69(0.900000),71(0.900000),72(0.900000),73(0.900000),74(0.900000),75(0.900000),76(0.900000),77(0.900000),78(0.900000),79(0.900000),81(0.900000),82(0.900000),84(0.900000),85(0.900000),86(0.900000),87(0.900000),88(0.900000),89(0.900000),90(0.900000),91(0.900000),92(0.900000),93(0.900000),94(0.900000),95(0.900000),96(0.900000),97(0.900000),98(0.900000),99(0.900000),100(0.900000),101(0.900000),102(0.900000),103(0.900000),104(0.900000),105(0.900000),106(0.900000),107(0.900000),108(0.900000),111(0.900000),112(0.900000),113(0.900000),114(0.900000),115(0.900000),116(0.900000),117(0.900000),118(0.900000),120(0.900000),121(0.900000),122(0.900000),123(0.900000),124(0.900000),126(0.900000),127(0.900000),128(0.900000),129(0.900000),130(0.900000),131(0.900000),132(0.900000),133(0.900000),134(0.900000),135(0.900000),137(0.900000),138(0.900000),140(0.900000),141(0.900000),142(0.900000),]
+success=0,p=0.367879,alpha=0.968208,s=30.951744,DeclsSize=143
+pick a program:[0(1.068208),1(1.068208),2(0.968208),3(0.968208),4(0.968208),5(0.968208),6(0.968208),7(1.068208),8(0.968208),9(0.968208),10(0.968208),11(0.968208),12(1.068208),13(0.968208),14(0.968208),15(1.068208),16(0.968208),17(0.968208),18(0.968208),19(0.968208),20(0.968208),21(0.968208),22(1.068208),23(0.968208),24(0.968208),25(0.968208),26(0.968208),27(0.968208),28(0.968208),29(0.968208),30(1.068208),31(0.968208),32(0.968208),33(0.968208),34(0.968208),35(1.068208),36(1.068208),37(0.968208),38(0.968208),39(0.968208),40(0.968208),41(0.968208),42(0.968208),43(0.968208),44(0.968208),45(0.968208),46(0.968208),47(0.968208),48(0.968208),49(0.968208),50(1.068208),51(0.968208),52(1.068208),53(1.068208),54(0.968208),55(0.968208),56(0.968208),57(0.968208),58(0.968208),59(0.968208),60(1.068208),61(0.968208),62(0.968208),63(0.968208),64(1.068208),65(0.968208),66(1.068208),67(0.968208),68(0.968208),69(0.968208),70(1.068208),71(0.968208),72(0.968208),73(0.968208),74(0.968208),75(0.968208),76(0.968208),77(0.968208),78(0.968208),79(0.968208),80(1.068208),81(0.968208),83(1.068208),84(0.968208),85(0.968208),86(0.968208),87(0.968208),88(0.968208),89(0.968208),90(0.968208),91(0.968208),92(0.968208),93(0.968208),94(0.968208),95(0.968208),96(0.968208),97(0.968208),98(0.968208),100(0.968208),101(0.968208),102(0.968208),103(0.968208),104(0.968208),105(0.968208),106(0.968208),107(0.968208),108(0.968208),109(1.068208),110(1.068208),111(0.968208),112(0.968208),113(0.968208),114(0.968208),115(0.968208),116(0.968208),117(0.968208),118(0.968208),119(1.068208),121(0.968208),122(0.968208),123(1.068208),124(1.068208),125(1.068208),126(1.068208),127(1.068208),128(1.068208),129(1.068208),130(1.068208),131(1.068208),132(1.068208),133(0.968208),134(0.968208),135(0.968208),136(1.068208),137(0.968208),138(0.968208),139(1.068208),140(0.968208),141(0.968208),142(0.968208),]
+success=0,p=0.183940,alpha=0.978967,s=47.042297,DeclsSize=143
+pick a program:[0(0.978967),1(0.978967),2(0.978967),3(0.978967),4(0.978967),5(0.978967),6(0.978967),7(0.978967),8(0.978967),9(0.978967),10(0.978967),11(0.978967),12(0.978967),13(0.978967),14(0.978967),15(0.978967),16(0.978967),17(0.978967),18(0.978967),19(0.978967),20(0.978967),21(0.978967),23(0.978967),24(0.978967),25(0.978967),26(0.978967),27(0.978967),28(0.978967),30(0.978967),31(0.978967),32(0.978967),34(0.978967),35(0.978967),36(0.978967),37(0.978967),38(0.978967),39(0.978967),40(0.978967),41(0.978967),42(0.978967),43(0.978967),44(0.978967),45(0.978967),46(0.978967),47(0.978967),48(0.978967),49(0.978967),50(0.978967),51(0.978967),52(0.978967),53(0.978967),55(0.978967),56(0.978967),57(0.978967),58(0.978967),59(0.978967),60(0.978967),61(0.978967),62(0.978967),63(0.978967),65(0.978967),66(0.978967),67(0.978967),68(0.978967),69(0.978967),70(0.978967),71(0.978967),72(0.978967),74(0.978967),75(0.978967),76(0.978967),77(0.978967),78(0.978967),79(0.978967),80(0.978967),81(0.978967),82(1.078967),83(0.978967),84(0.978967),85(0.978967),86(0.978967),87(0.978967),88(0.978967),89(0.978967),90(0.978967),91(0.978967),92(0.978967),93(0.978967),94(0.978967),95(0.978967),96(0.978967),97(0.978967),98(0.978967),99(1.078967),100(0.978967),101(0.978967),102(0.978967),103(0.978967),104(0.978967),105(0.978967),106(0.978967),107(0.978967),108(0.978967),109(0.978967),110(0.978967),111(0.978967),112(0.978967),113(0.978967),114(0.978967),115(0.978967),116(0.978967),117(0.978967),118(0.978967),119(0.978967),120(1.078967),122(0.978967),123(0.978967),124(0.978967),125(0.978967),126(0.978967),127(0.978967),128(0.978967),129(0.978967),130(0.978967),131(0.978967),132(0.978967),133(0.978967),134(0.978967),135(0.978967),136(0.978967),137(0.978967),138(0.978967),139(0.978967),140(0.978967),141(0.978967),142(0.978967),]
+success=0,p=0.100000,alpha=0.989305,s=92.999786,DeclsSize=143
+pick a program:[0(0.989305),1(0.989305),2(0.989305),3(0.989305),4(0.989305),5(0.989305),6(0.989305),7(0.989305),8(0.989305),9(0.989305),10(0.989305),11(0.989305),12(0.989305),13(0.989305),14(0.989305),15(0.989305),16(0.989305),17(0.989305),19(0.989305),20(0.989305),21(0.989305),22(1.089305),23(0.989305),24(0.989305),25(0.989305),26(0.989305),27(0.989305),28(0.989305),29(1.089305),30(0.989305),31(0.989305),32(0.989305),33(1.089305),34(0.989305),35(0.989305),36(0.989305),37(0.989305),38(0.989305),39(0.989305),40(0.989305),41(0.989305),42(0.989305),43(0.989305),44(0.989305),45(0.989305),46(0.989305),47(0.989305),48(0.989305),49(0.989305),50(0.989305),51(0.989305),52(0.989305),53(0.989305),54(1.089305),55(0.989305),56(0.989305),57(0.989305),58(0.989305),60(0.989305),61(0.989305),62(0.989305),63(0.989305),64(1.089305),65(0.989305),67(0.989305),68(0.989305),69(0.989305),70(0.989305),71(0.989305),72(0.989305),73(1.089305),74(0.989305),75(0.989305),76(0.989305),77(0.989305),78(0.989305),79(0.989305),80(0.989305),81(0.989305),82(0.989305),83(0.989305),84(0.989305),85(0.989305),86(0.989305),87(0.989305),88(0.989305),89(0.989305),90(0.989305),91(0.989305),92(0.989305),93(0.989305),94(0.989305),95(0.989305),96(0.989305),97(0.989305),98(0.989305),99(0.989305),100(0.989305),101(0.989305),102(0.989305),103(0.989305),104(0.989305),105(0.989305),106(0.989305),107(0.989305),108(0.989305),109(0.989305),110(0.989305),111(0.989305),112(0.989305),113(0.989305),114(0.989305),115(0.989305),116(0.989305),117(0.989305),118(0.989305),119(0.989305),120(0.989305),121(1.089305),122(0.989305),123(0.989305),124(0.989305),125(0.989305),126(0.989305),127(0.989305),128(0.989305),129(0.989305),130(0.989305),131(0.989305),132(0.989305),133(0.989305),134(0.989305),135(0.989305),136(0.989305),137(0.989305),138(0.989305),139(0.989305),140(0.989305),141(0.989305),142(0.989305),]
+success=0,p=0.100000,alpha=0.994576,s=183.855042,DeclsSize=143
+Start local reduction
+Reduce main at small.c
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.900000),1(0.900000),2(0.900000),4(0.900000),5(0.900000),6(0.900000),7(0.900000),8(0.900000),9(0.900000),10(0.900000),11(0.900000),12(0.900000),13(0.900000),14(0.900000),15(0.900000),16(0.900000),17(0.900000),18(0.900000),19(0.900000),20(0.900000),21(0.900000),22(0.900000),23(0.900000),24(0.900000),25(0.900000),26(0.900000),27(0.900000),28(0.900000),]
+
+
+current test times:1075
+
+success=0,p=0.367879,alpha=0.919735,s=11.951748,DeclsSize=29
+pick a program:[0(0.919735),1(0.919735),2(0.919735),3(1.019735),4(0.919735),5(0.919735),6(0.919735),7(0.919735),9(0.919735),10(0.919735),11(0.919735),12(0.919735),13(0.919735),14(0.919735),16(0.919735),17(0.919735),18(0.919735),19(0.919735),20(0.919735),21(0.919735),22(0.919735),23(0.919735),24(0.919735),25(0.919735),26(0.919735),27(0.919735),28(0.919735),]
+
+
+current test times:1076
+
+success=0,p=0.183940,alpha=0.946437,s=18.164993,DeclsSize=29
+pick a program:[0(0.946437),1(0.946437),2(0.946437),3(0.946437),4(0.946437),5(0.946437),6(0.946437),7(0.946437),8(1.046437),9(0.946437),10(0.946437),11(0.946437),12(0.946437),13(0.946437),14(0.946437),15(1.046437),16(0.946437),17(0.946437),18(0.946437),19(0.946437),20(0.946437),21(0.946437),22(0.946437),23(0.946437),24(0.946437),25(0.946437),26(0.946437),27(0.946437),28(0.946437),]
+
+
+current test times:1077
+
+success=0,p=0.100000,alpha=0.972538,s=35.911087,DeclsSize=29
+
+
+current test times:1078
+
+
+
+current test times:1079
+
+
+
+current test times:1080
+
+
+
+current test times:1081
+
+
+
+current test times:1082
+
+
+
+current test times:1083
+
+
+
+current test times:1084
+
+
+
+current test times:1085
+
+
+
+current test times:1086
+
+
+
+current test times:1087
+
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[1(0.472367),]
+
+
+current test times:1088
+
+success=0,p=0.367879,alpha=0.472367,s=1.333333,DeclsSize=2
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[1(0.472367),]
+
+
+current test times:1089
+
+success=0,p=0.367879,alpha=0.472367,s=1.333333,DeclsSize=2
+
+
+current test times:1090
+
+
+
+current test times:1091
+
+
+
+current test times:1092
+
+
+
+current test times:1093
+
+
+
+current test times:1094
+
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[1(0.472367),]
+
+
+current test times:1095
+
+success=0,p=0.367879,alpha=0.472367,s=1.333333,DeclsSize=2
+
+
+current test times:1096
+
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.472367),]
+
+
+current test times:1097
+
+success=0,p=0.367879,alpha=0.472367,s=1.333333,DeclsSize=2
+
+
+current test times:1098
+
+
+
+current test times:1099
+
+
+
+current test times:1100
+
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[]
+
+
+current test times:1101
+
+success=0,p=0.367879,alpha=0.472367,s=1.333333,DeclsSize=2
+
+
+current test times:1102
+
+Reduce func_97 at small.c
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.606531),1(0.606531),]
+success=0,p=0.367879,alpha=0.606531,s=2.000000,DeclsSize=3
+
+
+current test times:1103
+
+
+
+current test times:1104
+
+
+
+current test times:1105
+
+
+
+current test times:1106
+
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[1(0.472367),]
+
+
+current test times:1107
+
+success=0,p=0.367879,alpha=0.472367,s=1.333333,DeclsSize=2
+
+
+current test times:1108
+
+
+
+current test times:1109
+
+
+
+current test times:1110
+
+
+
+current test times:1111
+
+
+
+current test times:1112
+
+
+
+current test times:1113
+
+Reduce func_89 at small.c
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.606531),]
+
+
+current test times:1114
+
+success=0,p=0.367879,alpha=0.606531,s=2.000000,DeclsSize=3
+
+
+current test times:1115
+
+
+
+current test times:1116
+
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[1(0.472367),]
+
+
+current test times:1117
+
+success=0,p=0.367879,alpha=0.472367,s=1.333333,DeclsSize=2
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.472367),1(0.472367),]
+
+
+current test times:1118
+
+success=0,p=0.367879,alpha=0.472367,s=1.333333,DeclsSize=2
+
+
+current test times:1119
+
+
+
+current test times:1120
+
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.472367),1(0.472367),]
+
+
+current test times:1121
+
+success=0,p=0.367879,alpha=0.472367,s=1.333333,DeclsSize=2
+
+
+current test times:1122
+
+
+
+current test times:1123
+
+
+
+current test times:1124
+
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.606531),]
+
+
+current test times:1125
+
+success=0,p=0.367879,alpha=0.606531,s=2.000000,DeclsSize=3
+
+
+current test times:1126
+
+
+
+current test times:1127
+
+
+
+current test times:1128
+
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.687289),1(0.687289),]
+
+
+current test times:1129
+
+success=0,p=0.367879,alpha=0.687289,s=2.666667,DeclsSize=4
+pick a program:[0(0.687289),1(0.687289),2(0.787289),3(0.787289),]
+
+
+current test times:1130
+
+success=0,p=0.183940,alpha=0.781349,s=4.052961,DeclsSize=4
+
+
+current test times:1131
+
+
+
+current test times:1132
+
+
+
+current test times:1133
+
+
+
+current test times:1134
+
+
+
+current test times:1135
+
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.606531),2(0.606531),]
+
+
+current test times:1136
+
+success=0,p=0.367879,alpha=0.606531,s=2.000000,DeclsSize=3
+Reduce func_81 at small.c
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.740818),1(0.740818),2(0.740818),3(0.740818),4(0.740818),]
+
+
+current test times:1137
+
+success=0,p=0.367879,alpha=0.740818,s=3.333334,DeclsSize=5
+pick a program:[0(0.740818),1(0.740818),2(0.740818),3(0.740818),]
+
+
+current test times:1138
+
+success=0,p=0.183940,alpha=0.820873,s=5.066202,DeclsSize=5
+
+
+current test times:1139
+
+
+
+current test times:1140
+
+
+
+current test times:1141
+
+
+
+current test times:1142
+
+
+
+current test times:1143
+
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[2(0.606531),]
+
+
+current test times:1144
+
+success=0,p=0.367879,alpha=0.606531,s=2.000000,DeclsSize=3
+
+
+current test times:1145
+
+
+
+current test times:1146
+
+
+
+current test times:1147
+
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.472367),1(0.472367),]
+
+
+current test times:1148
+
+success=0,p=0.367879,alpha=0.472367,s=1.333333,DeclsSize=2
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.687289),2(0.687289),3(0.687289),]
+
+
+current test times:1149
+
+success=0,p=0.367879,alpha=0.687289,s=2.666667,DeclsSize=4
+pick a program:[2(0.687289),3(0.687289),]
+
+
+current test times:1150
+
+success=0,p=0.183940,alpha=0.781349,s=4.052961,DeclsSize=4
+
+
+current test times:1151
+
+
+
+current test times:1152
+
+
+
+current test times:1153
+
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.687289),1(0.687289),2(0.687289),3(0.687289),]
+
+
+current test times:1154
+
+success=0,p=0.367879,alpha=0.687289,s=2.666667,DeclsSize=4
+pick a program:[1(0.687289),2(0.687289),3(0.687289),]
+
+
+current test times:1155
+
+success=0,p=0.183940,alpha=0.781349,s=4.052961,DeclsSize=4
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.687289),1(0.687289),2(0.687289),3(0.687289),]
+
+
+current test times:1156
+
+success=0,p=0.367879,alpha=0.687289,s=2.666667,DeclsSize=4
+pick a program:[1(0.687289),3(0.687289),]
+
+
+current test times:1157
+
+success=0,p=0.183940,alpha=0.781349,s=4.052961,DeclsSize=4
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.606531),1(0.606531),]
+
+
+current test times:1158
+
+success=0,p=0.367879,alpha=0.606531,s=2.000000,DeclsSize=3
+
+
+current test times:1159
+
+
+
+current test times:1160
+
+
+
+current test times:1161
+
+
+
+current test times:1162
+
+
+
+current test times:1163
+
+
+
+current test times:1164
+
+
+
+current test times:1165
+
+
+
+current test times:1166
+
+
+
+current test times:1167
+
+
+
+current test times:1168
+
+
+
+current test times:1169
+
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.606531),1(0.606531),]
+
+
+current test times:1170
+
+success=0,p=0.367879,alpha=0.606531,s=2.000000,DeclsSize=3
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.687289),1(0.687289),3(0.687289),]
+
+
+current test times:1171
+
+success=0,p=0.367879,alpha=0.687289,s=2.666667,DeclsSize=4
+pick a program:[0(0.687289),1(0.687289),2(0.787289),3(0.687289),]
+
+
+current test times:1172
+
+success=0,p=0.183940,alpha=0.781349,s=4.052961,DeclsSize=4
+
+
+current test times:1173
+
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.687289),1(0.687289),2(0.687289),3(0.687289),]
+
+
+current test times:1174
+
+success=0,p=0.367879,alpha=0.687289,s=2.666667,DeclsSize=4
+pick a program:[1(0.687289),3(0.687289),]
+
+
+current test times:1175
+
+success=0,p=0.183940,alpha=0.781349,s=4.052961,DeclsSize=4
+
+
+current test times:1176
+
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.740818),2(0.740818),3(0.740818),4(0.740818),]
+
+
+current test times:1177
+
+success=0,p=0.367879,alpha=0.740818,s=3.333334,DeclsSize=5
+pick a program:[0(0.740818),4(0.740818),]
+
+
+current test times:1178
+
+success=0,p=0.183940,alpha=0.820873,s=5.066202,DeclsSize=5
+
+
+current test times:1179
+
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.687289),1(0.687289),2(0.687289),]
+
+
+current test times:1180
+
+success=0,p=0.367879,alpha=0.687289,s=2.666667,DeclsSize=4
+pick a program:[0(0.687289),1(0.687289),2(0.687289),]
+success=0,p=0.183940,alpha=0.781349,s=4.052961,DeclsSize=4
+
+
+current test times:1181
+
+
+
+current test times:1182
+
+
+
+current test times:1183
+
+
+
+current test times:1184
+
+
+
+current test times:1185
+
+
+
+current test times:1186
+
+
+
+current test times:1187
+
+
+
+current test times:1188
+
+
+
+current test times:1189
+
+
+
+current test times:1190
+
+
+
+current test times:1191
+
+
+
+current test times:1192
+
+
+
+current test times:1193
+
+
+
+current test times:1194
+
+
+
+current test times:1195
+
+
+
+current test times:1196
+
+
+
+current test times:1197
+
+
+
+current test times:1198
+
+
+
+current test times:1199
+
+
+
+current test times:1200
+
+
+
+current test times:1201
+
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[1(0.606531),2(0.606531),]
+
+
+current test times:1202
+
+success=0,p=0.367879,alpha=0.606531,s=2.000000,DeclsSize=3
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.472367),1(0.472367),]
+
+
+current test times:1203
+
+success=0,p=0.367879,alpha=0.472367,s=1.333333,DeclsSize=2
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.472367),1(0.472367),]
+
+
+current test times:1204
+
+success=0,p=0.367879,alpha=0.472367,s=1.333333,DeclsSize=2
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.687289),1(0.687289),2(0.687289),3(0.687289),]
+
+
+current test times:1205
+
+success=0,p=0.367879,alpha=0.687289,s=2.666667,DeclsSize=4
+pick a program:[0(0.687289),1(0.687289),2(0.687289),3(0.687289),]
+success=0,p=0.183940,alpha=0.781349,s=4.052961,DeclsSize=4
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.740818),1(0.740818),2(0.740818),]
+
+
+current test times:1206
+
+success=0,p=0.367879,alpha=0.740818,s=3.333334,DeclsSize=5
+pick a program:[2(0.740818),3(0.840818),]
+
+
+current test times:1207
+
+success=0,p=0.183940,alpha=0.820873,s=5.066202,DeclsSize=5
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.687289),2(0.687289),]
+
+
+current test times:1208
+
+success=0,p=0.367879,alpha=0.687289,s=2.666667,DeclsSize=4
+pick a program:[3(0.787289),]
+
+
+current test times:1209
+
+success=0,p=0.183940,alpha=0.781349,s=4.052961,DeclsSize=4
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[]
+
+
+current test times:1210
+
+success=0,p=0.367879,alpha=0.472367,s=1.333333,DeclsSize=2
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[1(0.606531),2(0.606531),]
+
+
+current test times:1211
+
+success=0,p=0.367879,alpha=0.606531,s=2.000000,DeclsSize=3
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.687289),1(0.687289),2(0.687289),3(0.687289),]
+
+
+current test times:1212
+
+success=0,p=0.367879,alpha=0.687289,s=2.666667,DeclsSize=4
+pick a program:[0(0.687289),1(0.687289),2(0.687289),3(0.687289),]
+success=0,p=0.183940,alpha=0.781349,s=4.052961,DeclsSize=4
+
+
+current test times:1213
+
+
+
+current test times:1214
+
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[1(0.606531),2(0.606531),]
+
+
+current test times:1215
+
+success=0,p=0.367879,alpha=0.606531,s=2.000000,DeclsSize=3
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.606531),1(0.606531),]
+
+
+current test times:1216
+
+success=0,p=0.367879,alpha=0.606531,s=2.000000,DeclsSize=3
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.687289),]
+
+
+current test times:1217
+
+success=0,p=0.367879,alpha=0.687289,s=2.666667,DeclsSize=4
+pick a program:[0(0.687289),1(0.787289),2(0.787289),3(0.787289),]
+
+
+current test times:1218
+
+success=0,p=0.183940,alpha=0.781349,s=4.052961,DeclsSize=4
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.472367),]
+
+
+current test times:1219
+
+success=0,p=0.367879,alpha=0.472367,s=1.333333,DeclsSize=2
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.606531),1(0.606531),]
+
+
+current test times:1220
+
+success=0,p=0.367879,alpha=0.606531,s=2.000000,DeclsSize=3
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[2(0.687289),3(0.687289),]
+
+
+current test times:1221
+
+success=0,p=0.367879,alpha=0.687289,s=2.666667,DeclsSize=4
+pick a program:[2(0.687289),]
+
+
+current test times:1222
+
+success=0,p=0.183940,alpha=0.781349,s=4.052961,DeclsSize=4
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.687289),1(0.687289),2(0.687289),3(0.687289),]
+
+
+current test times:1223
+
+success=0,p=0.367879,alpha=0.687289,s=2.666667,DeclsSize=4
+pick a program:[0(0.687289),1(0.687289),2(0.687289),3(0.687289),]
+success=0,p=0.183940,alpha=0.781349,s=4.052961,DeclsSize=4
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[1(0.606531),]
+
+
+current test times:1224
+
+success=0,p=0.367879,alpha=0.606531,s=2.000000,DeclsSize=3
+
+
+current test times:1225
+
+
+
+current test times:1226
+
+
+
+current test times:1227
+
+
+
+current test times:1228
+
+
+
+current test times:1229
+
+
+
+current test times:1230
+
+Reduce func_75 at small.c
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.472367),]
+success=0,p=0.367879,alpha=0.472367,s=1.333333,DeclsSize=2
+Reduce func_55 at small.c
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[1(0.687289),3(0.687289),]
+
+
+current test times:1231
+
+success=0,p=0.367879,alpha=0.687289,s=2.666667,DeclsSize=4
+pick a program:[0(0.787289),1(0.687289),2(0.787289),3(0.687289),]
+
+
+current test times:1232
+
+success=0,p=0.183940,alpha=0.781349,s=4.052961,DeclsSize=4
+
+
+current test times:1233
+
+
+
+current test times:1234
+
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[1(0.687289),2(0.687289),3(0.687289),]
+
+
+current test times:1235
+
+success=0,p=0.367879,alpha=0.687289,s=2.666667,DeclsSize=4
+pick a program:[0(0.787289),1(0.687289),2(0.687289),3(0.687289),]
+
+
+current test times:1236
+
+success=0,p=0.183940,alpha=0.781349,s=4.052961,DeclsSize=4
+
+
+current test times:1237
+
+
+
+current test times:1238
+
+
+
+current test times:1239
+
+
+
+current test times:1240
+
+
+
+current test times:1241
+
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.472367),]
+
+
+current test times:1242
+
+success=0,p=0.367879,alpha=0.472367,s=1.333333,DeclsSize=2
+
+
+current test times:1243
+
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.687289),3(0.687289),]
+
+
+current test times:1244
+
+success=0,p=0.367879,alpha=0.687289,s=2.666667,DeclsSize=4
+pick a program:[1(0.787289),2(0.787289),3(0.687289),]
+
+
+current test times:1245
+
+success=0,p=0.183940,alpha=0.781349,s=4.052961,DeclsSize=4
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.472367),]
+
+
+current test times:1246
+
+success=0,p=0.367879,alpha=0.472367,s=1.333333,DeclsSize=2
+
+
+current test times:1247
+
+
+
+current test times:1248
+
+
+
+current test times:1249
+
+
+
+current test times:1250
+
+
+
+current test times:1251
+
+
+
+current test times:1252
+
+
+
+current test times:1253
+
+
+
+current test times:1254
+
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[1(0.778801),2(0.778801),3(0.778801),4(0.778801),]
+success=0,p=0.367879,alpha=0.778801,s=4.000000,DeclsSize=6
+pick a program:[0(0.878801),1(0.778801),2(0.778801),4(0.778801),5(0.878801),]
+
+
+current test times:1255
+
+success=0,p=0.183940,alpha=0.848327,s=6.079442,DeclsSize=6
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[1(0.472367),]
+
+
+current test times:1256
+
+success=0,p=0.367879,alpha=0.472367,s=1.333333,DeclsSize=2
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[]
+
+
+current test times:1257
+
+success=0,p=0.367879,alpha=0.606531,s=2.000000,DeclsSize=3
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.606531),1(0.606531),2(0.606531),]
+
+
+current test times:1258
+
+success=0,p=0.367879,alpha=0.606531,s=2.000000,DeclsSize=3
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[1(0.472367),]
+
+
+current test times:1259
+
+success=0,p=0.367879,alpha=0.472367,s=1.333333,DeclsSize=2
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.778801),1(0.778801),2(0.778801),3(0.778801),4(0.778801),5(0.778801),]
+
+
+current test times:1260
+
+success=0,p=0.367879,alpha=0.778801,s=4.000000,DeclsSize=6
+pick a program:[0(0.778801),1(0.778801),2(0.778801),3(0.778801),4(0.778801),5(0.778801),]
+success=0,p=0.183940,alpha=0.848327,s=6.079442,DeclsSize=6
+
+
+current test times:1261
+
+
+
+current test times:1262
+
+
+
+current test times:1263
+
+
+
+current test times:1264
+
+
+
+current test times:1265
+
+
+
+current test times:1266
+
+
+
+current test times:1267
+
+
+
+current test times:1268
+
+
+
+current test times:1269
+
+
+
+current test times:1270
+
+
+
+current test times:1271
+
+
+
+current test times:1272
+
+
+
+current test times:1273
+
+
+
+current test times:1274
+
+
+
+current test times:1275
+
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.606531),1(0.606531),2(0.606531),]
+
+
+current test times:1276
+
+success=0,p=0.367879,alpha=0.606531,s=2.000000,DeclsSize=3
+
+
+current test times:1277
+
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.687289),1(0.687289),2(0.687289),3(0.687289),]
+
+
+current test times:1278
+
+success=0,p=0.367879,alpha=0.687289,s=2.666667,DeclsSize=4
+pick a program:[0(0.687289),3(0.687289),]
+
+
+current test times:1279
+
+success=0,p=0.183940,alpha=0.781349,s=4.052961,DeclsSize=4
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.472367),1(0.472367),]
+
+
+current test times:1280
+
+success=0,p=0.367879,alpha=0.472367,s=1.333333,DeclsSize=2
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[1(0.687289),]
+
+
+current test times:1281
+
+success=0,p=0.367879,alpha=0.687289,s=2.666667,DeclsSize=4
+pick a program:[3(0.787289),]
+
+
+current test times:1282
+
+success=0,p=0.183940,alpha=0.781349,s=4.052961,DeclsSize=4
+
+
+current test times:1283
+
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[1(0.606531),2(0.606531),]
+
+
+current test times:1284
+
+success=0,p=0.367879,alpha=0.606531,s=2.000000,DeclsSize=3
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.606531),2(0.606531),]
+
+
+current test times:1285
+
+success=0,p=0.367879,alpha=0.606531,s=2.000000,DeclsSize=3
+
+
+current test times:1286
+
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[1(0.472367),]
+
+
+current test times:1287
+
+success=0,p=0.367879,alpha=0.472367,s=1.333333,DeclsSize=2
+
+
+current test times:1288
+
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[1(0.606531),]
+
+
+current test times:1289
+
+success=0,p=0.367879,alpha=0.606531,s=2.000000,DeclsSize=3
+
+
+current test times:1290
+
+
+
+current test times:1291
+
+
+
+current test times:1292
+
+
+
+current test times:1293
+
+
+
+current test times:1294
+
+
+
+current test times:1295
+
+
+
+current test times:1296
+
+
+
+current test times:1297
+
+
+
+current test times:1298
+
+
+
+current test times:1299
+
+
+
+current test times:1300
+
+
+
+current test times:1301
+
+
+
+current test times:1302
+
+
+
+current test times:1303
+
+
+
+current test times:1304
+
+
+
+current test times:1305
+
+
+
+current test times:1306
+
+
+
+current test times:1307
+
+
+
+current test times:1308
+
+
+
+current test times:1309
+
+
+
+current test times:1310
+
+
+
+current test times:1311
+
+
+
+current test times:1312
+
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.687289),3(0.687289),]
+
+
+current test times:1313
+
+success=0,p=0.367879,alpha=0.687289,s=2.666667,DeclsSize=4
+pick a program:[1(0.787289),2(0.787289),]
+
+
+current test times:1314
+
+success=0,p=0.183940,alpha=0.781349,s=4.052961,DeclsSize=4
+
+
+current test times:1315
+
+
+
+current test times:1316
+
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[2(0.606531),]
+
+
+current test times:1317
+
+success=0,p=0.367879,alpha=0.606531,s=2.000000,DeclsSize=3
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[1(0.740818),2(0.740818),4(0.740818),]
+
+
+current test times:1318
+
+success=0,p=0.367879,alpha=0.740818,s=3.333334,DeclsSize=5
+pick a program:[1(0.740818),2(0.740818),4(0.740818),]
+success=0,p=0.183940,alpha=0.820873,s=5.066202,DeclsSize=5
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.472367),1(0.472367),]
+
+
+current test times:1319
+
+success=0,p=0.367879,alpha=0.472367,s=1.333333,DeclsSize=2
+
+
+current test times:1320
+
+
+
+current test times:1321
+
+
+
+current test times:1322
+
+
+
+current test times:1323
+
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.606531),2(0.606531),]
+
+
+current test times:1324
+
+success=0,p=0.367879,alpha=0.606531,s=2.000000,DeclsSize=3
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[]
+
+
+current test times:1325
+
+success=0,p=0.367879,alpha=0.472367,s=1.333333,DeclsSize=2
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[1(0.687289),2(0.687289),3(0.687289),]
+
+
+current test times:1326
+
+success=0,p=0.367879,alpha=0.687289,s=2.666667,DeclsSize=4
+pick a program:[0(0.787289),2(0.687289),3(0.687289),]
+
+
+current test times:1327
+
+success=0,p=0.183940,alpha=0.781349,s=4.052961,DeclsSize=4
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.472367),1(0.472367),]
+
+
+current test times:1328
+
+success=0,p=0.367879,alpha=0.472367,s=1.333333,DeclsSize=2
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.606531),2(0.606531),]
+
+
+current test times:1329
+
+success=0,p=0.367879,alpha=0.606531,s=2.000000,DeclsSize=3
+
+
+current test times:1330
+
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[2(0.606531),]
+
+
+current test times:1331
+
+success=0,p=0.367879,alpha=0.606531,s=2.000000,DeclsSize=3
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.687289),1(0.687289),2(0.687289),3(0.687289),]
+
+
+current test times:1332
+
+success=0,p=0.367879,alpha=0.687289,s=2.666667,DeclsSize=4
+pick a program:[0(0.687289),3(0.687289),]
+
+
+current test times:1333
+
+success=0,p=0.183940,alpha=0.781349,s=4.052961,DeclsSize=4
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[]
+
+
+current test times:1334
+
+success=0,p=0.367879,alpha=0.472367,s=1.333333,DeclsSize=2
+
+
+current test times:1335
+
+
+
+current test times:1336
+
+
+
+current test times:1337
+
+
+
+current test times:1338
+
+
+
+current test times:1339
+
+
+
+current test times:1340
+
+
+
+current test times:1341
+
+
+
+current test times:1342
+
+
+
+current test times:1343
+
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[1(0.472367),]
+
+
+current test times:1344
+
+success=0,p=0.367879,alpha=0.472367,s=1.333333,DeclsSize=2
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[]
+
+
+current test times:1345
+
+success=0,p=0.367879,alpha=0.472367,s=1.333333,DeclsSize=2
+
+
+current test times:1346
+
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.472367),1(0.472367),]
+
+
+current test times:1347
+
+success=0,p=0.367879,alpha=0.472367,s=1.333333,DeclsSize=2
+
+
+current test times:1348
+
+
+
+current test times:1349
+
+
+
+current test times:1350
+
+
+
+current test times:1351
+
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[]
+
+
+current test times:1352
+
+success=0,p=0.367879,alpha=0.472367,s=1.333333,DeclsSize=2
+
+
+current test times:1353
+
+
+
+current test times:1354
+
+
+
+current test times:1355
+
+
+
+current test times:1356
+
+
+
+current test times:1357
+
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.472367),]
+
+
+current test times:1358
+
+success=0,p=0.367879,alpha=0.472367,s=1.333333,DeclsSize=2
+
+
+current test times:1359
+
+
+
+current test times:1360
+
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[1(0.687289),2(0.687289),]
+
+
+current test times:1361
+
+success=0,p=0.367879,alpha=0.687289,s=2.666667,DeclsSize=4
+pick a program:[3(0.787289),]
+
+
+current test times:1362
+
+success=0,p=0.183940,alpha=0.781349,s=4.052961,DeclsSize=4
+
+
+current test times:1363
+
+Reduce func_48 at small.c
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.687289),1(0.687289),2(0.687289),]
+
+
+current test times:1364
+
+success=0,p=0.367879,alpha=0.687289,s=2.666667,DeclsSize=4
+pick a program:[1(0.687289),2(0.687289),]
+
+
+current test times:1365
+
+success=0,p=0.183940,alpha=0.781349,s=4.052961,DeclsSize=4
+
+
+current test times:1366
+
+
+
+current test times:1367
+
+
+
+current test times:1368
+
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.687289),1(0.687289),2(0.687289),]
+
+
+current test times:1369
+
+success=0,p=0.367879,alpha=0.687289,s=2.666667,DeclsSize=4
+pick a program:[0(0.687289),2(0.687289),3(0.787289),]
+
+
+current test times:1370
+
+success=0,p=0.183940,alpha=0.781349,s=4.052961,DeclsSize=4
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.606531),]
+
+
+current test times:1371
+
+success=0,p=0.367879,alpha=0.606531,s=2.000000,DeclsSize=3
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[1(0.687289),2(0.687289),3(0.687289),]
+
+
+current test times:1372
+
+success=0,p=0.367879,alpha=0.687289,s=2.666667,DeclsSize=4
+pick a program:[0(0.787289),2(0.687289),3(0.687289),]
+
+
+current test times:1373
+
+success=0,p=0.183940,alpha=0.781349,s=4.052961,DeclsSize=4
+
+
+current test times:1374
+
+
+
+current test times:1375
+
+
+
+current test times:1376
+
+
+
+current test times:1377
+
+
+
+current test times:1378
+
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.606531),1(0.606531),2(0.606531),]
+
+
+current test times:1379
+
+success=0,p=0.367879,alpha=0.606531,s=2.000000,DeclsSize=3
+
+
+current test times:1380
+
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.606531),2(0.606531),]
+
+
+current test times:1381
+
+success=0,p=0.367879,alpha=0.606531,s=2.000000,DeclsSize=3
+
+
+current test times:1382
+
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[1(0.740818),2(0.740818),4(0.740818),]
+
+
+current test times:1383
+
+success=0,p=0.367879,alpha=0.740818,s=3.333334,DeclsSize=5
+pick a program:[0(0.840818),1(0.740818),2(0.740818),3(0.840818),]
+
+
+current test times:1384
+
+success=0,p=0.183940,alpha=0.820873,s=5.066202,DeclsSize=5
+
+
+current test times:1385
+
+
+
+current test times:1386
+
+
+
+current test times:1387
+
+
+
+current test times:1388
+
+
+
+current test times:1389
+
+
+
+current test times:1390
+
+
+
+current test times:1391
+
+
+
+current test times:1392
+
+
+
+current test times:1393
+
+
+
+current test times:1394
+
+
+
+current test times:1395
+
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.472367),]
+
+
+current test times:1396
+
+success=0,p=0.367879,alpha=0.472367,s=1.333333,DeclsSize=2
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.740818),1(0.740818),2(0.740818),]
+
+
+current test times:1397
+
+success=0,p=0.367879,alpha=0.740818,s=3.333334,DeclsSize=5
+pick a program:[0(0.740818),1(0.740818),2(0.740818),3(0.840818),4(0.840818),]
+
+
+current test times:1398
+
+success=0,p=0.183940,alpha=0.820873,s=5.066202,DeclsSize=5
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.606531),]
+
+
+current test times:1399
+
+success=0,p=0.367879,alpha=0.606531,s=2.000000,DeclsSize=3
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[1(0.472367),]
+
+
+current test times:1400
+
+success=0,p=0.367879,alpha=0.472367,s=1.333333,DeclsSize=2
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.472367),]
+
+
+current test times:1401
+
+success=0,p=0.367879,alpha=0.472367,s=1.333333,DeclsSize=2
+
+
+current test times:1402
+
+
+
+current test times:1403
+
+
+
+current test times:1404
+
+
+
+current test times:1405
+
+
+
+current test times:1406
+
+
+
+current test times:1407
+
+
+
+current test times:1408
+
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[]
+
+
+current test times:1409
+
+success=0,p=0.367879,alpha=0.472367,s=1.333333,DeclsSize=2
+
+
+current test times:1410
+
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.687289),]
+
+
+current test times:1411
+
+success=0,p=0.367879,alpha=0.687289,s=2.666667,DeclsSize=4
+pick a program:[2(0.787289),]
+
+
+current test times:1412
+
+success=0,p=0.183940,alpha=0.781349,s=4.052961,DeclsSize=4
+
+
+current test times:1413
+
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.687289),3(0.687289),]
+
+
+current test times:1414
+
+success=0,p=0.367879,alpha=0.687289,s=2.666667,DeclsSize=4
+pick a program:[0(0.687289),2(0.787289),3(0.687289),]
+
+
+current test times:1415
+
+success=0,p=0.183940,alpha=0.781349,s=4.052961,DeclsSize=4
+
+
+current test times:1416
+
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.687289),1(0.687289),2(0.687289),3(0.687289),]
+
+
+current test times:1417
+
+success=0,p=0.367879,alpha=0.687289,s=2.666667,DeclsSize=4
+pick a program:[1(0.687289),3(0.687289),]
+
+
+current test times:1418
+
+success=0,p=0.183940,alpha=0.781349,s=4.052961,DeclsSize=4
+
+
+current test times:1419
+
+
+
+current test times:1420
+
+
+
+current test times:1421
+
+
+
+current test times:1422
+
+
+
+current test times:1423
+
+
+
+current test times:1424
+
+
+
+current test times:1425
+
+
+
+current test times:1426
+
+
+
+current test times:1427
+
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.687289),1(0.687289),2(0.687289),3(0.687289),]
+
+
+current test times:1428
+
+success=0,p=0.367879,alpha=0.687289,s=2.666667,DeclsSize=4
+pick a program:[0(0.687289),1(0.687289),2(0.687289),3(0.687289),]
+success=0,p=0.183940,alpha=0.781349,s=4.052961,DeclsSize=4
+
+
+current test times:1429
+
+
+
+current test times:1430
+
+
+
+current test times:1431
+
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[]
+
+
+current test times:1432
+
+success=0,p=0.367879,alpha=0.472367,s=1.333333,DeclsSize=2
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[]
+
+
+current test times:1433
+
+success=0,p=0.367879,alpha=0.472367,s=1.333333,DeclsSize=2
+
+
+current test times:1434
+
+
+
+current test times:1435
+
+Reduce func_42 at small.c
+
+
+current test times:1436
+
+Reduce func_29 at small.c
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[2(0.687289),3(0.687289),]
+
+
+current test times:1437
+
+success=0,p=0.367879,alpha=0.687289,s=2.666667,DeclsSize=4
+pick a program:[0(0.787289),1(0.787289),2(0.687289),3(0.687289),]
+
+
+current test times:1438
+
+success=0,p=0.183940,alpha=0.781349,s=4.052961,DeclsSize=4
+
+
+current test times:1439
+
+
+
+current test times:1440
+
+
+
+current test times:1441
+
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.740818),1(0.740818),2(0.740818),4(0.740818),]
+
+
+current test times:1442
+
+success=0,p=0.367879,alpha=0.740818,s=3.333334,DeclsSize=5
+pick a program:[0(0.740818),1(0.740818),3(0.840818),]
+
+
+current test times:1443
+
+success=0,p=0.183940,alpha=0.820873,s=5.066202,DeclsSize=5
+Reduce func_8 at small.c
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[1(0.740818),3(0.740818),4(0.740818),]
+
+
+current test times:1444
+
+success=0,p=0.367879,alpha=0.740818,s=3.333334,DeclsSize=5
+pick a program:[0(0.840818),2(0.840818),4(0.740818),]
+
+
+current test times:1445
+
+success=0,p=0.183940,alpha=0.820873,s=5.066202,DeclsSize=5
+
+
+current test times:1446
+
+
+
+current test times:1447
+
+
+
+current test times:1448
+
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.687289),2(0.687289),3(0.687289),]
+
+
+current test times:1449
+
+success=0,p=0.367879,alpha=0.687289,s=2.666667,DeclsSize=4
+pick a program:[0(0.687289),1(0.787289),3(0.687289),]
+
+
+current test times:1450
+
+success=0,p=0.183940,alpha=0.781349,s=4.052961,DeclsSize=4
+
+
+current test times:1451
+
+
+
+current test times:1452
+
+
+
+current test times:1453
+
+
+
+current test times:1454
+
+
+
+current test times:1455
+
+
+
+current test times:1456
+
+
+
+current test times:1457
+
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.687289),3(0.687289),]
+
+
+current test times:1458
+
+success=0,p=0.367879,alpha=0.687289,s=2.666667,DeclsSize=4
+pick a program:[0(0.687289),1(0.787289),3(0.687289),]
+
+
+current test times:1459
+
+success=0,p=0.183940,alpha=0.781349,s=4.052961,DeclsSize=4
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.472367),1(0.472367),]
+
+
+current test times:1460
+
+success=0,p=0.367879,alpha=0.472367,s=1.333333,DeclsSize=2
+
+
+current test times:1461
+
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.472367),1(0.472367),]
+
+
+current test times:1462
+
+success=0,p=0.367879,alpha=0.472367,s=1.333333,DeclsSize=2
+
+
+current test times:1463
+
+
+
+current test times:1464
+
+
+
+current test times:1465
+
+
+
+current test times:1466
+
+
+
+current test times:1467
+
+
+
+current test times:1468
+
+
+
+current test times:1469
+
+
+
+current test times:1470
+
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.472367),]
+
+
+current test times:1471
+
+success=0,p=0.367879,alpha=0.472367,s=1.333333,DeclsSize=2
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.740818),1(0.740818),4(0.740818),]
+
+
+current test times:1472
+
+success=0,p=0.367879,alpha=0.740818,s=3.333334,DeclsSize=5
+pick a program:[0(0.740818),2(0.840818),3(0.840818),4(0.740818),]
+
+
+current test times:1473
+
+success=0,p=0.183940,alpha=0.820873,s=5.066202,DeclsSize=5
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.472367),]
+
+
+current test times:1474
+
+success=0,p=0.367879,alpha=0.472367,s=1.333333,DeclsSize=2
+
+
+current test times:1475
+
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.472367),]
+
+
+current test times:1476
+
+success=0,p=0.367879,alpha=0.472367,s=1.333333,DeclsSize=2
+
+
+current test times:1477
+
+
+
+current test times:1478
+
+
+
+current test times:1479
+
+
+
+current test times:1480
+
+
+
+current test times:1481
+
+
+
+current test times:1482
+
+
+
+current test times:1483
+
+
+
+current test times:1484
+
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[1(0.606531),2(0.606531),]
+
+
+current test times:1485
+
+success=0,p=0.367879,alpha=0.606531,s=2.000000,DeclsSize=3
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[]
+
+
+current test times:1486
+
+success=0,p=0.367879,alpha=0.472367,s=1.333333,DeclsSize=2
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.472367),1(0.472367),]
+
+
+current test times:1487
+
+success=0,p=0.367879,alpha=0.472367,s=1.333333,DeclsSize=2
+
+
+current test times:1488
+
+
+
+current test times:1489
+
+
+
+current test times:1490
+
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.606531),1(0.606531),2(0.606531),]
+
+
+current test times:1491
+
+success=0,p=0.367879,alpha=0.606531,s=2.000000,DeclsSize=3
+
+
+current test times:1492
+
+
+
+current test times:1493
+
+Reduce func_1 at small.c
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.740818),1(0.740818),2(0.740818),3(0.740818),4(0.740818),]
+
+
+current test times:1494
+
+success=0,p=0.367879,alpha=0.740818,s=3.333334,DeclsSize=5
+pick a program:[0(0.740818),1(0.740818),4(0.740818),]
+
+
+current test times:1495
+
+success=0,p=0.183940,alpha=0.820873,s=5.066202,DeclsSize=5
+
+
+current test times:1496
+
+
+
+current test times:1497
+
+
+
+current test times:1498
+
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.472367),]
+
+
+current test times:1499
+
+success=0,p=0.367879,alpha=0.472367,s=1.333333,DeclsSize=2
+
+
+current test times:1500
+
+Reduce transparent_crc_bytes at small.c
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.472367),]
+
+
+current test times:1501
+
+success=0,p=0.367879,alpha=0.472367,s=1.333333,DeclsSize=2
+
+
+current test times:1502
+
+
+
+current test times:1503
+
+
+
+current test times:1504
+
+
+
+current test times:1505
+
+Reduce transparent_crc at small.c
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.472367),]
+
+
+current test times:1506
+
+success=0,p=0.367879,alpha=0.472367,s=1.333333,DeclsSize=2
+
+
+current test times:1507
+
+
+
+current test times:1508
+
+Reduce crc32_8bytes at small.c
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.829029),1(0.829029),2(0.829029),3(0.829029),4(0.829029),5(0.829029),6(0.829029),7(0.829029),]
+
+
+current test times:1509
+
+success=0,p=0.367879,alpha=0.829029,s=5.333334,DeclsSize=8
+pick a program:[0(0.829029),1(0.829029),2(0.829029),3(0.829029),4(0.829029),5(0.829029),6(0.829029),]
+
+
+current test times:1510
+
+success=0,p=0.183940,alpha=0.883940,s=8.105924,DeclsSize=8
+Reduce crc32_byte at small.c
+
+
+current test times:1511
+
+Reduce crc32_gentab at small.c
+
+
+current test times:1512
+
+
+
+current test times:1513
+
+In abstractionSelfDeltaDebugging,Configure:learning_rate=0.750000,learning_rate_p=0.500000,sRate=0.666667
+pick a program:[0(0.606531),2(0.606531),]
+
+
+current test times:1514
+
+success=0,p=0.367879,alpha=0.606531,s=2.000000,DeclsSize=3
+
+
+current test times:1515
+
+
+
+current test times:1516
+
+
+
+current test times:1517
+
+
+
+current test times:1518
+
+
+
+current test times:1519
+
+
+
+current test times:1520
+
+Reduce safe_convert_func_float_to_int32_t at small.c
+
+
+current test times:1521
+
+Reduce safe_div_func_double_f_f at small.c
+
+
+current test times:1522
+
+Reduce safe_mul_func_double_f_f at small.c
+
+
+current test times:1523
+
+Reduce safe_sub_func_double_f_f at small.c
+
+
+current test times:1524
+
+Reduce safe_add_func_double_f_f at small.c
+
+
+current test times:1525
+
+Reduce safe_div_func_float_f_f at small.c
+
+
+current test times:1526
+
+Reduce safe_mul_func_float_f_f at small.c
+
+
+current test times:1527
+
+Reduce safe_sub_func_float_f_f at small.c
+
+
+current test times:1528
+
+Reduce safe_add_func_float_f_f at small.c
+
+
+current test times:1529
+
+Reduce safe_rshift_func_uint64_t_u_u at small.c
+
+
+current test times:1530
+
+Reduce safe_rshift_func_uint64_t_u_s at small.c
+
+
+current test times:1531
+
+Reduce safe_lshift_func_uint64_t_u_u at small.c
+
+
+current test times:1532
+
+Reduce safe_lshift_func_uint64_t_u_s at small.c
+
+
+current test times:1533
+
+Reduce safe_div_func_uint64_t_u_u at small.c
+
+
+current test times:1534
+
+Reduce safe_mod_func_uint64_t_u_u at small.c
+
+
+current test times:1535
+
+Reduce safe_mul_func_uint64_t_u_u at small.c
+
+
+current test times:1536
+
+Reduce safe_sub_func_uint64_t_u_u at small.c
+
+
+current test times:1537
+
+Reduce safe_add_func_uint64_t_u_u at small.c
+
+
+current test times:1538
+
+Reduce safe_unary_minus_func_uint64_t_u at small.c
+
+
+current test times:1539
+
+Reduce safe_rshift_func_uint32_t_u_u at small.c
+
+
+current test times:1540
+
+Reduce safe_rshift_func_uint32_t_u_s at small.c
+
+
+current test times:1541
+
+Reduce safe_lshift_func_uint32_t_u_u at small.c
+
+
+current test times:1542
+
+Reduce safe_lshift_func_uint32_t_u_s at small.c
+
+
+current test times:1543
+
+Reduce safe_div_func_uint32_t_u_u at small.c
+
+
+current test times:1544
+
+Reduce safe_mod_func_uint32_t_u_u at small.c
+
+
+current test times:1545
+
+Reduce safe_mul_func_uint32_t_u_u at small.c
+
+
+current test times:1546
+
+Reduce safe_sub_func_uint32_t_u_u at small.c
+
+
+current test times:1547
+
+Reduce safe_add_func_uint32_t_u_u at small.c
+
+
+current test times:1548
+
+Reduce safe_unary_minus_func_uint32_t_u at small.c
+
+
+current test times:1549
+
+Reduce safe_rshift_func_uint16_t_u_u at small.c
+
+
+current test times:1550
+
+Reduce safe_rshift_func_uint16_t_u_s at small.c
+
+
+current test times:1551
+
+Reduce safe_lshift_func_uint16_t_u_u at small.c
+
+
+current test times:1552
+
+Reduce safe_lshift_func_uint16_t_u_s at small.c
+
+
+current test times:1553
+
+Reduce safe_div_func_uint16_t_u_u at small.c
+
+
+current test times:1554
+
+Reduce safe_mod_func_uint16_t_u_u at small.c
+
+
+current test times:1555
+
+Reduce safe_mul_func_uint16_t_u_u at small.c
+
+
+current test times:1556
+
+Reduce safe_sub_func_uint16_t_u_u at small.c
+
+
+current test times:1557
+
+Reduce safe_add_func_uint16_t_u_u at small.c
+
+
+current test times:1558
+
+Reduce safe_unary_minus_func_uint16_t_u at small.c
+
+
+current test times:1559
+
+Reduce safe_rshift_func_uint8_t_u_u at small.c
+
+
+current test times:1560
+
+Reduce safe_rshift_func_uint8_t_u_s at small.c
+
+
+current test times:1561
+
+Reduce safe_lshift_func_uint8_t_u_u at small.c
+
+
+current test times:1562
+
+Reduce safe_lshift_func_uint8_t_u_s at small.c
+
+
+current test times:1563
+
+Reduce safe_div_func_uint8_t_u_u at small.c
+
+
+current test times:1564
+
+Reduce safe_mod_func_uint8_t_u_u at small.c
+
+
+current test times:1565
+
+Reduce safe_mul_func_uint8_t_u_u at small.c
+
+
+current test times:1566
+
+Reduce safe_sub_func_uint8_t_u_u at small.c
+
+
+current test times:1567
+
+Reduce safe_add_func_uint8_t_u_u at small.c
+
+
+current test times:1568
+
+Reduce safe_unary_minus_func_uint8_t_u at small.c
+
+
+current test times:1569
+
+Reduce safe_rshift_func_int64_t_s_u at small.c
+
+
+current test times:1570
+
+Reduce safe_rshift_func_int64_t_s_s at small.c
+
+
+current test times:1571
+
+Reduce safe_lshift_func_int64_t_s_u at small.c
+
+
+current test times:1572
+
+Reduce safe_lshift_func_int64_t_s_s at small.c
+
+
+current test times:1573
+
+Reduce safe_div_func_int64_t_s_s at small.c
+
+
+current test times:1574
+
+Reduce safe_mod_func_int64_t_s_s at small.c
+
+
+current test times:1575
+
+Reduce safe_mul_func_int64_t_s_s at small.c
+
+
+current test times:1576
+
+Reduce safe_sub_func_int64_t_s_s at small.c
+
+
+current test times:1577
+
+Reduce safe_add_func_int64_t_s_s at small.c
+
+
+current test times:1578
+
+Reduce safe_unary_minus_func_int64_t_s at small.c
+
+
+current test times:1579
+
+Reduce safe_rshift_func_int32_t_s_u at small.c
+
+
+current test times:1580
+
+Reduce safe_rshift_func_int32_t_s_s at small.c
+
+
+current test times:1581
+
+Reduce safe_lshift_func_int32_t_s_u at small.c
+
+
+current test times:1582
+
+Reduce safe_lshift_func_int32_t_s_s at small.c
+
+
+current test times:1583
+
+Reduce safe_div_func_int32_t_s_s at small.c
+
+
+current test times:1584
+
+Reduce safe_mod_func_int32_t_s_s at small.c
+
+
+current test times:1585
+
+Reduce safe_mul_func_int32_t_s_s at small.c
+
+
+current test times:1586
+
+Reduce safe_sub_func_int32_t_s_s at small.c
+
+
+current test times:1587
+
+Reduce safe_add_func_int32_t_s_s at small.c
+
+
+current test times:1588
+
+Reduce safe_unary_minus_func_int32_t_s at small.c
+
+
+current test times:1589
+
+Reduce safe_rshift_func_int16_t_s_u at small.c
+
+
+current test times:1590
+
+Reduce safe_rshift_func_int16_t_s_s at small.c
+
+
+current test times:1591
+
+Reduce safe_lshift_func_int16_t_s_u at small.c
+
+
+current test times:1592
+
+Reduce safe_lshift_func_int16_t_s_s at small.c
+
+
+current test times:1593
+
+Reduce safe_div_func_int16_t_s_s at small.c
+
+
+current test times:1594
+
+Reduce safe_mod_func_int16_t_s_s at small.c
+
+
+current test times:1595
+
+Reduce safe_mul_func_int16_t_s_s at small.c
+
+
+current test times:1596
+
+Reduce safe_sub_func_int16_t_s_s at small.c
+
+
+current test times:1597
+
+Reduce safe_add_func_int16_t_s_s at small.c
+
+
+current test times:1598
+
+Reduce safe_unary_minus_func_int16_t_s at small.c
+
+
+current test times:1599
+
+Reduce safe_rshift_func_int8_t_s_u at small.c
+
+
+current test times:1600
+
+Reduce safe_rshift_func_int8_t_s_s at small.c
+
+
+current test times:1601
+
+Reduce safe_lshift_func_int8_t_s_u at small.c
+
+
+current test times:1602
+
+Reduce safe_lshift_func_int8_t_s_s at small.c
+
+
+current test times:1603
+
+Reduce safe_div_func_int8_t_s_s at small.c
+
+
+current test times:1604
+
+Reduce safe_mod_func_int8_t_s_s at small.c
+
+
+current test times:1605
+
+Reduce safe_mul_func_int8_t_s_s at small.c
+
+
+current test times:1606
+
+Reduce safe_sub_func_int8_t_s_s at small.c
+
+
+current test times:1607
+
+Reduce safe_add_func_int8_t_s_s at small.c
+
+
+current test times:1608
+
+Reduce safe_unary_minus_func_int8_t_s at small.c
+
+
+current test times:1609
+
+Reduce platform_main_end at small.c
+
+
+current test times:1610
+
+====================================================
+                       Report                       
+====================================================
+             Total Time :               3250.5s
+            Oracle Time :               3163.5s
+          Learning Time :                  0.0s
+   Global Success Ratio :    0% (    0 /     0)
+    Local Success Ratio :    0% (    0 /  1610)
+  #Functions (Original) :                   106
+ #Statements (Original) :                  2176
+   #Functions (Reduced) :                   106
+  #Statements (Reduced) :                  2086
+TestTimes:1610

@@ -1,0 +1,48 @@
+[2020-03-17 10:04:27.636] [Logger] [info] Oracle: r.sh
+[2020-03-17 10:04:27.636] [Logger] [info] Input: small.c
+[2020-03-17 10:04:27.636] [Logger] [info] Output Directory: /home/guancheng/projects/boost_deltadebugging/open_src_tools/benchmark/gcc-65383/chisel-out
+[2020-03-17 10:04:27.705] [Logger] [info] Reduce File: small.c
+[2020-03-17 10:04:27.771] [Logger] [info] Iteration 1 (Word: 13262)
+[2020-03-17 10:04:27.771] [Logger] [info] Start local reduction
+[2020-03-17 10:11:58.685] [Logger] [info] Running delta debugging - Size: 8
+[2020-03-17 10:12:35.420] [Logger] [info] Reduced - Size: 6
+[2020-03-17 10:13:08.302] [Logger] [info] Reduced - Size: 5
+[2020-03-17 10:13:43.268] [Logger] [info] Running delta debugging - Size: 8
+[2020-03-17 10:14:03.794] [Logger] [info] Reduced - Size: 6
+[2020-03-17 10:14:31.675] [Logger] [info] Reduced - Size: 5
+[2020-03-17 10:14:42.581] [Logger] [info] Reduced - Size: 3
+[2020-03-17 10:15:13.327] [Logger] [info] Running delta debugging - Size: 8
+[2020-03-17 10:15:26.196] [Logger] [info] Reduced - Size: 6
+[2020-03-17 10:15:27.499] [Logger] [info] Reduced - Size: 3
+[2020-03-17 10:15:28.764] [Logger] [info] Reduced - Size: 1
+[2020-03-17 10:15:32.819] [Logger] [info] Running delta debugging - Size: 0
+[2020-03-17 10:15:32.844] [Logger] [info] Start local reduction
+[2020-03-17 10:15:32.862] [Logger] [info] Running delta debugging - Size: 5
+[2020-03-17 10:17:05.337] [Logger] [info] Start global reduction
+[2020-03-17 10:17:53.871] [Logger] [info] Start global reduction
+[2020-03-17 10:18:08.470] [Logger] [info] Start global reduction
+[2020-03-17 10:19:31.000] [Logger] [info] Start global reduction
+[2020-03-17 10:19:44.501] [Logger] [info] Start global reduction
+[2020-03-17 10:20:02.847] [Logger] [info] Start global reduction
+[2020-03-17 10:20:16.298] [Logger] [info] Start global reduction
+[2020-03-17 10:20:34.660] [Logger] [info] Start global reduction
+[2020-03-17 10:20:37.987] [Logger] [info] Start global reduction
+[2020-03-17 10:20:46.307] [Logger] [info] Start global reduction
+[2020-03-17 10:21:09.897] [Logger] [info] Start global reduction
+[2020-03-17 10:21:19.563] [Logger] [info] Start global reduction
+[2020-03-17 10:21:31.923] [Logger] [info] Start global reduction
+[2020-03-17 10:21:44.042] [Logger] [info] Iteration 2 (Word: 1372)
+[2020-03-17 10:21:44.042] [Logger] [info] Start local reduction
+[2020-03-17 10:21:44.232] [Logger] [info] Running delta debugging - Size: 5
+[2020-03-17 10:22:56.249] [Logger] [info] ====================================================
+[2020-03-17 10:22:56.249] [Logger] [info]                        Report                       
+[2020-03-17 10:22:56.249] [Logger] [info] ====================================================
+[2020-03-17 10:22:56.249] [Logger] [info]              Total Time :               1108.6s
+[2020-03-17 10:22:56.249] [Logger] [info]             Oracle Time :               1077.5s
+[2020-03-17 10:22:56.249] [Logger] [info]           Learning Time :                  0.0s
+[2020-03-17 10:22:56.249] [Logger] [info]    Global Success Ratio :   76% (   59 /    77)
+[2020-03-17 10:22:56.249] [Logger] [info]     Local Success Ratio :   20% (   31 /   154)
+[2020-03-17 10:22:56.317] [Logger] [info]   #Functions (Original) :                    86
+[2020-03-17 10:22:56.317] [Logger] [info]  #Statements (Original) :                  2633
+[2020-03-17 10:22:56.328] [Logger] [info]    #Functions (Reduced) :                    25
+[2020-03-17 10:22:56.328] [Logger] [info]   #Statements (Reduced) :                   151

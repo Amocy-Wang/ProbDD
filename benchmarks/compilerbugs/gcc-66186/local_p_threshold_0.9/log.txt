@@ -1,0 +1,33 @@
+[2020-03-17 22:30:08.533] [Logger] [info] Oracle: r.sh
+[2020-03-17 22:30:08.535] [Logger] [info] Input: small.c
+[2020-03-17 22:30:08.535] [Logger] [info] Output Directory: /home/guancheng/projects/boost_deltadebugging/open_src_tools/benchmark/gcc-66186/chisel-out
+[2020-03-17 22:30:09.573] [Logger] [info] Reduce File: small.c
+[2020-03-17 22:30:09.642] [Logger] [info] Iteration 1 (Word: 17019)
+[2020-03-17 22:30:09.642] [Logger] [info] Start local reduction
+[2020-03-17 23:00:11.678] [Logger] [info] Running delta debugging - Size: 2
+[2020-03-17 23:00:19.030] [Logger] [info] Start local reduction
+[2020-03-17 23:05:11.743] [Logger] [info] Running delta debugging - Size: 5
+[2020-03-17 23:06:49.988] [Logger] [info] Start local reduction
+[2020-03-17 23:06:50.005] [Logger] [info] Running delta debugging - Size: 8
+[2020-03-17 23:09:11.136] [Logger] [info] Start global reduction
+[2020-03-17 23:09:25.060] [Logger] [info] Start global reduction
+[2020-03-17 23:09:26.592] [Logger] [info] Start global reduction
+[2020-03-17 23:09:31.223] [Logger] [info] Start global reduction
+[2020-03-17 23:09:40.515] [Logger] [info] Start global reduction
+[2020-03-17 23:09:50.518] [Logger] [info] Start global reduction
+[2020-03-17 23:10:03.159] [Logger] [info] Start global reduction
+[2020-03-17 23:10:03.194] [Logger] [info] Iteration 2 (Word: 3531)
+[2020-03-17 23:10:03.194] [Logger] [info] Start local reduction
+[2020-03-17 23:10:03.208] [Logger] [info] Running delta debugging - Size: 8
+[2020-03-17 23:11:58.982] [Logger] [info] ====================================================
+[2020-03-17 23:11:58.982] [Logger] [info]                        Report                       
+[2020-03-17 23:11:58.982] [Logger] [info] ====================================================
+[2020-03-17 23:11:58.982] [Logger] [info]              Total Time :               2510.4s
+[2020-03-17 23:11:58.982] [Logger] [info]             Oracle Time :               2433.3s
+[2020-03-17 23:11:58.982] [Logger] [info]           Learning Time :                  0.0s
+[2020-03-17 23:11:58.982] [Logger] [info]    Global Success Ratio :   72% (   13 /    18)
+[2020-03-17 23:11:58.982] [Logger] [info]     Local Success Ratio :   11% (   33 /   292)
+[2020-03-17 23:11:59.047] [Logger] [info]   #Functions (Original) :                   106
+[2020-03-17 23:11:59.047] [Logger] [info]  #Statements (Original) :                  2176
+[2020-03-17 23:11:59.061] [Logger] [info]    #Functions (Reduced) :                    68
+[2020-03-17 23:11:59.061] [Logger] [info]   #Statements (Reduced) :                   247

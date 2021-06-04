@@ -1,0 +1,3 @@
+touch foo
+./tar cf foo.tar foo
+! ./tar xf foo.tar bar

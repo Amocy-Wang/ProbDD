@@ -1,0 +1,2 @@
+r.sh: line 73: 209413 Killed                  timeout -s 9 $TIMEOUTCCOMP ccomp -interp -fall $CFILE &> /dev/null
+The specified oracle file r.sh cannot execute correctly.

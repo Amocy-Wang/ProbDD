@@ -1,0 +1,26 @@
+[2020-03-14 14:36:14.446] [Logger] [info] Oracle: r.sh
+[2020-03-14 14:36:14.446] [Logger] [info] Input: small.c
+[2020-03-14 14:36:14.446] [Logger] [info] Output Directory: /home/guancheng/projects/boost_deltadebugging/open_src_tools/benchmark/gcc-65383/chisel-out
+[2020-03-14 14:36:14.513] [Logger] [info] Reduce File: small.c
+[2020-03-14 14:36:14.579] [Logger] [info] Iteration 1 (Word: 13262)
+[2020-03-14 14:36:14.579] [Logger] [info] Start global reduction
+[2020-03-14 14:36:14.658] [Logger] [info] Start local reduction
+[2020-03-14 14:46:11.472] [Logger] [info] Iteration 2 (Word: 4845)
+[2020-03-14 14:46:11.472] [Logger] [info] Start global reduction
+[2020-03-14 14:46:11.515] [Logger] [info] Start local reduction
+[2020-03-14 14:48:50.329] [Logger] [info] Reduce File: small.c
+[2020-03-14 14:48:50.642] [Logger] [info] Iteration 1 (Word: 4845)
+[2020-03-14 14:48:50.642] [Logger] [info] Start global reduction
+[2020-03-14 14:48:50.691] [Logger] [info] Start local reduction
+[2020-03-14 14:51:39.758] [Logger] [info] ====================================================
+[2020-03-14 14:51:39.759] [Logger] [info]                        Report                       
+[2020-03-14 14:51:39.759] [Logger] [info] ====================================================
+[2020-03-14 14:51:39.759] [Logger] [info]              Total Time :                925.3s
+[2020-03-14 14:51:39.759] [Logger] [info]             Oracle Time :                893.4s
+[2020-03-14 14:51:39.759] [Logger] [info]           Learning Time :                  0.0s
+[2020-03-14 14:51:39.759] [Logger] [info]    Global Success Ratio :    0% (    0 /     0)
+[2020-03-14 14:51:39.759] [Logger] [info]     Local Success Ratio :   16% (   23 /   141)
+[2020-03-14 14:51:39.840] [Logger] [info]   #Functions (Original) :                    86
+[2020-03-14 14:51:39.840] [Logger] [info]  #Statements (Original) :                  2633
+[2020-03-14 14:51:39.869] [Logger] [info]    #Functions (Reduced) :                    86
+[2020-03-14 14:51:39.869] [Logger] [info]   #Statements (Reduced) :                   734

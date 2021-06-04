@@ -1,0 +1,14 @@
+# FEATURE: CONFIG_FEATURE_TAR_FROM
+# FEATURE: CONFIG_FEATURE_TAR_CREATE
+echo "abcd abcd" > foo.orig
+echo "qwerqwerqwer" > bar.orig
+echo "" > baz.orig
+cp foo.orig foo
+cp bar.orig bar
+cp baz.orig baz
+tar cf foo.tar foo bar baz
+echo foo >foo.exclude
+rm foo bar baz
+./tar xf foo.tar foo bar -X foo.exclude
+test ! -f foo -a -f bar -a ! -f baz || exit 1
+diff -q bar.orig bar || exit 1

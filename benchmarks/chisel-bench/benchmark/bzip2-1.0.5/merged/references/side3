@@ -1,0 +1,15 @@
+bzip2, a block-sorting file compressor.  Version 1.0.5, 10-Dec-2007.
+   
+   Copyright (C) 1996-2007 by Julian Seward.
+   
+   This program is free software; you can redistribute it and/or modify
+   it under the terms set out in the LICENSE file, which is included
+   in the bzip2-1.0.5 source distribution.
+   
+   This program is distributed in the hope that it will be useful,
+   but WITHOUT ANY WARRANTY; without even the implied warranty of
+   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+   LICENSE file for more details.
+   
+bzip2-1.0.5.reduced: I won't write compressed data to a terminal.
+bzip2-1.0.5.reduced: For help, type: `bzip2-1.0.5.reduced --help'.

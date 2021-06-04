@@ -1,0 +1,553 @@
+typedef unsigned int size_t;
+typedef signed char int8_t;
+typedef short int int16_t;
+typedef int int32_t;
+typedef long long int int64_t;
+typedef unsigned char uint8_t;
+typedef unsigned short int uint16_t;
+typedef unsigned int uint32_t;
+typedef unsigned long long int uint64_t;
+int printf(const char *, ...);
+void __assert_fail(const char *__assertion, const char *__file,
+                   unsigned int __line, const char *__function);
+
+static int8_t(safe_add_func_int8_t_s_s)(int8_t si1, int8_t si2) {
+
+  return
+
+      (si1 + si2);
+}
+
+static int8_t(safe_sub_func_int8_t_s_s)(int8_t si1, int8_t si2) {
+
+  return
+
+      (si1 - si2);
+}
+
+static int8_t(safe_mod_func_int8_t_s_s)(int8_t si1, int8_t si2) {
+
+  return
+
+      ((si2 == 0) || ((si1 == (-128)) && (si2 == (-1)))) ? ((si1)) :
+
+                                                         (si1 % si2);
+}
+
+static int8_t(safe_rshift_func_int8_t_s_u)(int8_t left, unsigned int right) {
+
+  return
+
+      ((left < 0) || (((unsigned int)right) >= 32))
+          ? ((left))
+          :
+
+          (left >> ((unsigned int)right));
+}
+
+static int16_t(safe_mod_func_int16_t_s_s)(int16_t si1, int16_t si2) {
+
+  return
+
+      ((si2 == 0) || ((si1 == (-32767 - 1)) && (si2 == (-1)))) ? ((si1)) :
+
+                                                               (si1 % si2);
+}
+
+static int16_t(safe_rshift_func_int16_t_s_s)(int16_t left, int right) {
+
+  return
+
+      ((left < 0) || (((int)right) < 0) || (((int)right) >= 32))
+          ? ((left))
+          :
+
+          (left >> ((int)right));
+}
+
+static int32_t(safe_div_func_int32_t_s_s)(int32_t si1, int32_t si2) {
+
+  return
+
+      ((si2 == 0) || ((si1 == (-2147483647 - 1)) && (si2 == (-1)))) ? ((si1)) :
+
+                                                                    (si1 / si2);
+}
+
+static int64_t(safe_div_func_int64_t_s_s)(int64_t si1, int64_t si2) {
+
+  return
+
+      ((si2 == 0) || ((si1 == (-9223372036854775807L - 1)) && (si2 == (-1))))
+          ? ((si1))
+          :
+
+          (si1 / si2);
+}
+
+static uint8_t(safe_add_func_uint8_t_u_u)(uint8_t ui1, uint8_t ui2) {
+
+  return ui1 + ui2;
+}
+
+static uint8_t(safe_div_func_uint8_t_u_u)(uint8_t ui1, uint8_t ui2) {
+
+  return
+
+      (ui2 == 0) ? ((ui1)) :
+
+                 (ui1 / ui2);
+}
+
+static uint8_t(safe_lshift_func_uint8_t_u_s)(uint8_t left, int right) {
+
+  return
+
+      ((((int)right) < 0) || (((int)right) >= 32) ||
+       (left > ((255) >> ((int)right))))
+          ? ((left))
+          :
+
+          (left << ((int)right));
+}
+
+static uint8_t(safe_rshift_func_uint8_t_u_s)(uint8_t left, int right) {
+
+  return
+
+      ((((int)right) < 0) || (((int)right) >= 32)) ? ((left)) :
+
+                                                   (left >> ((int)right));
+}
+
+static uint8_t(safe_rshift_func_uint8_t_u_u)(uint8_t left, unsigned int right) {
+
+  return
+
+      (((unsigned int)right) >= 32) ? ((left)) :
+
+                                    (left >> ((unsigned int)right));
+}
+
+static uint16_t(safe_add_func_uint16_t_u_u)(uint16_t ui1, uint16_t ui2) {
+
+  return ui1 + ui2;
+}
+
+static uint16_t(safe_sub_func_uint16_t_u_u)(uint16_t ui1, uint16_t ui2) {
+
+  return ui1 - ui2;
+}
+
+static uint16_t(safe_lshift_func_uint16_t_u_u)(uint16_t left,
+                                               unsigned int right) {
+
+  return
+
+      ((((unsigned int)right) >= 32) ||
+       (left > ((65535) >> ((unsigned int)right))))
+          ? ((left))
+          :
+
+          (left << ((unsigned int)right));
+}
+
+static uint64_t(safe_add_func_uint64_t_u_u)(uint64_t ui1, uint64_t ui2) {
+
+  return ui1 + ui2;
+}
+
+static uint64_t(safe_sub_func_uint64_t_u_u)(uint64_t ui1, uint64_t ui2) {
+
+  return ui1 - ui2;
+}
+
+static uint64_t(safe_mod_func_uint64_t_u_u)(uint64_t ui1, uint64_t ui2) {
+
+  return
+
+      (ui2 == 0) ? ((ui1)) :
+
+                 (ui1 % ui2);
+}
+
+static uint64_t(safe_div_func_uint64_t_u_u)(uint64_t ui1, uint64_t ui2) {
+
+  return
+
+      (ui2 == 0) ? ((ui1)) :
+
+                 (ui1 / ui2);
+}
+
+void __profile__dump_on_exit();
+void __profile__unsigned_var(unsigned program_point, const char *var_name,
+                             int is_const, unsigned byte_width,
+                             unsigned long long value);
+void __profile__signed_var(unsigned program_point, const char *var_name,
+                           int is_const, unsigned byte_width, long long value);
+void __profile__dump_on_exit();
+void __profile__unsigned_var(unsigned program_point, const char *var_name,
+                             int is_const, unsigned byte_width,
+                             unsigned long long value);
+void __profile__signed_var(unsigned program_point, const char *var_name,
+                           int is_const, unsigned byte_width, long long value);
+void __profile__dump_on_exit();
+void __profile__unsigned_var(unsigned program_point, const char *var_name,
+                             int is_const, unsigned byte_width,
+                             unsigned long long value);
+void __profile__signed_var(unsigned program_point, const char *var_name,
+                           int is_const, unsigned byte_width, long long value);
+void __profile__dump_on_exit();
+void __profile__unsigned_var(unsigned program_point, const char *var_name,
+                             int is_const, unsigned byte_width,
+                             unsigned long long value);
+void __profile__signed_var(unsigned program_point, const char *var_name,
+                           int is_const, unsigned byte_width, long long value);
+void __profile__dump_on_exit();
+void __profile__unsigned_var(unsigned program_point, const char *var_name,
+                             int is_const, unsigned byte_width,
+                             unsigned long long value);
+void __profile__signed_var(unsigned program_point, const char *var_name,
+                           int is_const, unsigned byte_width, long long value);
+void __profile__dump_on_exit();
+void __profile__unsigned_var(unsigned program_point, const char *var_name,
+                             int is_const, unsigned byte_width,
+                             unsigned long long value);
+void __profile__signed_var(unsigned program_point, const char *var_name,
+                           int is_const, unsigned byte_width, long long value);
+void __profile__dump_on_exit();
+void __profile__unsigned_var(unsigned program_point, const char *var_name,
+                             int is_const, unsigned byte_width,
+                             unsigned long long value);
+void __profile__signed_var(unsigned program_point, const char *var_name,
+                           int is_const, unsigned byte_width, long long value);
+void __profile__dump_on_exit();
+void __profile__unsigned_var(unsigned program_point, const char *var_name,
+                             int is_const, unsigned byte_width,
+                             unsigned long long value);
+void __profile__signed_var(unsigned program_point, const char *var_name,
+                           int is_const, unsigned byte_width, long long value);
+void __profile__dump_on_exit();
+void __profile__unsigned_var(unsigned program_point, const char *var_name,
+                             int is_const, unsigned byte_width,
+                             unsigned long long value);
+void __profile__signed_var(unsigned program_point, const char *var_name,
+                           int is_const, unsigned byte_width, long long value);
+
+struct S0 {
+  uint16_t f0;
+};
+
+struct S1 {
+  unsigned f0 : 29;
+  unsigned f1 : 26;
+  signed f2 : 10;
+  unsigned f3 : 27;
+  signed f4 : 18;
+  signed f5 : 1;
+  unsigned f6 : 26;
+};
+
+static int8_t g_12 = 0xBCL;
+static int32_t g_13 = 0x5FEC46BCL;
+static struct S0 g_21 = {0xC0B8L};
+
+static int64_t g_32 = (-1L);
+
+static int32_t g_37 = 0x2EF61160L;
+static int32_t g_38 = 6L;
+static uint64_t g_39 = 0UL;
+
+static int8_t g_66 = (-5L);
+
+static uint8_t g_69 = 0x3DL;
+static uint32_t g_80 = 7UL;
+static uint32_t g_182 = 18446744073709551609UL;
+static int32_t g_183 = 0L;
+static int16_t g_184 = 0L;
+
+static struct S1 g_238 = {8110, 1413, 13, 11418, 196, -0, 504};
+
+static uint16_t g_315 = 0x89BEL;
+static uint8_t g_322 = 0x36L;
+static int32_t g_377 = 0x76F0FC06L;
+
+static int8_t g_524 = 0x0FL;
+
+static uint32_t g_528 = 18446744073709551615UL;
+static int32_t g_571 = 0x7B01DCB5L;
+
+static uint16_t g_620 = 0xCC35L;
+static int32_t g_756 = 0x66BD1D4CL;
+
+static int32_t g_792 = 0x3C3CEAB1L;
+
+static int32_t g_800 = 0xF1E12B68L;
+
+static uint32_t g_873 = 18446744073709551615UL;
+static uint16_t g_928 = 1UL;
+static int32_t g_967 = 0x80995892L;
+static uint32_t g_968 = 0xFF7B2476L;
+static int16_t g_993 = 0x54F0L;
+
+static uint8_t g_1276 = 0UL;
+
+static int64_t func_1(void);
+static uint8_t func_5(uint8_t p_6);
+static int8_t func_14(int8_t p_15, struct S1 p_16, struct S0 p_17,
+                      struct S0 p_18, int32_t p_19);
+static int16_t func_44(uint32_t p_45);
+static int64_t func_56(struct S1 p_57, struct S0 p_58);
+static uint8_t func_61(uint8_t p_62, uint32_t p_63, int64_t p_64);
+static int8_t func_74(struct S0 p_75);
+static uint8_t func_85(int16_t p_86, int8_t p_87, uint8_t p_88);
+static uint8_t func_94(int16_t p_95, struct S0 p_96, int16_t p_97);
+static int64_t func_101(int32_t p_102, uint16_t p_103);
+static int64_t func_1(void) {
+  struct S1 l_2 = {5257, 2494, 15, 7269, 192, 0, 6867};
+  struct S1 l_20 = {8399, 1580, 12, 4707, 209, 0, 910};
+  struct S1 l_1295 = {8978, 2774, 11, 1659, 145, 0, 2412};
+
+  l_2.f2 =
+      ((l_2,
+        (((((((-8L) &&
+              (safe_rshift_func_uint8_t_u_u(
+                  func_5((
+                      (l_1295 =
+                           (l_20 =
+                                ((safe_div_func_uint8_t_u_u(
+                                     ((safe_lshift_func_uint16_t_u_u(
+                                          ((!(g_12 || (l_2.f4 = (-1L)))) ^
+                                           g_12),
+                                          10)) <= (g_13 = g_12)),
+                                     func_14(g_12, l_20, g_21, g_21, g_21.f0))),
+                                 g_238))),
+                      g_571)),
+                  g_792))) != g_12),
+            0UL) > l_2.f6) |
+          0xC987502CL) &&
+         g_528)) != g_524);
+  return l_20.f1;
+}
+
+static uint8_t func_5(uint8_t p_6) {
+  struct S0 l_1296 = {0xA01FL};
+
+  return g_571;
+}
+
+static int8_t func_14(int8_t p_15, struct S1 p_16, struct S0 p_17,
+                      struct S0 p_18, int32_t p_19) {
+  uint32_t l_24 = 18446744073709551612UL;
+  int32_t l_29 = 0x78472532L;
+  int32_t l_31 = 0x54F90BF5L;
+  int16_t l_1014 = 0xEBF2L;
+  struct S0 l_1015 = {0xD8E3L};
+  int32_t l_1027 = 0xDEBF6134L;
+  uint16_t l_1031 = 65533UL;
+  struct S1 l_1050 = {3817, 1817, -23, 852, 267, -0, 5079};
+  int32_t l_1288 = 0x9A5E3A71L;
+  int32_t l_1290 = 0x9960D519L;
+  uint8_t l_1292 = 0x55L;
+
+  {
+
+    {
+      uint64_t l_50 = 1UL;
+      int32_t l_999 = 0x88B3C715L;
+
+      int64_t backup_0_8440_19945_g_32 =
+          (~((((((~(g_993)) |
+                 ((l_1050.f5 % (-(l_1292))) ^ ((l_29 / (~(g_315))) - g_38))) ||
+                g_69) ||
+               (g_39 ^ g_800)) +
+              (~((-(g_32)))))));
+      int16_t backup_1_8440_93496_g_993 =
+          (-(((~((g_32 + ((-(g_39)) && (~((g_993 || g_315))))))) ||
+              (l_1292 && (((-(l_1050.f5)) & (g_800 && g_69)) *
+                          (-((~(((-(g_38)) + backup_0_8440_19945_g_32))))))))));
+      uint16_t backup_2_8440_59177_g_315 =
+          (~(((~(((~((((~(g_800)) * l_1050.f5) % (g_38 && l_29)))) &
+                  ((~(g_315)) |
+                   ((-(((~((~((~(l_1292)))))) & backup_1_8440_93496_g_993))) ^
+                    g_39))))) ^
+              (~((-((backup_0_8440_19945_g_32 * g_32))))))));
+      int8_t backup_3_8440_62316_l_1050_f5 =
+          (~(((((~(l_1292)) & ((g_800 / backup_2_8440_59177_g_315) % l_29)) ||
+               (g_39 & g_993)) +
+              ((~((-((-(g_32))))))
+               << (backup_0_8440_19945_g_32 || (g_69 | g_315))))));
+      if ((!g_21.f0)) {
+
+        g_873 |=
+            ((safe_add_func_uint16_t_u_u(
+                 ((safe_div_func_int64_t_s_s(
+                      ((safe_rshift_func_uint8_t_u_s((g_322 |= l_1050.f1),
+                                                     0)) <=
+                       backup_1_8440_93496_g_993),
+                      (((safe_lshift_func_uint16_t_u_u(
+                            (l_1031 |=
+                             (((g_792 = g_182) |
+                               ((l_1050.f6 <
+                                 (((0xE175236DL !=
+                                    (((0x686D572EL ^
+                                       ((((backup_1_8440_93496_g_993 =
+                                               ((((((1L >=
+                                                     ((safe_sub_func_uint16_t_u_u(
+                                                          ((safe_lshift_func_uint8_t_u_s(
+                                                               (((g_38 |=
+                                                                  (((safe_add_func_uint64_t_u_u(
+                                                                        (backup_0_8440_19945_g_32 <
+                                                                         (l_31 =
+                                                                              ((l_1050
+                                                                                    .f4 =
+                                                                                    l_1050
+                                                                                        .f2) <
+                                                                               l_31))),
+                                                                        0xB4C6519C0C658331LL)) |
+                                                                    l_1050.f1),
+                                                                   0x869ACDBBBB3DB403LL)) &
+                                                                 0x55232CB130B1BF30LL) !=
+                                                                1UL),
+                                                               3)) == 0xDDL),
+                                                          g_183)),
+                                                      l_1031)) > l_1050.f4) ||
+                                                   l_1050.f2),
+                                                  0x7F6B51B9FD79C856LL) !=
+                                                 (-1L)) > l_1050.f1)) &&
+                                          l_1015.f0) &&
+                                         g_524) &
+                                        g_37)) ^
+                                      l_1031) &
+                                     l_1031)) >= 0UL),
+                                  g_183)) != g_1276)) ||
+                              0x2FL)),
+                            g_524)) < l_1050.f1) ||
+                       4294967294UL))) &
+                  l_1015.f0),
+                 65535UL)) >= l_1050.f4);
+      }
+
+      if ((!((g_928 < g_792)) || ((g_792 < 1010625201) || (!g_792)))) {
+
+        g_183 |=
+            (((safe_add_func_int8_t_s_s(
+                  (((((g_756 ^= ((g_38 = g_967), l_1292)) >=
+                      (p_16.f4 =
+                           ((safe_add_func_uint8_t_u_u(
+                                (((safe_div_func_uint64_t_u_u(
+                                      (safe_mod_func_uint64_t_u_u(
+                                          0x5357627B9C38BE8CLL,
+                                          (safe_rshift_func_int8_t_s_u(
+                                              (((p_16.f2 <
+                                                 (l_999 = l_1050.f4)) ^
+                                                (g_315 &
+                                                 (g_873 <= (g_993 = p_15)))) <
+                                               (l_31 =
+                                                    ((((l_1050.f5 =
+                                                            (safe_mod_func_int8_t_s_s(
+                                                                (safe_div_func_int32_t_s_s(
+                                                                    ((l_1050
+                                                                          .f2 ^=
+                                                                      (-8L)) ||
+                                                                     0xF7D7L),
+                                                                    g_873)),
+                                                                0x7AL))) ^
+                                                       backup_1_8440_93496_g_993) <
+                                                      g_968) <= l_31))),
+                                              6)))),
+                                      g_968)) |
+                                  g_238.f3),
+                                 0x4DL),
+                                g_873)) &&
+                            4294967292UL))) != 4294967293UL) ||
+                    0x61L) == 1UL),
+                  0x74L)),
+              (-5L)),
+             g_968);
+      }
+
+      l_999 &=
+          ((l_29 | (safe_mod_func_int16_t_s_s(
+                       ((func_44(((safe_rshift_func_int16_t_s_s(
+                                      (l_31 |= p_16.f3), (g_37 <= 6L))),
+                                  (safe_sub_func_uint64_t_u_u(p_19, l_50)))),
+                         p_16.f2) |
+                        ((safe_sub_func_int8_t_s_s(0xA4L, p_16.f3)) <= g_571)),
+                       g_571))) ||
+           (-1L));
+    }
+  }
+  return g_993;
+}
+
+static int16_t func_44(uint32_t p_45) {
+  uint8_t l_55 = 0UL;
+  struct S1 l_59 = {1957, 70, 26, 2769, -287, 0, 5702};
+
+  l_59.f5 = (safe_rshift_func_uint8_t_u_s(g_968, 5));
+  int32_t backup_0_8492_35125_g_756 =
+      (~(((~((-(g_66)))) ||
+          ((((g_968 && g_756) + g_184) ^
+            ((~((((~(g_967)) | g_792) ^ (g_800 + l_59.f4)))) || (-(g_620)))) ||
+           (~((~(g_21.f0))))))));
+  int32_t backup_1_8492_56405_g_792 = (~(
+      ((((~(g_967)) || (g_756 + g_968)) || ((-(g_620)) ^ (~((~(l_59.f4)))))) |
+       (~((((backup_0_8492_35125_g_756 & g_800) - (g_792 >> g_184)) &&
+           g_21.f0))))));
+  int32_t backup_2_8492_82163_g_800 = (~(
+      (((~(g_967)) -
+        ((~(g_792)) ^
+         (((~(backup_0_8492_35125_g_756)) * (g_620 | g_756)) % g_968))) &&
+       (~((~((backup_1_8492_56405_g_792 & (g_21.f0 - (g_800 ^ l_59.f4))))))))));
+  uint32_t backup_3_8492_59236_g_968 = (~(
+      ((((-((~(g_21.f0)))) ^ (g_620 | backup_0_8492_35125_g_756)) ||
+        ((l_59.f4 | g_66) && (~((-(g_792)))))) -
+       ((~((backup_1_8492_56405_g_792 & (backup_2_8492_82163_g_800 ^ g_756)))) +
+        (-(g_968))))));
+  {
+
+    int8_t backup_0_8502_91289_l_59_f5 =
+        (~(((~(((l_59.f5 && (((~(l_59.f0)) / g_37) || g_32)) / g_66))) -
+            ((-(g_38)) * (~((((~(g_183)) % (~(g_377))) ||
+                             (~((~((g_80 && l_59.f2))))))))))));
+    int32_t backup_1_8502_78635_g_37 =
+        (-(((-(((~((-(backup_0_8502_91289_l_59_f5)))) ^ (-(l_59.f0))))) ^
+            (((-(((-(g_38)) + (~((~(g_377))))))) %
+              (~(((-(((l_59.f2 + g_80) ^ l_59.f5))) - g_37)))) +
+             ((~(g_183)) & (~((~(g_66)))))))));
+    int32_t backup_2_8502_22363_g_183 =
+        (-((((((g_377 && backup_1_8502_78635_g_37) * g_37) | l_59.f5) &
+             (g_80 ^ g_32)) -
+            (~(((~((l_59.f2 * l_59.f0))) / (g_66 & g_38)))))));
+    uint32_t backup_3_8502_6189_l_59_f0 =
+        (~(((~((((-(g_183)) | (g_38 / g_37)) &&
+                (~(backup_0_8502_91289_l_59_f5))))) %
+            ((~(((g_32 ^ g_80) + (~((g_66 || (~(g_377)))))))) >>
+             (-((l_59.f0 % (-(l_59.f5)))))))));
+    {
+      backup_0_8502_91289_l_59_f5 = l_59.f5;
+
+      l_59.f5 =
+          (-(((~((~((~((~(l_59.f2)))))))) /
+              (~(((-(((g_183 + backup_2_8502_22363_g_183) +
+                      ((~(l_59.f0)) | (-(((backup_0_8502_91289_l_59_f5 + g_80) /
+                                          backup_1_8502_78635_g_37))))))) &
+                  (g_377 | (-((g_37 % g_66))))))))));
+      g_37 = (-((((((~(l_59.f2)) + backup_2_8502_22363_g_183) %
+                   (l_59.f5 +
+                    ((~(g_80)) & ((~(g_66)) / backup_0_8502_91289_l_59_f5)))) -
+                  (-(g_377))) %
+                 ((g_38 || l_59.f0) | g_183))));
+    }
+  }
+}
+
+int main(int argc, char *argv[]) {
+  int print_hash_value = 0;
+
+  func_1();
+
+  return 0;
+}

@@ -1,0 +1,1427 @@
+[2020-03-10 15:28:50.786] [Logger] [info] Oracle: r.sh
+[2020-03-10 15:28:50.786] [Logger] [info] Input: small.c
+[2020-03-10 15:28:50.786] [Logger] [info] Output Directory: /home/guancheng/projects/boost_deltadebugging/open_src_tools/benchmark/gcc-66186/chisel-out
+[2020-03-10 15:28:50.858] [Logger] [info] Reduce File: small.c
+[2020-03-10 15:28:50.926] [Logger] [info] Iteration 1 (Word: 17019)
+[2020-03-10 15:28:50.926] [Logger] [info] Start global reduction
+[2020-03-10 15:29:26.278] [Logger] [info] Start local reduction
+[2020-03-10 15:29:26.343] [Logger] [info] Reduce main at small.c
+[2020-03-10 15:34:37.414] [Logger] [info] Reduce func_97 at small.c
+[2020-03-10 15:41:38.021] [Logger] [info] Reduce func_89 at small.c
+[2020-03-10 15:43:20.718] [Logger] [info] Reduce func_81 at small.c
+[2020-03-10 15:44:06.042] [Logger] [info] Reduce func_75 at small.c
+[2020-03-10 15:44:23.484] [Logger] [info] Reduce func_55 at small.c
+[2020-03-10 15:47:28.532] [Logger] [info] Reduce func_48 at small.c
+[2020-03-10 15:47:41.308] [Logger] [info] Reduce func_42 at small.c
+[2020-03-10 15:47:41.602] [Logger] [info] Reduce func_29 at small.c
+[2020-03-10 15:47:59.915] [Logger] [info] Reduce func_8 at small.c
+[2020-03-10 15:48:29.335] [Logger] [info] Reduce func_1 at small.c
+[2020-03-10 15:49:15.907] [Logger] [info] Reduce transparent_crc_bytes at small.c
+[2020-03-10 15:49:17.300] [Logger] [info] Reduce transparent_crc at small.c
+[2020-03-10 15:49:25.140] [Logger] [info] Reduce crc32_8bytes at small.c
+[2020-03-10 15:49:33.272] [Logger] [info] Reduce crc32_byte at small.c
+[2020-03-10 15:49:46.374] [Logger] [info] Reduce crc32_gentab at small.c
+[2020-03-10 15:49:47.811] [Logger] [info] Reduce safe_convert_func_float_to_int32_t at small.c
+[2020-03-10 15:49:47.939] [Logger] [info] Reduce safe_div_func_double_f_f at small.c
+[2020-03-10 15:49:48.066] [Logger] [info] Reduce safe_mul_func_double_f_f at small.c
+[2020-03-10 15:49:48.193] [Logger] [info] Reduce safe_sub_func_double_f_f at small.c
+[2020-03-10 15:49:48.320] [Logger] [info] Reduce safe_add_func_double_f_f at small.c
+[2020-03-10 15:49:48.447] [Logger] [info] Reduce safe_div_func_float_f_f at small.c
+[2020-03-10 15:49:48.574] [Logger] [info] Reduce safe_mul_func_float_f_f at small.c
+[2020-03-10 15:49:48.700] [Logger] [info] Reduce safe_sub_func_float_f_f at small.c
+[2020-03-10 15:49:48.826] [Logger] [info] Reduce safe_add_func_float_f_f at small.c
+[2020-03-10 15:49:48.954] [Logger] [info] Reduce safe_rshift_func_uint64_t_u_u at small.c
+[2020-03-10 15:49:49.081] [Logger] [info] Reduce safe_rshift_func_uint64_t_u_s at small.c
+[2020-03-10 15:49:49.208] [Logger] [info] Reduce safe_lshift_func_uint64_t_u_u at small.c
+[2020-03-10 15:49:49.335] [Logger] [info] Reduce safe_lshift_func_uint64_t_u_s at small.c
+[2020-03-10 15:49:49.463] [Logger] [info] Reduce safe_div_func_uint64_t_u_u at small.c
+[2020-03-10 15:49:49.590] [Logger] [info] Reduce safe_mod_func_uint64_t_u_u at small.c
+[2020-03-10 15:49:49.717] [Logger] [info] Reduce safe_mul_func_uint64_t_u_u at small.c
+[2020-03-10 15:49:49.845] [Logger] [info] Reduce safe_sub_func_uint64_t_u_u at small.c
+[2020-03-10 15:49:49.972] [Logger] [info] Reduce safe_add_func_uint64_t_u_u at small.c
+[2020-03-10 15:49:50.100] [Logger] [info] Reduce safe_unary_minus_func_uint64_t_u at small.c
+[2020-03-10 15:49:50.226] [Logger] [info] Reduce safe_rshift_func_uint32_t_u_u at small.c
+[2020-03-10 15:49:50.354] [Logger] [info] Reduce safe_rshift_func_uint32_t_u_s at small.c
+[2020-03-10 15:49:50.481] [Logger] [info] Reduce safe_lshift_func_uint32_t_u_u at small.c
+[2020-03-10 15:49:50.608] [Logger] [info] Reduce safe_lshift_func_uint32_t_u_s at small.c
+[2020-03-10 15:49:50.734] [Logger] [info] Reduce safe_div_func_uint32_t_u_u at small.c
+[2020-03-10 15:49:50.861] [Logger] [info] Reduce safe_mod_func_uint32_t_u_u at small.c
+[2020-03-10 15:49:50.986] [Logger] [info] Reduce safe_mul_func_uint32_t_u_u at small.c
+[2020-03-10 15:49:51.112] [Logger] [info] Reduce safe_sub_func_uint32_t_u_u at small.c
+[2020-03-10 15:49:51.238] [Logger] [info] Reduce safe_add_func_uint32_t_u_u at small.c
+[2020-03-10 15:49:51.365] [Logger] [info] Reduce safe_unary_minus_func_uint32_t_u at small.c
+[2020-03-10 15:49:51.491] [Logger] [info] Reduce safe_rshift_func_uint16_t_u_u at small.c
+[2020-03-10 15:49:51.617] [Logger] [info] Reduce safe_rshift_func_uint16_t_u_s at small.c
+[2020-03-10 15:49:51.743] [Logger] [info] Reduce safe_lshift_func_uint16_t_u_u at small.c
+[2020-03-10 15:49:51.871] [Logger] [info] Reduce safe_lshift_func_uint16_t_u_s at small.c
+[2020-03-10 15:49:51.999] [Logger] [info] Reduce safe_div_func_uint16_t_u_u at small.c
+[2020-03-10 15:49:52.126] [Logger] [info] Reduce safe_mod_func_uint16_t_u_u at small.c
+[2020-03-10 15:49:52.254] [Logger] [info] Reduce safe_mul_func_uint16_t_u_u at small.c
+[2020-03-10 15:49:52.455] [Logger] [info] Reduce safe_sub_func_uint16_t_u_u at small.c
+[2020-03-10 15:49:54.350] [Logger] [info] Reduce safe_add_func_uint16_t_u_u at small.c
+[2020-03-10 15:49:57.461] [Logger] [info] Reduce safe_unary_minus_func_uint16_t_u at small.c
+[2020-03-10 15:49:57.655] [Logger] [info] Reduce safe_rshift_func_uint8_t_u_u at small.c
+[2020-03-10 15:49:59.442] [Logger] [info] Reduce safe_rshift_func_uint8_t_u_s at small.c
+[2020-03-10 15:50:01.688] [Logger] [info] Reduce safe_lshift_func_uint8_t_u_u at small.c
+[2020-03-10 15:50:02.532] [Logger] [info] Reduce safe_lshift_func_uint8_t_u_s at small.c
+[2020-03-10 15:50:02.659] [Logger] [info] Reduce safe_div_func_uint8_t_u_u at small.c
+[2020-03-10 15:50:04.353] [Logger] [info] Reduce safe_mod_func_uint8_t_u_u at small.c
+[2020-03-10 15:50:06.504] [Logger] [info] Reduce safe_mul_func_uint8_t_u_u at small.c
+[2020-03-10 15:50:09.187] [Logger] [info] Reduce safe_sub_func_uint8_t_u_u at small.c
+[2020-03-10 15:50:11.479] [Logger] [info] Reduce safe_add_func_uint8_t_u_u at small.c
+[2020-03-10 15:50:13.687] [Logger] [info] Reduce safe_unary_minus_func_uint8_t_u at small.c
+[2020-03-10 15:50:16.204] [Logger] [info] Reduce safe_rshift_func_int64_t_s_u at small.c
+[2020-03-10 15:50:18.370] [Logger] [info] Reduce safe_rshift_func_int64_t_s_s at small.c
+[2020-03-10 15:50:20.670] [Logger] [info] Reduce safe_lshift_func_int64_t_s_u at small.c
+[2020-03-10 15:50:23.014] [Logger] [info] Reduce safe_lshift_func_int64_t_s_s at small.c
+[2020-03-10 15:50:23.995] [Logger] [info] Reduce safe_div_func_int64_t_s_s at small.c
+[2020-03-10 15:50:24.181] [Logger] [info] Reduce safe_mod_func_int64_t_s_s at small.c
+[2020-03-10 15:50:24.310] [Logger] [info] Reduce safe_mul_func_int64_t_s_s at small.c
+[2020-03-10 15:50:27.558] [Logger] [info] Reduce safe_sub_func_int64_t_s_s at small.c
+[2020-03-10 15:50:27.718] [Logger] [info] Reduce safe_add_func_int64_t_s_s at small.c
+[2020-03-10 15:50:29.940] [Logger] [info] Reduce safe_unary_minus_func_int64_t_s at small.c
+[2020-03-10 15:50:33.093] [Logger] [info] Reduce safe_rshift_func_int32_t_s_u at small.c
+[2020-03-10 15:50:33.231] [Logger] [info] Reduce safe_rshift_func_int32_t_s_s at small.c
+[2020-03-10 15:50:35.397] [Logger] [info] Reduce safe_lshift_func_int32_t_s_u at small.c
+[2020-03-10 15:50:38.847] [Logger] [info] Reduce safe_lshift_func_int32_t_s_s at small.c
+[2020-03-10 15:50:40.991] [Logger] [info] Reduce safe_div_func_int32_t_s_s at small.c
+[2020-03-10 15:50:42.570] [Logger] [info] Reduce safe_mod_func_int32_t_s_s at small.c
+[2020-03-10 15:50:44.934] [Logger] [info] Reduce safe_mul_func_int32_t_s_s at small.c
+[2020-03-10 15:50:45.137] [Logger] [info] Reduce safe_sub_func_int32_t_s_s at small.c
+[2020-03-10 15:50:47.671] [Logger] [info] Reduce safe_add_func_int32_t_s_s at small.c
+[2020-03-10 15:50:47.879] [Logger] [info] Reduce safe_unary_minus_func_int32_t_s at small.c
+[2020-03-10 15:50:48.147] [Logger] [info] Reduce safe_rshift_func_int16_t_s_u at small.c
+[2020-03-10 15:50:50.327] [Logger] [info] Reduce safe_rshift_func_int16_t_s_s at small.c
+[2020-03-10 15:50:50.509] [Logger] [info] Reduce safe_lshift_func_int16_t_s_u at small.c
+[2020-03-10 15:50:53.766] [Logger] [info] Reduce safe_lshift_func_int16_t_s_s at small.c
+[2020-03-10 15:50:53.955] [Logger] [info] Reduce safe_div_func_int16_t_s_s at small.c
+[2020-03-10 15:50:54.082] [Logger] [info] Reduce safe_mod_func_int16_t_s_s at small.c
+[2020-03-10 15:50:56.473] [Logger] [info] Reduce safe_mul_func_int16_t_s_s at small.c
+[2020-03-10 15:50:56.601] [Logger] [info] Reduce safe_sub_func_int16_t_s_s at small.c
+[2020-03-10 15:50:58.925] [Logger] [info] Reduce safe_add_func_int16_t_s_s at small.c
+[2020-03-10 15:51:01.054] [Logger] [info] Reduce safe_unary_minus_func_int16_t_s at small.c
+[2020-03-10 15:51:03.424] [Logger] [info] Reduce safe_rshift_func_int8_t_s_u at small.c
+[2020-03-10 15:51:03.631] [Logger] [info] Reduce safe_rshift_func_int8_t_s_s at small.c
+[2020-03-10 15:51:03.775] [Logger] [info] Reduce safe_lshift_func_int8_t_s_u at small.c
+[2020-03-10 15:51:05.995] [Logger] [info] Reduce safe_lshift_func_int8_t_s_s at small.c
+[2020-03-10 15:51:08.717] [Logger] [info] Reduce safe_div_func_int8_t_s_s at small.c
+[2020-03-10 15:51:11.014] [Logger] [info] Reduce safe_mod_func_int8_t_s_s at small.c
+[2020-03-10 15:51:11.301] [Logger] [info] Reduce safe_mul_func_int8_t_s_s at small.c
+[2020-03-10 15:51:11.444] [Logger] [info] Reduce safe_sub_func_int8_t_s_s at small.c
+[2020-03-10 15:51:11.713] [Logger] [info] Reduce safe_add_func_int8_t_s_s at small.c
+[2020-03-10 15:51:11.857] [Logger] [info] Reduce safe_unary_minus_func_int8_t_s at small.c
+[2020-03-10 15:51:14.094] [Logger] [info] Reduce platform_main_end at small.c
+[2020-03-10 15:51:22.788] [Logger] [info] Iteration 2 (Word: 4998)
+[2020-03-10 15:51:22.788] [Logger] [info] Start global reduction
+[2020-03-10 15:51:38.180] [Logger] [info] Start local reduction
+[2020-03-10 15:51:38.198] [Logger] [info] Reduce main at small.c
+[2020-03-10 15:52:03.620] [Logger] [info] Reduce func_97 at small.c
+[2020-03-10 15:53:21.806] [Logger] [info] Reduce func_89 at small.c
+[2020-03-10 15:53:51.070] [Logger] [info] Reduce func_81 at small.c
+[2020-03-10 15:53:51.254] [Logger] [info] Reduce func_75 at small.c
+[2020-03-10 15:53:51.382] [Logger] [info] Reduce func_55 at small.c
+[2020-03-10 15:54:47.666] [Logger] [info] Reduce func_48 at small.c
+[2020-03-10 15:54:49.807] [Logger] [info] Reduce func_42 at small.c
+[2020-03-10 15:54:51.576] [Logger] [info] Reduce func_29 at small.c
+[2020-03-10 15:54:58.357] [Logger] [info] Reduce func_8 at small.c
+[2020-03-10 15:55:13.896] [Logger] [info] Reduce func_1 at small.c
+[2020-03-10 15:55:36.084] [Logger] [info] Reduce transparent_crc_bytes at small.c
+[2020-03-10 15:55:36.084] [Logger] [info] Reduce transparent_crc at small.c
+[2020-03-10 15:55:36.084] [Logger] [info] Reduce crc32_8bytes at small.c
+[2020-03-10 15:55:36.084] [Logger] [info] Reduce crc32_byte at small.c
+[2020-03-10 15:55:43.809] [Logger] [info] Reduce crc32_gentab at small.c
+[2020-03-10 15:55:43.809] [Logger] [info] Reduce safe_convert_func_float_to_int32_t at small.c
+[2020-03-10 15:55:46.300] [Logger] [info] Reduce safe_div_func_double_f_f at small.c
+[2020-03-10 15:55:49.269] [Logger] [info] Reduce safe_mul_func_double_f_f at small.c
+[2020-03-10 15:55:51.498] [Logger] [info] Reduce safe_add_func_double_f_f at small.c
+[2020-03-10 15:55:51.688] [Logger] [info] Reduce safe_div_func_float_f_f at small.c
+[2020-03-10 15:55:54.447] [Logger] [info] Reduce safe_mul_func_float_f_f at small.c
+[2020-03-10 15:55:56.657] [Logger] [info] Reduce safe_sub_func_float_f_f at small.c
+[2020-03-10 15:55:59.346] [Logger] [info] Reduce safe_add_func_float_f_f at small.c
+[2020-03-10 15:56:01.772] [Logger] [info] Reduce safe_rshift_func_uint64_t_u_u at small.c
+[2020-03-10 15:56:02.819] [Logger] [info] Reduce safe_rshift_func_uint64_t_u_s at small.c
+[2020-03-10 15:56:05.210] [Logger] [info] Reduce safe_lshift_func_uint64_t_u_u at small.c
+[2020-03-10 15:56:06.101] [Logger] [info] Reduce safe_lshift_func_uint64_t_u_s at small.c
+[2020-03-10 15:56:08.429] [Logger] [info] Reduce safe_div_func_uint64_t_u_u at small.c
+[2020-03-10 15:56:11.470] [Logger] [info] Reduce safe_mod_func_uint64_t_u_u at small.c
+[2020-03-10 15:56:12.842] [Logger] [info] Reduce safe_mul_func_uint64_t_u_u at small.c
+[2020-03-10 15:56:15.114] [Logger] [info] Reduce safe_sub_func_uint64_t_u_u at small.c
+[2020-03-10 15:56:17.650] [Logger] [info] Reduce safe_add_func_uint64_t_u_u at small.c
+[2020-03-10 15:56:20.408] [Logger] [info] Reduce safe_unary_minus_func_uint64_t_u at small.c
+[2020-03-10 15:56:23.144] [Logger] [info] Reduce safe_rshift_func_uint32_t_u_u at small.c
+[2020-03-10 15:56:23.323] [Logger] [info] Reduce safe_rshift_func_uint32_t_u_s at small.c
+[2020-03-10 15:56:25.925] [Logger] [info] Reduce safe_lshift_func_uint32_t_u_u at small.c
+[2020-03-10 15:56:28.540] [Logger] [info] Reduce safe_lshift_func_uint32_t_u_s at small.c
+[2020-03-10 15:56:28.666] [Logger] [info] Reduce safe_div_func_uint32_t_u_u at small.c
+[2020-03-10 15:56:30.894] [Logger] [info] Reduce safe_mod_func_uint32_t_u_u at small.c
+[2020-03-10 15:56:33.668] [Logger] [info] Reduce safe_mul_func_uint32_t_u_u at small.c
+[2020-03-10 15:56:36.346] [Logger] [info] Reduce safe_sub_func_uint32_t_u_u at small.c
+[2020-03-10 15:56:38.625] [Logger] [info] Reduce safe_add_func_uint32_t_u_u at small.c
+[2020-03-10 15:56:38.809] [Logger] [info] Reduce safe_unary_minus_func_uint32_t_u at small.c
+[2020-03-10 15:56:38.935] [Logger] [info] Reduce safe_rshift_func_uint16_t_u_u at small.c
+[2020-03-10 15:56:41.157] [Logger] [info] Reduce safe_rshift_func_uint16_t_u_s at small.c
+[2020-03-10 15:56:43.890] [Logger] [info] Reduce safe_lshift_func_uint16_t_u_u at small.c
+[2020-03-10 15:56:46.310] [Logger] [info] Reduce safe_lshift_func_uint16_t_u_s at small.c
+[2020-03-10 15:56:46.512] [Logger] [info] Reduce safe_div_func_uint16_t_u_u at small.c
+[2020-03-10 15:56:46.638] [Logger] [info] Reduce safe_mod_func_uint16_t_u_u at small.c
+[2020-03-10 15:56:47.590] [Logger] [info] Reduce safe_mul_func_uint16_t_u_u at small.c
+[2020-03-10 15:56:47.716] [Logger] [info] Reduce safe_sub_func_uint16_t_u_u at small.c
+[2020-03-10 15:56:50.237] [Logger] [info] Reduce safe_add_func_uint16_t_u_u at small.c
+[2020-03-10 15:56:53.328] [Logger] [info] Reduce safe_unary_minus_func_uint16_t_u at small.c
+[2020-03-10 15:56:55.601] [Logger] [info] Reduce safe_rshift_func_uint8_t_u_u at small.c
+[2020-03-10 15:56:57.822] [Logger] [info] Reduce safe_rshift_func_uint8_t_u_s at small.c
+[2020-03-10 15:57:00.501] [Logger] [info] Reduce safe_lshift_func_uint8_t_u_u at small.c
+[2020-03-10 15:57:03.363] [Logger] [info] Reduce safe_lshift_func_uint8_t_u_s at small.c
+[2020-03-10 15:57:03.522] [Logger] [info] Reduce safe_div_func_uint8_t_u_u at small.c
+[2020-03-10 15:57:06.043] [Logger] [info] Reduce safe_mod_func_uint8_t_u_u at small.c
+[2020-03-10 15:57:06.185] [Logger] [info] Reduce safe_mul_func_uint8_t_u_u at small.c
+[2020-03-10 15:57:09.333] [Logger] [info] Reduce safe_sub_func_uint8_t_u_u at small.c
+[2020-03-10 15:57:09.585] [Logger] [info] Reduce safe_add_func_uint8_t_u_u at small.c
+[2020-03-10 15:57:13.238] [Logger] [info] Reduce safe_rshift_func_int64_t_s_u at small.c
+[2020-03-10 15:57:15.685] [Logger] [info] Reduce safe_rshift_func_int64_t_s_s at small.c
+[2020-03-10 15:57:18.814] [Logger] [info] Reduce safe_lshift_func_int64_t_s_u at small.c
+[2020-03-10 15:57:21.334] [Logger] [info] Reduce safe_lshift_func_int64_t_s_s at small.c
+[2020-03-10 15:57:21.530] [Logger] [info] Reduce safe_div_func_int64_t_s_s at small.c
+[2020-03-10 15:57:22.447] [Logger] [info] Reduce safe_mod_func_int64_t_s_s at small.c
+[2020-03-10 15:57:22.582] [Logger] [info] Reduce safe_mul_func_int64_t_s_s at small.c
+[2020-03-10 15:57:25.189] [Logger] [info] Reduce safe_sub_func_int64_t_s_s at small.c
+[2020-03-10 15:57:28.089] [Logger] [info] Reduce safe_add_func_int64_t_s_s at small.c
+[2020-03-10 15:57:31.018] [Logger] [info] Reduce safe_unary_minus_func_int64_t_s at small.c
+[2020-03-10 15:57:33.570] [Logger] [info] Reduce safe_rshift_func_int32_t_s_u at small.c
+[2020-03-10 15:57:36.539] [Logger] [info] Reduce safe_rshift_func_int32_t_s_s at small.c
+[2020-03-10 15:57:39.479] [Logger] [info] Reduce safe_lshift_func_int32_t_s_u at small.c
+[2020-03-10 15:57:39.678] [Logger] [info] Reduce safe_lshift_func_int32_t_s_s at small.c
+[2020-03-10 15:57:41.891] [Logger] [info] Reduce safe_div_func_int32_t_s_s at small.c
+[2020-03-10 15:57:42.018] [Logger] [info] Reduce safe_mod_func_int32_t_s_s at small.c
+[2020-03-10 15:57:42.145] [Logger] [info] Reduce safe_mul_func_int32_t_s_s at small.c
+[2020-03-10 15:57:45.313] [Logger] [info] Reduce safe_sub_func_int32_t_s_s at small.c
+[2020-03-10 15:57:48.006] [Logger] [info] Reduce safe_add_func_int32_t_s_s at small.c
+[2020-03-10 15:57:50.168] [Logger] [info] Reduce safe_unary_minus_func_int32_t_s at small.c
+[2020-03-10 15:57:53.360] [Logger] [info] Reduce safe_rshift_func_int16_t_s_u at small.c
+[2020-03-10 15:57:56.995] [Logger] [info] Reduce safe_rshift_func_int16_t_s_s at small.c
+[2020-03-10 15:58:00.176] [Logger] [info] Reduce safe_lshift_func_int16_t_s_u at small.c
+[2020-03-10 15:58:03.473] [Logger] [info] Reduce safe_lshift_func_int16_t_s_s at small.c
+[2020-03-10 15:58:03.606] [Logger] [info] Reduce safe_div_func_int16_t_s_s at small.c
+[2020-03-10 15:58:03.732] [Logger] [info] Reduce safe_mod_func_int16_t_s_s at small.c
+[2020-03-10 15:58:06.742] [Logger] [info] Reduce safe_mul_func_int16_t_s_s at small.c
+[2020-03-10 15:58:09.485] [Logger] [info] Reduce safe_sub_func_int16_t_s_s at small.c
+[2020-03-10 15:58:09.613] [Logger] [info] Reduce safe_add_func_int16_t_s_s at small.c
+[2020-03-10 15:58:12.123] [Logger] [info] Reduce safe_unary_minus_func_int16_t_s at small.c
+[2020-03-10 15:58:12.250] [Logger] [info] Reduce safe_rshift_func_int8_t_s_u at small.c
+[2020-03-10 15:58:15.472] [Logger] [info] Reduce safe_rshift_func_int8_t_s_s at small.c
+[2020-03-10 15:58:17.649] [Logger] [info] Reduce safe_lshift_func_int8_t_s_u at small.c
+[2020-03-10 15:58:20.584] [Logger] [info] Reduce safe_lshift_func_int8_t_s_s at small.c
+[2020-03-10 15:58:23.122] [Logger] [info] Reduce safe_div_func_int8_t_s_s at small.c
+[2020-03-10 15:58:25.361] [Logger] [info] Reduce safe_mul_func_int8_t_s_s at small.c
+[2020-03-10 15:58:27.628] [Logger] [info] Reduce safe_sub_func_int8_t_s_s at small.c
+[2020-03-10 15:58:27.755] [Logger] [info] Reduce safe_add_func_int8_t_s_s at small.c
+[2020-03-10 15:58:27.881] [Logger] [info] Reduce safe_unary_minus_func_int8_t_s at small.c
+[2020-03-10 15:58:31.486] [Logger] [info] Reduce platform_main_end at small.c
+[2020-03-10 15:58:31.507] [Logger] [info] Iteration 3 (Word: 4832)
+[2020-03-10 15:58:31.507] [Logger] [info] Start global reduction
+[2020-03-10 15:58:32.764] [Logger] [info] Start local reduction
+[2020-03-10 15:58:33.613] [Logger] [info] Reduce main at small.c
+[2020-03-10 15:58:54.607] [Logger] [info] Reduce func_97 at small.c
+[2020-03-10 16:00:10.712] [Logger] [info] Reduce func_89 at small.c
+[2020-03-10 16:00:32.110] [Logger] [info] Reduce func_81 at small.c
+[2020-03-10 16:00:37.877] [Logger] [info] Reduce func_75 at small.c
+[2020-03-10 16:00:40.360] [Logger] [info] Reduce func_55 at small.c
+[2020-03-10 16:01:16.874] [Logger] [info] Reduce func_48 at small.c
+[2020-03-10 16:01:32.977] [Logger] [info] Reduce func_42 at small.c
+[2020-03-10 16:01:35.109] [Logger] [info] Reduce func_29 at small.c
+[2020-03-10 16:01:35.291] [Logger] [info] Reduce func_8 at small.c
+[2020-03-10 16:01:41.919] [Logger] [info] Reduce func_1 at small.c
+[2020-03-10 16:01:53.732] [Logger] [info] Reduce transparent_crc_bytes at small.c
+[2020-03-10 16:01:53.733] [Logger] [info] Reduce transparent_crc at small.c
+[2020-03-10 16:01:53.733] [Logger] [info] Reduce crc32_8bytes at small.c
+[2020-03-10 16:01:53.734] [Logger] [info] Reduce crc32_byte at small.c
+[2020-03-10 16:01:53.734] [Logger] [info] Reduce crc32_gentab at small.c
+[2020-03-10 16:01:53.735] [Logger] [info] Reduce safe_convert_func_float_to_int32_t at small.c
+[2020-03-10 16:01:53.932] [Logger] [info] Reduce safe_div_func_double_f_f at small.c
+[2020-03-10 16:01:54.059] [Logger] [info] Reduce safe_mul_func_double_f_f at small.c
+[2020-03-10 16:01:56.600] [Logger] [info] Reduce safe_add_func_double_f_f at small.c
+[2020-03-10 16:01:56.783] [Logger] [info] Reduce safe_div_func_float_f_f at small.c
+[2020-03-10 16:01:56.998] [Logger] [info] Reduce safe_mul_func_float_f_f at small.c
+[2020-03-10 16:01:58.255] [Logger] [info] Reduce safe_sub_func_float_f_f at small.c
+[2020-03-10 16:02:00.608] [Logger] [info] Reduce safe_add_func_float_f_f at small.c
+[2020-03-10 16:02:00.893] [Logger] [info] Reduce safe_rshift_func_uint64_t_u_u at small.c
+[2020-03-10 16:02:01.091] [Logger] [info] Reduce safe_rshift_func_uint64_t_u_s at small.c
+[2020-03-10 16:02:01.297] [Logger] [info] Reduce safe_lshift_func_uint64_t_u_u at small.c
+[2020-03-10 16:02:03.185] [Logger] [info] Reduce safe_lshift_func_uint64_t_u_s at small.c
+[2020-03-10 16:02:03.330] [Logger] [info] Reduce safe_div_func_uint64_t_u_u at small.c
+[2020-03-10 16:02:05.773] [Logger] [info] Reduce safe_mod_func_uint64_t_u_u at small.c
+[2020-03-10 16:02:08.010] [Logger] [info] Reduce safe_mul_func_uint64_t_u_u at small.c
+[2020-03-10 16:02:11.436] [Logger] [info] Reduce safe_sub_func_uint64_t_u_u at small.c
+[2020-03-10 16:02:11.619] [Logger] [info] Reduce safe_add_func_uint64_t_u_u at small.c
+[2020-03-10 16:02:13.853] [Logger] [info] Reduce safe_unary_minus_func_uint64_t_u at small.c
+[2020-03-10 16:02:16.202] [Logger] [info] Reduce safe_rshift_func_uint32_t_u_u at small.c
+[2020-03-10 16:02:18.476] [Logger] [info] Reduce safe_rshift_func_uint32_t_u_s at small.c
+[2020-03-10 16:02:18.842] [Logger] [info] Reduce safe_lshift_func_uint32_t_u_u at small.c
+[2020-03-10 16:02:21.221] [Logger] [info] Reduce safe_lshift_func_uint32_t_u_s at small.c
+[2020-03-10 16:02:24.489] [Logger] [info] Reduce safe_div_func_uint32_t_u_u at small.c
+[2020-03-10 16:02:24.631] [Logger] [info] Reduce safe_mod_func_uint32_t_u_u at small.c
+[2020-03-10 16:02:27.539] [Logger] [info] Reduce safe_mul_func_uint32_t_u_u at small.c
+[2020-03-10 16:02:27.730] [Logger] [info] Reduce safe_sub_func_uint32_t_u_u at small.c
+[2020-03-10 16:02:29.514] [Logger] [info] Reduce safe_add_func_uint32_t_u_u at small.c
+[2020-03-10 16:02:29.706] [Logger] [info] Reduce safe_unary_minus_func_uint32_t_u at small.c
+[2020-03-10 16:02:31.843] [Logger] [info] Reduce safe_rshift_func_uint16_t_u_u at small.c
+[2020-03-10 16:02:34.098] [Logger] [info] Reduce safe_rshift_func_uint16_t_u_s at small.c
+[2020-03-10 16:02:36.610] [Logger] [info] Reduce safe_lshift_func_uint16_t_u_u at small.c
+[2020-03-10 16:02:36.844] [Logger] [info] Reduce safe_lshift_func_uint16_t_u_s at small.c
+[2020-03-10 16:02:39.504] [Logger] [info] Reduce safe_div_func_uint16_t_u_u at small.c
+[2020-03-10 16:02:39.718] [Logger] [info] Reduce safe_mod_func_uint16_t_u_u at small.c
+[2020-03-10 16:02:42.310] [Logger] [info] Reduce safe_mul_func_uint16_t_u_u at small.c
+[2020-03-10 16:02:44.701] [Logger] [info] Reduce safe_sub_func_uint16_t_u_u at small.c
+[2020-03-10 16:02:48.052] [Logger] [info] Reduce safe_add_func_uint16_t_u_u at small.c
+[2020-03-10 16:02:50.499] [Logger] [info] Reduce safe_unary_minus_func_uint16_t_u at small.c
+[2020-03-10 16:02:54.024] [Logger] [info] Reduce safe_rshift_func_uint8_t_u_u at small.c
+[2020-03-10 16:02:54.216] [Logger] [info] Reduce safe_rshift_func_uint8_t_u_s at small.c
+[2020-03-10 16:02:54.342] [Logger] [info] Reduce safe_lshift_func_uint8_t_u_u at small.c
+[2020-03-10 16:02:55.318] [Logger] [info] Reduce safe_lshift_func_uint8_t_u_s at small.c
+[2020-03-10 16:02:55.499] [Logger] [info] Reduce safe_div_func_uint8_t_u_u at small.c
+[2020-03-10 16:02:57.697] [Logger] [info] Reduce safe_mod_func_uint8_t_u_u at small.c
+[2020-03-10 16:03:00.334] [Logger] [info] Reduce safe_mul_func_uint8_t_u_u at small.c
+[2020-03-10 16:03:02.534] [Logger] [info] Reduce safe_sub_func_uint8_t_u_u at small.c
+[2020-03-10 16:03:02.729] [Logger] [info] Reduce safe_add_func_uint8_t_u_u at small.c
+[2020-03-10 16:03:02.871] [Logger] [info] Reduce safe_rshift_func_int64_t_s_u at small.c
+[2020-03-10 16:03:05.230] [Logger] [info] Reduce safe_rshift_func_int64_t_s_s at small.c
+[2020-03-10 16:03:07.624] [Logger] [info] Reduce safe_lshift_func_int64_t_s_u at small.c
+[2020-03-10 16:03:09.878] [Logger] [info] Reduce safe_lshift_func_int64_t_s_s at small.c
+[2020-03-10 16:03:10.071] [Logger] [info] Reduce safe_div_func_int64_t_s_s at small.c
+[2020-03-10 16:03:10.272] [Logger] [info] Reduce safe_mod_func_int64_t_s_s at small.c
+[2020-03-10 16:03:11.292] [Logger] [info] Reduce safe_mul_func_int64_t_s_s at small.c
+[2020-03-10 16:03:11.437] [Logger] [info] Reduce safe_sub_func_int64_t_s_s at small.c
+[2020-03-10 16:03:14.322] [Logger] [info] Reduce safe_add_func_int64_t_s_s at small.c
+[2020-03-10 16:03:14.504] [Logger] [info] Reduce safe_unary_minus_func_int64_t_s at small.c
+[2020-03-10 16:03:14.709] [Logger] [info] Reduce safe_rshift_func_int32_t_s_u at small.c
+[2020-03-10 16:03:14.900] [Logger] [info] Reduce safe_rshift_func_int32_t_s_s at small.c
+[2020-03-10 16:03:15.100] [Logger] [info] Reduce safe_lshift_func_int32_t_s_u at small.c
+[2020-03-10 16:03:15.400] [Logger] [info] Reduce safe_lshift_func_int32_t_s_s at small.c
+[2020-03-10 16:03:18.066] [Logger] [info] Reduce safe_div_func_int32_t_s_s at small.c
+[2020-03-10 16:03:20.882] [Logger] [info] Reduce safe_mod_func_int32_t_s_s at small.c
+[2020-03-10 16:03:21.025] [Logger] [info] Reduce safe_mul_func_int32_t_s_s at small.c
+[2020-03-10 16:03:21.171] [Logger] [info] Reduce safe_sub_func_int32_t_s_s at small.c
+[2020-03-10 16:03:24.226] [Logger] [info] Reduce safe_add_func_int32_t_s_s at small.c
+[2020-03-10 16:03:27.184] [Logger] [info] Reduce safe_unary_minus_func_int32_t_s at small.c
+[2020-03-10 16:03:30.317] [Logger] [info] Reduce safe_rshift_func_int16_t_s_u at small.c
+[2020-03-10 16:03:33.477] [Logger] [info] Reduce safe_rshift_func_int16_t_s_s at small.c
+[2020-03-10 16:03:33.658] [Logger] [info] Reduce safe_lshift_func_int16_t_s_u at small.c
+[2020-03-10 16:03:36.275] [Logger] [info] Reduce safe_lshift_func_int16_t_s_s at small.c
+[2020-03-10 16:03:39.889] [Logger] [info] Reduce safe_div_func_int16_t_s_s at small.c
+[2020-03-10 16:03:42.184] [Logger] [info] Reduce safe_mod_func_int16_t_s_s at small.c
+[2020-03-10 16:03:42.382] [Logger] [info] Reduce safe_mul_func_int16_t_s_s at small.c
+[2020-03-10 16:03:42.508] [Logger] [info] Reduce safe_sub_func_int16_t_s_s at small.c
+[2020-03-10 16:03:45.462] [Logger] [info] Reduce safe_add_func_int16_t_s_s at small.c
+[2020-03-10 16:03:48.010] [Logger] [info] Reduce safe_unary_minus_func_int16_t_s at small.c
+[2020-03-10 16:03:50.425] [Logger] [info] Reduce safe_rshift_func_int8_t_s_u at small.c
+[2020-03-10 16:03:50.586] [Logger] [info] Reduce safe_rshift_func_int8_t_s_s at small.c
+[2020-03-10 16:03:53.263] [Logger] [info] Reduce safe_lshift_func_int8_t_s_u at small.c
+[2020-03-10 16:03:55.815] [Logger] [info] Reduce safe_lshift_func_int8_t_s_s at small.c
+[2020-03-10 16:03:58.211] [Logger] [info] Reduce safe_div_func_int8_t_s_s at small.c
+[2020-03-10 16:04:00.675] [Logger] [info] Reduce safe_mul_func_int8_t_s_s at small.c
+[2020-03-10 16:04:00.866] [Logger] [info] Reduce safe_sub_func_int8_t_s_s at small.c
+[2020-03-10 16:04:03.504] [Logger] [info] Reduce safe_add_func_int8_t_s_s at small.c
+[2020-03-10 16:04:03.664] [Logger] [info] Reduce safe_unary_minus_func_int8_t_s at small.c
+[2020-03-10 16:04:07.037] [Logger] [info] Reduce platform_main_end at small.c
+[2020-03-10 16:04:07.947] [Logger] [info] Iteration 4 (Word: 4806)
+[2020-03-10 16:04:07.947] [Logger] [info] Start global reduction
+[2020-03-10 16:04:41.489] [Logger] [info] Start local reduction
+[2020-03-10 16:04:41.506] [Logger] [info] Reduce main at small.c
+[2020-03-10 16:04:48.959] [Logger] [info] Reduce func_97 at small.c
+[2020-03-10 16:06:21.506] [Logger] [info] Reduce func_89 at small.c
+[2020-03-10 16:06:35.954] [Logger] [info] Reduce func_81 at small.c
+[2020-03-10 16:06:39.430] [Logger] [info] Reduce func_75 at small.c
+[2020-03-10 16:06:42.478] [Logger] [info] Reduce func_55 at small.c
+[2020-03-10 16:07:32.239] [Logger] [info] Reduce func_48 at small.c
+[2020-03-10 16:07:40.399] [Logger] [info] Reduce func_42 at small.c
+[2020-03-10 16:07:42.489] [Logger] [info] Reduce func_29 at small.c
+[2020-03-10 16:07:42.611] [Logger] [info] Reduce func_8 at small.c
+[2020-03-10 16:07:50.100] [Logger] [info] Reduce func_1 at small.c
+[2020-03-10 16:07:59.153] [Logger] [info] Reduce transparent_crc_bytes at small.c
+[2020-03-10 16:07:59.153] [Logger] [info] Reduce transparent_crc at small.c
+[2020-03-10 16:07:59.153] [Logger] [info] Reduce crc32_8bytes at small.c
+[2020-03-10 16:07:59.153] [Logger] [info] Reduce crc32_gentab at small.c
+[2020-03-10 16:07:59.153] [Logger] [info] Reduce safe_convert_func_float_to_int32_t at small.c
+[2020-03-10 16:08:00.367] [Logger] [info] Reduce safe_div_func_double_f_f at small.c
+[2020-03-10 16:08:03.474] [Logger] [info] Reduce safe_mul_func_double_f_f at small.c
+[2020-03-10 16:08:03.597] [Logger] [info] Reduce safe_add_func_double_f_f at small.c
+[2020-03-10 16:08:06.568] [Logger] [info] Reduce safe_div_func_float_f_f at small.c
+[2020-03-10 16:08:09.570] [Logger] [info] Reduce safe_sub_func_float_f_f at small.c
+[2020-03-10 16:08:11.915] [Logger] [info] Reduce safe_add_func_float_f_f at small.c
+[2020-03-10 16:08:14.770] [Logger] [info] Reduce safe_rshift_func_uint64_t_u_u at small.c
+[2020-03-10 16:08:17.286] [Logger] [info] Reduce safe_rshift_func_uint64_t_u_s at small.c
+[2020-03-10 16:08:20.075] [Logger] [info] Reduce safe_lshift_func_uint64_t_u_u at small.c
+[2020-03-10 16:08:20.284] [Logger] [info] Reduce safe_lshift_func_uint64_t_u_s at small.c
+[2020-03-10 16:08:23.755] [Logger] [info] Reduce safe_div_func_uint64_t_u_u at small.c
+[2020-03-10 16:08:23.934] [Logger] [info] Reduce safe_mod_func_uint64_t_u_u at small.c
+[2020-03-10 16:08:24.191] [Logger] [info] Reduce safe_mul_func_uint64_t_u_u at small.c
+[2020-03-10 16:08:27.188] [Logger] [info] Reduce safe_sub_func_uint64_t_u_u at small.c
+[2020-03-10 16:08:30.316] [Logger] [info] Reduce safe_add_func_uint64_t_u_u at small.c
+[2020-03-10 16:08:30.508] [Logger] [info] Reduce safe_unary_minus_func_uint64_t_u at small.c
+[2020-03-10 16:08:30.643] [Logger] [info] Reduce safe_rshift_func_uint32_t_u_s at small.c
+[2020-03-10 16:08:30.847] [Logger] [info] Reduce safe_lshift_func_uint32_t_u_u at small.c
+[2020-03-10 16:08:33.285] [Logger] [info] Reduce safe_lshift_func_uint32_t_u_s at small.c
+[2020-03-10 16:08:36.540] [Logger] [info] Reduce safe_div_func_uint32_t_u_u at small.c
+[2020-03-10 16:08:38.681] [Logger] [info] Reduce safe_mod_func_uint32_t_u_u at small.c
+[2020-03-10 16:08:41.109] [Logger] [info] Reduce safe_mul_func_uint32_t_u_u at small.c
+[2020-03-10 16:08:41.232] [Logger] [info] Reduce safe_sub_func_uint32_t_u_u at small.c
+[2020-03-10 16:08:41.364] [Logger] [info] Reduce safe_add_func_uint32_t_u_u at small.c
+[2020-03-10 16:08:41.694] [Logger] [info] Reduce safe_unary_minus_func_uint32_t_u at small.c
+[2020-03-10 16:08:41.866] [Logger] [info] Reduce safe_rshift_func_uint16_t_u_u at small.c
+[2020-03-10 16:08:45.002] [Logger] [info] Reduce safe_rshift_func_uint16_t_u_s at small.c
+[2020-03-10 16:08:45.133] [Logger] [info] Reduce safe_lshift_func_uint16_t_u_u at small.c
+[2020-03-10 16:08:47.980] [Logger] [info] Reduce safe_lshift_func_uint16_t_u_s at small.c
+[2020-03-10 16:08:48.326] [Logger] [info] Reduce safe_div_func_uint16_t_u_u at small.c
+[2020-03-10 16:08:51.751] [Logger] [info] Reduce safe_mod_func_uint16_t_u_u at small.c
+[2020-03-10 16:08:51.887] [Logger] [info] Reduce safe_mul_func_uint16_t_u_u at small.c
+[2020-03-10 16:08:54.492] [Logger] [info] Reduce safe_sub_func_uint16_t_u_u at small.c
+[2020-03-10 16:08:54.671] [Logger] [info] Reduce safe_add_func_uint16_t_u_u at small.c
+[2020-03-10 16:08:54.793] [Logger] [info] Reduce safe_unary_minus_func_uint16_t_u at small.c
+[2020-03-10 16:08:57.646] [Logger] [info] Reduce safe_rshift_func_uint8_t_u_u at small.c
+[2020-03-10 16:08:57.943] [Logger] [info] Reduce safe_rshift_func_uint8_t_u_s at small.c
+[2020-03-10 16:08:58.118] [Logger] [info] Reduce safe_lshift_func_uint8_t_u_u at small.c
+[2020-03-10 16:09:01.586] [Logger] [info] Reduce safe_lshift_func_uint8_t_u_s at small.c
+[2020-03-10 16:09:03.017] [Logger] [info] Reduce safe_div_func_uint8_t_u_u at small.c
+[2020-03-10 16:09:03.922] [Logger] [info] Reduce safe_mod_func_uint8_t_u_u at small.c
+[2020-03-10 16:09:04.044] [Logger] [info] Reduce safe_mul_func_uint8_t_u_u at small.c
+[2020-03-10 16:09:04.596] [Logger] [info] Reduce safe_sub_func_uint8_t_u_u at small.c
+[2020-03-10 16:09:07.122] [Logger] [info] Reduce safe_add_func_uint8_t_u_u at small.c
+[2020-03-10 16:09:07.246] [Logger] [info] Reduce safe_rshift_func_int64_t_s_u at small.c
+[2020-03-10 16:09:09.492] [Logger] [info] Reduce safe_rshift_func_int64_t_s_s at small.c
+[2020-03-10 16:09:12.380] [Logger] [info] Reduce safe_lshift_func_int64_t_s_u at small.c
+[2020-03-10 16:09:14.947] [Logger] [info] Reduce safe_lshift_func_int64_t_s_s at small.c
+[2020-03-10 16:09:17.069] [Logger] [info] Reduce safe_mod_func_int64_t_s_s at small.c
+[2020-03-10 16:09:19.944] [Logger] [info] Reduce safe_mul_func_int64_t_s_s at small.c
+[2020-03-10 16:09:20.069] [Logger] [info] Reduce safe_sub_func_int64_t_s_s at small.c
+[2020-03-10 16:09:22.498] [Logger] [info] Reduce safe_add_func_int64_t_s_s at small.c
+[2020-03-10 16:09:22.711] [Logger] [info] Reduce safe_unary_minus_func_int64_t_s at small.c
+[2020-03-10 16:09:22.850] [Logger] [info] Reduce safe_rshift_func_int32_t_s_u at small.c
+[2020-03-10 16:09:25.053] [Logger] [info] Reduce safe_rshift_func_int32_t_s_s at small.c
+[2020-03-10 16:09:25.191] [Logger] [info] Reduce safe_lshift_func_int32_t_s_u at small.c
+[2020-03-10 16:09:27.584] [Logger] [info] Reduce safe_lshift_func_int32_t_s_s at small.c
+[2020-03-10 16:09:28.800] [Logger] [info] Reduce safe_div_func_int32_t_s_s at small.c
+[2020-03-10 16:09:29.071] [Logger] [info] Reduce safe_mod_func_int32_t_s_s at small.c
+[2020-03-10 16:09:29.253] [Logger] [info] Reduce safe_mul_func_int32_t_s_s at small.c
+[2020-03-10 16:09:29.531] [Logger] [info] Reduce safe_sub_func_int32_t_s_s at small.c
+[2020-03-10 16:09:31.797] [Logger] [info] Reduce safe_add_func_int32_t_s_s at small.c
+[2020-03-10 16:09:31.977] [Logger] [info] Reduce safe_unary_minus_func_int32_t_s at small.c
+[2020-03-10 16:09:32.100] [Logger] [info] Reduce safe_rshift_func_int16_t_s_u at small.c
+[2020-03-10 16:09:33.880] [Logger] [info] Reduce safe_rshift_func_int16_t_s_s at small.c
+[2020-03-10 16:09:34.017] [Logger] [info] Reduce safe_lshift_func_int16_t_s_s at small.c
+[2020-03-10 16:09:36.550] [Logger] [info] Reduce safe_div_func_int16_t_s_s at small.c
+[2020-03-10 16:09:37.275] [Logger] [info] Reduce safe_mod_func_int16_t_s_s at small.c
+[2020-03-10 16:09:39.683] [Logger] [info] Reduce safe_mul_func_int16_t_s_s at small.c
+[2020-03-10 16:09:41.920] [Logger] [info] Reduce safe_sub_func_int16_t_s_s at small.c
+[2020-03-10 16:09:45.314] [Logger] [info] Reduce safe_unary_minus_func_int16_t_s at small.c
+[2020-03-10 16:09:47.893] [Logger] [info] Reduce safe_rshift_func_int8_t_s_u at small.c
+[2020-03-10 16:09:50.630] [Logger] [info] Reduce safe_rshift_func_int8_t_s_s at small.c
+[2020-03-10 16:09:50.769] [Logger] [info] Reduce safe_lshift_func_int8_t_s_u at small.c
+[2020-03-10 16:09:53.019] [Logger] [info] Reduce safe_lshift_func_int8_t_s_s at small.c
+[2020-03-10 16:09:56.464] [Logger] [info] Reduce safe_div_func_int8_t_s_s at small.c
+[2020-03-10 16:09:59.688] [Logger] [info] Reduce safe_mul_func_int8_t_s_s at small.c
+[2020-03-10 16:10:01.893] [Logger] [info] Reduce safe_sub_func_int8_t_s_s at small.c
+[2020-03-10 16:10:05.102] [Logger] [info] Reduce safe_add_func_int8_t_s_s at small.c
+[2020-03-10 16:10:07.486] [Logger] [info] Reduce safe_unary_minus_func_int8_t_s at small.c
+[2020-03-10 16:10:10.803] [Logger] [info] Reduce platform_main_end at small.c
+[2020-03-10 16:10:10.823] [Logger] [info] Iteration 5 (Word: 4636)
+[2020-03-10 16:10:10.823] [Logger] [info] Start global reduction
+[2020-03-10 16:10:22.425] [Logger] [info] Start local reduction
+[2020-03-10 16:10:22.442] [Logger] [info] Reduce main at small.c
+[2020-03-10 16:10:26.396] [Logger] [info] Reduce func_97 at small.c
+[2020-03-10 16:11:56.852] [Logger] [info] Reduce func_89 at small.c
+[2020-03-10 16:12:17.650] [Logger] [info] Reduce func_81 at small.c
+[2020-03-10 16:12:20.801] [Logger] [info] Reduce func_75 at small.c
+[2020-03-10 16:12:23.489] [Logger] [info] Reduce func_55 at small.c
+[2020-03-10 16:13:18.983] [Logger] [info] Reduce func_48 at small.c
+[2020-03-10 16:13:19.122] [Logger] [info] Reduce func_42 at small.c
+[2020-03-10 16:13:22.456] [Logger] [info] Reduce func_29 at small.c
+[2020-03-10 16:13:22.697] [Logger] [info] Reduce func_8 at small.c
+[2020-03-10 16:13:24.911] [Logger] [info] Reduce func_1 at small.c
+[2020-03-10 16:13:29.002] [Logger] [info] Reduce transparent_crc_bytes at small.c
+[2020-03-10 16:13:29.002] [Logger] [info] Reduce transparent_crc at small.c
+[2020-03-10 16:13:29.002] [Logger] [info] Reduce crc32_8bytes at small.c
+[2020-03-10 16:13:29.002] [Logger] [info] Reduce crc32_gentab at small.c
+[2020-03-10 16:13:29.002] [Logger] [info] Reduce safe_convert_func_float_to_int32_t at small.c
+[2020-03-10 16:13:31.285] [Logger] [info] Reduce safe_div_func_double_f_f at small.c
+[2020-03-10 16:13:33.556] [Logger] [info] Reduce safe_mul_func_double_f_f at small.c
+[2020-03-10 16:13:35.950] [Logger] [info] Reduce safe_add_func_double_f_f at small.c
+[2020-03-10 16:13:36.072] [Logger] [info] Reduce safe_div_func_float_f_f at small.c
+[2020-03-10 16:13:38.585] [Logger] [info] Reduce safe_sub_func_float_f_f at small.c
+[2020-03-10 16:13:38.732] [Logger] [info] Reduce safe_add_func_float_f_f at small.c
+[2020-03-10 16:13:41.098] [Logger] [info] Reduce safe_rshift_func_uint64_t_u_u at small.c
+[2020-03-10 16:13:43.906] [Logger] [info] Reduce safe_rshift_func_uint64_t_u_s at small.c
+[2020-03-10 16:13:46.222] [Logger] [info] Reduce safe_lshift_func_uint64_t_u_u at small.c
+[2020-03-10 16:13:48.612] [Logger] [info] Reduce safe_lshift_func_uint64_t_u_s at small.c
+[2020-03-10 16:13:49.767] [Logger] [info] Reduce safe_div_func_uint64_t_u_u at small.c
+[2020-03-10 16:13:52.233] [Logger] [info] Reduce safe_mod_func_uint64_t_u_u at small.c
+[2020-03-10 16:13:53.112] [Logger] [info] Reduce safe_mul_func_uint64_t_u_u at small.c
+[2020-03-10 16:13:54.780] [Logger] [info] Reduce safe_sub_func_uint64_t_u_u at small.c
+[2020-03-10 16:13:57.586] [Logger] [info] Reduce safe_add_func_uint64_t_u_u at small.c
+[2020-03-10 16:13:59.768] [Logger] [info] Reduce safe_unary_minus_func_uint64_t_u at small.c
+[2020-03-10 16:14:02.381] [Logger] [info] Reduce safe_rshift_func_uint32_t_u_s at small.c
+[2020-03-10 16:14:05.115] [Logger] [info] Reduce safe_lshift_func_uint32_t_u_s at small.c
+[2020-03-10 16:14:05.300] [Logger] [info] Reduce safe_div_func_uint32_t_u_u at small.c
+[2020-03-10 16:14:05.421] [Logger] [info] Reduce safe_mod_func_uint32_t_u_u at small.c
+[2020-03-10 16:14:07.942] [Logger] [info] Reduce safe_mul_func_uint32_t_u_u at small.c
+[2020-03-10 16:14:10.062] [Logger] [info] Reduce safe_sub_func_uint32_t_u_u at small.c
+[2020-03-10 16:14:12.492] [Logger] [info] Reduce safe_add_func_uint32_t_u_u at small.c
+[2020-03-10 16:14:15.476] [Logger] [info] Reduce safe_unary_minus_func_uint32_t_u at small.c
+[2020-03-10 16:14:15.656] [Logger] [info] Reduce safe_rshift_func_uint16_t_u_u at small.c
+[2020-03-10 16:14:18.487] [Logger] [info] Reduce safe_rshift_func_uint16_t_u_s at small.c
+[2020-03-10 16:14:19.362] [Logger] [info] Reduce safe_lshift_func_uint16_t_u_s at small.c
+[2020-03-10 16:14:20.574] [Logger] [info] Reduce safe_div_func_uint16_t_u_u at small.c
+[2020-03-10 16:14:20.751] [Logger] [info] Reduce safe_mod_func_uint16_t_u_u at small.c
+[2020-03-10 16:14:23.208] [Logger] [info] Reduce safe_mul_func_uint16_t_u_u at small.c
+[2020-03-10 16:14:25.548] [Logger] [info] Reduce safe_sub_func_uint16_t_u_u at small.c
+[2020-03-10 16:14:25.670] [Logger] [info] Reduce safe_add_func_uint16_t_u_u at small.c
+[2020-03-10 16:14:28.907] [Logger] [info] Reduce safe_unary_minus_func_uint16_t_u at small.c
+[2020-03-10 16:14:29.061] [Logger] [info] Reduce safe_rshift_func_uint8_t_u_u at small.c
+[2020-03-10 16:14:29.182] [Logger] [info] Reduce safe_lshift_func_uint8_t_u_u at small.c
+[2020-03-10 16:14:30.567] [Logger] [info] Reduce safe_lshift_func_uint8_t_u_s at small.c
+[2020-03-10 16:14:33.241] [Logger] [info] Reduce safe_div_func_uint8_t_u_u at small.c
+[2020-03-10 16:14:35.449] [Logger] [info] Reduce safe_mod_func_uint8_t_u_u at small.c
+[2020-03-10 16:14:35.649] [Logger] [info] Reduce safe_mul_func_uint8_t_u_u at small.c
+[2020-03-10 16:14:37.939] [Logger] [info] Reduce safe_sub_func_uint8_t_u_u at small.c
+[2020-03-10 16:14:38.542] [Logger] [info] Reduce safe_add_func_uint8_t_u_u at small.c
+[2020-03-10 16:14:40.554] [Logger] [info] Reduce safe_rshift_func_int64_t_s_u at small.c
+[2020-03-10 16:14:42.868] [Logger] [info] Reduce safe_rshift_func_int64_t_s_s at small.c
+[2020-03-10 16:14:45.272] [Logger] [info] Reduce safe_lshift_func_int64_t_s_u at small.c
+[2020-03-10 16:14:48.191] [Logger] [info] Reduce safe_lshift_func_int64_t_s_s at small.c
+[2020-03-10 16:14:48.436] [Logger] [info] Reduce safe_mod_func_int64_t_s_s at small.c
+[2020-03-10 16:14:50.894] [Logger] [info] Reduce safe_mul_func_int64_t_s_s at small.c
+[2020-03-10 16:14:53.781] [Logger] [info] Reduce safe_sub_func_int64_t_s_s at small.c
+[2020-03-10 16:14:56.006] [Logger] [info] Reduce safe_add_func_int64_t_s_s at small.c
+[2020-03-10 16:14:59.024] [Logger] [info] Reduce safe_unary_minus_func_int64_t_s at small.c
+[2020-03-10 16:15:01.252] [Logger] [info] Reduce safe_rshift_func_int32_t_s_u at small.c
+[2020-03-10 16:15:03.599] [Logger] [info] Reduce safe_rshift_func_int32_t_s_s at small.c
+[2020-03-10 16:15:03.731] [Logger] [info] Reduce safe_lshift_func_int32_t_s_u at small.c
+[2020-03-10 16:15:03.907] [Logger] [info] Reduce safe_lshift_func_int32_t_s_s at small.c
+[2020-03-10 16:15:04.028] [Logger] [info] Reduce safe_div_func_int32_t_s_s at small.c
+[2020-03-10 16:15:07.330] [Logger] [info] Reduce safe_mod_func_int32_t_s_s at small.c
+[2020-03-10 16:15:09.510] [Logger] [info] Reduce safe_mul_func_int32_t_s_s at small.c
+[2020-03-10 16:15:12.080] [Logger] [info] Reduce safe_sub_func_int32_t_s_s at small.c
+[2020-03-10 16:15:12.332] [Logger] [info] Reduce safe_add_func_int32_t_s_s at small.c
+[2020-03-10 16:15:12.596] [Logger] [info] Reduce safe_unary_minus_func_int32_t_s at small.c
+[2020-03-10 16:15:12.779] [Logger] [info] Reduce safe_rshift_func_int16_t_s_u at small.c
+[2020-03-10 16:15:15.542] [Logger] [info] Reduce safe_rshift_func_int16_t_s_s at small.c
+[2020-03-10 16:15:15.798] [Logger] [info] Reduce safe_lshift_func_int16_t_s_s at small.c
+[2020-03-10 16:15:15.953] [Logger] [info] Reduce safe_div_func_int16_t_s_s at small.c
+[2020-03-10 16:15:18.127] [Logger] [info] Reduce safe_mod_func_int16_t_s_s at small.c
+[2020-03-10 16:15:20.577] [Logger] [info] Reduce safe_mul_func_int16_t_s_s at small.c
+[2020-03-10 16:15:23.082] [Logger] [info] Reduce safe_sub_func_int16_t_s_s at small.c
+[2020-03-10 16:15:26.515] [Logger] [info] Reduce safe_unary_minus_func_int16_t_s at small.c
+[2020-03-10 16:15:26.642] [Logger] [info] Reduce safe_rshift_func_int8_t_s_u at small.c
+[2020-03-10 16:15:29.787] [Logger] [info] Reduce safe_rshift_func_int8_t_s_s at small.c
+[2020-03-10 16:15:32.260] [Logger] [info] Reduce safe_lshift_func_int8_t_s_u at small.c
+[2020-03-10 16:15:32.475] [Logger] [info] Reduce safe_lshift_func_int8_t_s_s at small.c
+[2020-03-10 16:15:34.698] [Logger] [info] Reduce safe_div_func_int8_t_s_s at small.c
+[2020-03-10 16:15:36.965] [Logger] [info] Reduce safe_mul_func_int8_t_s_s at small.c
+[2020-03-10 16:15:39.322] [Logger] [info] Reduce safe_sub_func_int8_t_s_s at small.c
+[2020-03-10 16:15:42.197] [Logger] [info] Reduce safe_add_func_int8_t_s_s at small.c
+[2020-03-10 16:15:42.393] [Logger] [info] Reduce safe_unary_minus_func_int8_t_s at small.c
+[2020-03-10 16:15:44.981] [Logger] [info] Reduce platform_main_end at small.c
+[2020-03-10 16:15:45.909] [Logger] [info] Iteration 6 (Word: 4555)
+[2020-03-10 16:15:45.910] [Logger] [info] Start global reduction
+[2020-03-10 16:15:58.747] [Logger] [info] Start local reduction
+[2020-03-10 16:15:58.764] [Logger] [info] Reduce main at small.c
+[2020-03-10 16:16:05.895] [Logger] [info] Reduce func_97 at small.c
+[2020-03-10 16:17:55.296] [Logger] [info] Reduce func_89 at small.c
+[2020-03-10 16:18:12.498] [Logger] [info] Reduce func_81 at small.c
+[2020-03-10 16:18:12.642] [Logger] [info] Reduce func_75 at small.c
+[2020-03-10 16:18:15.136] [Logger] [info] Reduce func_55 at small.c
+[2020-03-10 16:19:07.566] [Logger] [info] Reduce func_48 at small.c
+[2020-03-10 16:19:07.810] [Logger] [info] Reduce func_42 at small.c
+[2020-03-10 16:19:09.204] [Logger] [info] Reduce func_29 at small.c
+[2020-03-10 16:19:11.452] [Logger] [info] Reduce func_8 at small.c
+[2020-03-10 16:19:15.029] [Logger] [info] Reduce func_1 at small.c
+[2020-03-10 16:19:27.896] [Logger] [info] Reduce transparent_crc_bytes at small.c
+[2020-03-10 16:19:27.896] [Logger] [info] Reduce transparent_crc at small.c
+[2020-03-10 16:19:27.896] [Logger] [info] Reduce crc32_8bytes at small.c
+[2020-03-10 16:19:27.896] [Logger] [info] Reduce crc32_gentab at small.c
+[2020-03-10 16:19:27.896] [Logger] [info] Reduce safe_convert_func_float_to_int32_t at small.c
+[2020-03-10 16:19:28.018] [Logger] [info] Reduce safe_div_func_double_f_f at small.c
+[2020-03-10 16:19:30.412] [Logger] [info] Reduce safe_mul_func_double_f_f at small.c
+[2020-03-10 16:19:31.664] [Logger] [info] Reduce safe_add_func_double_f_f at small.c
+[2020-03-10 16:19:34.066] [Logger] [info] Reduce safe_div_func_float_f_f at small.c
+[2020-03-10 16:19:36.395] [Logger] [info] Reduce safe_sub_func_float_f_f at small.c
+[2020-03-10 16:19:36.571] [Logger] [info] Reduce safe_add_func_float_f_f at small.c
+[2020-03-10 16:19:39.566] [Logger] [info] Reduce safe_rshift_func_uint64_t_u_u at small.c
+[2020-03-10 16:19:41.691] [Logger] [info] Reduce safe_rshift_func_uint64_t_u_s at small.c
+[2020-03-10 16:19:44.109] [Logger] [info] Reduce safe_lshift_func_uint64_t_u_u at small.c
+[2020-03-10 16:19:46.533] [Logger] [info] Reduce safe_lshift_func_uint64_t_u_s at small.c
+[2020-03-10 16:19:46.655] [Logger] [info] Reduce safe_div_func_uint64_t_u_u at small.c
+[2020-03-10 16:19:48.971] [Logger] [info] Reduce safe_mod_func_uint64_t_u_u at small.c
+[2020-03-10 16:19:49.182] [Logger] [info] Reduce safe_mul_func_uint64_t_u_u at small.c
+[2020-03-10 16:19:51.798] [Logger] [info] Reduce safe_sub_func_uint64_t_u_u at small.c
+[2020-03-10 16:19:52.150] [Logger] [info] Reduce safe_add_func_uint64_t_u_u at small.c
+[2020-03-10 16:19:52.272] [Logger] [info] Reduce safe_unary_minus_func_uint64_t_u at small.c
+[2020-03-10 16:19:55.260] [Logger] [info] Reduce safe_rshift_func_uint32_t_u_s at small.c
+[2020-03-10 16:19:55.385] [Logger] [info] Reduce safe_lshift_func_uint32_t_u_s at small.c
+[2020-03-10 16:19:58.164] [Logger] [info] Reduce safe_div_func_uint32_t_u_u at small.c
+[2020-03-10 16:20:01.019] [Logger] [info] Reduce safe_mod_func_uint32_t_u_u at small.c
+[2020-03-10 16:20:01.140] [Logger] [info] Reduce safe_mul_func_uint32_t_u_u at small.c
+[2020-03-10 16:20:03.654] [Logger] [info] Reduce safe_sub_func_uint32_t_u_u at small.c
+[2020-03-10 16:20:06.137] [Logger] [info] Reduce safe_add_func_uint32_t_u_u at small.c
+[2020-03-10 16:20:08.416] [Logger] [info] Reduce safe_unary_minus_func_uint32_t_u at small.c
+[2020-03-10 16:20:08.684] [Logger] [info] Reduce safe_rshift_func_uint16_t_u_u at small.c
+[2020-03-10 16:20:08.823] [Logger] [info] Reduce safe_rshift_func_uint16_t_u_s at small.c
+[2020-03-10 16:20:11.158] [Logger] [info] Reduce safe_lshift_func_uint16_t_u_s at small.c
+[2020-03-10 16:20:13.447] [Logger] [info] Reduce safe_div_func_uint16_t_u_u at small.c
+[2020-03-10 16:20:15.897] [Logger] [info] Reduce safe_mod_func_uint16_t_u_u at small.c
+[2020-03-10 16:20:16.073] [Logger] [info] Reduce safe_mul_func_uint16_t_u_u at small.c
+[2020-03-10 16:20:18.511] [Logger] [info] Reduce safe_sub_func_uint16_t_u_u at small.c
+[2020-03-10 16:20:21.203] [Logger] [info] Reduce safe_add_func_uint16_t_u_u at small.c
+[2020-03-10 16:20:21.389] [Logger] [info] Reduce safe_unary_minus_func_uint16_t_u at small.c
+[2020-03-10 16:20:22.294] [Logger] [info] Reduce safe_rshift_func_uint8_t_u_u at small.c
+[2020-03-10 16:20:22.416] [Logger] [info] Reduce safe_lshift_func_uint8_t_u_u at small.c
+[2020-03-10 16:20:25.234] [Logger] [info] Reduce safe_lshift_func_uint8_t_u_s at small.c
+[2020-03-10 16:20:28.397] [Logger] [info] Reduce safe_div_func_uint8_t_u_u at small.c
+[2020-03-10 16:20:31.469] [Logger] [info] Reduce safe_mod_func_uint8_t_u_u at small.c
+[2020-03-10 16:20:31.644] [Logger] [info] Reduce safe_mul_func_uint8_t_u_u at small.c
+[2020-03-10 16:20:34.124] [Logger] [info] Reduce safe_sub_func_uint8_t_u_u at small.c
+[2020-03-10 16:20:36.841] [Logger] [info] Reduce safe_add_func_uint8_t_u_u at small.c
+[2020-03-10 16:20:36.964] [Logger] [info] Reduce safe_rshift_func_int64_t_s_u at small.c
+[2020-03-10 16:20:39.192] [Logger] [info] Reduce safe_rshift_func_int64_t_s_s at small.c
+[2020-03-10 16:20:39.315] [Logger] [info] Reduce safe_lshift_func_int64_t_s_u at small.c
+[2020-03-10 16:20:42.470] [Logger] [info] Reduce safe_lshift_func_int64_t_s_s at small.c
+[2020-03-10 16:20:42.591] [Logger] [info] Reduce safe_mod_func_int64_t_s_s at small.c
+[2020-03-10 16:20:45.415] [Logger] [info] Reduce safe_mul_func_int64_t_s_s at small.c
+[2020-03-10 16:20:45.535] [Logger] [info] Reduce safe_sub_func_int64_t_s_s at small.c
+[2020-03-10 16:20:48.824] [Logger] [info] Reduce safe_add_func_int64_t_s_s at small.c
+[2020-03-10 16:20:51.166] [Logger] [info] Reduce safe_unary_minus_func_int64_t_s at small.c
+[2020-03-10 16:20:53.588] [Logger] [info] Reduce safe_rshift_func_int32_t_s_u at small.c
+[2020-03-10 16:20:53.774] [Logger] [info] Reduce safe_rshift_func_int32_t_s_s at small.c
+[2020-03-10 16:20:56.615] [Logger] [info] Reduce safe_lshift_func_int32_t_s_u at small.c
+[2020-03-10 16:20:56.830] [Logger] [info] Reduce safe_lshift_func_int32_t_s_s at small.c
+[2020-03-10 16:20:59.308] [Logger] [info] Reduce safe_div_func_int32_t_s_s at small.c
+[2020-03-10 16:21:01.808] [Logger] [info] Reduce safe_mod_func_int32_t_s_s at small.c
+[2020-03-10 16:21:03.788] [Logger] [info] Reduce safe_mul_func_int32_t_s_s at small.c
+[2020-03-10 16:21:06.353] [Logger] [info] Reduce safe_sub_func_int32_t_s_s at small.c
+[2020-03-10 16:21:09.449] [Logger] [info] Reduce safe_add_func_int32_t_s_s at small.c
+[2020-03-10 16:21:11.583] [Logger] [info] Reduce safe_unary_minus_func_int32_t_s at small.c
+[2020-03-10 16:21:11.770] [Logger] [info] Reduce safe_rshift_func_int16_t_s_u at small.c
+[2020-03-10 16:21:14.204] [Logger] [info] Reduce safe_rshift_func_int16_t_s_s at small.c
+[2020-03-10 16:21:16.932] [Logger] [info] Reduce safe_lshift_func_int16_t_s_s at small.c
+[2020-03-10 16:21:17.054] [Logger] [info] Reduce safe_div_func_int16_t_s_s at small.c
+[2020-03-10 16:21:19.484] [Logger] [info] Reduce safe_mod_func_int16_t_s_s at small.c
+[2020-03-10 16:21:21.731] [Logger] [info] Reduce safe_mul_func_int16_t_s_s at small.c
+[2020-03-10 16:21:23.932] [Logger] [info] Reduce safe_sub_func_int16_t_s_s at small.c
+[2020-03-10 16:21:25.332] [Logger] [info] Reduce safe_unary_minus_func_int16_t_s at small.c
+[2020-03-10 16:21:25.797] [Logger] [info] Reduce safe_rshift_func_int8_t_s_u at small.c
+[2020-03-10 16:21:28.290] [Logger] [info] Reduce safe_rshift_func_int8_t_s_s at small.c
+[2020-03-10 16:21:30.318] [Logger] [info] Reduce safe_lshift_func_int8_t_s_u at small.c
+[2020-03-10 16:21:30.440] [Logger] [info] Reduce safe_lshift_func_int8_t_s_s at small.c
+[2020-03-10 16:21:30.678] [Logger] [info] Reduce safe_div_func_int8_t_s_s at small.c
+[2020-03-10 16:21:30.853] [Logger] [info] Reduce safe_mul_func_int8_t_s_s at small.c
+[2020-03-10 16:21:32.693] [Logger] [info] Reduce safe_sub_func_int8_t_s_s at small.c
+[2020-03-10 16:21:33.749] [Logger] [info] Reduce safe_add_func_int8_t_s_s at small.c
+[2020-03-10 16:21:35.333] [Logger] [info] Reduce safe_unary_minus_func_int8_t_s at small.c
+[2020-03-10 16:21:37.573] [Logger] [info] Reduce platform_main_end at small.c
+[2020-03-10 16:21:37.592] [Logger] [info] Iteration 7 (Word: 4486)
+[2020-03-10 16:21:37.592] [Logger] [info] Start global reduction
+[2020-03-10 16:22:18.316] [Logger] [info] Start local reduction
+[2020-03-10 16:22:19.031] [Logger] [info] Reduce main at small.c
+[2020-03-10 16:22:28.429] [Logger] [info] Reduce func_97 at small.c
+[2020-03-10 16:24:04.683] [Logger] [info] Reduce func_89 at small.c
+[2020-03-10 16:24:19.911] [Logger] [info] Reduce func_81 at small.c
+[2020-03-10 16:24:22.375] [Logger] [info] Reduce func_75 at small.c
+[2020-03-10 16:24:24.321] [Logger] [info] Reduce func_55 at small.c
+[2020-03-10 16:25:01.482] [Logger] [info] Reduce func_48 at small.c
+[2020-03-10 16:25:02.131] [Logger] [info] Reduce func_42 at small.c
+[2020-03-10 16:25:02.419] [Logger] [info] Reduce func_29 at small.c
+[2020-03-10 16:25:05.522] [Logger] [info] Reduce func_8 at small.c
+[2020-03-10 16:25:05.693] [Logger] [info] Reduce func_1 at small.c
+[2020-03-10 16:25:22.802] [Logger] [info] Reduce transparent_crc_bytes at small.c
+[2020-03-10 16:25:22.802] [Logger] [info] Reduce transparent_crc at small.c
+[2020-03-10 16:25:22.802] [Logger] [info] Reduce crc32_8bytes at small.c
+[2020-03-10 16:25:22.802] [Logger] [info] Reduce crc32_gentab at small.c
+[2020-03-10 16:25:22.802] [Logger] [info] Reduce safe_div_func_double_f_f at small.c
+[2020-03-10 16:25:25.265] [Logger] [info] Reduce safe_mul_func_double_f_f at small.c
+[2020-03-10 16:25:27.398] [Logger] [info] Reduce safe_add_func_double_f_f at small.c
+[2020-03-10 16:25:30.857] [Logger] [info] Reduce safe_div_func_float_f_f at small.c
+[2020-03-10 16:25:30.997] [Logger] [info] Reduce safe_sub_func_float_f_f at small.c
+[2020-03-10 16:25:33.874] [Logger] [info] Reduce safe_add_func_float_f_f at small.c
+[2020-03-10 16:25:33.998] [Logger] [info] Reduce safe_rshift_func_uint64_t_u_u at small.c
+[2020-03-10 16:25:36.696] [Logger] [info] Reduce safe_rshift_func_uint64_t_u_s at small.c
+[2020-03-10 16:25:38.963] [Logger] [info] Reduce safe_lshift_func_uint64_t_u_u at small.c
+[2020-03-10 16:25:39.104] [Logger] [info] Reduce safe_lshift_func_uint64_t_u_s at small.c
+[2020-03-10 16:25:39.240] [Logger] [info] Reduce safe_div_func_uint64_t_u_u at small.c
+[2020-03-10 16:25:41.578] [Logger] [info] Reduce safe_mod_func_uint64_t_u_u at small.c
+[2020-03-10 16:25:44.374] [Logger] [info] Reduce safe_mul_func_uint64_t_u_u at small.c
+[2020-03-10 16:25:44.496] [Logger] [info] Reduce safe_sub_func_uint64_t_u_u at small.c
+[2020-03-10 16:25:46.715] [Logger] [info] Reduce safe_add_func_uint64_t_u_u at small.c
+[2020-03-10 16:25:46.836] [Logger] [info] Reduce safe_unary_minus_func_uint64_t_u at small.c
+[2020-03-10 16:25:49.407] [Logger] [info] Reduce safe_rshift_func_uint32_t_u_s at small.c
+[2020-03-10 16:25:49.616] [Logger] [info] Reduce safe_lshift_func_uint32_t_u_s at small.c
+[2020-03-10 16:25:49.752] [Logger] [info] Reduce safe_div_func_uint32_t_u_u at small.c
+[2020-03-10 16:25:52.557] [Logger] [info] Reduce safe_mod_func_uint32_t_u_u at small.c
+[2020-03-10 16:25:52.679] [Logger] [info] Reduce safe_mul_func_uint32_t_u_u at small.c
+[2020-03-10 16:25:55.020] [Logger] [info] Reduce safe_sub_func_uint32_t_u_u at small.c
+[2020-03-10 16:25:55.156] [Logger] [info] Reduce safe_add_func_uint32_t_u_u at small.c
+[2020-03-10 16:25:57.479] [Logger] [info] Reduce safe_unary_minus_func_uint32_t_u at small.c
+[2020-03-10 16:25:59.758] [Logger] [info] Reduce safe_rshift_func_uint16_t_u_u at small.c
+[2020-03-10 16:26:02.104] [Logger] [info] Reduce safe_rshift_func_uint16_t_u_s at small.c
+[2020-03-10 16:26:04.332] [Logger] [info] Reduce safe_lshift_func_uint16_t_u_s at small.c
+[2020-03-10 16:26:04.473] [Logger] [info] Reduce safe_div_func_uint16_t_u_u at small.c
+[2020-03-10 16:26:07.094] [Logger] [info] Reduce safe_mod_func_uint16_t_u_u at small.c
+[2020-03-10 16:26:09.991] [Logger] [info] Reduce safe_mul_func_uint16_t_u_u at small.c
+[2020-03-10 16:26:10.112] [Logger] [info] Reduce safe_sub_func_uint16_t_u_u at small.c
+[2020-03-10 16:26:10.303] [Logger] [info] Reduce safe_add_func_uint16_t_u_u at small.c
+[2020-03-10 16:26:10.425] [Logger] [info] Reduce safe_rshift_func_uint8_t_u_u at small.c
+[2020-03-10 16:26:12.612] [Logger] [info] Reduce safe_lshift_func_uint8_t_u_u at small.c
+[2020-03-10 16:26:13.968] [Logger] [info] Reduce safe_lshift_func_uint8_t_u_s at small.c
+[2020-03-10 16:26:16.588] [Logger] [info] Reduce safe_div_func_uint8_t_u_u at small.c
+[2020-03-10 16:26:19.472] [Logger] [info] Reduce safe_mod_func_uint8_t_u_u at small.c
+[2020-03-10 16:26:19.592] [Logger] [info] Reduce safe_mul_func_uint8_t_u_u at small.c
+[2020-03-10 16:26:22.473] [Logger] [info] Reduce safe_sub_func_uint8_t_u_u at small.c
+[2020-03-10 16:26:24.871] [Logger] [info] Reduce safe_add_func_uint8_t_u_u at small.c
+[2020-03-10 16:26:26.402] [Logger] [info] Reduce safe_rshift_func_int64_t_s_u at small.c
+[2020-03-10 16:26:28.774] [Logger] [info] Reduce safe_rshift_func_int64_t_s_s at small.c
+[2020-03-10 16:26:28.974] [Logger] [info] Reduce safe_lshift_func_int64_t_s_u at small.c
+[2020-03-10 16:26:29.095] [Logger] [info] Reduce safe_lshift_func_int64_t_s_s at small.c
+[2020-03-10 16:26:30.000] [Logger] [info] Reduce safe_mod_func_int64_t_s_s at small.c
+[2020-03-10 16:26:32.387] [Logger] [info] Reduce safe_mul_func_int64_t_s_s at small.c
+[2020-03-10 16:26:34.738] [Logger] [info] Reduce safe_sub_func_int64_t_s_s at small.c
+[2020-03-10 16:26:34.876] [Logger] [info] Reduce safe_add_func_int64_t_s_s at small.c
+[2020-03-10 16:26:37.139] [Logger] [info] Reduce safe_rshift_func_int32_t_s_u at small.c
+[2020-03-10 16:26:37.419] [Logger] [info] Reduce safe_rshift_func_int32_t_s_s at small.c
+[2020-03-10 16:26:39.886] [Logger] [info] Reduce safe_lshift_func_int32_t_s_u at small.c
+[2020-03-10 16:26:43.293] [Logger] [info] Reduce safe_lshift_func_int32_t_s_s at small.c
+[2020-03-10 16:26:46.070] [Logger] [info] Reduce safe_div_func_int32_t_s_s at small.c
+[2020-03-10 16:26:48.329] [Logger] [info] Reduce safe_mod_func_int32_t_s_s at small.c
+[2020-03-10 16:26:50.913] [Logger] [info] Reduce safe_mul_func_int32_t_s_s at small.c
+[2020-03-10 16:26:53.365] [Logger] [info] Reduce safe_sub_func_int32_t_s_s at small.c
+[2020-03-10 16:26:53.486] [Logger] [info] Reduce safe_add_func_int32_t_s_s at small.c
+[2020-03-10 16:26:55.704] [Logger] [info] Reduce safe_unary_minus_func_int32_t_s at small.c
+[2020-03-10 16:26:58.001] [Logger] [info] Reduce safe_rshift_func_int16_t_s_u at small.c
+[2020-03-10 16:27:00.864] [Logger] [info] Reduce safe_rshift_func_int16_t_s_s at small.c
+[2020-03-10 16:27:04.177] [Logger] [info] Reduce safe_lshift_func_int16_t_s_s at small.c
+[2020-03-10 16:27:04.319] [Logger] [info] Reduce safe_div_func_int16_t_s_s at small.c
+[2020-03-10 16:27:06.658] [Logger] [info] Reduce safe_mod_func_int16_t_s_s at small.c
+[2020-03-10 16:27:06.892] [Logger] [info] Reduce safe_mul_func_int16_t_s_s at small.c
+[2020-03-10 16:27:09.483] [Logger] [info] Reduce safe_sub_func_int16_t_s_s at small.c
+[2020-03-10 16:27:09.603] [Logger] [info] Reduce safe_unary_minus_func_int16_t_s at small.c
+[2020-03-10 16:27:11.844] [Logger] [info] Reduce safe_rshift_func_int8_t_s_u at small.c
+[2020-03-10 16:27:11.984] [Logger] [info] Reduce safe_rshift_func_int8_t_s_s at small.c
+[2020-03-10 16:27:14.148] [Logger] [info] Reduce safe_lshift_func_int8_t_s_u at small.c
+[2020-03-10 16:27:16.500] [Logger] [info] Reduce safe_lshift_func_int8_t_s_s at small.c
+[2020-03-10 16:27:16.765] [Logger] [info] Reduce safe_div_func_int8_t_s_s at small.c
+[2020-03-10 16:27:19.258] [Logger] [info] Reduce safe_mul_func_int8_t_s_s at small.c
+[2020-03-10 16:27:20.189] [Logger] [info] Reduce safe_sub_func_int8_t_s_s at small.c
+[2020-03-10 16:27:22.486] [Logger] [info] Reduce safe_add_func_int8_t_s_s at small.c
+[2020-03-10 16:27:22.690] [Logger] [info] Reduce safe_unary_minus_func_int8_t_s at small.c
+[2020-03-10 16:27:24.855] [Logger] [info] Reduce platform_main_end at small.c
+[2020-03-10 16:27:25.346] [Logger] [info] Iteration 8 (Word: 4349)
+[2020-03-10 16:27:25.346] [Logger] [info] Start global reduction
+[2020-03-10 16:27:58.810] [Logger] [info] Start local reduction
+[2020-03-10 16:27:58.826] [Logger] [info] Reduce main at small.c
+[2020-03-10 16:28:03.658] [Logger] [info] Reduce func_97 at small.c
+[2020-03-10 16:29:22.850] [Logger] [info] Reduce func_89 at small.c
+[2020-03-10 16:29:53.154] [Logger] [info] Reduce func_81 at small.c
+[2020-03-10 16:29:53.291] [Logger] [info] Reduce func_75 at small.c
+[2020-03-10 16:29:56.457] [Logger] [info] Reduce func_55 at small.c
+[2020-03-10 16:30:38.970] [Logger] [info] Reduce func_48 at small.c
+[2020-03-10 16:30:41.626] [Logger] [info] Reduce func_42 at small.c
+[2020-03-10 16:30:44.209] [Logger] [info] Reduce func_29 at small.c
+[2020-03-10 16:30:46.486] [Logger] [info] Reduce func_8 at small.c
+[2020-03-10 16:30:49.165] [Logger] [info] Reduce func_1 at small.c
+[2020-03-10 16:31:06.448] [Logger] [info] Reduce transparent_crc_bytes at small.c
+[2020-03-10 16:31:06.448] [Logger] [info] Reduce transparent_crc at small.c
+[2020-03-10 16:31:06.448] [Logger] [info] Reduce crc32_8bytes at small.c
+[2020-03-10 16:31:06.448] [Logger] [info] Reduce crc32_gentab at small.c
+[2020-03-10 16:31:06.448] [Logger] [info] Reduce safe_div_func_double_f_f at small.c
+[2020-03-10 16:31:09.551] [Logger] [info] Reduce safe_mul_func_double_f_f at small.c
+[2020-03-10 16:31:11.795] [Logger] [info] Reduce safe_add_func_double_f_f at small.c
+[2020-03-10 16:31:14.987] [Logger] [info] Reduce safe_div_func_float_f_f at small.c
+[2020-03-10 16:31:17.453] [Logger] [info] Reduce safe_sub_func_float_f_f at small.c
+[2020-03-10 16:31:20.563] [Logger] [info] Reduce safe_add_func_float_f_f at small.c
+[2020-03-10 16:31:23.379] [Logger] [info] Reduce safe_rshift_func_uint64_t_u_u at small.c
+[2020-03-10 16:31:25.509] [Logger] [info] Reduce safe_rshift_func_uint64_t_u_s at small.c
+[2020-03-10 16:31:27.684] [Logger] [info] Reduce safe_lshift_func_uint64_t_u_u at small.c
+[2020-03-10 16:31:29.991] [Logger] [info] Reduce safe_lshift_func_uint64_t_u_s at small.c
+[2020-03-10 16:31:32.336] [Logger] [info] Reduce safe_div_func_uint64_t_u_u at small.c
+[2020-03-10 16:31:32.454] [Logger] [info] Reduce safe_mod_func_uint64_t_u_u at small.c
+[2020-03-10 16:31:34.576] [Logger] [info] Reduce safe_mul_func_uint64_t_u_u at small.c
+[2020-03-10 16:31:35.873] [Logger] [info] Reduce safe_sub_func_uint64_t_u_u at small.c
+[2020-03-10 16:31:38.043] [Logger] [info] Reduce safe_add_func_uint64_t_u_u at small.c
+[2020-03-10 16:31:38.164] [Logger] [info] Reduce safe_unary_minus_func_uint64_t_u at small.c
+[2020-03-10 16:31:39.346] [Logger] [info] Reduce safe_rshift_func_uint32_t_u_s at small.c
+[2020-03-10 16:31:41.602] [Logger] [info] Reduce safe_lshift_func_uint32_t_u_s at small.c
+[2020-03-10 16:31:41.722] [Logger] [info] Reduce safe_div_func_uint32_t_u_u at small.c
+[2020-03-10 16:31:44.057] [Logger] [info] Reduce safe_mod_func_uint32_t_u_u at small.c
+[2020-03-10 16:31:47.325] [Logger] [info] Reduce safe_mul_func_uint32_t_u_u at small.c
+[2020-03-10 16:31:49.490] [Logger] [info] Reduce safe_sub_func_uint32_t_u_u at small.c
+[2020-03-10 16:31:50.882] [Logger] [info] Reduce safe_add_func_uint32_t_u_u at small.c
+[2020-03-10 16:31:51.132] [Logger] [info] Reduce safe_unary_minus_func_uint32_t_u at small.c
+[2020-03-10 16:31:53.270] [Logger] [info] Reduce safe_rshift_func_uint16_t_u_u at small.c
+[2020-03-10 16:31:55.394] [Logger] [info] Reduce safe_rshift_func_uint16_t_u_s at small.c
+[2020-03-10 16:31:57.940] [Logger] [info] Reduce safe_lshift_func_uint16_t_u_s at small.c
+[2020-03-10 16:32:00.952] [Logger] [info] Reduce safe_div_func_uint16_t_u_u at small.c
+[2020-03-10 16:32:03.085] [Logger] [info] Reduce safe_mod_func_uint16_t_u_u at small.c
+[2020-03-10 16:32:03.207] [Logger] [info] Reduce safe_mul_func_uint16_t_u_u at small.c
+[2020-03-10 16:32:05.997] [Logger] [info] Reduce safe_sub_func_uint16_t_u_u at small.c
+[2020-03-10 16:32:06.117] [Logger] [info] Reduce safe_add_func_uint16_t_u_u at small.c
+[2020-03-10 16:32:08.954] [Logger] [info] Reduce safe_rshift_func_uint8_t_u_u at small.c
+[2020-03-10 16:32:09.166] [Logger] [info] Reduce safe_lshift_func_uint8_t_u_u at small.c
+[2020-03-10 16:32:11.340] [Logger] [info] Reduce safe_lshift_func_uint8_t_u_s at small.c
+[2020-03-10 16:32:13.465] [Logger] [info] Reduce safe_div_func_uint8_t_u_u at small.c
+[2020-03-10 16:32:15.765] [Logger] [info] Reduce safe_mod_func_uint8_t_u_u at small.c
+[2020-03-10 16:32:17.200] [Logger] [info] Reduce safe_mul_func_uint8_t_u_u at small.c
+[2020-03-10 16:32:19.541] [Logger] [info] Reduce safe_sub_func_uint8_t_u_u at small.c
+[2020-03-10 16:32:21.816] [Logger] [info] Reduce safe_add_func_uint8_t_u_u at small.c
+[2020-03-10 16:32:24.200] [Logger] [info] Reduce safe_rshift_func_int64_t_s_u at small.c
+[2020-03-10 16:32:27.033] [Logger] [info] Reduce safe_rshift_func_int64_t_s_s at small.c
+[2020-03-10 16:32:27.211] [Logger] [info] Reduce safe_lshift_func_int64_t_s_u at small.c
+[2020-03-10 16:32:29.617] [Logger] [info] Reduce safe_mul_func_int64_t_s_s at small.c
+[2020-03-10 16:32:32.899] [Logger] [info] Reduce safe_sub_func_int64_t_s_s at small.c
+[2020-03-10 16:32:33.020] [Logger] [info] Reduce safe_add_func_int64_t_s_s at small.c
+[2020-03-10 16:32:35.864] [Logger] [info] Reduce safe_rshift_func_int32_t_s_u at small.c
+[2020-03-10 16:32:38.047] [Logger] [info] Reduce safe_rshift_func_int32_t_s_s at small.c
+[2020-03-10 16:32:40.166] [Logger] [info] Reduce safe_lshift_func_int32_t_s_u at small.c
+[2020-03-10 16:32:42.858] [Logger] [info] Reduce safe_lshift_func_int32_t_s_s at small.c
+[2020-03-10 16:32:42.980] [Logger] [info] Reduce safe_div_func_int32_t_s_s at small.c
+[2020-03-10 16:32:45.332] [Logger] [info] Reduce safe_mod_func_int32_t_s_s at small.c
+[2020-03-10 16:32:45.451] [Logger] [info] Reduce safe_mul_func_int32_t_s_s at small.c
+[2020-03-10 16:32:47.989] [Logger] [info] Reduce safe_sub_func_int32_t_s_s at small.c
+[2020-03-10 16:32:48.160] [Logger] [info] Reduce safe_add_func_int32_t_s_s at small.c
+[2020-03-10 16:32:50.738] [Logger] [info] Reduce safe_unary_minus_func_int32_t_s at small.c
+[2020-03-10 16:32:53.002] [Logger] [info] Reduce safe_rshift_func_int16_t_s_u at small.c
+[2020-03-10 16:32:53.211] [Logger] [info] Reduce safe_rshift_func_int16_t_s_s at small.c
+[2020-03-10 16:32:56.178] [Logger] [info] Reduce safe_div_func_int16_t_s_s at small.c
+[2020-03-10 16:32:56.300] [Logger] [info] Reduce safe_mod_func_int16_t_s_s at small.c
+[2020-03-10 16:32:56.496] [Logger] [info] Reduce safe_mul_func_int16_t_s_s at small.c
+[2020-03-10 16:32:56.685] [Logger] [info] Reduce safe_sub_func_int16_t_s_s at small.c
+[2020-03-10 16:32:56.879] [Logger] [info] Reduce safe_unary_minus_func_int16_t_s at small.c
+[2020-03-10 16:32:57.045] [Logger] [info] Reduce safe_rshift_func_int8_t_s_u at small.c
+[2020-03-10 16:32:57.235] [Logger] [info] Reduce safe_rshift_func_int8_t_s_s at small.c
+[2020-03-10 16:32:57.463] [Logger] [info] Reduce safe_lshift_func_int8_t_s_u at small.c
+[2020-03-10 16:32:59.078] [Logger] [info] Reduce safe_lshift_func_int8_t_s_s at small.c
+[2020-03-10 16:33:01.486] [Logger] [info] Reduce safe_div_func_int8_t_s_s at small.c
+[2020-03-10 16:33:01.606] [Logger] [info] Reduce safe_mul_func_int8_t_s_s at small.c
+[2020-03-10 16:33:04.359] [Logger] [info] Reduce safe_sub_func_int8_t_s_s at small.c
+[2020-03-10 16:33:07.465] [Logger] [info] Reduce safe_add_func_int8_t_s_s at small.c
+[2020-03-10 16:33:07.585] [Logger] [info] Reduce safe_unary_minus_func_int8_t_s at small.c
+[2020-03-10 16:33:09.424] [Logger] [info] Iteration 9 (Word: 4237)
+[2020-03-10 16:33:09.424] [Logger] [info] Start global reduction
+[2020-03-10 16:33:20.047] [Logger] [info] Start local reduction
+[2020-03-10 16:33:20.064] [Logger] [info] Reduce main at small.c
+[2020-03-10 16:33:23.462] [Logger] [info] Reduce func_97 at small.c
+[2020-03-10 16:34:49.804] [Logger] [info] Reduce func_89 at small.c
+[2020-03-10 16:35:04.466] [Logger] [info] Reduce func_81 at small.c
+[2020-03-10 16:35:05.343] [Logger] [info] Reduce func_75 at small.c
+[2020-03-10 16:35:08.239] [Logger] [info] Reduce func_55 at small.c
+[2020-03-10 16:35:30.625] [Logger] [info] Reduce func_48 at small.c
+[2020-03-10 16:35:30.743] [Logger] [info] Reduce func_42 at small.c
+[2020-03-10 16:35:30.861] [Logger] [info] Reduce func_29 at small.c
+[2020-03-10 16:35:30.980] [Logger] [info] Reduce func_8 at small.c
+[2020-03-10 16:35:31.877] [Logger] [info] Reduce func_1 at small.c
+[2020-03-10 16:35:37.588] [Logger] [info] Reduce transparent_crc_bytes at small.c
+[2020-03-10 16:35:37.589] [Logger] [info] Reduce transparent_crc at small.c
+[2020-03-10 16:35:37.590] [Logger] [info] Reduce crc32_8bytes at small.c
+[2020-03-10 16:35:37.590] [Logger] [info] Reduce safe_div_func_double_f_f at small.c
+[2020-03-10 16:35:37.861] [Logger] [info] Reduce safe_mul_func_double_f_f at small.c
+[2020-03-10 16:35:37.981] [Logger] [info] Reduce safe_add_func_double_f_f at small.c
+[2020-03-10 16:35:40.341] [Logger] [info] Reduce safe_div_func_float_f_f at small.c
+[2020-03-10 16:35:40.539] [Logger] [info] Reduce safe_sub_func_float_f_f at small.c
+[2020-03-10 16:35:40.881] [Logger] [info] Reduce safe_add_func_float_f_f at small.c
+[2020-03-10 16:35:41.016] [Logger] [info] Reduce safe_rshift_func_uint64_t_u_u at small.c
+[2020-03-10 16:35:41.137] [Logger] [info] Reduce safe_rshift_func_uint64_t_u_s at small.c
+[2020-03-10 16:35:43.573] [Logger] [info] Reduce safe_lshift_func_uint64_t_u_u at small.c
+[2020-03-10 16:35:45.767] [Logger] [info] Reduce safe_lshift_func_uint64_t_u_s at small.c
+[2020-03-10 16:35:45.941] [Logger] [info] Reduce safe_div_func_uint64_t_u_u at small.c
+[2020-03-10 16:35:48.758] [Logger] [info] Reduce safe_mod_func_uint64_t_u_u at small.c
+[2020-03-10 16:35:51.106] [Logger] [info] Reduce safe_mul_func_uint64_t_u_u at small.c
+[2020-03-10 16:35:53.398] [Logger] [info] Reduce safe_sub_func_uint64_t_u_u at small.c
+[2020-03-10 16:35:56.763] [Logger] [info] Reduce safe_add_func_uint64_t_u_u at small.c
+[2020-03-10 16:35:59.015] [Logger] [info] Reduce safe_unary_minus_func_uint64_t_u at small.c
+[2020-03-10 16:35:59.135] [Logger] [info] Reduce safe_rshift_func_uint32_t_u_s at small.c
+[2020-03-10 16:36:01.484] [Logger] [info] Reduce safe_lshift_func_uint32_t_u_s at small.c
+[2020-03-10 16:36:01.660] [Logger] [info] Reduce safe_div_func_uint32_t_u_u at small.c
+[2020-03-10 16:36:04.132] [Logger] [info] Reduce safe_mod_func_uint32_t_u_u at small.c
+[2020-03-10 16:36:05.302] [Logger] [info] Reduce safe_mul_func_uint32_t_u_u at small.c
+[2020-03-10 16:36:08.002] [Logger] [info] Reduce safe_sub_func_uint32_t_u_u at small.c
+[2020-03-10 16:36:08.153] [Logger] [info] Reduce safe_add_func_uint32_t_u_u at small.c
+[2020-03-10 16:36:08.290] [Logger] [info] Reduce safe_unary_minus_func_uint32_t_u at small.c
+[2020-03-10 16:36:09.197] [Logger] [info] Reduce safe_rshift_func_uint16_t_u_u at small.c
+[2020-03-10 16:36:11.714] [Logger] [info] Reduce safe_rshift_func_uint16_t_u_s at small.c
+[2020-03-10 16:36:11.849] [Logger] [info] Reduce safe_lshift_func_uint16_t_u_s at small.c
+[2020-03-10 16:36:14.227] [Logger] [info] Reduce safe_div_func_uint16_t_u_u at small.c
+[2020-03-10 16:36:16.673] [Logger] [info] Reduce safe_mod_func_uint16_t_u_u at small.c
+[2020-03-10 16:36:16.850] [Logger] [info] Reduce safe_mul_func_uint16_t_u_u at small.c
+[2020-03-10 16:36:16.970] [Logger] [info] Reduce safe_sub_func_uint16_t_u_u at small.c
+[2020-03-10 16:36:19.368] [Logger] [info] Reduce safe_add_func_uint16_t_u_u at small.c
+[2020-03-10 16:36:19.488] [Logger] [info] Reduce safe_rshift_func_uint8_t_u_u at small.c
+[2020-03-10 16:36:22.088] [Logger] [info] Reduce safe_lshift_func_uint8_t_u_u at small.c
+[2020-03-10 16:36:22.265] [Logger] [info] Reduce safe_lshift_func_uint8_t_u_s at small.c
+[2020-03-10 16:36:22.385] [Logger] [info] Reduce safe_div_func_uint8_t_u_u at small.c
+[2020-03-10 16:36:24.869] [Logger] [info] Reduce safe_mod_func_uint8_t_u_u at small.c
+[2020-03-10 16:36:27.954] [Logger] [info] Reduce safe_mul_func_uint8_t_u_u at small.c
+[2020-03-10 16:36:28.089] [Logger] [info] Reduce safe_sub_func_uint8_t_u_u at small.c
+[2020-03-10 16:36:30.405] [Logger] [info] Reduce safe_add_func_uint8_t_u_u at small.c
+[2020-03-10 16:36:32.824] [Logger] [info] Reduce safe_rshift_func_int64_t_s_u at small.c
+[2020-03-10 16:36:33.956] [Logger] [info] Reduce safe_rshift_func_int64_t_s_s at small.c
+[2020-03-10 16:36:34.076] [Logger] [info] Reduce safe_lshift_func_int64_t_s_u at small.c
+[2020-03-10 16:36:37.107] [Logger] [info] Reduce safe_mul_func_int64_t_s_s at small.c
+[2020-03-10 16:36:38.943] [Logger] [info] Reduce safe_sub_func_int64_t_s_s at small.c
+[2020-03-10 16:36:39.063] [Logger] [info] Reduce safe_add_func_int64_t_s_s at small.c
+[2020-03-10 16:36:41.627] [Logger] [info] Reduce safe_rshift_func_int32_t_s_u at small.c
+[2020-03-10 16:36:41.803] [Logger] [info] Reduce safe_rshift_func_int32_t_s_s at small.c
+[2020-03-10 16:36:44.015] [Logger] [info] Reduce safe_lshift_func_int32_t_s_u at small.c
+[2020-03-10 16:36:44.194] [Logger] [info] Reduce safe_lshift_func_int32_t_s_s at small.c
+[2020-03-10 16:36:44.367] [Logger] [info] Reduce safe_div_func_int32_t_s_s at small.c
+[2020-03-10 16:36:46.623] [Logger] [info] Reduce safe_mod_func_int32_t_s_s at small.c
+[2020-03-10 16:36:48.820] [Logger] [info] Reduce safe_mul_func_int32_t_s_s at small.c
+[2020-03-10 16:36:51.750] [Logger] [info] Reduce safe_sub_func_int32_t_s_s at small.c
+[2020-03-10 16:36:54.080] [Logger] [info] Reduce safe_add_func_int32_t_s_s at small.c
+[2020-03-10 16:36:54.288] [Logger] [info] Reduce safe_unary_minus_func_int32_t_s at small.c
+[2020-03-10 16:36:56.518] [Logger] [info] Reduce safe_rshift_func_int16_t_s_u at small.c
+[2020-03-10 16:36:56.724] [Logger] [info] Reduce safe_rshift_func_int16_t_s_s at small.c
+[2020-03-10 16:36:59.305] [Logger] [info] Reduce safe_div_func_int16_t_s_s at small.c
+[2020-03-10 16:37:01.884] [Logger] [info] Reduce safe_mod_func_int16_t_s_s at small.c
+[2020-03-10 16:37:04.630] [Logger] [info] Reduce safe_mul_func_int16_t_s_s at small.c
+[2020-03-10 16:37:07.074] [Logger] [info] Reduce safe_unary_minus_func_int16_t_s at small.c
+[2020-03-10 16:37:10.131] [Logger] [info] Reduce safe_rshift_func_int8_t_s_u at small.c
+[2020-03-10 16:37:12.358] [Logger] [info] Reduce safe_rshift_func_int8_t_s_s at small.c
+[2020-03-10 16:37:15.651] [Logger] [info] Reduce safe_lshift_func_int8_t_s_u at small.c
+[2020-03-10 16:37:15.770] [Logger] [info] Reduce safe_lshift_func_int8_t_s_s at small.c
+[2020-03-10 16:37:18.984] [Logger] [info] Reduce safe_div_func_int8_t_s_s at small.c
+[2020-03-10 16:37:21.496] [Logger] [info] Reduce safe_mul_func_int8_t_s_s at small.c
+[2020-03-10 16:37:24.542] [Logger] [info] Reduce safe_sub_func_int8_t_s_s at small.c
+[2020-03-10 16:37:27.238] [Logger] [info] Reduce safe_add_func_int8_t_s_s at small.c
+[2020-03-10 16:37:29.377] [Logger] [info] Reduce safe_unary_minus_func_int8_t_s at small.c
+[2020-03-10 16:37:32.598] [Logger] [info] Iteration 10 (Word: 4208)
+[2020-03-10 16:37:32.598] [Logger] [info] Start global reduction
+[2020-03-10 16:37:34.176] [Logger] [info] Start local reduction
+[2020-03-10 16:37:34.472] [Logger] [info] Reduce main at small.c
+[2020-03-10 16:37:37.836] [Logger] [info] Reduce func_97 at small.c
+[2020-03-10 16:39:06.041] [Logger] [info] Reduce func_89 at small.c
+[2020-03-10 16:39:21.605] [Logger] [info] Reduce func_81 at small.c
+[2020-03-10 16:39:21.803] [Logger] [info] Reduce func_75 at small.c
+[2020-03-10 16:39:24.590] [Logger] [info] Reduce func_55 at small.c
+[2020-03-10 16:40:13.435] [Logger] [info] Reduce func_48 at small.c
+[2020-03-10 16:40:15.689] [Logger] [info] Reduce func_42 at small.c
+[2020-03-10 16:40:18.480] [Logger] [info] Reduce func_29 at small.c
+[2020-03-10 16:40:21.340] [Logger] [info] Reduce func_8 at small.c
+[2020-03-10 16:40:27.235] [Logger] [info] Reduce func_1 at small.c
+[2020-03-10 16:40:37.651] [Logger] [info] Reduce transparent_crc_bytes at small.c
+[2020-03-10 16:40:37.651] [Logger] [info] Reduce transparent_crc at small.c
+[2020-03-10 16:40:37.652] [Logger] [info] Reduce crc32_8bytes at small.c
+[2020-03-10 16:40:37.653] [Logger] [info] Reduce safe_div_func_double_f_f at small.c
+[2020-03-10 16:40:40.229] [Logger] [info] Reduce safe_mul_func_double_f_f at small.c
+[2020-03-10 16:40:42.876] [Logger] [info] Reduce safe_add_func_double_f_f at small.c
+[2020-03-10 16:40:45.057] [Logger] [info] Reduce safe_div_func_float_f_f at small.c
+[2020-03-10 16:40:48.270] [Logger] [info] Reduce safe_sub_func_float_f_f at small.c
+[2020-03-10 16:40:50.425] [Logger] [info] Reduce safe_add_func_float_f_f at small.c
+[2020-03-10 16:40:50.553] [Logger] [info] Reduce safe_rshift_func_uint64_t_u_u at small.c
+[2020-03-10 16:40:50.750] [Logger] [info] Reduce safe_rshift_func_uint64_t_u_s at small.c
+[2020-03-10 16:40:52.953] [Logger] [info] Reduce safe_lshift_func_uint64_t_u_u at small.c
+[2020-03-10 16:40:53.127] [Logger] [info] Reduce safe_lshift_func_uint64_t_u_s at small.c
+[2020-03-10 16:40:53.244] [Logger] [info] Reduce safe_div_func_uint64_t_u_u at small.c
+[2020-03-10 16:40:55.588] [Logger] [info] Reduce safe_mod_func_uint64_t_u_u at small.c
+[2020-03-10 16:40:57.812] [Logger] [info] Reduce safe_mul_func_uint64_t_u_u at small.c
+[2020-03-10 16:40:57.985] [Logger] [info] Reduce safe_sub_func_uint64_t_u_u at small.c
+[2020-03-10 16:41:00.410] [Logger] [info] Reduce safe_add_func_uint64_t_u_u at small.c
+[2020-03-10 16:41:03.234] [Logger] [info] Reduce safe_unary_minus_func_uint64_t_u at small.c
+[2020-03-10 16:41:03.352] [Logger] [info] Reduce safe_rshift_func_uint32_t_u_s at small.c
+[2020-03-10 16:41:05.629] [Logger] [info] Reduce safe_lshift_func_uint32_t_u_s at small.c
+[2020-03-10 16:41:07.983] [Logger] [info] Reduce safe_div_func_uint32_t_u_u at small.c
+[2020-03-10 16:41:08.107] [Logger] [info] Reduce safe_mod_func_uint32_t_u_u at small.c
+[2020-03-10 16:41:10.480] [Logger] [info] Reduce safe_mul_func_uint32_t_u_u at small.c
+[2020-03-10 16:41:10.598] [Logger] [info] Reduce safe_sub_func_uint32_t_u_u at small.c
+[2020-03-10 16:41:13.164] [Logger] [info] Reduce safe_add_func_uint32_t_u_u at small.c
+[2020-03-10 16:41:16.242] [Logger] [info] Reduce safe_unary_minus_func_uint32_t_u at small.c
+[2020-03-10 16:41:18.592] [Logger] [info] Reduce safe_rshift_func_uint16_t_u_u at small.c
+[2020-03-10 16:41:19.430] [Logger] [info] Reduce safe_rshift_func_uint16_t_u_s at small.c
+[2020-03-10 16:41:22.102] [Logger] [info] Reduce safe_lshift_func_uint16_t_u_s at small.c
+[2020-03-10 16:41:25.313] [Logger] [info] Reduce safe_div_func_uint16_t_u_u at small.c
+[2020-03-10 16:41:27.480] [Logger] [info] Reduce safe_mod_func_uint16_t_u_u at small.c
+[2020-03-10 16:41:30.720] [Logger] [info] Reduce safe_mul_func_uint16_t_u_u at small.c
+[2020-03-10 16:41:33.533] [Logger] [info] Reduce safe_sub_func_uint16_t_u_u at small.c
+[2020-03-10 16:41:35.819] [Logger] [info] Reduce safe_add_func_uint16_t_u_u at small.c
+[2020-03-10 16:41:38.130] [Logger] [info] Reduce safe_rshift_func_uint8_t_u_u at small.c
+[2020-03-10 16:41:40.445] [Logger] [info] Reduce safe_lshift_func_uint8_t_u_u at small.c
+[2020-03-10 16:41:42.961] [Logger] [info] Reduce safe_lshift_func_uint8_t_u_s at small.c
+[2020-03-10 16:41:43.133] [Logger] [info] Reduce safe_div_func_uint8_t_u_u at small.c
+[2020-03-10 16:41:45.378] [Logger] [info] Reduce safe_mod_func_uint8_t_u_u at small.c
+[2020-03-10 16:41:45.495] [Logger] [info] Reduce safe_mul_func_uint8_t_u_u at small.c
+[2020-03-10 16:41:47.872] [Logger] [info] Reduce safe_sub_func_uint8_t_u_u at small.c
+[2020-03-10 16:41:50.107] [Logger] [info] Reduce safe_add_func_uint8_t_u_u at small.c
+[2020-03-10 16:41:52.367] [Logger] [info] Reduce safe_rshift_func_int64_t_s_u at small.c
+[2020-03-10 16:41:55.158] [Logger] [info] Reduce safe_rshift_func_int64_t_s_s at small.c
+[2020-03-10 16:41:55.403] [Logger] [info] Reduce safe_lshift_func_int64_t_s_u at small.c
+[2020-03-10 16:41:55.549] [Logger] [info] Reduce safe_mul_func_int64_t_s_s at small.c
+[2020-03-10 16:41:58.468] [Logger] [info] Reduce safe_sub_func_int64_t_s_s at small.c
+[2020-03-10 16:42:00.718] [Logger] [info] Reduce safe_add_func_int64_t_s_s at small.c
+[2020-03-10 16:42:02.975] [Logger] [info] Reduce safe_rshift_func_int32_t_s_u at small.c
+[2020-03-10 16:42:03.867] [Logger] [info] Reduce safe_rshift_func_int32_t_s_s at small.c
+[2020-03-10 16:42:04.965] [Logger] [info] Reduce safe_lshift_func_int32_t_s_u at small.c
+[2020-03-10 16:42:07.134] [Logger] [info] Reduce safe_lshift_func_int32_t_s_s at small.c
+[2020-03-10 16:42:09.387] [Logger] [info] Reduce safe_div_func_int32_t_s_s at small.c
+[2020-03-10 16:42:11.612] [Logger] [info] Reduce safe_mod_func_int32_t_s_s at small.c
+[2020-03-10 16:42:14.495] [Logger] [info] Reduce safe_mul_func_int32_t_s_s at small.c
+[2020-03-10 16:42:14.612] [Logger] [info] Reduce safe_sub_func_int32_t_s_s at small.c
+[2020-03-10 16:42:17.171] [Logger] [info] Reduce safe_add_func_int32_t_s_s at small.c
+[2020-03-10 16:42:17.410] [Logger] [info] Reduce safe_unary_minus_func_int32_t_s at small.c
+[2020-03-10 16:42:20.214] [Logger] [info] Reduce safe_rshift_func_int16_t_s_u at small.c
+[2020-03-10 16:42:20.392] [Logger] [info] Reduce safe_rshift_func_int16_t_s_s at small.c
+[2020-03-10 16:42:23.330] [Logger] [info] Reduce safe_div_func_int16_t_s_s at small.c
+[2020-03-10 16:42:25.672] [Logger] [info] Reduce safe_mod_func_int16_t_s_s at small.c
+[2020-03-10 16:42:28.141] [Logger] [info] Reduce safe_mul_func_int16_t_s_s at small.c
+[2020-03-10 16:42:30.443] [Logger] [info] Reduce safe_unary_minus_func_int16_t_s at small.c
+[2020-03-10 16:42:32.981] [Logger] [info] Reduce safe_rshift_func_int8_t_s_u at small.c
+[2020-03-10 16:42:33.099] [Logger] [info] Reduce safe_rshift_func_int8_t_s_s at small.c
+[2020-03-10 16:42:35.362] [Logger] [info] Reduce safe_lshift_func_int8_t_s_u at small.c
+[2020-03-10 16:42:37.815] [Logger] [info] Reduce safe_lshift_func_int8_t_s_s at small.c
+[2020-03-10 16:42:40.643] [Logger] [info] Reduce safe_div_func_int8_t_s_s at small.c
+[2020-03-10 16:42:43.356] [Logger] [info] Reduce safe_mul_func_int8_t_s_s at small.c
+[2020-03-10 16:42:46.566] [Logger] [info] Reduce safe_sub_func_int8_t_s_s at small.c
+[2020-03-10 16:42:49.396] [Logger] [info] Reduce safe_add_func_int8_t_s_s at small.c
+[2020-03-10 16:42:49.577] [Logger] [info] Reduce safe_unary_minus_func_int8_t_s at small.c
+[2020-03-10 16:42:53.185] [Logger] [info] Iteration 11 (Word: 3924)
+[2020-03-10 16:42:53.186] [Logger] [info] Start global reduction
+[2020-03-10 16:42:54.059] [Logger] [info] Start local reduction
+[2020-03-10 16:42:54.077] [Logger] [info] Reduce main at small.c
+[2020-03-10 16:43:00.398] [Logger] [info] Reduce func_97 at small.c
+[2020-03-10 16:44:11.719] [Logger] [info] Reduce func_89 at small.c
+[2020-03-10 16:44:24.560] [Logger] [info] Reduce func_81 at small.c
+[2020-03-10 16:44:25.516] [Logger] [info] Reduce func_75 at small.c
+[2020-03-10 16:44:25.689] [Logger] [info] Reduce func_55 at small.c
+[2020-03-10 16:45:03.363] [Logger] [info] Reduce func_48 at small.c
+[2020-03-10 16:45:05.637] [Logger] [info] Reduce func_42 at small.c
+[2020-03-10 16:45:08.016] [Logger] [info] Reduce func_29 at small.c
+[2020-03-10 16:45:11.121] [Logger] [info] Reduce func_8 at small.c
+[2020-03-10 16:45:23.641] [Logger] [info] Reduce func_1 at small.c
+[2020-03-10 16:45:45.047] [Logger] [info] Reduce transparent_crc_bytes at small.c
+[2020-03-10 16:45:45.047] [Logger] [info] Reduce transparent_crc at small.c
+[2020-03-10 16:45:45.047] [Logger] [info] Reduce crc32_8bytes at small.c
+[2020-03-10 16:45:45.047] [Logger] [info] Reduce safe_div_func_double_f_f at small.c
+[2020-03-10 16:45:47.593] [Logger] [info] Reduce safe_mul_func_double_f_f at small.c
+[2020-03-10 16:45:50.727] [Logger] [info] Reduce safe_add_func_double_f_f at small.c
+[2020-03-10 16:45:50.900] [Logger] [info] Reduce safe_div_func_float_f_f at small.c
+[2020-03-10 16:45:53.156] [Logger] [info] Reduce safe_sub_func_float_f_f at small.c
+[2020-03-10 16:45:53.418] [Logger] [info] Reduce safe_add_func_float_f_f at small.c
+[2020-03-10 16:45:55.804] [Logger] [info] Reduce safe_rshift_func_uint64_t_u_u at small.c
+[2020-03-10 16:45:58.016] [Logger] [info] Reduce safe_rshift_func_uint64_t_u_s at small.c
+[2020-03-10 16:46:00.317] [Logger] [info] Reduce safe_lshift_func_uint64_t_u_u at small.c
+[2020-03-10 16:46:03.328] [Logger] [info] Reduce safe_lshift_func_uint64_t_u_s at small.c
+[2020-03-10 16:46:06.314] [Logger] [info] Reduce safe_div_func_uint64_t_u_u at small.c
+[2020-03-10 16:46:06.485] [Logger] [info] Reduce safe_mod_func_uint64_t_u_u at small.c
+[2020-03-10 16:46:09.153] [Logger] [info] Reduce safe_mul_func_uint64_t_u_u at small.c
+[2020-03-10 16:46:11.910] [Logger] [info] Reduce safe_sub_func_uint64_t_u_u at small.c
+[2020-03-10 16:46:15.175] [Logger] [info] Reduce safe_add_func_uint64_t_u_u at small.c
+[2020-03-10 16:46:17.338] [Logger] [info] Reduce safe_unary_minus_func_uint64_t_u at small.c
+[2020-03-10 16:46:19.486] [Logger] [info] Reduce safe_rshift_func_uint32_t_u_s at small.c
+[2020-03-10 16:46:21.857] [Logger] [info] Reduce safe_lshift_func_uint32_t_u_s at small.c
+[2020-03-10 16:46:22.121] [Logger] [info] Reduce safe_div_func_uint32_t_u_u at small.c
+[2020-03-10 16:46:22.389] [Logger] [info] Reduce safe_mod_func_uint32_t_u_u at small.c
+[2020-03-10 16:46:24.815] [Logger] [info] Reduce safe_mul_func_uint32_t_u_u at small.c
+[2020-03-10 16:46:27.666] [Logger] [info] Reduce safe_sub_func_uint32_t_u_u at small.c
+[2020-03-10 16:46:30.802] [Logger] [info] Reduce safe_add_func_uint32_t_u_u at small.c
+[2020-03-10 16:46:31.782] [Logger] [info] Reduce safe_unary_minus_func_uint32_t_u at small.c
+[2020-03-10 16:46:31.900] [Logger] [info] Reduce safe_rshift_func_uint16_t_u_u at small.c
+[2020-03-10 16:46:34.171] [Logger] [info] Reduce safe_rshift_func_uint16_t_u_s at small.c
+[2020-03-10 16:46:34.358] [Logger] [info] Reduce safe_lshift_func_uint16_t_u_s at small.c
+[2020-03-10 16:46:36.863] [Logger] [info] Reduce safe_div_func_uint16_t_u_u at small.c
+[2020-03-10 16:46:39.093] [Logger] [info] Reduce safe_mod_func_uint16_t_u_u at small.c
+[2020-03-10 16:46:39.269] [Logger] [info] Reduce safe_mul_func_uint16_t_u_u at small.c
+[2020-03-10 16:46:41.512] [Logger] [info] Reduce safe_sub_func_uint16_t_u_u at small.c
+[2020-03-10 16:46:44.720] [Logger] [info] Reduce safe_add_func_uint16_t_u_u at small.c
+[2020-03-10 16:46:44.840] [Logger] [info] Reduce safe_rshift_func_uint8_t_u_u at small.c
+[2020-03-10 16:46:46.989] [Logger] [info] Reduce safe_lshift_func_uint8_t_u_u at small.c
+[2020-03-10 16:46:49.567] [Logger] [info] Reduce safe_lshift_func_uint8_t_u_s at small.c
+[2020-03-10 16:46:49.763] [Logger] [info] Reduce safe_div_func_uint8_t_u_u at small.c
+[2020-03-10 16:46:52.133] [Logger] [info] Reduce safe_mod_func_uint8_t_u_u at small.c
+[2020-03-10 16:46:52.308] [Logger] [info] Reduce safe_mul_func_uint8_t_u_u at small.c
+[2020-03-10 16:46:52.481] [Logger] [info] Reduce safe_sub_func_uint8_t_u_u at small.c
+[2020-03-10 16:46:55.580] [Logger] [info] Reduce safe_add_func_uint8_t_u_u at small.c
+[2020-03-10 16:46:55.698] [Logger] [info] Reduce safe_rshift_func_int64_t_s_u at small.c
+[2020-03-10 16:46:58.108] [Logger] [info] Reduce safe_rshift_func_int64_t_s_s at small.c
+[2020-03-10 16:47:00.496] [Logger] [info] Reduce safe_lshift_func_int64_t_s_u at small.c
+[2020-03-10 16:47:00.714] [Logger] [info] Reduce safe_mul_func_int64_t_s_s at small.c
+[2020-03-10 16:47:00.985] [Logger] [info] Reduce safe_sub_func_int64_t_s_s at small.c
+[2020-03-10 16:47:01.117] [Logger] [info] Reduce safe_add_func_int64_t_s_s at small.c
+[2020-03-10 16:47:04.244] [Logger] [info] Reduce safe_rshift_func_int32_t_s_u at small.c
+[2020-03-10 16:47:06.551] [Logger] [info] Reduce safe_rshift_func_int32_t_s_s at small.c
+[2020-03-10 16:47:09.576] [Logger] [info] Reduce safe_lshift_func_int32_t_s_u at small.c
+[2020-03-10 16:47:09.693] [Logger] [info] Reduce safe_lshift_func_int32_t_s_s at small.c
+[2020-03-10 16:47:09.957] [Logger] [info] Reduce safe_div_func_int32_t_s_s at small.c
+[2020-03-10 16:47:10.076] [Logger] [info] Reduce safe_mod_func_int32_t_s_s at small.c
+[2020-03-10 16:47:12.896] [Logger] [info] Reduce safe_mul_func_int32_t_s_s at small.c
+[2020-03-10 16:47:13.145] [Logger] [info] Reduce safe_sub_func_int32_t_s_s at small.c
+[2020-03-10 16:47:15.426] [Logger] [info] Reduce safe_add_func_int32_t_s_s at small.c
+[2020-03-10 16:47:15.546] [Logger] [info] Reduce safe_unary_minus_func_int32_t_s at small.c
+[2020-03-10 16:47:15.729] [Logger] [info] Reduce safe_rshift_func_int16_t_s_u at small.c
+[2020-03-10 16:47:18.299] [Logger] [info] Reduce safe_rshift_func_int16_t_s_s at small.c
+[2020-03-10 16:47:18.441] [Logger] [info] Reduce safe_div_func_int16_t_s_s at small.c
+[2020-03-10 16:47:21.258] [Logger] [info] Reduce safe_mod_func_int16_t_s_s at small.c
+[2020-03-10 16:47:21.382] [Logger] [info] Reduce safe_mul_func_int16_t_s_s at small.c
+[2020-03-10 16:47:21.629] [Logger] [info] Reduce safe_unary_minus_func_int16_t_s at small.c
+[2020-03-10 16:47:24.038] [Logger] [info] Reduce safe_rshift_func_int8_t_s_u at small.c
+[2020-03-10 16:47:26.650] [Logger] [info] Reduce safe_rshift_func_int8_t_s_s at small.c
+[2020-03-10 16:47:29.852] [Logger] [info] Reduce safe_lshift_func_int8_t_s_u at small.c
+[2020-03-10 16:47:32.693] [Logger] [info] Reduce safe_lshift_func_int8_t_s_s at small.c
+[2020-03-10 16:47:35.093] [Logger] [info] Reduce safe_div_func_int8_t_s_s at small.c
+[2020-03-10 16:47:35.268] [Logger] [info] Reduce safe_mul_func_int8_t_s_s at small.c
+[2020-03-10 16:47:37.504] [Logger] [info] Reduce safe_sub_func_int8_t_s_s at small.c
+[2020-03-10 16:47:37.638] [Logger] [info] Reduce safe_add_func_int8_t_s_s at small.c
+[2020-03-10 16:47:39.911] [Logger] [info] Reduce safe_unary_minus_func_int8_t_s at small.c
+[2020-03-10 16:47:42.367] [Logger] [info] Iteration 12 (Word: 3924)
+[2020-03-10 16:47:42.367] [Logger] [info] Start global reduction
+[2020-03-10 16:47:42.382] [Logger] [info] Running delta debugging - Size: 116
+[2020-03-10 16:47:46.408] [Logger] [info] Reduced - Size: 101
+[2020-03-10 16:47:50.143] [Logger] [info] Reduced - Size: 94
+[2020-03-10 16:47:54.524] [Logger] [info] Reduced - Size: 88
+[2020-03-10 16:48:02.224] [Logger] [info] Reduced - Size: 85
+[2020-03-10 16:48:10.678] [Logger] [info] Reduced - Size: 82
+[2020-03-10 16:48:17.786] [Logger] [info] Reduced - Size: 79
+[2020-03-10 16:48:30.069] [Logger] [info] Reduced - Size: 77
+[2020-03-10 16:48:37.893] [Logger] [info] Reduced - Size: 75
+[2020-03-10 16:48:56.322] [Logger] [info] Reduced - Size: 73
+[2020-03-10 16:49:07.351] [Logger] [info] Reduced - Size: 72
+[2020-03-10 16:49:18.451] [Logger] [info] Reduced - Size: 71
+[2020-03-10 16:49:25.724] [Logger] [info] Reduced - Size: 70
+[2020-03-10 16:49:31.902] [Logger] [info] Reduced - Size: 69
+[2020-03-10 16:49:40.129] [Logger] [info] Reduced - Size: 68
+[2020-03-10 16:49:49.032] [Logger] [info] Reduced - Size: 67
+[2020-03-10 16:49:54.959] [Logger] [info] Reduced - Size: 66
+[2020-03-10 16:50:01.540] [Logger] [info] Reduced - Size: 65
+[2020-03-10 16:50:07.949] [Logger] [info] Reduced - Size: 64
+[2020-03-10 16:50:15.758] [Logger] [info] Reduced - Size: 63
+[2020-03-10 16:50:20.820] [Logger] [info] Reduced - Size: 62
+[2020-03-10 16:50:41.297] [Logger] [info] Reduced - Size: 61
+[2020-03-10 16:50:48.624] [Logger] [info] Reduced - Size: 59
+[2020-03-10 16:50:52.238] [Logger] [info] Reduced - Size: 57
+[2020-03-10 16:51:06.656] [Logger] [info] Reduced - Size: 56
+[2020-03-10 16:51:10.212] [Logger] [info] Start local reduction
+[2020-03-10 16:51:10.224] [Logger] [info] Reduce main at small.c
+[2020-03-10 16:51:10.224] [Logger] [info] Running delta debugging - Size: 2
+[2020-03-10 16:51:15.261] [Logger] [info] Reduce func_97 at small.c
+[2020-03-10 16:51:15.261] [Logger] [info] Running delta debugging - Size: 3
+[2020-03-10 16:51:41.349] [Logger] [info] Running delta debugging - Size: 1
+[2020-03-10 16:51:57.776] [Logger] [info] Running delta debugging - Size: 2
+[2020-03-10 16:52:13.415] [Logger] [info] Running delta debugging - Size: 1
+[2020-03-10 16:52:21.624] [Logger] [info] Running delta debugging - Size: 1
+[2020-03-10 16:52:35.579] [Logger] [info] Running delta debugging - Size: 1
+[2020-03-10 16:52:52.246] [Logger] [info] Reduce func_89 at small.c
+[2020-03-10 16:52:52.246] [Logger] [info] Running delta debugging - Size: 2
+[2020-03-10 16:53:14.796] [Logger] [info] Reduce func_81 at small.c
+[2020-03-10 16:53:14.796] [Logger] [info] Running delta debugging - Size: 1
+[2020-03-10 16:53:14.797] [Logger] [info] Reduce func_75 at small.c
+[2020-03-10 16:53:14.797] [Logger] [info] Running delta debugging - Size: 1
+[2020-03-10 16:53:14.797] [Logger] [info] Reduce func_55 at small.c
+[2020-03-10 16:53:14.797] [Logger] [info] Running delta debugging - Size: 2
+[2020-03-10 16:53:19.619] [Logger] [info] Running delta debugging - Size: 2
+[2020-03-10 16:53:41.636] [Logger] [info] Reduce func_48 at small.c
+[2020-03-10 16:53:41.636] [Logger] [info] Running delta debugging - Size: 1
+[2020-03-10 16:53:41.636] [Logger] [info] Reduce func_42 at small.c
+[2020-03-10 16:53:41.636] [Logger] [info] Running delta debugging - Size: 1
+[2020-03-10 16:53:41.636] [Logger] [info] Reduce func_29 at small.c
+[2020-03-10 16:53:41.636] [Logger] [info] Running delta debugging - Size: 1
+[2020-03-10 16:53:41.636] [Logger] [info] Reduce func_8 at small.c
+[2020-03-10 16:53:41.636] [Logger] [info] Running delta debugging - Size: 2
+[2020-03-10 16:53:47.005] [Logger] [info] Reduce func_1 at small.c
+[2020-03-10 16:53:47.005] [Logger] [info] Running delta debugging - Size: 3
+[2020-03-10 16:54:04.109] [Logger] [info] Reduce safe_div_func_uint32_t_u_u at small.c
+[2020-03-10 16:54:04.109] [Logger] [info] Running delta debugging - Size: 1
+[2020-03-10 16:54:04.109] [Logger] [info] Reduce safe_sub_func_uint32_t_u_u at small.c
+[2020-03-10 16:54:04.109] [Logger] [info] Running delta debugging - Size: 1
+[2020-03-10 16:54:04.109] [Logger] [info] Reduce safe_add_func_uint32_t_u_u at small.c
+[2020-03-10 16:54:04.109] [Logger] [info] Running delta debugging - Size: 1
+[2020-03-10 16:54:04.109] [Logger] [info] Reduce safe_rshift_func_uint16_t_u_s at small.c
+[2020-03-10 16:54:04.109] [Logger] [info] Running delta debugging - Size: 1
+[2020-03-10 16:54:04.109] [Logger] [info] Reduce safe_div_func_uint16_t_u_u at small.c
+[2020-03-10 16:54:04.109] [Logger] [info] Running delta debugging - Size: 1
+[2020-03-10 16:54:04.109] [Logger] [info] Reduce safe_add_func_uint16_t_u_u at small.c
+[2020-03-10 16:54:04.109] [Logger] [info] Running delta debugging - Size: 1
+[2020-03-10 16:54:04.109] [Logger] [info] Reduce safe_rshift_func_uint8_t_u_u at small.c
+[2020-03-10 16:54:04.109] [Logger] [info] Running delta debugging - Size: 1
+[2020-03-10 16:54:04.109] [Logger] [info] Reduce safe_lshift_func_uint8_t_u_u at small.c
+[2020-03-10 16:54:04.109] [Logger] [info] Running delta debugging - Size: 1
+[2020-03-10 16:54:04.109] [Logger] [info] Reduce safe_div_func_uint8_t_u_u at small.c
+[2020-03-10 16:54:04.109] [Logger] [info] Running delta debugging - Size: 1
+[2020-03-10 16:54:04.109] [Logger] [info] Reduce safe_mod_func_uint8_t_u_u at small.c
+[2020-03-10 16:54:04.109] [Logger] [info] Running delta debugging - Size: 1
+[2020-03-10 16:54:04.109] [Logger] [info] Reduce safe_sub_func_uint8_t_u_u at small.c
+[2020-03-10 16:54:04.109] [Logger] [info] Running delta debugging - Size: 1
+[2020-03-10 16:54:04.109] [Logger] [info] Reduce safe_add_func_uint8_t_u_u at small.c
+[2020-03-10 16:54:04.109] [Logger] [info] Running delta debugging - Size: 1
+[2020-03-10 16:54:04.109] [Logger] [info] Reduce safe_div_func_int32_t_s_s at small.c
+[2020-03-10 16:54:04.109] [Logger] [info] Running delta debugging - Size: 1
+[2020-03-10 16:54:04.109] [Logger] [info] Reduce safe_mod_func_int32_t_s_s at small.c
+[2020-03-10 16:54:04.109] [Logger] [info] Running delta debugging - Size: 1
+[2020-03-10 16:54:04.109] [Logger] [info] Reduce safe_sub_func_int32_t_s_s at small.c
+[2020-03-10 16:54:04.109] [Logger] [info] Running delta debugging - Size: 1
+[2020-03-10 16:54:04.109] [Logger] [info] Reduce safe_add_func_int32_t_s_s at small.c
+[2020-03-10 16:54:04.109] [Logger] [info] Running delta debugging - Size: 1
+[2020-03-10 16:54:04.110] [Logger] [info] Reduce safe_rshift_func_int16_t_s_s at small.c
+[2020-03-10 16:54:04.110] [Logger] [info] Running delta debugging - Size: 1
+[2020-03-10 16:54:04.110] [Logger] [info] Reduce safe_div_func_int16_t_s_s at small.c
+[2020-03-10 16:54:04.110] [Logger] [info] Running delta debugging - Size: 1
+[2020-03-10 16:54:04.110] [Logger] [info] Reduce safe_mod_func_int16_t_s_s at small.c
+[2020-03-10 16:54:04.110] [Logger] [info] Running delta debugging - Size: 1
+[2020-03-10 16:54:04.110] [Logger] [info] Reduce safe_rshift_func_int8_t_s_u at small.c
+[2020-03-10 16:54:04.110] [Logger] [info] Running delta debugging - Size: 1
+[2020-03-10 16:54:04.110] [Logger] [info] Reduce safe_rshift_func_int8_t_s_s at small.c
+[2020-03-10 16:54:04.110] [Logger] [info] Running delta debugging - Size: 1
+[2020-03-10 16:54:04.110] [Logger] [info] Reduce safe_lshift_func_int8_t_s_u at small.c
+[2020-03-10 16:54:04.110] [Logger] [info] Running delta debugging - Size: 1
+[2020-03-10 16:54:04.110] [Logger] [info] Reduce safe_lshift_func_int8_t_s_s at small.c
+[2020-03-10 16:54:04.110] [Logger] [info] Running delta debugging - Size: 1
+[2020-03-10 16:54:04.110] [Logger] [info] Reduce safe_sub_func_int8_t_s_s at small.c
+[2020-03-10 16:54:04.110] [Logger] [info] Running delta debugging - Size: 1
+[2020-03-10 16:54:04.110] [Logger] [info] Reduce safe_add_func_int8_t_s_s at small.c
+[2020-03-10 16:54:04.110] [Logger] [info] Running delta debugging - Size: 1
+[2020-03-10 16:54:04.126] [Logger] [info] Iteration 13 (Word: 2702)
+[2020-03-10 16:54:04.126] [Logger] [info] Start global reduction
+[2020-03-10 16:54:04.140] [Logger] [info] Running delta debugging - Size: 56
+[2020-03-10 16:54:22.480] [Logger] [info] Reduced - Size: 55
+[2020-03-10 16:54:39.509] [Logger] [info] Start local reduction
+[2020-03-10 16:54:39.521] [Logger] [info] Reduce main at small.c
+[2020-03-10 16:54:39.521] [Logger] [info] Running delta debugging - Size: 2
+[2020-03-10 16:54:44.057] [Logger] [info] Reduce func_97 at small.c
+[2020-03-10 16:54:44.058] [Logger] [info] Running delta debugging - Size: 3
+[2020-03-10 16:55:03.686] [Logger] [info] Running delta debugging - Size: 1
+[2020-03-10 16:55:13.349] [Logger] [info] Running delta debugging - Size: 2
+[2020-03-10 16:55:35.827] [Logger] [info] Running delta debugging - Size: 1
+[2020-03-10 16:55:41.574] [Logger] [info] Running delta debugging - Size: 1
+[2020-03-10 16:55:51.507] [Logger] [info] Running delta debugging - Size: 1
+[2020-03-10 16:55:59.721] [Logger] [info] Reduce func_89 at small.c
+[2020-03-10 16:55:59.721] [Logger] [info] Running delta debugging - Size: 2
+[2020-03-10 16:56:17.421] [Logger] [info] Reduce func_81 at small.c
+[2020-03-10 16:56:17.421] [Logger] [info] Running delta debugging - Size: 1
+[2020-03-10 16:56:17.422] [Logger] [info] Reduce func_75 at small.c
+[2020-03-10 16:56:17.422] [Logger] [info] Running delta debugging - Size: 1
+[2020-03-10 16:56:17.422] [Logger] [info] Reduce func_55 at small.c
+[2020-03-10 16:56:17.422] [Logger] [info] Running delta debugging - Size: 2
+[2020-03-10 16:56:23.574] [Logger] [info] Running delta debugging - Size: 2
+[2020-03-10 16:56:45.742] [Logger] [info] Reduce func_48 at small.c
+[2020-03-10 16:56:45.742] [Logger] [info] Running delta debugging - Size: 1
+[2020-03-10 16:56:45.742] [Logger] [info] Reduce func_42 at small.c
+[2020-03-10 16:56:45.742] [Logger] [info] Running delta debugging - Size: 1
+[2020-03-10 16:56:45.742] [Logger] [info] Reduce func_29 at small.c
+[2020-03-10 16:56:45.742] [Logger] [info] Running delta debugging - Size: 1
+[2020-03-10 16:56:45.742] [Logger] [info] Reduce func_8 at small.c
+[2020-03-10 16:56:45.742] [Logger] [info] Running delta debugging - Size: 2
+[2020-03-10 16:56:49.421] [Logger] [info] Reduce func_1 at small.c
+[2020-03-10 16:56:49.423] [Logger] [info] Running delta debugging - Size: 3
+[2020-03-10 16:57:02.336] [Logger] [info] Reduce safe_div_func_uint32_t_u_u at small.c
+[2020-03-10 16:57:02.336] [Logger] [info] Running delta debugging - Size: 1
+[2020-03-10 16:57:02.336] [Logger] [info] Reduce safe_sub_func_uint32_t_u_u at small.c
+[2020-03-10 16:57:02.336] [Logger] [info] Running delta debugging - Size: 1
+[2020-03-10 16:57:02.336] [Logger] [info] Reduce safe_add_func_uint32_t_u_u at small.c
+[2020-03-10 16:57:02.336] [Logger] [info] Running delta debugging - Size: 1
+[2020-03-10 16:57:02.336] [Logger] [info] Reduce safe_rshift_func_uint16_t_u_s at small.c
+[2020-03-10 16:57:02.336] [Logger] [info] Running delta debugging - Size: 1
+[2020-03-10 16:57:02.336] [Logger] [info] Reduce safe_div_func_uint16_t_u_u at small.c
+[2020-03-10 16:57:02.336] [Logger] [info] Running delta debugging - Size: 1
+[2020-03-10 16:57:02.336] [Logger] [info] Reduce safe_add_func_uint16_t_u_u at small.c
+[2020-03-10 16:57:02.336] [Logger] [info] Running delta debugging - Size: 1
+[2020-03-10 16:57:02.336] [Logger] [info] Reduce safe_rshift_func_uint8_t_u_u at small.c
+[2020-03-10 16:57:02.336] [Logger] [info] Running delta debugging - Size: 1
+[2020-03-10 16:57:02.336] [Logger] [info] Reduce safe_lshift_func_uint8_t_u_u at small.c
+[2020-03-10 16:57:02.336] [Logger] [info] Running delta debugging - Size: 1
+[2020-03-10 16:57:02.336] [Logger] [info] Reduce safe_div_func_uint8_t_u_u at small.c
+[2020-03-10 16:57:02.336] [Logger] [info] Running delta debugging - Size: 1
+[2020-03-10 16:57:02.336] [Logger] [info] Reduce safe_mod_func_uint8_t_u_u at small.c
+[2020-03-10 16:57:02.336] [Logger] [info] Running delta debugging - Size: 1
+[2020-03-10 16:57:02.336] [Logger] [info] Reduce safe_sub_func_uint8_t_u_u at small.c
+[2020-03-10 16:57:02.336] [Logger] [info] Running delta debugging - Size: 1
+[2020-03-10 16:57:02.336] [Logger] [info] Reduce safe_add_func_uint8_t_u_u at small.c
+[2020-03-10 16:57:02.336] [Logger] [info] Running delta debugging - Size: 1
+[2020-03-10 16:57:02.337] [Logger] [info] Reduce safe_div_func_int32_t_s_s at small.c
+[2020-03-10 16:57:02.337] [Logger] [info] Running delta debugging - Size: 1
+[2020-03-10 16:57:02.337] [Logger] [info] Reduce safe_mod_func_int32_t_s_s at small.c
+[2020-03-10 16:57:02.337] [Logger] [info] Running delta debugging - Size: 1
+[2020-03-10 16:57:02.337] [Logger] [info] Reduce safe_sub_func_int32_t_s_s at small.c
+[2020-03-10 16:57:02.337] [Logger] [info] Running delta debugging - Size: 1
+[2020-03-10 16:57:02.337] [Logger] [info] Reduce safe_add_func_int32_t_s_s at small.c
+[2020-03-10 16:57:02.337] [Logger] [info] Running delta debugging - Size: 1
+[2020-03-10 16:57:02.337] [Logger] [info] Reduce safe_rshift_func_int16_t_s_s at small.c
+[2020-03-10 16:57:02.337] [Logger] [info] Running delta debugging - Size: 1
+[2020-03-10 16:57:02.337] [Logger] [info] Reduce safe_div_func_int16_t_s_s at small.c
+[2020-03-10 16:57:02.337] [Logger] [info] Running delta debugging - Size: 1
+[2020-03-10 16:57:02.337] [Logger] [info] Reduce safe_mod_func_int16_t_s_s at small.c
+[2020-03-10 16:57:02.337] [Logger] [info] Running delta debugging - Size: 1
+[2020-03-10 16:57:02.337] [Logger] [info] Reduce safe_rshift_func_int8_t_s_u at small.c
+[2020-03-10 16:57:02.337] [Logger] [info] Running delta debugging - Size: 1
+[2020-03-10 16:57:02.337] [Logger] [info] Reduce safe_lshift_func_int8_t_s_u at small.c
+[2020-03-10 16:57:02.337] [Logger] [info] Running delta debugging - Size: 1
+[2020-03-10 16:57:02.337] [Logger] [info] Reduce safe_lshift_func_int8_t_s_s at small.c
+[2020-03-10 16:57:02.337] [Logger] [info] Running delta debugging - Size: 1
+[2020-03-10 16:57:02.337] [Logger] [info] Reduce safe_sub_func_int8_t_s_s at small.c
+[2020-03-10 16:57:02.337] [Logger] [info] Running delta debugging - Size: 1
+[2020-03-10 16:57:02.337] [Logger] [info] Reduce safe_add_func_int8_t_s_s at small.c
+[2020-03-10 16:57:02.337] [Logger] [info] Running delta debugging - Size: 1
+[2020-03-10 16:57:02.353] [Logger] [info] Iteration 14 (Word: 2676)
+[2020-03-10 16:57:02.353] [Logger] [info] Start global reduction
+[2020-03-10 16:57:02.367] [Logger] [info] Running delta debugging - Size: 55
+[2020-03-10 16:57:25.630] [Logger] [info] Start local reduction
+[2020-03-10 16:57:25.641] [Logger] [info] Reduce main at small.c
+[2020-03-10 16:57:25.642] [Logger] [info] Running delta debugging - Size: 2
+[2020-03-10 16:57:28.955] [Logger] [info] Reduce func_97 at small.c
+[2020-03-10 16:57:28.956] [Logger] [info] Running delta debugging - Size: 3
+[2020-03-10 16:57:50.626] [Logger] [info] Running delta debugging - Size: 1
+[2020-03-10 16:58:01.184] [Logger] [info] Running delta debugging - Size: 2
+[2020-03-10 16:58:17.380] [Logger] [info] Running delta debugging - Size: 1
+[2020-03-10 16:58:25.958] [Logger] [info] Running delta debugging - Size: 1
+[2020-03-10 16:58:37.532] [Logger] [info] Running delta debugging - Size: 1
+[2020-03-10 16:58:50.172] [Logger] [info] Reduce func_89 at small.c
+[2020-03-10 16:58:50.173] [Logger] [info] Running delta debugging - Size: 2
+[2020-03-10 16:59:10.528] [Logger] [info] Reduce func_81 at small.c
+[2020-03-10 16:59:10.528] [Logger] [info] Running delta debugging - Size: 1
+[2020-03-10 16:59:10.528] [Logger] [info] Reduce func_75 at small.c
+[2020-03-10 16:59:10.528] [Logger] [info] Running delta debugging - Size: 1
+[2020-03-10 16:59:10.529] [Logger] [info] Reduce func_55 at small.c
+[2020-03-10 16:59:10.529] [Logger] [info] Running delta debugging - Size: 2
+[2020-03-10 16:59:17.608] [Logger] [info] Running delta debugging - Size: 2
+[2020-03-10 16:59:44.395] [Logger] [info] Reduce func_48 at small.c
+[2020-03-10 16:59:44.397] [Logger] [info] Running delta debugging - Size: 1
+[2020-03-10 16:59:44.400] [Logger] [info] Reduce func_42 at small.c
+[2020-03-10 16:59:44.401] [Logger] [info] Running delta debugging - Size: 1
+[2020-03-10 16:59:44.402] [Logger] [info] Reduce func_29 at small.c
+[2020-03-10 16:59:44.403] [Logger] [info] Running delta debugging - Size: 1
+[2020-03-10 16:59:44.404] [Logger] [info] Reduce func_8 at small.c
+[2020-03-10 16:59:44.405] [Logger] [info] Running delta debugging - Size: 2
+[2020-03-10 16:59:50.422] [Logger] [info] Reduce func_1 at small.c
+[2020-03-10 16:59:50.423] [Logger] [info] Running delta debugging - Size: 3
+[2020-03-10 17:00:10.292] [Logger] [info] Reduce safe_div_func_uint32_t_u_u at small.c
+[2020-03-10 17:00:10.293] [Logger] [info] Running delta debugging - Size: 1
+[2020-03-10 17:00:10.295] [Logger] [info] Reduce safe_sub_func_uint32_t_u_u at small.c
+[2020-03-10 17:00:10.295] [Logger] [info] Running delta debugging - Size: 1
+[2020-03-10 17:00:10.296] [Logger] [info] Reduce safe_add_func_uint32_t_u_u at small.c
+[2020-03-10 17:00:10.296] [Logger] [info] Running delta debugging - Size: 1
+[2020-03-10 17:00:10.297] [Logger] [info] Reduce safe_rshift_func_uint16_t_u_s at small.c
+[2020-03-10 17:00:10.297] [Logger] [info] Running delta debugging - Size: 1
+[2020-03-10 17:00:10.299] [Logger] [info] Reduce safe_div_func_uint16_t_u_u at small.c
+[2020-03-10 17:00:10.299] [Logger] [info] Running delta debugging - Size: 1
+[2020-03-10 17:00:10.300] [Logger] [info] Reduce safe_add_func_uint16_t_u_u at small.c
+[2020-03-10 17:00:10.301] [Logger] [info] Running delta debugging - Size: 1
+[2020-03-10 17:00:10.303] [Logger] [info] Reduce safe_rshift_func_uint8_t_u_u at small.c
+[2020-03-10 17:00:10.304] [Logger] [info] Running delta debugging - Size: 1
+[2020-03-10 17:00:10.306] [Logger] [info] Reduce safe_lshift_func_uint8_t_u_u at small.c
+[2020-03-10 17:00:10.306] [Logger] [info] Running delta debugging - Size: 1
+[2020-03-10 17:00:10.308] [Logger] [info] Reduce safe_div_func_uint8_t_u_u at small.c
+[2020-03-10 17:00:10.308] [Logger] [info] Running delta debugging - Size: 1
+[2020-03-10 17:00:10.310] [Logger] [info] Reduce safe_mod_func_uint8_t_u_u at small.c
+[2020-03-10 17:00:10.310] [Logger] [info] Running delta debugging - Size: 1
+[2020-03-10 17:00:10.311] [Logger] [info] Reduce safe_sub_func_uint8_t_u_u at small.c
+[2020-03-10 17:00:10.311] [Logger] [info] Running delta debugging - Size: 1
+[2020-03-10 17:00:10.312] [Logger] [info] Reduce safe_add_func_uint8_t_u_u at small.c
+[2020-03-10 17:00:10.312] [Logger] [info] Running delta debugging - Size: 1
+[2020-03-10 17:00:10.313] [Logger] [info] Reduce safe_div_func_int32_t_s_s at small.c
+[2020-03-10 17:00:10.313] [Logger] [info] Running delta debugging - Size: 1
+[2020-03-10 17:00:10.315] [Logger] [info] Reduce safe_mod_func_int32_t_s_s at small.c
+[2020-03-10 17:00:10.315] [Logger] [info] Running delta debugging - Size: 1
+[2020-03-10 17:00:10.316] [Logger] [info] Reduce safe_sub_func_int32_t_s_s at small.c
+[2020-03-10 17:00:10.317] [Logger] [info] Running delta debugging - Size: 1
+[2020-03-10 17:00:10.319] [Logger] [info] Reduce safe_add_func_int32_t_s_s at small.c
+[2020-03-10 17:00:10.319] [Logger] [info] Running delta debugging - Size: 1
+[2020-03-10 17:00:10.322] [Logger] [info] Reduce safe_rshift_func_int16_t_s_s at small.c
+[2020-03-10 17:00:10.322] [Logger] [info] Running delta debugging - Size: 1
+[2020-03-10 17:00:10.324] [Logger] [info] Reduce safe_div_func_int16_t_s_s at small.c
+[2020-03-10 17:00:10.324] [Logger] [info] Running delta debugging - Size: 1
+[2020-03-10 17:00:10.326] [Logger] [info] Reduce safe_mod_func_int16_t_s_s at small.c
+[2020-03-10 17:00:10.326] [Logger] [info] Running delta debugging - Size: 1
+[2020-03-10 17:00:10.328] [Logger] [info] Reduce safe_rshift_func_int8_t_s_u at small.c
+[2020-03-10 17:00:10.328] [Logger] [info] Running delta debugging - Size: 1
+[2020-03-10 17:00:10.330] [Logger] [info] Reduce safe_lshift_func_int8_t_s_u at small.c
+[2020-03-10 17:00:10.330] [Logger] [info] Running delta debugging - Size: 1
+[2020-03-10 17:00:10.332] [Logger] [info] Reduce safe_lshift_func_int8_t_s_s at small.c
+[2020-03-10 17:00:10.332] [Logger] [info] Running delta debugging - Size: 1
+[2020-03-10 17:00:10.335] [Logger] [info] Reduce safe_sub_func_int8_t_s_s at small.c
+[2020-03-10 17:00:10.335] [Logger] [info] Running delta debugging - Size: 1
+[2020-03-10 17:00:10.336] [Logger] [info] Reduce safe_add_func_int8_t_s_s at small.c
+[2020-03-10 17:00:10.336] [Logger] [info] Running delta debugging - Size: 1
+[2020-03-10 17:00:10.962] [Logger] [info] Reduce File: small.c
+[2020-03-10 17:00:11.335] [Logger] [info] Iteration 1 (Word: 2676)
+[2020-03-10 17:00:11.335] [Logger] [info] Start global reduction
+[2020-03-10 17:00:11.348] [Logger] [info] Running delta debugging - Size: 55
+[2020-03-10 17:00:29.644] [Logger] [info] Start local reduction
+[2020-03-10 17:00:29.657] [Logger] [info] Reduce main at small.c
+[2020-03-10 17:00:29.658] [Logger] [info] Running delta debugging - Size: 2
+[2020-03-10 17:00:35.364] [Logger] [info] Reduce func_97 at small.c
+[2020-03-10 17:00:35.366] [Logger] [info] Running delta debugging - Size: 3
+[2020-03-10 17:01:03.123] [Logger] [info] Running delta debugging - Size: 1
+[2020-03-10 17:01:17.108] [Logger] [info] Running delta debugging - Size: 2
+[2020-03-10 17:01:37.042] [Logger] [info] Running delta debugging - Size: 1
+[2020-03-10 17:01:43.062] [Logger] [info] Running delta debugging - Size: 1
+[2020-03-10 17:01:55.571] [Logger] [info] Running delta debugging - Size: 1
+[2020-03-10 17:02:05.722] [Logger] [info] Reduce func_89 at small.c
+[2020-03-10 17:02:05.722] [Logger] [info] Running delta debugging - Size: 2
+[2020-03-10 17:02:24.776] [Logger] [info] Reduce func_81 at small.c
+[2020-03-10 17:02:24.776] [Logger] [info] Running delta debugging - Size: 1
+[2020-03-10 17:02:24.777] [Logger] [info] Reduce func_75 at small.c
+[2020-03-10 17:02:24.777] [Logger] [info] Running delta debugging - Size: 1
+[2020-03-10 17:02:24.777] [Logger] [info] Reduce func_55 at small.c
+[2020-03-10 17:02:24.777] [Logger] [info] Running delta debugging - Size: 2
+[2020-03-10 17:02:29.943] [Logger] [info] Running delta debugging - Size: 2
+[2020-03-10 17:02:51.516] [Logger] [info] Reduce func_48 at small.c
+[2020-03-10 17:02:51.517] [Logger] [info] Running delta debugging - Size: 1
+[2020-03-10 17:02:51.521] [Logger] [info] Reduce func_42 at small.c
+[2020-03-10 17:02:51.521] [Logger] [info] Running delta debugging - Size: 1
+[2020-03-10 17:02:51.522] [Logger] [info] Reduce func_29 at small.c
+[2020-03-10 17:02:51.522] [Logger] [info] Running delta debugging - Size: 1
+[2020-03-10 17:02:51.523] [Logger] [info] Reduce func_8 at small.c
+[2020-03-10 17:02:51.523] [Logger] [info] Running delta debugging - Size: 2
+[2020-03-10 17:02:56.622] [Logger] [info] Reduce func_1 at small.c
+[2020-03-10 17:02:56.622] [Logger] [info] Running delta debugging - Size: 3
+[2020-03-10 17:03:10.504] [Logger] [info] Reduce safe_div_func_uint32_t_u_u at small.c
+[2020-03-10 17:03:10.504] [Logger] [info] Running delta debugging - Size: 1
+[2020-03-10 17:03:10.504] [Logger] [info] Reduce safe_sub_func_uint32_t_u_u at small.c
+[2020-03-10 17:03:10.504] [Logger] [info] Running delta debugging - Size: 1
+[2020-03-10 17:03:10.504] [Logger] [info] Reduce safe_add_func_uint32_t_u_u at small.c
+[2020-03-10 17:03:10.504] [Logger] [info] Running delta debugging - Size: 1
+[2020-03-10 17:03:10.504] [Logger] [info] Reduce safe_rshift_func_uint16_t_u_s at small.c
+[2020-03-10 17:03:10.504] [Logger] [info] Running delta debugging - Size: 1
+[2020-03-10 17:03:10.504] [Logger] [info] Reduce safe_div_func_uint16_t_u_u at small.c
+[2020-03-10 17:03:10.504] [Logger] [info] Running delta debugging - Size: 1
+[2020-03-10 17:03:10.504] [Logger] [info] Reduce safe_add_func_uint16_t_u_u at small.c
+[2020-03-10 17:03:10.504] [Logger] [info] Running delta debugging - Size: 1
+[2020-03-10 17:03:10.504] [Logger] [info] Reduce safe_rshift_func_uint8_t_u_u at small.c
+[2020-03-10 17:03:10.504] [Logger] [info] Running delta debugging - Size: 1
+[2020-03-10 17:03:10.504] [Logger] [info] Reduce safe_lshift_func_uint8_t_u_u at small.c
+[2020-03-10 17:03:10.504] [Logger] [info] Running delta debugging - Size: 1
+[2020-03-10 17:03:10.504] [Logger] [info] Reduce safe_div_func_uint8_t_u_u at small.c
+[2020-03-10 17:03:10.504] [Logger] [info] Running delta debugging - Size: 1
+[2020-03-10 17:03:10.504] [Logger] [info] Reduce safe_mod_func_uint8_t_u_u at small.c
+[2020-03-10 17:03:10.504] [Logger] [info] Running delta debugging - Size: 1
+[2020-03-10 17:03:10.504] [Logger] [info] Reduce safe_sub_func_uint8_t_u_u at small.c
+[2020-03-10 17:03:10.504] [Logger] [info] Running delta debugging - Size: 1
+[2020-03-10 17:03:10.504] [Logger] [info] Reduce safe_add_func_uint8_t_u_u at small.c
+[2020-03-10 17:03:10.504] [Logger] [info] Running delta debugging - Size: 1
+[2020-03-10 17:03:10.504] [Logger] [info] Reduce safe_div_func_int32_t_s_s at small.c
+[2020-03-10 17:03:10.504] [Logger] [info] Running delta debugging - Size: 1
+[2020-03-10 17:03:10.504] [Logger] [info] Reduce safe_mod_func_int32_t_s_s at small.c
+[2020-03-10 17:03:10.504] [Logger] [info] Running delta debugging - Size: 1
+[2020-03-10 17:03:10.504] [Logger] [info] Reduce safe_sub_func_int32_t_s_s at small.c
+[2020-03-10 17:03:10.504] [Logger] [info] Running delta debugging - Size: 1
+[2020-03-10 17:03:10.504] [Logger] [info] Reduce safe_add_func_int32_t_s_s at small.c
+[2020-03-10 17:03:10.504] [Logger] [info] Running delta debugging - Size: 1
+[2020-03-10 17:03:10.504] [Logger] [info] Reduce safe_rshift_func_int16_t_s_s at small.c
+[2020-03-10 17:03:10.504] [Logger] [info] Running delta debugging - Size: 1
+[2020-03-10 17:03:10.504] [Logger] [info] Reduce safe_div_func_int16_t_s_s at small.c
+[2020-03-10 17:03:10.504] [Logger] [info] Running delta debugging - Size: 1
+[2020-03-10 17:03:10.504] [Logger] [info] Reduce safe_mod_func_int16_t_s_s at small.c
+[2020-03-10 17:03:10.504] [Logger] [info] Running delta debugging - Size: 1
+[2020-03-10 17:03:10.504] [Logger] [info] Reduce safe_rshift_func_int8_t_s_u at small.c
+[2020-03-10 17:03:10.504] [Logger] [info] Running delta debugging - Size: 1
+[2020-03-10 17:03:10.504] [Logger] [info] Reduce safe_lshift_func_int8_t_s_u at small.c
+[2020-03-10 17:03:10.504] [Logger] [info] Running delta debugging - Size: 1
+[2020-03-10 17:03:10.505] [Logger] [info] Reduce safe_lshift_func_int8_t_s_s at small.c
+[2020-03-10 17:03:10.505] [Logger] [info] Running delta debugging - Size: 1
+[2020-03-10 17:03:10.505] [Logger] [info] Reduce safe_sub_func_int8_t_s_s at small.c
+[2020-03-10 17:03:10.505] [Logger] [info] Running delta debugging - Size: 1
+[2020-03-10 17:03:10.505] [Logger] [info] Reduce safe_add_func_int8_t_s_s at small.c
+[2020-03-10 17:03:10.505] [Logger] [info] Running delta debugging - Size: 1
+[2020-03-10 17:03:12.901] [Logger] [info] ====================================================
+[2020-03-10 17:03:12.901] [Logger] [info]                        Report                       
+[2020-03-10 17:03:12.901] [Logger] [info] ====================================================
+[2020-03-10 17:03:12.902] [Logger] [info]              Total Time :               5662.1s
+[2020-03-10 17:03:12.903] [Logger] [info]             Oracle Time :               5630.4s
+[2020-03-10 17:03:12.903] [Logger] [info]           Learning Time :                  0.1s
+[2020-03-10 17:03:12.903] [Logger] [info]    Global Success Ratio :   36% (   47 /   128)
+[2020-03-10 17:03:12.904] [Logger] [info]     Local Success Ratio :    5% (   83 /  1494)
+[2020-03-10 17:03:13.843] [Logger] [info]   #Functions (Original) :                   106
+[2020-03-10 17:03:13.843] [Logger] [info]  #Statements (Original) :                  2176
+[2020-03-10 17:03:13.856] [Logger] [info]    #Functions (Reduced) :                    35
+[2020-03-10 17:03:13.856] [Logger] [info]   #Statements (Reduced) :                   205

@@ -1,0 +1,8 @@
+# FEATURE: CONFIG_FEATURE_TAR_CREATE
+# FEATURE: CONFIG_FEATURE_SEAMLESS_GZ
+echo "foo foo bar" > foo.orig
+cp foo.orig foo
+./tar czf foo.tar.gz foo
+rm foo
+./tar xzf foo.tar.gz
+diff -q foo.orig foo || exit 1

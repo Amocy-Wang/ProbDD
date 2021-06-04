@@ -1,0 +1,4 @@
+#!/bin/bash
+
+export CC=clang
+export CHISEL_BENCHMARK_HOME=$(pwd)

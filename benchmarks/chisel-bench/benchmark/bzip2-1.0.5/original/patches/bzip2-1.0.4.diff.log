@@ -1,0 +1,106 @@
+Hmm...  Looks like a unified diff to me...
+The text leading up to this was:
+--------------------------
+|diff -ipuwr -x config.log -x config.status -x config.cache -x '*.Po' -x '*.pot' -x '*.bak' -x '*.orig' -x '*.rej' -x '*.new' -x '*~' -x '*.o' -x '*.exe' -x patches -x '*.dll' -x'*.la' -x res -x debian -x '*.log' -x '*.lib' -x'*.a' -x .libs -x'*.def' -x'*.uu' -x'*.rc' -x'*.ico' -x'*.lo' bzip2-1.0.4-orig/Makefile bzip2-1.0.4/Makefile
+|--- bzip2-1.0.4-orig/Makefile	2007-01-03 03:49:21.000000000 +0100
+|+++ bzip2-1.0.4/Makefile	2007-04-16 22:05:24.796875000 +0200
+--------------------------
+Patching file Makefile using Plan A...
+Hunk #1 succeeded at 12.
+Hunk #2 succeeded at 49.
+Hunk #3 succeeded at 77.
+Hunk #4 succeeded at 104.
+Hunk #5 succeeded at 139.
+Hunk #6 succeeded at 171 with fuzz 1.
+Hunk #7 succeeded at 207.
+Not setting time of file Makefile (time mismatch)
+Hmm...  The next patch looks like a unified diff to me...
+The text leading up to this was:
+--------------------------
+|diff -ipuwr -x config.log -x config.status -x config.cache -x '*.Po' -x '*.pot' -x '*.bak' -x '*.orig' -x '*.rej' -x '*.new' -x '*~' -x '*.o' -x '*.exe' -x patches -x '*.dll' -x'*.la' -x res -x debian -x '*.log' -x '*.lib' -x'*.a' -x .libs -x'*.def' -x'*.uu' -x'*.rc' -x'*.ico' -x'*.lo' bzip2-1.0.4-orig/bzgrep.1 bzip2-1.0.4/bzgrep.1
+|--- bzip2-1.0.4-orig/bzgrep.1	2007-01-03 02:00:55.000000000 +0100
+|+++ bzip2-1.0.4/bzgrep.1	2007-04-16 20:47:17.875000000 +0200
+--------------------------
+Patching file bzgrep.1 using Plan A...
+Hunk #1 succeeded at 1.
+Not setting time of file bzgrep.1 (time mismatch)
+Hmm...  The next patch looks like a unified diff to me...
+The text leading up to this was:
+--------------------------
+|diff -ipuwr -x config.log -x config.status -x config.cache -x '*.Po' -x '*.pot' -x '*.bak' -x '*.orig' -x '*.rej' -x '*.new' -x '*~' -x '*.o' -x '*.exe' -x patches -x '*.dll' -x'*.la' -x res -x debian -x '*.log' -x '*.lib' -x'*.a' -x .libs -x'*.def' -x'*.uu' -x'*.rc' -x'*.ico' -x'*.lo' bzip2-1.0.4-orig/bzip2.c bzip2-1.0.4/bzip2.c
+|--- bzip2-1.0.4-orig/bzip2.c	2007-01-03 02:00:55.000000000 +0100
+|+++ bzip2-1.0.4/bzip2.c	2007-04-16 21:38:53.546875000 +0200
+--------------------------
+Patching file bzip2.c using Plan A...
+Hunk #1 succeeded at 129.
+Hunk #2 succeeded at 153.
+Hunk #3 succeeded at 1029.
+Hunk #4 succeeded at 1037.
+Hunk #5 succeeded at 1049.
+Not setting time of file bzip2.c (time mismatch)
+Hmm...  The next patch looks like a unified diff to me...
+The text leading up to this was:
+--------------------------
+|diff -ipuwr -x config.log -x config.status -x config.cache -x '*.Po' -x '*.pot' -x '*.bak' -x '*.orig' -x '*.rej' -x '*.new' -x '*~' -x '*.o' -x '*.exe' -x patches -x '*.dll' -x'*.la' -x res -x debian -x '*.log' -x '*.lib' -x'*.a' -x .libs -x'*.def' -x'*.uu' -x'*.rc' -x'*.ico' -x'*.lo' bzip2-1.0.4-orig/bzip2recover.c bzip2-1.0.4/bzip2recover.c
+|--- bzip2-1.0.4-orig/bzip2recover.c	2007-01-03 02:00:55.000000000 +0100
+|+++ bzip2-1.0.4/bzip2recover.c	2007-05-12 21:27:03.703125000 +0200
+--------------------------
+Patching file bzip2recover.c using Plan A...
+Hunk #1 succeeded at 158.
+Hunk #2 succeeded at 171.
+Hunk #3 succeeded at 309.
+Not setting time of file bzip2recover.c (time mismatch)
+Hmm...  The next patch looks like a unified diff to me...
+The text leading up to this was:
+--------------------------
+|diff -ipuwr -x config.log -x config.status -x config.cache -x '*.Po' -x '*.pot' -x '*.bak' -x '*.orig' -x '*.rej' -x '*.new' -x '*~' -x '*.o' -x '*.exe' -x patches -x '*.dll' -x'*.la' -x res -x debian -x '*.log' -x '*.lib' -x'*.a' -x .libs -x'*.def' -x'*.uu' -x'*.rc' -x'*.ico' -x'*.lo' bzip2-1.0.4-orig/bzlib.h bzip2-1.0.4/bzlib.h
+|--- bzip2-1.0.4-orig/bzlib.h	2007-01-03 02:00:55.000000000 +0100
+|+++ bzip2-1.0.4/bzlib.h	2007-04-16 21:59:33.265625000 +0200
+--------------------------
+Patching file bzlib.h using Plan A...
+Hunk #1 succeeded at 81.
+Not setting time of file bzlib.h (time mismatch)
+Hmm...  The next patch looks like a unified diff to me...
+The text leading up to this was:
+--------------------------
+|diff -ipuwr -x config.log -x config.status -x config.cache -x '*.Po' -x '*.pot' -x '*.bak' -x '*.orig' -x '*.rej' -x '*.new' -x '*~' -x '*.o' -x '*.exe' -x patches -x '*.dll' -x'*.la' -x res -x debian -x '*.log' -x '*.lib' -x'*.a' -x .libs -x'*.def' -x'*.uu' -x'*.rc' -x'*.ico' -x'*.lo' bzip2-1.0.4-orig/bzlib_private.h bzip2-1.0.4/bzlib_private.h
+|--- bzip2-1.0.4-orig/bzlib_private.h	2007-01-03 02:00:55.000000000 +0100
+|+++ bzip2-1.0.4/bzlib_private.h	2007-05-12 21:18:46.062500000 +0200
+--------------------------
+Patching file bzlib_private.h using Plan A...
+Hunk #1 succeeded at 340.
+Hunk #2 succeeded at 408.
+Hunk #3 succeeded at 435.
+Hunk #4 succeeded at 491 (offset 6 lines).
+Not setting time of file bzlib_private.h (time mismatch)
+Hmm...  The next patch looks like a unified diff to me...
+The text leading up to this was:
+--------------------------
+|diff -ipuwr -x config.log -x config.status -x config.cache -x '*.Po' -x '*.pot' -x '*.bak' -x '*.orig' -x '*.rej' -x '*.new' -x '*~' -x '*.o' -x '*.exe' -x patches -x '*.dll' -x'*.la' -x res -x debian -x '*.log' -x '*.lib' -x'*.a' -x .libs -x'*.def' -x'*.uu' -x'*.rc' -x'*.ico' -x'*.lo' bzip2-1.0.4-orig/decompress.c bzip2-1.0.4/decompress.c
+|--- bzip2-1.0.4-orig/decompress.c	2007-01-03 02:00:55.000000000 +0100
+|+++ bzip2-1.0.4/decompress.c	2007-05-12 21:18:46.125000000 +0200
+--------------------------
+Patching file decompress.c using Plan A...
+Hunk #1 succeeded at 64.
+Hunk #2 succeeded at 86.
+Hunk #3 succeeded at 107.
+Hunk #4 succeeded at 144.
+Hunk #5 succeeded at 172.
+Hunk #6 succeeded at 200.
+Hunk #7 succeeded at 352.
+Hunk #8 succeeded at 427.
+Hunk #9 succeeded at 534.
+Hunk #10 succeeded at 686.
+Not setting time of file decompress.c (time mismatch)
+Hmm...  The next patch looks like a unified diff to me...
+The text leading up to this was:
+--------------------------
+|diff -ipuwr -x config.log -x config.status -x config.cache -x '*.Po' -x '*.pot' -x '*.bak' -x '*.orig' -x '*.rej' -x '*.new' -x '*~' -x '*.o' -x '*.exe' -x patches -x '*.dll' -x'*.la' -x res -x debian -x '*.log' -x '*.lib' -x'*.a' -x .libs -x'*.def' -x'*.uu' -x'*.rc' -x'*.ico' -x'*.lo' bzip2-1.0.4-orig/huffman.c bzip2-1.0.4/huffman.c
+|--- bzip2-1.0.4-orig/huffman.c	2007-01-03 02:00:55.000000000 +0100
+|+++ bzip2-1.0.4/huffman.c	2007-05-12 21:18:46.156250000 +0200
+--------------------------
+Patching file huffman.c using Plan A...
+Hunk #1 succeeded at 170.
+Hunk #2 succeeded at 190.
+Not setting time of file huffman.c (time mismatch)
+done

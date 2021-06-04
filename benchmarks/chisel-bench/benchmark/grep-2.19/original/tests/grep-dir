@@ -1,0 +1,25 @@
+#!/bin/sh
+# Case-insensitive grep with a 0-size input file would fail in grep up to 2.6.3
+. "${srcdir=.}/init.sh"; path_prepend_ ../src
+
+mkdir a || framework_failure
+
+# Lower and upper bound of valid exit status for "grep -f DIR",
+# when reading from empty and nonempty files, respectively.
+if cat a >/dev/null 2>&1; then
+  l=1 u=1 L=0 U=1
+else
+  l=2 u=127 L=2 U=127
+fi
+
+echo x | grep -f a/; { test $? -ge $L && test $? -le $U; } || fail=1
+echo x | grep -if a/; { test $? -ge $L && test $? -le $U; } || fail=1
+echo x | grep -Ff a/; { test $? -ge $L && test $? -le $U; } || fail=1
+echo x | grep -Fif a/; { test $? -ge $L && test $? -le $U; } || fail=1
+
+grep -f a/ < /dev/null; { test $? -ge $l && test $? -le $u; } || fail=1
+grep -if a/ < /dev/null; { test $? -ge $l && test $? -le $u; } || fail=1
+grep -Ff a/ < /dev/null; { test $? -ge $l && test $? -le $u; } || fail=1
+grep -Fif a/ < /dev/null; { test $? -ge $l && test $? -le $u; } || fail=1
+
+Exit $fail

@@ -1,0 +1,12 @@
+# FEATURE: CONFIG_FEATURE_TAR_CREATE
+echo "foo foo" > foo.orig
+cp foo.orig foo
+echo "bar " > bar.orig
+cp bar.orig bar
+./tar cf foo.tar foo bar
+rm foo bar
+./tar xf foo.tar
+cat foo
+cat bar
+diff -q foo.orig foo || exit 1
+diff -q bar.orig bar || exit 1

@@ -1,0 +1,49 @@
+#!/bin/sh
+# grep-2.17 would take nearly 200x longer to run the command below.
+# The 200x is on an Intel i7-based system.
+# On an AMD FX-4100, it would take up to 2500x longer.
+
+# Copyright 2014 Free Software Foundation, Inc.
+
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+
+# You should have received a copy of the GNU General Public License
+# along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+. "${srcdir=.}/init.sh"; path_prepend_ ../src
+require_timeout_
+require_hi_res_time_
+
+fail=0
+
+yes $(printf '%078d' 0) | head -50000 > in || framework_failure_
+
+start=$(hi_res_time_)
+LC_ALL=C grep -i foobar in; st=$?
+stop=$(hi_res_time_)
+
+# Use a multiple of the LC_ALL=C duration as the timeout for the JP/EUC test.
+# A multiple of 3 seems to be enough for i5,i7, but AMD needs >25.
+# Use an integer; some 'timeout' implementations have trouble with
+# floating-point in JP_EUC locales.
+timeout=$(
+  $AWK 'BEGIN { print 1 + int (30 * ('$stop' - '$start'))}' < /dev/null
+)
+
+test $st = 1 || fail=1
+
+require_JP_EUC_locale_
+
+# Expect no match, i.e., exit status of 1.  Anything else is an error.
+timeout $timeout grep -i foobar in; st=$?
+test $st = 1 || fail=1
+
+Exit $fail
