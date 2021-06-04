@@ -25,7 +25,7 @@ Here is the artifact of the paper **Probabilistic Delta Debugging**, which has b
 
 | File name | Purpose |
 | :---- | :---- |
-| [LICENSE](LICENSE.md)            | description of the distribution rights | 
+| [LICENSE](LICENSE)            | description of the distribution rights | 
 | [README](README.md)              | guidance on how to read the documentation | 
 | [STATUS](STATUS.md)              | the badges we are applying for and the reasons | 
 | [CHANGES](CHANGES.md)            | code changes compared with the original tools | 
