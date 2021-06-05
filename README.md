@@ -47,9 +47,8 @@ There are two ways to run ProbDD and reproduce the results on your machines.
 # download the image package ProbDD.tar (with size 60.8G)
 The Docker Image is still being uploaded to a cloud drive. We will update the download link after finishing it.
 # load as a Docker Image
-docker load < ProbDD.tar
+docker load < ProbDD.tar # This process may take about 10 minutes depending on the machine performance. When the process finishes, the image id will show on the screen.
 # get into the container
-docker images # find the ProbDD image id
 docker run --privileged -it [image id] /bin/bash 
 ```
 
