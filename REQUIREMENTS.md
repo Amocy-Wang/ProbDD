@@ -35,3 +35,5 @@ gcc-4.8.2
 gcc-4.9.0
 
 CompCert >= 3.8.0
+
+pcre library
