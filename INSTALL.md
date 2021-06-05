@@ -1,18 +1,19 @@
 Option 1: Using Docker Image
 =======================
 To get into the container, you need:
-- Download the Docker Image
-- docker run --privileged -it [image name]
+- Download the Docker Image ProbDD.tar
+- docker load < ProbDD.tar
+- docker run --privileged -it [image id]
 
 Option 2: Installing From Sources
 =======================
-## Step 1: Installing dependencies needed by Chisel
+## Step 1: Installing dependencies needed by Chisel and Chisel
 Before installing, you need:
 
 ```bash
 # install basic dependencies
 $ sudo apt-get --assume-yes update
-$ sudo apt-get --assume-yes install vim tmux autoconf automake bison build-essential clang doxygen flex g++ git libncurses5-dev libtool libsqlite3-dev make mcpp python sqlite zlib1g-dev subversion tree iotop gawk m4 zsh gcc-multilib g++-multilib libssl-dev
+$ sudo apt-get --assume-yes install vim tmux autoconf automake bison build-essential clang doxygen flex g++ git libncurses5-dev libtool libsqlite3-dev make mcpp python sqlite zlib1g-dev subversion tree iotop gawk m4 zsh gcc-multilib g++-multilib libssl-dev libpcre3 libpcre3-dev
 ```
 To compile Chisel, you need:
 - [CMake](https://cmake.org/) (version >= 3.19.3). Download source, build, and install CMake.
@@ -23,12 +24,26 @@ To compile Chisel, you need:
 - [LLVM](https://llvm.org/) (version == 8.0.0). Install by executing commands 'wget -O - https://apt.llvm.org/llvm-snapshot.gpg.key | apt-key add -' and 'sudo apt-get install clang-8 libclang-8-dev llvm-8-dev'.
 
 Then, you can successfully build and install the tools built upon Chisel, i.e., Chisel with ddmin, Chisel with ProbDD, and Chisel with ActiveCoarsen.
+```bash
+cd /chisel
+mkdir build && cd build
+cmake ../
+make
+```
 
-## Step 2: Installing dependencies needed by HDD
+## Step 2: Installing dependencies needed by HDD and HDD
 Before installing, you need:
 - [anaconda2](https://www.anaconda.com).
 
 Then, you can successfully install HDD, i.e., picire and picireny.
+```bash
+# install picire
+cd /hdd_ProbDD/picire
+/hdd_ProbDD/anaconda2/bin/python setup.py install
+# install picireny
+cd /hdd_ProbDD/picireny
+/hdd_ProbDD/anaconda2/bin/python setup.py install
+```
 
 ## Step 3: Installing dependencies needed by the subjects
 To successfully build GCC verions, you need:
