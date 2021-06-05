@@ -1,5 +1,5 @@
 #!/bin/bash
-for i in 'clang22382' 'clang-31259' 'gcc-66186' 'gcc-66375';
+for i in 'clang-22382' 'clang-31259' 'gcc-66186' 'gcc-66375';
 do
     echo $i
     cd /benchmarks/compilerbugs/$i
