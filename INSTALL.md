@@ -1,7 +1,8 @@
 Option 1: Using Docker Image
 =======================
 To get into the container, you need:
-- Download the Docker Image ProbDD.tar
+- Download the Docker Image ProbDD.tar. You can download the image in the form of splitted files (about 61G) or compressed package (about 18G) from <https://pan.baidu.com/s/1DEmnbNJdqpvuvvMSZecF3A> (password "pj9b") or <https://pan.baidu.com/s/1GPgwrV6HNF8v4zXEUfbB-A> (password "uhyi").
+- Generate Image data file ProbDD.tar by using command "cat ProbDD.tar.part-* > ProbDD.tar" or "unzip ProbDD.tar.zip" depending on the form of downloaded files.
 - docker load < ProbDD.tar
 - docker run --privileged -it [image id]
 
