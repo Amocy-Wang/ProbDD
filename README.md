@@ -45,7 +45,9 @@ There are two ways to run ProbDD and reproduce the results on your machines.
 - ![Recommended](https://img.shields.io/badge/Recommended%3F-YES-green.svg) **Downloading Docker Image**. For macOS or Linux users, you can follow the following commands to get into the container. For Windows users, you need to download [docker desktop](https://www.docker.com/products/docker-desktop) and [Cygwin](https://www.cygwin.com/) first and make sure that there is no error message when the docker destop starts for the first time. Then, you need to open Cygwin and run the commands below. If there is any error messages, please follow the pop-up link to fix the problems. Usually, the problem is that BIOS disables cpu virtualization function. You can fix it by entering BIOS, enabling the function, and restarting.
 ```bash
 # download the image package ProbDD.tar (with size 60.8G)
-The Docker Image is still being uploaded to a cloud drive. We will update the download link after finishing it.
+You can download the split files of Docker Image from <https://pan.baidu.com/s/1DEmnbNJdqpvuvvMSZecF3A> with password "pj9b".
+# generate Image ProbDD.tar
+cat ProbDD.tar.part-* > ProbDD.tar
 # load as a Docker Image
 docker load < ProbDD.tar # This process may take about 10 minutes depending on the machine performance. When the process finishes, the image id will show on the screen.
 # get into the container
