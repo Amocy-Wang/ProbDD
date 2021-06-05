@@ -42,9 +42,9 @@ In this section, we show how to reproduce the main results in our paper step by 
 
 ### Preparing
 There are two ways to run ProbDD and reproduce the results on your machines. 
-- ![Recommended](https://img.shields.io/badge/Recommended%3F-YES-green.svg) **Downloading Docker Image**. You can follow the following commands to get into the container.
+- ![Recommended](https://img.shields.io/badge/Recommended%3F-YES-green.svg) **Downloading Docker Image**. For macOS or Linux users, you can follow the following commands to get into the container. For Windows users, you need to download [docker desktop](https://www.docker.com/products/docker-desktop) and [Cygwin](https://www.cygwin.com/) first and make sure that there is no error message when the docker destop start for the first time. Then, you need to open Cygwin and run the commands below. If there is any error messages, please follow the pop-up link to fix the problems. Usually, the problem is that BIOS disables cpu virtualization function. You can fix it by entering BIOS, enabling the function, and restarting.
 ```bash
-# download the image package
+# download the image package ProbDD.tar (with size 60.8G)
 
 # load as a Docker Image
 docker load < ProbDD.tar
@@ -52,6 +52,7 @@ docker load < ProbDD.tar
 docker images # find the ProbDD image id
 docker run --privileged -it [image id] /bin/bash 
 ```
+
 - ![Recommended](https://img.shields.io/badge/Recommended%3F-NO-red.svg) **Building from Source Code**. The installation guidance is successfully tested on a machine with Ubuntu 16.04.7 LTS. The requirements are listed in [REQUIREMENTS](REQUIREMENTS.md). You can successfully build the tools and reproduce the evaluation by following the installation guidance in [INSTALL](INSTALL.md). We DO NOT recommend building from source because there are many dependencies needed by the tools and the subjects of benchmarks.
 
 ### Running tools
