@@ -66,9 +66,9 @@ The following table shows these scripts and their functions.
 | [compilerbugs/runHDD_ProbDD](benchmarks/compilerbugs/runHDD_ProbDD.sh)             | evaluating HDD with ProbDD with dataset compilerbugs|
 | [compilerbugs/runHDD_activecoarsen](benchmarks/compilerbugs/runHDD_activecoarsen.sh)      | evaluating HDD with ActiveCoarsen with dataset compilerbugs|
 | [compilerbugs/runHDD_ddmin](benchmarks/compilerbugs/runHDD_ddmin.sh)              | evaluating the original HDD with dataset compilerbugs|
-| [chisel-bench/runChisel_ProbDD](benchmarks/chisel-bench/runChisel_ProbDD.sh)           | evaluating Chisel with ProbDD with dataset chisel-bench|
-| [chisel-bench/runChisel_activecoarsen](benchmarks/chisel-bench/runChisel_activecoarsen.sh)    | evaluating Chisel with ActiveCoarsen with dataset chisel-bench|
-| [chisel-bench/runChisel_ddmin](benchmarks/chisel-bench/runChisel_ddmin.sh)            | evaluating the original Chisel with dataset chisel-bench|
+| [chisel-bench/runChisel_ProbDD](benchmarks/chisel-bench/runChisel_ProbDD.sh)           | generating a clean working space and evaluating Chisel with ProbDD with dataset chisel-bench|
+| [chisel-bench/runChisel_activecoarsen](benchmarks/chisel-bench/runChisel_activecoarsen.sh)    | generating a clean working space and evaluating Chisel with ActiveCoarsen with dataset chisel-bench|
+| [chisel-bench/runChisel_ddmin](benchmarks/chisel-bench/runChisel_ddmin.sh)            | generating a clean working space and  evaluating the original Chisel with dataset chisel-bench|
 
 To process subjects, you need:
 - Get into the working directory where the scripts are located. If you use the Docker Image, the working directories are /benchmarks/compilerbugs and /benchmarks/chisel-bench for dataset compilerbugs and chisel-bench, respectively.
@@ -93,9 +93,9 @@ The following table shows these scripts and their functions. The first and the t
 
 | Script name | Function |
 | :---- | :---- |
-| [compilerbugs/generate_ChiselReport](benchmarks/compilerbugs/generate_ChiselReport.sh)           | should be invoked after executing the script compilerbugs/runChisel_XXX to collect token number and processing time for each subject in compilerbugs processed by Chisel based tools|
-| [compilerbugs/generate_HDDReport](benchmarks/compilerbugs/generate_HDDReport.sh)           | should be invoked after executing the script compilerbugs/runHDD_XXX to  collect token number and processing time for each subject in compilerbugs processed by HDD based tools|
-| [chisel-bench/generate_ChiselReport](benchmarks/chisel-bench/generate_ChiselReport.sh)           | should be invoked after executing the script chisel-bench/runChisel_XXX to  collect token number and processing time for each subject in chisel-bench processed by Chisel based tools|
+| [compilerbugs/generate_ChiselReport](benchmarks/compilerbugs/generate_ChiselReport.py)           | should be invoked after executing the script compilerbugs/runChisel_XXX to collect token number and processing time for each subject in compilerbugs processed by Chisel based tools|
+| [compilerbugs/generate_HDDReport](benchmarks/compilerbugs/generate_HDDReport.py)           | should be invoked after executing the script compilerbugs/runHDD_XXX to  collect token number and processing time for each subject in compilerbugs processed by HDD based tools|
+| [chisel-bench/generate_ChiselReport](benchmarks/chisel-bench/generate_ChiselReport.py)           | should be invoked after executing the script chisel-bench/runChisel_XXX to  collect token number and processing time for each subject in chisel-bench processed by Chisel based tools|
 
 ### An example workflow
 In this part, we take an example for using ProbDD to process a subset of subjects in both datasets and generating the report on the returned number of tokens and the processing time for each processed subject. 
