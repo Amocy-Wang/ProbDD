@@ -46,7 +46,7 @@ There are two ways to run ProbDD and reproduce the results on your machines.
 ```bash
 # Option 1: download the image package ProbDD.tar (about 61G) and generate Image ProbDD.tar. You can download the split files of Docker Image from <https://pan.baidu.com/s/1DEmnbNJdqpvuvvMSZecF3A> with password "pj9b".
 cat ProbDD.tar.part-* > ProbDD.tar
-# Option 2: You can also directly download the Image package ProbDD.tar.zip (about 18G) from the share link <https://pan.baidu.com/s/1GPgwrV6HNF8v4zXEUfbB-A> with password "uhyi".
+# Option 2: You can also directly download the Image package ProbDD.tar.zip (about 18G) from the shared link <https://pan.baidu.com/s/1GPgwrV6HNF8v4zXEUfbB-A> with password "uhyi" or the shared link <https://www.icloud.com/iclouddrive/0DmUGMLPbyl1RxS6v0FlgWKZQ#ProbDD.tar>.
 unzip ProbDD.tar.zip
 # load as a Docker Image
 docker load < ProbDD.tar # This process may take about 10 minutes depending on the machine performance. When the process finishes, the image id will show on the screen.
