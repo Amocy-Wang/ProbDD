@@ -77,14 +77,14 @@ To process subjects, you need:
 # Option1: process subjects in compilerbugs
 cd /benchmarks/compilerbugs
 # If you want to run Chisel based tools, here we take an example for using Chisel with ProbDD.
-./runChisel_ProbDD
+./runChisel_ProbDD.sh
 # If you want to run HDD based tools, here we take an example for using HDD with ProbDD.
-./runHDD_ProbDD
+./runHDD_ProbDD.sh
 
 #Option2: process subjects in chisel-bench. The default running tool is chisel_ProbDD, if you want to change the tool, you need to modify the tool path in /benchmarks/chisel-bench/benchmark/target.mk (line 9).
 cd /benchmarks/chisel-bench
 # Run the tool. Here we take an example for using Chisel with ProbDD.
-./runChisel_ProbDD
+./runChisel_ProbDD.sh
 ```
 
 ### Analyzing results
