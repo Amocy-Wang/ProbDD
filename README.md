@@ -12,6 +12,8 @@ Please send issues and suggestions to <guancheng.wang@pku.edu.cn>.
 
 Please see [our original paper](FSE2021__Probabilistic_Delta_Debugging_for_Review.pdf) to find most ProbDD info.
 
+Please see [Section Appendix](Appendix.pdf) for proofs of the theorems in our paper.
+
 
 # ProbDD
 ![Maintenance](https://img.shields.io/badge/Maintained%3F-YES-green.svg)
