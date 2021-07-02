@@ -155,6 +155,6 @@ echo $? # If the given program does exhibit the properties, 0 should be returned
 ### We thank all the reviews for their thoughtful comments and efforts towards improving our paper.
 
 ### We benifted a lot from the following projects when building ProbDD.
-- [Delta Debugging](https://www.st.cs.uni-saarland.de/dd/): a homepage of Delta Debugging project maintained by Prof. Andread Zeller.
+- [Delta Debugging](https://www.st.cs.uni-saarland.de/dd/): a homepage of Delta Debugging project maintained by Prof. Andreas Zeller.
 - [Chisel](https://chisel.cis.upenn.edu/): a system for Debloating C/C++ Programs. Proposed in the paper **Effective Program Debloating via Reinforcement Learning**.
 - [Picireny](): an instance of Hierarchical Delta Debugging Framework (HDD).
