@@ -130,8 +130,8 @@ class AbstractProbDD(object):
                 continue
             if not self.p[keylist[i]] < 1 :
                 break
-            for j in range(k,i):
-                tmp *= (1 - self.p[keylist[i]])
+            for j in range(k,i+1):
+                tmp *= (1 - self.p[keylist[j]])
             tmp *= (i - k + 1)
             print "prob = " + str(self.p[keylist[i]]) + "; tmp = " + str(tmp) + "; last = " + str(last)
             if tmp < last:
