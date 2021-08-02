@@ -116,8 +116,8 @@ std::vector<int> sample(std::vector<float>& p) {
     }   
     if (p[idx[i]] > 1)  
       break;
-    for ( int j = k ; j < i ; j ++ )
-      tmp *= (1-p[idx[i]]);
+    for ( int j = k ; j < i + 1; j ++ )
+      tmp *= (1-p[idx[j]]);
     tmp *= (i - k + 1); 
     std::cout << "prob: " << p[idx[i]] << "; tmp: " << tmp << "; last: " << last << std::endl;
     if (tmp < last)
